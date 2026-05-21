@@ -129,3 +129,16 @@ This builds `index.html`, commits, and pushes to GitHub Pages automatically.
 - [x] C201_1B_Seeing_Myself.md
 - [x] C201_1C_The_Cross.md
 - [x] C201_1D_Self_Reflection.md
+- [x] C201_2A_We_Need_Repentance.md
+- [x] C201_2B_Dreadful_Repentance.md
+- [x] C201_2C_We_Dont_Understand_Repentance.md
+- [x] C201_2D_Repentance_Loop.md
+- [x] C201_3A_What_Is_Real.md
+- [x] C201_3B_Reality_of_Heaven_and_Hell.md
+- [x] C201_3C_Heaven_and_Hell.md
+- [x] C201_3D_Worship.md
+- [x] C201_3E_Evangelism.md
+- [x] C201_4A_Know_Your_Enemy.md
+- [x] C201_4B_Spiritual_Battle.md
+- [x] C201_4C_Two_Crucial_Weapons.md
+- [x] C201_4D_Praying_Like_Jesus.md
