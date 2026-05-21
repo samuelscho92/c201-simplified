@@ -4,7 +4,7 @@ The argument is a session ID like `2A`, `2B`, `3C`, etc. If no argument is given
 
 ## Your Task
 
-1. **Find the source PDF** in the matching chapter folder under `C201_Ch{N}/`. Look for a file named `*Booklet*.pdf` first — that is the main content. If there is no booklet, use the available PDF.
+1. **Find the source PDF** in `C201_Source_PDFs/Ch{N}/C201_{ID}_Booklet.pdf` — where N is the chapter number and ID is the session ID (e.g. `C201_Source_PDFs/Ch2/C201_2A_Booklet.pdf`).
 
 2. **Read the PDF** using the Read tool.
 

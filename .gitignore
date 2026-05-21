@@ -1,4 +1,4 @@
-# Original course materials — not published
+# Original course materials (full folders with PPTs, videos, etc.) — not published
 C201_Ch1/
 C201_Ch2/
 C201_Ch3/
@@ -8,6 +8,7 @@ C201_Ch4/
 preview.html
 __pycache__/
 *.pyc
+copy_pdfs.sh
 
 # macOS
 .DS_Store
