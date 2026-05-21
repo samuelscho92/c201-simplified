@@ -28,9 +28,9 @@ He saw that he was a sinner. He said: "Woe is me! I am lost!"
 
 > "He saw the holiness of God. For the first time in his life Isaiah really understood who God was. At the same instant, for the first time Isaiah really understood who Isaiah was."
 
-This is important: Isaiah did not praise God first.
+Isaiah was a prophet — a man who spoke for God. He should have been close to God already. But when he truly saw God's holiness, even he was undone.
 
-He first felt deep sadness about his own sin.
+This is important: Isaiah did not praise God first — even though praise would have been right. He first felt deep sadness about his own sin.
 
 This is true for everyone in the Bible who sees God's holiness.
 
@@ -136,11 +136,9 @@ Why do many people feel no shame about being selfish or proud?
 
 It is because they only look at themselves from inside themselves.
 
-If you only look inward, you have no true standard to compare yourself to.
+If you only look inward, you have no true standard to compare yourself to. You are like a closed system. Whatever you are — however selfish or sinful — it just is. You cannot see it clearly.
 
-You cannot see yourself clearly.
-
-Our world makes this worse. We fill our lives with things to keep us busy.
+Our world makes this worse. We fill our lives with earbuds and phone screens. We have less and less time to think quietly. We have no outside standard to measure the quality of our souls.
 
 We do not stop and think honestly about ourselves.
 
@@ -158,7 +156,11 @@ Our feelings almost never tell us the truth about ourselves.
 
 Our feelings tell us we are the victim. We are misunderstood. We are not appreciated.
 
+It is like a driver who is crashing into things but says: "I feel like I am a safe driver." Many people live this way. They believe good things about themselves because no one around them tells them the truth. They only listen to their own feelings.
+
 But feelings are not the truth.
+
+Maybe you do not want to see yourself clearly. Maybe you feel the truth will be painful. So you choose not to look. You keep yourself busy. You push away any uncomfortable thoughts about yourself.
 
 ---
 
@@ -198,7 +200,9 @@ Because God loves perfectly, he is also completely opposed to sin.
 
 The only true background for seeing yourself is God's holy character.
 
-When we see ourselves against God's holiness, we understand Isaiah's cry:
+When we see ourselves against God's holiness, we feel it: I am a stain on the pure, white canvas of his holy character.
+
+This brings out of us Isaiah's cry:
 
 **"Woe is me, I am ruined."**
 

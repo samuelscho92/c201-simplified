@@ -34,7 +34,7 @@ God is holy. God loves what is pure and good.
 
 This means God must be against sin.
 
-Every day of our lives, we have sinned. Every sin is against God.
+Every day of our lives, we have sinned. Every sin is against God. Every sin attacks his glory and his rule over us.
 
 Seeing this is the beginning of a Christian life. It must also continue throughout a Christian life.
 
@@ -49,6 +49,10 @@ We find it hard to be truly amazed by his mercy.
 **Quote — R.C. Sproul, *Holiness of God*:**
 
 > "When God's justice falls, we are offended because we think God owes us mercy. We must not take his grace for granted. We must never lose our ability to be amazed by grace."
+
+Sproul also noticed something in himself. Even he had once said in a sermon: "God's grace is infinite." But his professor asked: "Where does the Bible say that?" Sproul could not find a single verse. The Bible says God is infinite, and God is gracious. But his grace is not without limit. He sets limits to his patience. He warns us many times: one day, his judgment will come.
+
+Deep in our hearts, we feel that God owes us mercy. We think: "I am not perfect. But I am not so bad. Surely God will include me." We are more surprised by justice than by grace.
 
 R.C. Sproul then tells this story about his students:
 
@@ -197,7 +201,7 @@ Yet God has been patient with us.
 
 He has given us time to repent and come to him.
 
-But we must not mistake his patience for approval.
+But we must not mistake his patience for approval. God is patient because he wants us to repent. He is giving us time to come to him. But many people use this time to sin more boldly. They think: "God does not care. Or he cannot stop me." This is the greatest mistake.
 
 ---
 
@@ -262,9 +266,11 @@ When we honestly admit we are sinners before a holy God — God acts.
 
 He gives us the forgiveness we do not deserve.
 
-Jesus took all of our sin upon himself. He paid the full price.
+Jesus took all of our sin upon himself. He pulled it all out of us and put it on himself. He — the perfect, sinless Son of God — became the most hated thing in the universe, carrying all of our sin. He paid the full price.
 
 In return, we receive his righteousness.
+
+The cross shows us many truths at once. We see God's holiness. We see God's love. We see our sin. But we also see our great value to God. He gave his Son for us.
 
 This is the greatest news any person could ever hear.
 

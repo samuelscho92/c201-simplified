@@ -17,6 +17,7 @@ Before you begin, learn these words. You will see them many times in this sessio
 | seraphim | powerful angels who stand before God |
 | attribute | a quality that describes who someone is |
 | transcendent | far above everything; in a completely different level |
+| wrath | very strong, holy anger toward sin |
 
 ---
 
@@ -41,6 +42,8 @@ He feels deep thankfulness. He wants to give his whole life to God.
 Every person wants to be truly known.
 
 We want others to see us as we really are.
+
+Sometimes we hide who we really are. We show others a false face — like wearing a mask. Friends who only know our mask are not real friends.
 
 When someone has a wrong view of us, we cannot have a real friendship with them.
 
@@ -97,9 +100,9 @@ But one idea is often missing: **God is holy.**
 
 Holiness is very important. We must understand it to know who God really is.
 
-Without understanding holiness, we will have a wrong view of God.
+Without understanding holiness, we will have a wrong view of God. Our Christian life will also be weak.
 
-We may also find it hard to understand why Jesus had to die on the cross.
+If we do not understand holiness, the cross is confusing. Why did Jesus have to suffer and die? The answer is holiness. Without it, the cross seems like too much.
 
 ---
 
@@ -108,6 +111,8 @@ We may also find it hard to understand why Jesus had to die on the cross.
 > "The most important idea I found in the Bible is that God is holy. It is basic to understanding God and Christianity. The Bible says that God's name is holy — because he is holy."
 
 *(This is a simplified version of the original quote.)*
+
+The Bible also says: "Holy is his name" (Luke 1:49). His name is holy because he is holy.
 
 ---
 
@@ -144,7 +149,9 @@ In Isaiah 6, the seraphim say God is "holy, holy, holy."
 
 This is the only quality of God repeated three times in the whole Bible.
 
-God is not called "love, love, love." Not "powerful, powerful, powerful."
+God is not called "love, love, love." Not "powerful, powerful, powerful." Not "wrath, wrath, wrath."
+
+Not just holy. Not holy, holy. He is holy, holy, holy.
 
 Only **holy** is said three times.
 
@@ -181,6 +188,8 @@ Transcendent means "far above everything else."
 *Example: A king sits high on a throne, above all the people. He is higher, more powerful, and different from everyone in the room. Now imagine someone infinitely higher than the greatest king. That is a small picture of God's transcendence.*
 
 God is above the world. The world cannot control him. He has all power over the world.
+
+He is so far above us that he seems like a stranger to us.
 
 ---
 

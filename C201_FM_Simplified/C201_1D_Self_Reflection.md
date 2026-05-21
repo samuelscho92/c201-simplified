@@ -161,7 +161,7 @@ Both problems leave God out of the process.
 
 God does not ask us to fix ourselves first. He says: "Come. Let us talk. Let me clean you."
 
-He wants to be honest with us. He wants to forgive us and heal us.
+Above all, be honest. God wants to talk with you. He wants to forgive you and heal you.
 
 ---
 
@@ -183,7 +183,7 @@ Written self-reflection helps cut through all of this.
 
 It helps us find the truth about who we are.
 
-And with the truth, we can also find God's grace, forgiveness, and freedom.
+And with the truth, we can also find God's grace, forgiveness, and freedom. When we know ourselves truly, we begin to love God's grace more and more.
 
 **There is real freedom when we have honestly faced ourselves, repented, and received God's forgiveness.**
 
@@ -191,7 +191,7 @@ And with the truth, we can also find God's grace, forgiveness, and freedom.
 
 **Quote — Martyn Lloyd-Jones, *Out of the Depths*:**
 
-> "There is no hope for a person who does not face themselves. Look at yourself. It is the first step in knowing God and experiencing his glorious salvation."
+> "There is no hope for a person who does not face themselves. You have to fight for your life. You have to fight for your soul. The world will do everything to stop you from facing yourself. Look at yourself. It is the first step in knowing God and experiencing his glorious salvation."
 
 *(Simplified from original)*
 
