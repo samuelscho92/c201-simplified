@@ -48,9 +48,13 @@ What does it mean that God is our Father?
 
 He is responsible for our lives. He loves us. He is always present. He is powerful.
 
-*Example prayer:*
+*Example prayer 1:*
 
 *"Father, I confess that I often live as if I am alone in the world — as if I have to manage everything myself. But you are my Father. I am not alone. Help me to live today from the security of knowing I am your beloved child."*
+
+*Example prayer 2:*
+
+*"God, you are my Father. But I did not have a good father growing up, so I learned to take care of myself. I thought I had to make my own security. But because you are my heavenly Father and you are always there for me, I can stop living in fear. I can be generous to others instead of always protecting myself."*
 
 **Discussion Question:** What does it mean to you personally that God is your Father?
 
@@ -62,7 +66,7 @@ God is "Our Father in heaven."
 
 This means our true home is in heaven — not on earth.
 
-When we become followers of Jesus, our hearts are meant to turn from earth toward heaven.
+One of the most important changes that happens when we follow Jesus is this: we stop being earth-focused and become heaven-focused. Our hearts begin to turn away from this world and toward our true home.
 
 This world is not our final destination. We are passing through.
 
@@ -115,6 +119,8 @@ No need is too small. No concern is too ordinary.
 
 He knows we need food, rest, health, and provision. He cares about all of it.
 
+He knows the small worries and daily pressures that can wear us down. Without this prayer, we would try to manage everything on our own — and feel completely alone.
+
 **Because God is our Father, we can bring him everything.**
 
 ---
@@ -125,7 +131,9 @@ We need forgiveness every day.
 
 Not just at salvation — but as a daily practice of honesty before God.
 
-And because we have been forgiven, we can forgive others.
+And because we have been forgiven, we are able to forgive others.
+
+We have received grace from God. That same grace flows out toward others.
 
 **The same grace God has given us, we give to others.**
 
@@ -135,7 +143,13 @@ And because we have been forgiven, we can forgive others.
 
 We are in a spiritual battle (we have studied this throughout Chapter 4).
 
-This prayer is our daily acknowledgment: we are weak. We need God's protection. We ask him to keep us from giving in to temptation and to rescue us from the devil's plans.
+This prayer is our daily acknowledgment of two things at the same time:
+
+First, we humbly admit: we are weak. We cannot fight Satan in our own strength.
+
+Second, we confidently claim: God is our protector. He is able to deliver us. We ask him to keep us from giving in to temptation and to rescue us from the devil's plans.
+
+**We come to God in weakness. We leave in his strength.**
 
 ---
 

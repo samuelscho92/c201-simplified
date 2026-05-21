@@ -22,6 +22,14 @@ The Bible is clear: we are in the middle of a great spiritual war.
 
 This war is real. It affects every Christian.
 
+A military commander must know his enemy well. A Christian must also know his enemy. Both are in a battle. It would be foolish to not take this seriously.
+
+**2 Corinthians 2:11 (NLT)**
+
+> ...so that Satan will not outsmart us. For we are familiar with his evil schemes.
+
+This is the reason we study the enemy — so that Satan cannot surprise us.
+
 **Quote — C.S. Lewis, *Mere Christianity*:**
 
 > "This world is enemy-occupied territory. Christianity is the story of how the rightful King has come — in disguise — and is calling us to join a great campaign to take it back."
@@ -66,6 +74,10 @@ What do these verses tell us about Satan?
 
 > He was a murderer from the beginning. He has always hated the truth, because there is no truth in him. When he lies, it is consistent with his character; for he is a liar and the father of lies.
 
+**2 Corinthians 4:3–4 (NLT)**
+
+> If the Good News we preach is hidden behind a veil, it is hidden only from people who are perishing. Satan, who is the god of this world, has blinded the minds of those who don't believe. They are unable to see the glorious light of the Good News. They don't understand this message about the glory of Christ, who is the exact likeness of God.
+
 **2 Corinthians 11:14 (NLT)**
 
 > But I am not surprised! Even Satan disguises himself as an angel of light.
@@ -89,6 +101,7 @@ What do these verses tell us about Satan?
 
 **Summary of Satan's characteristics:**
 - He takes away God's word from people's hearts
+- He blinds people so they cannot see the truth of the gospel
 - He is a liar and the father of all lies
 - He disguises himself as something good
 - He is always looking for weak moments to attack
@@ -126,6 +139,8 @@ Jesus answered each temptation with the Word of God.
 
 Notice verse 13: Satan "left him until the next opportunity came." **Satan is patient. He waits for weak moments.**
 
+If Satan had the courage to attack Jesus, the Son of God, he will certainly attack us. Jesus' disciples are not safe from this enemy.
+
 ---
 
 **Discussion Questions:**
@@ -148,6 +163,10 @@ When Jesus died on the cross and rose from the grave, he won the final victory o
 
 > In this way, he disarmed the spiritual rulers and authorities. He shamed them publicly by his victory over them on the cross.
 
+**1 John 5:4–5 (NLT)**
+
+> For every child of God defeats this evil world, and we achieve this victory through our faith. And who can win this battle against the world? Only those who believe that Jesus is the Son of God.
+
 **1 John 4:4 (NLT)**
 
 > But you belong to God, my dear children. You have already won a victory over those people, because the Spirit who lives in you is greater than the spirit who lives in the world.
@@ -162,6 +181,8 @@ When Jesus died on the cross and rose from the grave, he won the final victory o
 |---|---|
 | disarmed⁸ | took away the weapons; removed the power |
 | overcome⁹ | to win against; to defeat completely |
+
+The way we win this battle is through **faith** — believing that Jesus is truly the Son of God.
 
 Satan is real. Satan is active. But God in you is greater than Satan in the world.
 

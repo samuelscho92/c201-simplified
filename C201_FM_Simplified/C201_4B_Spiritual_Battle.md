@@ -34,6 +34,10 @@ A soldier does not spend all his time on comfort or personal pleasure. He is alw
 
 > Do not love this world nor the things it offers you, for when you love the world, you do not have the love of the Father in you. For the world offers only a craving for physical pleasure, a craving for everything we see, and pride in our achievements and possessions. These are not from the Father, but are from this world. And this world is fading away, along with everything that people crave. But anyone who does what pleases God will live forever.
 
+**Ephesians 5:8–11 (NLT)**
+
+> For once you were full of darkness, but now you have light from the Lord. So live as people of light! For this light within you produces only what is good and right and true. Carefully determine what pleases the Lord. Take no part in the worthless deeds of evil and darkness; instead, expose them.
+
 **James 4:4 (NLT)**
 
 > You adulterers! Don't you realize that friendship with the world makes you an enemy of God? I say it again: if you want to be a friend of the world, you make yourself an enemy of God.
@@ -45,6 +49,9 @@ A soldier does not spend all his time on comfort or personal pleasure. He is alw
 | civilian¹ | a person not in the military; not a soldier |
 | craving² | a very strong desire |
 | adulterers³ | here used as a picture of people who are unfaithful to God |
+| expose⁴ | to bring something hidden into the light; to show it for what it really is |
+
+We are not only soldiers who fight. We are also children of light. We do not hide from darkness — we expose it.
 
 **Discussion Questions:**
 
@@ -69,6 +76,10 @@ Jesus won the decisive victory at the cross. Satan's final defeat is certain.
 
 **But Satan is still very dangerous right now.** He is still actively working to destroy lives — both Christians and non-Christians.
 
+This is not only a physical battle. People's souls are at stake. Some are being lost forever. We cannot treat this war as a small thing.
+
+Even though Satan is defeated in the final sense, we can still lose battles locally — in our own lives, our families, our churches. Satan's final defeat will bring no comfort if our own lives are destroyed in the meantime.
+
 ---
 
 ## Part 3: Wartime vs. Peacetime Mentality
@@ -78,6 +89,10 @@ During World War II, every person in the country was affected by the war.
 People gave up personal comforts. They sacrificed. They worked together. They stayed focused.
 
 **The Bible says the church is in an all-out spiritual war.** But many Christians live as if it is peacetime.
+
+Many Christians are happy to be Christians. But they see their faith mostly as something that brings them comfort. They give time to God when it is convenient. When they see other believers taking the battle seriously, they wonder: "Why be so extreme?"
+
+This is the peacetime mentality. It feels natural. But it is dangerous.
 
 Here are the differences:
 

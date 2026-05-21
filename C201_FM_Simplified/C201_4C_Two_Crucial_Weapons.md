@@ -8,7 +8,7 @@
 | Word | Meaning |
 |---|---|
 | armor | protective covering worn in battle |
-| intercession | praying on behalf of others |
+| intercession | praying for others; refusing to accept what is wrong and calling on God to act |
 | intercessor | a person who prays for others |
 | perseverance | continuing to do something even when it is difficult |
 | breakthrough | when a problem is finally resolved after a long struggle |
@@ -70,6 +70,12 @@ Prayer is one of the most powerful ways we fight in the spiritual battle.
 
 God's will is not always done automatically on earth. One of the ways God's will is established is through the prayers of his people.
 
+**What is intercession?**
+
+Intercession means: "God, what you have promised must happen — even if it has not happened yet."
+
+It is refusing to accept what is wrong. It is calling on God to act — in our lives, our families, our communities, and our world.
+
 ---
 
 **A picture from Revelation 8:1–5:**
@@ -101,6 +107,22 @@ But the angel who was sent with God's answer was delayed for 21 days by an enemy
 Only when the angel Michael came to help was the answer able to get through.
 
 *This shows us: prayer is real battle. Sometimes we must keep praying even when nothing seems to be happening. A war is being fought in the unseen world.*
+
+Jesus also taught his disciples to keep praying and never give up. In Luke 18, he told the story of a widow who kept asking a judge for help. She did not stop asking. In the end, the judge gave her what she needed. Jesus said: this is how we should pray to God — with persistence, and with faith that he will answer.
+
+---
+
+**God helps us when we don't know how to pray:**
+
+**Romans 8:26–27 (NLT)**
+
+> And the Holy Spirit helps us in our weakness. For example, we don't know what God wants us to pray for. But the Holy Spirit prays for us with groanings that cannot be expressed in words. And the Father who knows all hearts knows what the Spirit is saying, for the Spirit pleads for us believers in harmony with God's own will.
+
+We do not always know what to pray. Sometimes we are too weak or too broken to find words.
+
+But the Holy Spirit himself prays for us.
+
+**We are never alone in prayer. Prayer is the ultimate act of partnership with God.**
 
 ---
 
