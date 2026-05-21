@@ -1,0 +1,13 @@
+# Original course materials — not published
+C201_Ch1/
+C201_Ch2/
+C201_Ch3/
+C201_Ch4/
+
+# Build artifacts
+preview.html
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

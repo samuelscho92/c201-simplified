@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C201 Simplified — Preview</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #eef0ee;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      width: 260px;
+      min-width: 260px;
+      background: #1c2b3a;
+      color: #c8d8e8;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+
+    #sidebar-header {
+      padding: 20px 18px 14px;
+      border-bottom: 1px solid #2e4257;
+    }
+    #sidebar-header h1 {
+      font-size: 0.95em;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    #sidebar-header p {
+      font-size: 0.75em;
+      color: #7a9bb5;
+      margin-top: 2px;
+    }
+
+    .chapter-group { margin-top: 8px; }
+    .chapter-label {
+      font-size: 0.68em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      padding: 10px 18px 4px;
+    }
+
+    .session-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 7px 18px;
+      color: #b0c8dc;
+      font-size: 0.82em;
+      line-height: 1.4;
+      transition: background 0.15s;
+    }
+    .session-btn:hover { background: #243546; color: #fff; }
+    .session-btn.active {
+      background: #2d4a62;
+      color: #fff;
+      border-left: 3px solid #c9a84c;
+      padding-left: 15px;
+    }
+    .session-btn .session-id {
+      font-weight: 700;
+      font-size: 0.9em;
+      color: #c9a84c;
+      display: block;
+    }
+
+    /* ── Content ── */
+    #content-wrap {
+      flex: 1;
+      overflow-y: auto;
+      padding: 40px 48px;
+    }
+
+    #content {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 56px 64px;
+      border-radius: 4px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+
+    /* ── Typography ── */
+    #content h1 {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      color: #111;
+    }
+    #content h2 {
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1a5276;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #d4e6f1;
+    }
+    #content h3 {
+      font-size: 1em;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 6px;
+    }
+    #content p { margin-bottom: 10px; }
+    #content hr {
+      border: none;
+      border-top: 1px solid #eaeaea;
+      margin: 28px 0;
+    }
+    #content strong { font-weight: 600; }
+    #content em { font-style: italic; }
+
+    /* Bible verses / block quotes */
+    #content blockquote {
+      margin: 14px 0;
+      padding: 14px 20px;
+      background: #fdf8ee;
+      border-left: 4px solid #c9a84c;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.96em;
+      color: #333;
+    }
+    #content blockquote p { margin-bottom: 6px; }
+    #content blockquote p:last-child { margin-bottom: 0; }
+
+    /* Definition tables */
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 18px;
+      font-size: 0.88em;
+    }
+    #content th {
+      background: #1a5276;
+      color: #fff;
+      text-align: left;
+      padding: 7px 12px;
+      font-weight: 600;
+    }
+    #content td {
+      padding: 6px 12px;
+      border-bottom: 1px solid #eaeaea;
+      vertical-align: top;
+    }
+    #content tr:nth-child(even) td { background: #f5f8fc; }
+    #content tr:last-child td { border-bottom: none; }
+
+    /* First table (Key Words) — slightly different header */
+    #content h2:first-of-type + p + table th { background: #154360; }
+
+    /* Lists */
+    #content ul, #content ol {
+      padding-left: 24px;
+      margin-bottom: 10px;
+    }
+    #content li { margin-bottom: 3px; }
+
+    /* Sidebar italic labels ("Definitions:") */
+    #content p > em:only-child {
+      font-size: 0.8em;
+      color: #999;
+    }
+
+    /* Empty state */
+    #empty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: #aaa;
+      font-size: 1em;
+    }
+
+    /* Print */
+    @media print {
+      #sidebar { display: none; }
+      body { display: block; overflow: visible; }
+      #content-wrap { padding: 0; overflow: visible; }
+      #content { box-shadow: none; padding: 40px; max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <div id="sidebar-header">
+    <h1>C201 Simplified</h1>
+    <p>IELTS 3 Edition</p>
+  </div>
+  <div id="session-list"></div>
+</nav>
+
+<main id="content-wrap">
+  <div id="content"><div id="empty">← Select a session</div></div>
+</main>
+
+<script>
+const SESSIONS = [
+  {
+    "id": "C201_1A_Seeing_God",
+    "filename": "C201_1A_Seeing_God.md",
+    "chapter": "Chapter 1",
+    "title": "SESSION 1A — SEEING GOD",
+    "subtitle": "Course 201 · Chapter 1 · Holiness of God",
+    "content": "# SESSION 1A — SEEING GOD\n**Course 201 · Chapter 1 · Holiness of God**\n\n---\n\n## Key Words\n\nBefore you begin, learn these words. You will see them many times in this session.\n\n| Word | Meaning |\n|---|---|\n| holy | completely pure; completely separate from all sin |\n| holiness | the quality of being holy |\n| glory | the great light, beauty, and power of God |\n| sin | choosing to do wrong against God |\n| eternal | lasting forever; with no end |\n| seraphim | powerful angels who stand before God |\n| attribute | a quality that describes who someone is |\n| transcendent | far above everything; in a completely different level |\n\n---\n\n## Opening Song: \"Alas, and Did My Savior Bleed\"\n\n> *[KEEP ORIGINAL HYMN TEXT — do not rewrite]*\n\n**What this song means:**\n\nThis is an old song about Jesus dying on the cross.\n\nThe writer asks: \"Did Jesus really die for me?\"\n\nHe is amazed that Jesus — who is holy — would die for sinful people.\n\nHe feels deep thankfulness. He wants to give his whole life to God.\n\n---\n\n## PART 1: GOD'S LONGING\n\nEvery person wants to be truly known.\n\nWe want others to see us as we really are.\n\nWhen someone has a wrong view of us, we cannot have a real friendship with them.\n\nThis is also true with God.\n\n**God's longing is this: he wants us to know him as he truly is.**\n\n---\n\n**Jeremiah 9:23–24 (NLT)**\n\n> This is what the LORD says: \"Don't let the wise boast in their wisdom, or the powerful boast in their power, or the rich boast in their riches. But those who wish to boast should boast in this alone: that they truly know me and understand that I am the LORD who demonstrates unfailing love and who brings justice and righteousness to the earth, and that I delight in these things. I, the LORD, have spoken!\"\n\n*Definition table (right sidebar):*\n\n| Word | Meaning |\n|---|---|\n| boast¹ | to talk proudly about yourself |\n| unfailing love² | love that never stops or changes |\n| justice³ | treating people fairly; punishing wrong |\n| righteousness⁴ | doing what is right and good |\n\n---\n\n**Isaiah 1:2–3 (NLT)**\n\n> Listen, O heavens! Pay attention, earth! This is what the LORD says: \"The children I raised and cared for have rebelled against me. Even an ox knows its owner, and a donkey recognizes its master's care — but Israel doesn't know its master. My people don't recognize my care for them.\"\n\n*Definition table (right sidebar):*\n\n| Word | Meaning |\n|---|---|\n| rebelled⁵ | refused to obey; turned against |\n\n---\n\n**John 17:3 (NLT)**\n\n> And this is the way to have eternal life — to know you, the only true God, and Jesus Christ, the one you sent to earth.\n\n---\n\n**Discussion Question:**\n\nAccording to these verses, what does God want from us?\n\n---\n\n## PART 2: THE MISSING PICTURE\n\nMany people have different ideas about God.\n\nBut one idea is often missing: **God is holy.**\n\nHoliness is very important. We must understand it to know who God really is.\n\nWithout understanding holiness, we will have a wrong view of God.\n\nWe may also find it hard to understand why Jesus had to die on the cross.\n\n---\n\n**Quote — R.C. Sproul, *Holiness of God*:**\n\n> \"The most important idea I found in the Bible is that God is holy. It is basic to understanding God and Christianity. The Bible says that God's name is holy — because he is holy.\"\n\n*(This is a simplified version of the original quote.)*\n\n---\n\n**Isaiah 6:1–8 (NLT)**\n\n> It was in the year King Uzziah died that I saw the Lord. He was sitting on a lofty throne, and the train of his robe filled the Temple. Attending him were mighty seraphim, each having six wings. With two wings they covered their faces, with two they covered their feet, and with two they flew. They were calling out to each other,\n>\n> *\"Holy, holy, holy is the LORD of Heaven's Armies! The whole earth is filled with his glory!\"*\n>\n> Their voices shook the Temple to its foundations, and the entire building was filled with smoke.\n>\n> Then I said, \"It's all over! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies.\"\n>\n> Then one of the seraphim flew to me with a burning coal he had taken from the altar with a pair of tongs. He touched my lips with it and said, \"See, this coal has touched your lips. Now your guilt is removed, and your sins are forgiven.\"\n>\n> Then I heard the Lord asking, \"Whom should I send as a messenger to this people? Who will go for us?\"\n>\n> I said, \"Here I am. Send me.\"\n\n*Definition table (right sidebar):*\n\n| Word | Meaning |\n|---|---|\n| lofty⁶ | very high up |\n| seraphim⁷ | powerful angels (see Key Words) |\n| foundations⁸ | the bottom structure that holds up a building |\n| guilt⁹ | the feeling and fact of having done wrong |\n\n---\n\nThe Bible sometimes repeats something three times. This shows it is very, very important.\n\nIn Isaiah 6, the seraphim say God is \"holy, holy, holy.\"\n\nThis is the only quality of God repeated three times in the whole Bible.\n\nGod is not called \"love, love, love.\" Not \"powerful, powerful, powerful.\"\n\nOnly **holy** is said three times.\n\nThis shows holiness is the most important thing to know about God.\n\n---\n\n**Fill in the blank:**\n\nR.C. Sproul says there is only one quality of God that is ____________ in the Bible.\n\n---\n\n## PART 3: THE MEANING OF HOLINESS\n\nWhat does \"holy\" mean?\n\nMany people think it means \"pure\" — having no sin at all.\n\nThis is true. But it is not the main meaning.\n\n**The main meaning of \"holy\" is \"separate.\"**\n\nThe original word means \"to cut\" or \"to separate.\"\n\nThink of it this way: God is not just a little better than us. He is in a completely different category.\n\n---\n\nHere is a second meaning: God is also **transcendent**.\n\nTranscendent means \"far above everything else.\"\n\n*Example: A king sits high on a throne, above all the people. He is higher, more powerful, and different from everyone in the room. Now imagine someone infinitely higher than the greatest king. That is a small picture of God's transcendence.*\n\nGod is above the world. The world cannot control him. He has all power over the world.\n\n---\n\n**Quote — R.C. Sproul, *Holiness of God*:**\n\n> \"God is separate from us. He is above us. He is greater than all things. When the Bible calls God holy, it means he is different from us in a special way. He is far above everything.\"\n\n*(This is a simplified version of the original quote.)*\n\n---\n\n**Discussion Questions:**\n\n1. What is something new you learned about the meaning of holiness?\n2. What do you think or feel when you think of God as holy?\n3. How strong is your sense of God's holiness right now?\n4. Why is it important to understand that God is holy?\n\n---\n\n## SESSION 1A QUIZ\n\n**1. Fill in the blank:**\n\nTo have a real relationship, we must be ____________ as we are.\n\n---\n\n**2. Choose the best answer:**\n\nIn Isaiah 6, the seraphim said \"Holy, holy, holy is the Lord of Heaven's Armies.\" What does this mean?\n\n- a) The Father, Son, and Holy Spirit are each holy\n- b) Holiness is the most important quality of God\n- c) The seraphim's feet were not clean before God\n- d) This is the right way to come into God's presence\n\n---\n\n**3. Choose the best answer:**\n\nWhich word does **not** mean \"holy\"?\n\n- a) Pure\n- b) Separate\n- c) Transcendent\n- d) Just\n\n---\n\n*End of Session 1A*\n\n---\n\n**Layout Note (for document formatting):**\nDefinition tables marked \"right sidebar\" should be placed in the right 1/3 column of the page, aligned with their corresponding Bible verse or quote. Use matching superscript numbers (¹ ² ³...) to connect difficult words in the text to their definitions in the sidebar table.\n"
+  },
+  {
+    "id": "C201_1B_Seeing_Myself",
+    "filename": "C201_1B_Seeing_Myself.md",
+    "chapter": "Chapter 1",
+    "title": "SESSION 1B — SEEING MYSELF",
+    "subtitle": "Course 201 · Chapter 1 · Holiness of God",
+    "content": "# SESSION 1B — SEEING MYSELF\n**Course 201 · Chapter 1 · Holiness of God**\n\n---\n\n## Key Words\n\n| Word | Meaning |\n|---|---|\n| sinner | a person who does wrong against God |\n| prophet | a person God chose to speak his words to people |\n| conviction | a strong feeling that something is true; here: knowing you have done wrong |\n| calibrate | to measure something by comparing it to a standard |\n| suppress | to stop something from being seen or known |\n| wrath | very strong anger; here: God's holy anger toward sin |\n\n---\n\n## Part 1: Seeing Myself — \"Woe Is Me!\"\n\nIn the last session, we read about Isaiah seeing God.\n\nWhen Isaiah saw God's holiness, he immediately saw himself clearly.\n\nHe saw that he was a sinner. He said: \"Woe is me! I am lost!\"\n\n**Quote — R.C. Sproul, *Holiness of God*:**\n\n> \"He saw the holiness of God. For the first time in his life Isaiah really understood who God was. At the same instant, for the first time Isaiah really understood who Isaiah was.\"\n\nThis is important: Isaiah did not praise God first.\n\nHe first felt deep sadness about his own sin.\n\nThis is true for everyone in the Bible who sees God's holiness.\n\n**Seeing God always leads to seeing ourselves — and our sin — more clearly.**\n\n---\n\nPeter had a very similar experience when he first met Jesus.\n\n**Luke 5:4–10 (NLT)**\n\n> When he had finished speaking, he said to Simon, \"Now go out where it is deeper, and let down your nets to catch some fish.\"\n>\n> \"Master,\" Simon replied, \"we worked hard all last night and didn't catch a thing. But if you say so, I'll let the nets down again.\" And this time their nets were so full of fish they began to tear! A shout for help brought their partners in the other boat, and soon both boats were filled with fish and on the verge of sinking.\n>\n> When Simon Peter realized what had happened, he fell to his knees before Jesus and said, \"Oh, Lord, please leave me — I'm such a sinful man.\" For he was awestruck by the number of fish they had caught, as were the others with him. His partners, James and John, the sons of Zebedee, were also amazed.\n>\n> Jesus replied to Simon, \"Don't be afraid! From now on you'll be fishing for people!\"\n\nPeter did not say: \"Jesus, that was amazing! Come fishing with us every day!\"\n\nHe recognized who Jesus was. And at the same moment, he saw who he was — a sinner.\n\nJust as Isaiah was, Peter was then given a mission by God.\n\n**The pattern is clear: we do not truly know ourselves until we see ourselves in the light of who God is.**\n\n---\n\n**Discussion Question:**\n\nWhat did Isaiah and Peter have in common when they encountered God's holiness?\n\n---\n\n## Part 2: The Problem of Self-Knowledge\n\nThere is a very old question: \"Who am I?\"\n\nThis question is harder to answer than it should be.\n\nStudies show that most people have a wrong view of themselves.\n\nMost people think they are better than they really are.\n\n---\n\nWe can measure our physical size easily.\n\nWe know we are smaller than an elephant and bigger than a fly.\n\nBut how do we measure ourselves morally? How do we know if we are good or bad?\n\nOn most days, most people feel fine about themselves.\n\nWe rarely remember the wrong things we did.\n\nBut we clearly remember the times when others were wrong to us.\n\nOur feelings give us a false picture of ourselves.\n\n---\n\nWe also compare ourselves to other people.\n\nBut other people are not a good standard.\n\n*Example: Think about what makes a stain ugly. A stain on a picnic table is not so bad. But the same stain on a famous painting would be terrible. The background makes the difference.*\n\nIn the same way, the background we use to judge ourselves changes everything.\n\nWe cannot use other people as our standard.\n\nHistory shows that whole nations can think they are good when they are not.\n\n**The only true standard is God's holiness.**\n\n---\n\n**Romans 1:18–21 (NLT)**\n\n> But God shows his anger from heaven against all sinful, wicked people who suppress the truth by their wickedness. They know the truth about God because he has made it obvious to them. For ever since the world was created, people have seen the earth and sky. Through everything God made, they can clearly see his invisible qualities — his eternal power and divine nature. So they have no excuse for not knowing God. Yes, they knew God, but they wouldn't worship him as God or even give him thanks. And they began to think up foolish ideas of what God was like. As a result, their minds became dark and confused.\n\n*Definitions:*\n\n| Word | Meaning |\n|---|---|\n| suppress¹ | to hide or stop something from being known |\n| divine nature² | the qualities that belong to God alone |\n| worship³ | to honor and praise God as the greatest |\n\nGod's word says that people choose to hide the truth about God.\n\nThey do not want to honor God.\n\nBecause of this, their thinking becomes confused. Their hearts become dark.\n\n---\n\n## Part 3: The Problem of Not Thinking\n\nWhy do many people feel no shame about being selfish or proud?\n\nIt is because they only look at themselves from inside themselves.\n\nIf you only look inward, you have no true standard to compare yourself to.\n\nYou cannot see yourself clearly.\n\nOur world makes this worse. We fill our lives with things to keep us busy.\n\nWe do not stop and think honestly about ourselves.\n\n---\n\n**Quote — Martin Lloyd-Jones, *Out of the Depths*:**\n\n> \"The first step to becoming a Christian is to stop and think. A person must think about himself. He must sit down and look at his own life. The world does everything it can to stop people from doing this. But the person who is a Christian has done it. He has stopped. He has looked. He has seen the truth about himself.\"\n\n*(Simplified from original)*\n\nIf we do not think, we are left only with our feelings.\n\nOur feelings almost never tell us the truth about ourselves.\n\nOur feelings tell us we are the victim. We are misunderstood. We are not appreciated.\n\nBut feelings are not the truth.\n\n---\n\n**Discussion Question:**\n\nWhen was the last time you thought honestly about what kind of person you really are?\n\n---\n\n## Part 4: A True Glimpse\n\nSometimes, even in everyday life, we get a small, true picture of our sin.\n\n*Example: You say something unkind about a friend in front of others. Then you see your friend's face. You see that she is hurt. In that moment, you understand clearly that what you did was wrong.*\n\n*Example: A father loves his daughter very much. You say something cruel near him without knowing he is there. You see his face — the pain and anger of a father who loves his child. Suddenly you understand how wrong your words were.*\n\nIn that moment, a true standard appears. The context shows you the truth.\n\n---\n\nNow think much bigger.\n\n**God is not just a loving father. God is the holy, loving Creator of all things.**\n\nHe sees every sin in its full ugliness.\n\nHe sees how our sins hurt other people.\n\nHe sees all the damage our sins cause across time.\n\nWe cannot see this fully. But God can.\n\nGod's holiness and God's love are not separate things. They are one.\n\nBecause God loves perfectly, he is also completely opposed to sin.\n\nThe only true background for seeing yourself is God's holy character.\n\nWhen we see ourselves against God's holiness, we understand Isaiah's cry:\n\n**\"Woe is me, I am ruined.\"**\n\n---\n\n**Discussion Questions:**\n\n1. What are some ways you avoid seeing yourself clearly?\n2. Describe a time when you saw your sin more clearly. What helped you see it?\n3. How has understanding God's holiness changed the way you see yourself?\n"
+  },
+  {
+    "id": "C201_1C_The_Cross",
+    "filename": "C201_1C_The_Cross.md",
+    "chapter": "Chapter 1",
+    "title": "SESSION 1C — THE CROSS",
+    "subtitle": "Course 201 · Chapter 1 · Holiness of God",
+    "content": "# SESSION 1C — THE CROSS\n**Course 201 · Chapter 1 · Holiness of God**\n\n---\n\n## Key Words\n\n| Word | Meaning |\n|---|---|\n| wrath | very strong, holy anger toward sin |\n| mercy | kindness given to someone who does not deserve it |\n| grace | God's free gift of love and forgiveness to sinners |\n| justice | giving the right punishment for wrong actions |\n| atonement | when the punishment for sin is fully paid |\n| sacrifice | something given up to pay a great cost; here: Jesus dying for our sin |\n| righteousness | being fully right and good before God |\n| eternity | time that never ends; life after death |\n\n---\n\n## Review\n\nBefore we begin, look back at the last two sessions.\n\n**1A — Seeing God:** God is holy. His holiness is the most important thing to know about him.\n\n**1B — Seeing Myself:** When we see God's holiness, we see our own sin clearly.\n\n---\n\n## Part 1: God's Wrath Toward Sin\n\nGod is holy. God loves what is pure and good.\n\nThis means God must be against sin.\n\nEvery day of our lives, we have sinned. Every sin is against God.\n\nSeeing this is the beginning of a Christian life. It must also continue throughout a Christian life.\n\nBut there is a problem. Deep in our hearts, we resist this truth.\n\nWe find it hard to accept that God is seriously angry at sin.\n\nWe find it hard to be truly amazed by his mercy.\n\n---\n\n**Quote — R.C. Sproul, *Holiness of God*:**\n\n> \"When God's justice falls, we are offended because we think God owes us mercy. We must not take his grace for granted. We must never lose our ability to be amazed by grace.\"\n\nR.C. Sproul then tells this story about his students:\n\n---\n\nHe taught 250 university students. He gave them three papers to write.\n\nHe clearly said: \"The first paper is due on the last day of September. No late papers. If you are late, you will receive a failing grade.\"\n\nOn the last day of September, 225 students gave in their papers on time.\n\n25 students did not. They were very sorry. They asked for more time.\n\nProfessor Sproul had mercy. He gave them more time.\n\nOn the last day of October, 200 students gave in their papers.\n\n50 students did not. They asked for more time again.\n\nProfessor Sproul had mercy again. But he warned them: \"This is the last time.\"\n\nOn the last day of November, 150 students gave in their papers.\n\n100 students did not — and they were not even worried.\n\nWhen Professor Sproul gave them all failing grades, the students were very angry.\n\nThey shouted: \"That's not fair!\"\n\nBut they had forgotten: they had already received mercy twice. They began to expect it. Then they demanded it.\n\n---\n\n**Quote — R.C. Sproul, *Holiness of God*:**\n\n> \"We have come to expect God to be merciful. From there the next step is easy: we demand it. We soon forget that with our first sin we gave up all rights to the gift of life. That I am breathing this morning is an act of God's mercy. God owes me nothing. I owe him everything.\"\n\n*Definitions:*\n\n| Word | Meaning |\n|---|---|\n| mercy¹ | kindness to someone who deserves punishment |\n| demand² | to say you must be given something |\n\n---\n\n**Discussion Question:**\n\nDo you ever feel that God owes you mercy? What does this story teach you?\n\n---\n\n## Part 2: God's Wrath and His Love\n\nGod is completely pure. Because he is pure, he is angry at sin.\n\nThis is not a problem with God. It is actually the right response to sin.\n\n*Example: Imagine you have a young child in your family — a niece or nephew — whom you love very much. Because you love that child, you are very angry at anything that could hurt them. Your love creates your anger against what is harmful.*\n\nIn the same way, God's love creates his anger against sin.\n\n**God's love and God's wrath are not opposites. They come from the same holy character.**\n\nGod sees everything our sin does.\n\nHe sees all the people hurt by our unkind words.\n\nHe sees all the damage caused by our selfishness, our envy, and our pride.\n\nHe sees the full result of our sin across all of time.\n\nWe cannot see all of this. But God can.\n\nThis is why God takes sin so seriously.\n\n---\n\n## Part 3: A Good God and Hell\n\nSome people ask: \"If God is good, how can he send people to hell?\"\n\nThis question has a simple answer.\n\nA good person naturally hates evil. The better a person is, the more they hate evil.\n\n**God is perfectly good. So God perfectly hates sin and its consequences.**\n\n---\n\nHonestly examine yourself:\n\n- Have you ever told a lie?\n- Have you ever cheated?\n- Have you ever felt glad when something bad happened to someone you disliked?\n- Have you ever used other people for your own gain?\n- Have you ever said cruel things?\n- Have you ever wished harm on someone?\n\nWhen we honestly answer these questions, the truth is uncomfortable.\n\nThe Bible says the same thing:\n\n---\n\n**Mark 7:20–23 (NLT)**\n\n> And then he added, \"It is what comes from inside that defiles you. For from within, out of a person's heart, come evil thoughts, sexual immorality, theft, murder, adultery, greed, wickedness, deceit, lustful desires, envy, slander, pride, and foolishness. All these vile things come from within; they are what defile you.\"\n\n*Definitions:*\n\n| Word | Meaning |\n|---|---|\n| defile³ | to make unclean or impure |\n| immorality⁴ | behavior that goes against what is right |\n| adultery⁵ | being unfaithful to your husband or wife |\n| greed⁶ | always wanting more than you need |\n| deceit⁷ | saying or doing things to trick people |\n| slander⁸ | saying false, harmful things about someone |\n\n---\n\n**2 Timothy 3:2–5 (NLT)**\n\n> For people will love only themselves and their money. They will be boastful and proud, scoffing at God, disobedient to their parents, and ungrateful. They will consider nothing sacred. They will be unloving and unforgiving; they will slander others and have no self-control. They will be cruel and hate what is good. They will betray their friends, be reckless, be puffed up with pride, and love pleasure rather than God. They will act religious, but they will reject the power that could make them godly.\n\n*Definitions:*\n\n| Word | Meaning |\n|---|---|\n| boastful⁹ | talking proudly about yourself |\n| sacred¹⁰ | set apart for God; holy |\n| betray¹¹ | to hurt someone who trusted you |\n\n---\n\nThe Bible confirms what we already know inside: we are sinners.\n\nSo the real question is not \"Why does God punish sin?\"\n\n**The real question is: \"Why does God allow us to keep living?\"**\n\nWe have no claim on God. God owes us nothing.\n\nYet God has been patient with us.\n\nHe has given us time to repent and come to him.\n\nBut we must not mistake his patience for approval.\n\n---\n\n**Quote — C.S. Lewis:**\n\n> \"There are two kinds of people: those who say to God, 'Your will be done,' and those to whom God will say, 'Your will be done.'\"\n\nHell is simply what happens when a person gets what they have always chosen: life without God.\n\n---\n\n**Three important truths together:**\n\n1. God is holy.\n2. We are sinners.\n3. Eternity is real.\n\nIf all three are true, there is only one conclusion: without Jesus, we all face eternity apart from God.\n\n**But — there is the cross of Jesus.**\n\n---\n\n## Part 4: The Cross\n\nThe cross of Jesus is the answer to everything in this session.\n\nGod is holy. We are sinners. We deserve his judgment.\n\nBut on the cross, Jesus took that judgment in our place.\n\nThe punishment we deserved fell on Jesus — the perfect, sinless Son of God.\n\n---\n\n**2 Corinthians 5:21 (NLT)**\n\n> For God made Christ, who never sinned, to be the offering for our sin, so that we could be made right with God through Christ.\n\n*Definitions:*\n\n| Word | Meaning |\n|---|---|\n| offering¹² | something given to God to pay for sin |\n| made right¹³ | forgiven and accepted fully by God |\n\n---\n\n**Isaiah 6:5–7 (NLT)**\n\n> Then I said, \"It's all over! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies.\"\n>\n> Then one of the seraphim flew to me with a burning coal he had taken from the altar with a pair of tongs. He touched my lips with it and said, \"See, this coal has touched your lips. Now your guilt is removed, and your sins are forgiven.\"\n\nWhen Isaiah said \"Woe is me,\" God acted.\n\nThe angel came and said: \"Your guilt is taken away. Your sin is forgiven.\"\n\n**This is the pattern of the cross:**\n\nWhen we honestly admit we are sinners before a holy God — God acts.\n\nHe gives us the forgiveness we do not deserve.\n\nJesus took all of our sin upon himself. He paid the full price.\n\nIn return, we receive his righteousness.\n\nThis is the greatest news any person could ever hear.\n\n---\n\n## Part 5: Pitfalls — What Happens Without This Truth\n\nIf we do not truly understand God's holiness, several things go wrong:\n\n**1. We do not take sin seriously.**\nWe treat it as small or unimportant.\n\n**2. We do not work to grow and change.**\nWe lose the reason to fight against sin in our lives.\n\n**3. We lose the joy of being saved.**\nWe forget what we were saved from.\n\n**4. We become proud.**\nWe think we are good instead of being thankful that God is good.\n\n**5. We live for people's opinions instead of for God.**\nWe try to look good instead of truly loving God.\n\n---\n\n**Discussion Questions:**\n\n1. Do you take your sin seriously? What makes it hard?\n2. Which pitfall do you most recognize in yourself?\n3. Spend some time thanking God for the cross. What do you want to say to him?\n"
+  },
+  {
+    "id": "C201_1D_Self_Reflection",
+    "filename": "C201_1D_Self_Reflection.md",
+    "chapter": "Chapter 1",
+    "title": "SESSION 1D — SELF-REFLECTION",
+    "subtitle": "Course 201 · Chapter 1 · Holiness of God",
+    "content": "# SESSION 1D — SELF-REFLECTION\n**Course 201 · Chapter 1 · Holiness of God**\n\n---\n\n## Key Words\n\n| Word | Meaning |\n|---|---|\n| self-reflection | thinking honestly and carefully about yourself |\n| discipline | doing something regularly and with purpose |\n| solitude | being alone and quiet on purpose |\n| rationalize | to make excuses for something wrong you did |\n| repentance | turning away from sin and back to God |\n| iniquity | serious wrong or sin |\n\n---\n\n## Introduction: Why Self-Reflection?\n\nIn this course, we have learned that God is holy.\n\nWe have also seen that when people encounter God's holiness, they see themselves clearly.\n\n**Self-reflection is a practice that helps us see ourselves honestly — against the background of God's holiness.**\n\nWithout it, we go through life with a wrong picture of ourselves.\n\n---\n\n**Quote — Dr. Martin Lloyd-Jones, *Out of the Depths*:**\n\n> \"A Christian is someone who has seen himself and seen what he has done. He has seen his sin. He knows he has sinned against God. He sees that his own nature is sinful.\"\n\n*(Simplified from original)*\n\n---\n\n**Quote — Henri Nouwen, *Making All Things New*:**\n\n> \"As soon as we are alone, inner chaos opens up in us. When we remove outside distractions, our inner problems appear with full force. We often use outside activities to protect ourselves from what is happening inside.\"\n\n*(Simplified from original)*\n\n*Definitions:*\n\n| Word | Meaning |\n|---|---|\n| chaos¹ | great confusion and disorder |\n| distraction² | something that stops you from thinking or focusing |\n\nBeing alone and quiet is not comfortable at first.\n\nOur fears, worries, and unresolved problems come to the surface.\n\nThis is why many people stay busy — to avoid facing themselves.\n\n**But this is exactly why self-reflection is so important.**\n\n---\n\n## What Is Self-Reflection?\n\nSelf-reflection is **written thinking**.\n\nYou write about something that happened — an event, a moment, a reaction.\n\nYou think carefully and honestly about what it reveals about you.\n\nWriting helps you be more honest. It slows down your thinking. It cuts through excuses.\n\n---\n\n## The 4 Steps of Self-Reflection\n\n---\n\n### Step 1 — List the Facts\n\nUse the 5 W's: **Who, What, When, Where, Why**\n\nWrite down what happened as clearly and honestly as you can.\n\nWrite only facts. Do not write feelings or excuses yet.\n\n*Example: Instead of writing \"I felt attacked, so I responded strongly,\" just write: \"I raised my voice at my friend.\"*\n\nFocusing on facts stops you from justifying what you did.\n\n---\n\n### Step 2 — Explore\n\nAfter writing the facts, ask yourself some questions:\n\n- Why did I say that?\n- Why did I do that?\n- What was I feeling at that moment?\n- What was going through my mind?\n- What happened before this incident?\n\nThis step helps you understand what was really going on inside you.\n\n---\n\n### Step 3 — What Does This Reveal About Me?\n\nThis is the most important step.\n\nAfter you have the facts and have explored your feelings, ask:\n\n**\"What does this show about who I am?\"**\n\nSome helpful questions:\n\n- What does this show about what drives me?\n- What does this show about what is inside my heart?\n- What does this show about how I see God, others, or myself?\n- What does this reveal about what matters most to me?\n\n**Important:** Use simple, plain words. Do not be overly dramatic.\n\n*Example: Do not write \"I feel I don't deserve the cross of Jesus!\" Instead write: \"I spoke unkindly because I wanted people to notice me.\"*\n\nThe goal is clear truth — not strong emotion.\n\n---\n\n### Step 4 — The Word of God\n\nThis step is what makes Christian self-reflection different from ordinary self-examination.\n\nAsk yourself:\n\n- What does the Bible say about this?\n- How does God's word correct me here?\n- What does the gospel say to me at this point?\n\nThis step is very important. Without it, two bad things can happen:\n\n**Problem 1:** You go into a spiral of shame. You just feel bad about yourself without finding God's forgiveness.\n\n**Problem 2:** You identify what you did wrong — and then stop. You do not bring it to God.\n\nBoth problems leave God out of the process.\n\n**The goal is not just to feel bad about sin. The goal is to bring your sin to God and receive his grace.**\n\n---\n\n**Isaiah 1:18 (NLT)**\n\n> \"Come now, let's settle this,\" says the LORD. \"Though your sins are like scarlet, I will make them as white as snow. Though they are red like crimson, I will make them as white as wool.\"\n\n*Definitions:*\n\n| Word | Meaning |\n|---|---|\n| scarlet³ | bright red — a picture of serious sin |\n| crimson⁴ | another word for deep red |\n\nGod does not ask us to fix ourselves first. He says: \"Come. Let us talk. Let me clean you.\"\n\nHe wants to be honest with us. He wants to forgive us and heal us.\n\n---\n\n**Quote — Martyn Lloyd-Jones, *Out of the Depths*:**\n\n> \"Have you faced yourself? Look back across your life. Look at the things you have thought, said, and done. This is the first step toward knowing God and experiencing his salvation. You have to fight for your soul. The world will do everything to prevent you from facing yourself.\"\n\n*(Simplified from original)*\n\n---\n\n## Why Self-Reflection Matters\n\nBy nature, we have many layers of self-deception.\n\nWe deny, rationalize, and justify our sin.\n\nWritten self-reflection helps cut through all of this.\n\nIt helps us find the truth about who we are.\n\nAnd with the truth, we can also find God's grace, forgiveness, and freedom.\n\n**There is real freedom when we have honestly faced ourselves, repented, and received God's forgiveness.**\n\n---\n\n**Quote — Martyn Lloyd-Jones, *Out of the Depths*:**\n\n> \"There is no hope for a person who does not face themselves. Look at yourself. It is the first step in knowing God and experiencing his glorious salvation.\"\n\n*(Simplified from original)*\n\n---\n\n## Self-Reflection Exercise\n\n**Spend 15 minutes doing the 4 steps on your own.**\n\nChoose one recent incident or pattern in your life.\n\nWork through all four steps in writing:\n\n1. **Facts** — What happened?\n2. **Explore** — What was I feeling and thinking?\n3. **What does this reveal?** — What does this show about my heart?\n4. **Word of God** — What does the Bible say? What does the gospel give me?\n\n---\n\n## Discussion Questions\n\n1. Is it easy or hard for you to think honestly about yourself? Why?\n2. Which of the 4 steps do you find most difficult? Why?\n3. What happens when you skip Step 4 (the Word of God)?\n4. Share what you discovered about yourself from the exercise.\n\n---\n\n*End of Session 1D — End of Chapter 1*\n\n---\n\n**Chapter 1 Summary:**\n\n- **1A — Seeing God:** God is holy. He is separate from and far above all things.\n- **1B — Seeing Myself:** When we see God's holiness, we see our sin clearly.\n- **1C — The Cross:** Jesus took the punishment for our sin. This is the greatest news.\n- **1D — Self-Reflection:** We practice seeing ourselves honestly through God's word.\n"
+  }
+];
+
+// Build sidebar
+const listEl = document.getElementById('session-list');
+const chapters = {};
+SESSIONS.forEach(s => {
+  if (!chapters[s.chapter]) chapters[s.chapter] = [];
+  chapters[s.chapter].push(s);
+});
+
+Object.entries(chapters).forEach(([chap, sessions]) => {
+  const group = document.createElement('div');
+  group.className = 'chapter-group';
+  const label = document.createElement('div');
+  label.className = 'chapter-label';
+  label.textContent = chap;
+  group.appendChild(label);
+  sessions.forEach(s => {
+    const btn = document.createElement('button');
+    btn.className = 'session-btn';
+    const idMatch = s.id.match(/C201_(\d[A-Z])/);
+    const idLabel = idMatch ? idMatch[1] : s.id;
+    btn.innerHTML = `<span class="session-id">${idLabel}</span>${s.title}`;
+    btn.dataset.id = s.id;
+    btn.addEventListener('click', () => loadSession(s, btn));
+    group.appendChild(btn);
+  });
+  listEl.appendChild(group);
+});
+
+// Load session
+function loadSession(session, btn) {
+  document.querySelectorAll('.session-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('content').innerHTML = marked.parse(session.content);
+  document.getElementById('content-wrap').scrollTop = 0;
+}
+
+// Auto-load first session
+const firstBtn = document.querySelector('.session-btn');
+if (firstBtn) {
+  const firstId = firstBtn.dataset.id;
+  const firstSession = SESSIONS.find(s => s.id === firstId);
+  loadSession(firstSession, firstBtn);
+}
+</script>
+</body>
+</html>
