@@ -3,24 +3,6 @@
 
 ---
 
-## Key Words
-
-Before you begin, learn these words. You will see them many times in this session.
-
-| Word | Meaning |
-|---|---|
-| holy | completely pure; completely separate from all sin |
-| holiness | the quality of being holy |
-| glory | the great light, beauty, and power of God |
-| sin | choosing to do wrong against God |
-| eternal | lasting forever; with no end |
-| seraphim | powerful angels who stand before God |
-| attribute | a quality that describes who someone is |
-| transcendent | far above everything; in a completely different level |
-| wrath | very strong, holy anger toward sin |
-
----
-
 ## Opening Song: "Alas, and Did My Savior Bleed"
 
 > *[KEEP ORIGINAL HYMN TEXT — do not rewrite]*
@@ -43,7 +25,7 @@ Every person wants to be truly known.
 
 We want others to see us as we really are.
 
-Sometimes we hide who we really are. We show others a false face — like wearing a mask. Friends who only know our mask are not real friends.
+Sometimes we hide who we really are — like wearing a mask. It is difficult to get to know someone who is wearing a mask.
 
 When someone has a wrong view of us, we cannot have a real friendship with them.
 
@@ -102,7 +84,7 @@ Holiness is very important. We must understand it to know who God really is.
 
 Without understanding holiness, we will have a wrong view of God. Our Christian life will also be weak.
 
-If we do not understand holiness, the cross is confusing. Why did Jesus have to suffer and die? The answer is holiness. Without it, the cross seems like too much.
+If we do not understand holiness, the cross is confusing. We will not be able to understand why Jesus had to suffer and die.
 
 ---
 
@@ -137,6 +119,7 @@ The Bible also says: "Holy is his name" (Luke 1:49). His name is holy because he
 | Word | Meaning |
 |---|---|
 | lofty⁶ | very high up |
+| glory | the great light, beauty, and power of God |
 | seraphim⁷ | powerful angels (see Key Words) |
 | foundations⁸ | the bottom structure that holds up a building |
 | guilt⁹ | the feeling and fact of having done wrong |
@@ -149,7 +132,7 @@ In Isaiah 6, the seraphim say God is "holy, holy, holy."
 
 This is the only quality of God repeated three times in the whole Bible.
 
-God is not called "love, love, love." Not "powerful, powerful, powerful." Not "wrath, wrath, wrath."
+God is not called "love, love, love." Not "powerful, powerful, powerful." Not "good, good, good."
 
 Not just holy. Not holy, holy. He is holy, holy, holy.
 
@@ -161,7 +144,7 @@ This shows holiness is the most important thing to know about God.
 
 **Fill in the blank:**
 
-R.C. Sproul says there is only one quality of God that is ____________ in the Bible.
+______, ______, ______ is the LORD of Heaven's Armies! The whole earth is filled with his glory.
 
 ---
 
@@ -175,11 +158,7 @@ This is true. But it is not the main meaning.
 
 **The main meaning of "holy" is "separate."**
 
-The original word means "to cut" or "to separate."
-
-Think of it this way: God is not just a little better than us. He is in a completely different category.
-
----
+The original word means "to separate."
 
 Here is a second meaning: God is also **transcendent**.
 
@@ -187,9 +166,7 @@ Transcendent means "far above everything else."
 
 *Example: A king sits high on a throne, above all the people. He is higher, more powerful, and different from everyone in the room. Now imagine someone infinitely higher than the greatest king. That is a small picture of God's transcendence.*
 
-God is above the world. The world cannot control him. He has all power over the world.
-
-He is so far above us that he seems like a stranger to us.
+Think of it this way: God is not just a little greater than us. He is in a completely different category above us. God is above the whole world.
 
 ---
 
