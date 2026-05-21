@@ -8,7 +8,6 @@ C201_Ch4/
 preview.html
 __pycache__/
 *.pyc
-copy_pdfs.sh
 
 # macOS
 .DS_Store
