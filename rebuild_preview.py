@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
 """
-Run this script whenever you add or update a file in C201_FM_Simplified/.
-It reads all .md files and regenerates preview.html.
+Rebuilds index.html from all .md files in C201_FM_Simplified/,
+then commits and pushes to GitHub Pages.
 
 Usage:
-    python3 rebuild_preview.py
+    python3 rebuild_preview.py           # build + commit + push
+    python3 rebuild_preview.py --no-push # build only, no git
 """
 
 import os
 import re
+import sys
 import json
+import subprocess
 from pathlib import Path
 
 BASE = Path(__file__).parent
 MD_DIR = BASE / "C201_FM_Simplified"
-OUT = BASE / "preview.html"
+OUT = BASE / "index.html"
+PUSH = "--no-push" not in sys.argv
 
 
 def get_title(content: str, filename: str) -> str:
@@ -335,3 +339,25 @@ OUT.write_text(HTML, encoding="utf-8")
 print(f"Built {OUT} with {len(sessions)} session(s):")
 for s in sessions:
     print(f"  [{s['chapter']}] {s['id']} — {s['title']}")
+
+if PUSH:
+    def run(cmd):
+        result = subprocess.run(cmd, cwd=BASE, capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"  ✗ {' '.join(cmd)}\n{result.stderr.strip()}")
+            return False
+        return True
+
+    session_names = ", ".join(s["id"] for s in sessions)
+    msg = f"Rebuild: {len(sessions)} session(s) — {session_names}"
+
+    print("\nDeploying to GitHub Pages...")
+    ok = (
+        run(["git", "add", "index.html", "C201_FM_Simplified"]) and
+        run(["git", "diff", "--cached", "--quiet"]) or
+        (run(["git", "commit", "-m", msg]) and run(["git", "push"]))
+    )
+    if ok:
+        print("  ✓ Pushed — https://samuelscho92.github.io/c201-simplified/")
+else:
+    print("\n(Skipped git push — run without --no-push to deploy)")
