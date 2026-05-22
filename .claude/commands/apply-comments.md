@@ -62,11 +62,13 @@ curl -s -X DELETE "https://api.hypothes.is/api/annotations/{id}" \
   -H "Authorization: Bearer $HYPOTHESIS_TOKEN"
 ```
 
-## Step 5 — Rebuild and push
+## Step 5 — Rebuild only (no push)
 
 ```bash
-python3.11 rebuild_preview.py
+python3.11 rebuild_preview.py --no-push
 ```
+
+Do not push. The user will decide when to push.
 
 ## Step 6 — Report back
 
