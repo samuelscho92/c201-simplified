@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session 2C: Understanding Repentance — C201 Simplified</title>
+  <script async src="https://hypothes.is/embed.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #eef0ee;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      width: 260px;
+      min-width: 260px;
+      background: #1c2b3a;
+      color: #c8d8e8;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      flex-shrink: 0;
+      transition: width 0.2s ease, min-width 0.2s ease;
+    }
+    #sidebar.collapsed {
+      width: 48px;
+      min-width: 48px;
+      overflow: hidden;
+    }
+    #sidebar.collapsed .chapter-group,
+    #sidebar.collapsed #sidebar-header h1,
+    #sidebar.collapsed #sidebar-header p {
+      display: none;
+    }
+
+    #sidebar-header {
+      padding: 20px 18px 14px;
+      border-bottom: 1px solid #2e4257;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    #sidebar.collapsed #sidebar-header {
+      padding: 14px 0;
+      justify-content: center;
+      border-bottom: none;
+    }
+    #sidebar-header h1 {
+      font-size: 0.95em;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    #sidebar-header p {
+      font-size: 0.75em;
+      color: #7a9bb5;
+      margin-top: 2px;
+    }
+
+    #collapse-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #5a7a96;
+      padding: 2px;
+      flex-shrink: 0;
+      line-height: 0;
+      transition: color 0.15s;
+    }
+    #collapse-btn:hover { color: #fff; }
+
+    .chapter-group { margin-top: 8px; }
+    .chapter-label {
+      font-size: 0.68em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      padding: 10px 18px 4px;
+    }
+
+    .session-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      text-decoration: none;
+      padding: 7px 18px;
+      color: #b0c8dc;
+      font-size: 0.82em;
+      line-height: 1.4;
+      transition: background 0.15s;
+    }
+    .session-btn:hover { background: #243546; color: #fff; }
+    .session-btn.active {
+      background: #2d4a62;
+      color: #fff;
+      border-left: 3px solid #c9a84c;
+      padding-left: 15px;
+    }
+    .session-btn .session-id {
+      font-weight: 700;
+      font-size: 0.9em;
+      color: #c9a84c;
+      display: block;
+    }
+    .session-btn.active .session-id { color: #e8c96a; }
+
+    /* ── Main area ── */
+    #main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Toolbar ── */
+    #toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 8px 16px;
+      background: #f5f6f4;
+      border-bottom: 1px solid #dde0da;
+      flex-shrink: 0;
+    }
+
+    #toggle-btn {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid #c5c9c2;
+      background: #fff;
+      color: #444;
+      font-size: 0.8em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      letter-spacing: 0.02em;
+    }
+    #toggle-btn:hover { background: #eef0ee; border-color: #aaa; }
+    #toggle-btn.active {
+      background: #1c2b3a;
+      color: #fff;
+      border-color: #1c2b3a;
+    }
+    #toggle-btn svg { flex-shrink: 0; }
+
+    /* ── Split view ── */
+    #split-wrap {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+
+    #pdf-pane {
+      flex: 1;
+      display: none;
+      border-right: 2px solid #c9a84c;
+      background: #555;
+      overflow: hidden;
+    }
+    #pdf-pane.visible { display: flex; flex-direction: column; }
+
+    #pdf-label {
+      padding: 6px 14px;
+      background: #3a3a3a;
+      color: #c9a84c;
+      font-size: 0.72em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      flex-shrink: 0;
+    }
+
+    #pdf-frame {
+      flex: 1;
+      width: 100%;
+      border: none;
+    }
+
+    /* ── Simplified pane ── */
+    #content-wrap {
+      flex: 1;
+      overflow-y: auto;
+      padding: 40px 48px;
+      min-width: 0;
+    }
+
+    #content {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 56px 64px;
+      border-radius: 4px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+
+    body.split-mode #content-wrap { padding: 24px 28px; }
+    body.split-mode #content { padding: 36px 40px; }
+
+    /* ── Typography ── */
+    #content h1 {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      color: #111;
+    }
+    #content h2 {
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1a5276;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #d4e6f1;
+    }
+    #content h3 {
+      font-size: 1em;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 6px;
+    }
+    #content p { margin-bottom: 10px; }
+    #content hr {
+      border: none;
+      border-top: 1px solid #eaeaea;
+      margin: 28px 0;
+    }
+    #content strong { font-weight: 600; }
+    #content em { font-style: italic; }
+
+    #content blockquote {
+      margin: 14px 0;
+      padding: 14px 20px;
+      background: #fdf8ee;
+      border-left: 4px solid #c9a84c;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.96em;
+      color: #333;
+    }
+    #content blockquote p { margin-bottom: 6px; }
+    #content blockquote p:last-child { margin-bottom: 0; }
+
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 18px;
+      font-size: 0.88em;
+    }
+    #content th {
+      background: #1a5276;
+      color: #fff;
+      text-align: left;
+      padding: 7px 12px;
+      font-weight: 600;
+    }
+    #content td {
+      padding: 6px 12px;
+      border-bottom: 1px solid #eaeaea;
+      vertical-align: top;
+    }
+    #content tr:nth-child(even) td { background: #f5f8fc; }
+    #content tr:last-child td { border-bottom: none; }
+
+    #content ul, #content ol {
+      padding-left: 24px;
+      margin-bottom: 10px;
+    }
+    #content li { margin-bottom: 3px; }
+
+    #content p > em:only-child {
+      font-size: 0.8em;
+      color: #999;
+    }
+
+    /* ── Giscus ── */
+    #giscus-section {
+      max-width: 780px;
+      margin: 24px auto 40px;
+    }
+    #giscus-section h3 {
+      font-size: 0.75em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #dde0da;
+    }
+
+    /* ── Print ── */
+    @media print {
+      #sidebar, #toolbar, #pdf-pane, #giscus-section { display: none !important; }
+      body { display: block; overflow: visible; }
+      #content-wrap { padding: 0; overflow: visible; }
+      #content { box-shadow: none; padding: 40px; max-width: 100%; }
+    }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <div id="sidebar-header">
+    <div>
+      <h1>C201 Simplified</h1>
+      <p>IELTS 3 Edition</p>
+    </div>
+    <button id="collapse-btn" title="Collapse sidebar">
+      <svg id="collapse-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+  <div id="session-list"><div class="chapter-group"><div class="chapter-label">Chapter 1</div><a href="C201_1A_Seeing_God.html" class="session-btn"><span class="session-id">1A</span>SESSION 1A — SEEING GOD</a><a href="C201_1B_Seeing_Myself.html" class="session-btn"><span class="session-id">1B</span>SESSION 1B — SEEING MYSELF</a><a href="C201_1C_The_Cross.html" class="session-btn"><span class="session-id">1C</span>SESSION 1C — THE CROSS</a><a href="C201_1D_Self_Reflection.html" class="session-btn"><span class="session-id">1D</span>SESSION 1D — SELF-REFLECTION</a></div><div class="chapter-group"><div class="chapter-label">Chapter 2</div><a href="C201_2A_We_Need_Repentance.html" class="session-btn"><span class="session-id">2A</span>Session 2A: We Need Repentance</a><a href="C201_2B_Why_Repentance_Feels_Hard.html" class="session-btn"><span class="session-id">2B</span>Session 2B: Why Repentance Feels Hard</a><a href="C201_2C_Understanding_Repentance.html" class="session-btn active"><span class="session-id">2C</span>Session 2C: Understanding Repentance</a><a href="C201_2D_The_Repentance_Loop.html" class="session-btn"><span class="session-id">2D</span>Session 2D: The Repentance Loop</a></div><div class="chapter-group"><div class="chapter-label">Chapter 3</div><a href="C201_3A_What_Is_Real.html" class="session-btn"><span class="session-id">3A</span>SESSION 3A — WHAT IS REAL?</a><a href="C201_3B_Reality_of_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3B</span>SESSION 3B — REALITY OF HEAVEN AND HELL</a><a href="C201_3C_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3C</span>SESSION 3C — HEAVEN AND HELL</a><a href="C201_3D_Worship.html" class="session-btn"><span class="session-id">3D</span>SESSION 3D — WORSHIP</a><a href="C201_3E_Evangelism.html" class="session-btn"><span class="session-id">3E</span>SESSION 3E — EVANGELISM: HABITS TO FORM</a></div><div class="chapter-group"><div class="chapter-label">Chapter 4</div><a href="C201_4A_Know_Your_Enemy.html" class="session-btn"><span class="session-id">4A</span>SESSION 4A — KNOW YOUR ENEMY</a><a href="C201_4B_Spiritual_Battle.html" class="session-btn"><span class="session-id">4B</span>SESSION 4B — SPIRITUAL BATTLE</a><a href="C201_4C_Two_Crucial_Weapons.html" class="session-btn"><span class="session-id">4C</span>SESSION 4C — TWO CRUCIAL WEAPONS</a><a href="C201_4D_Praying_Like_Jesus.html" class="session-btn"><span class="session-id">4D</span>SESSION 4D — HABITS TO FORM: PRAYING LIKE JESUS</a></div></div>
+</nav>
+
+<div id="main">
+  <div id="toolbar">
+    <button id="toggle-btn" title="Toggle side-by-side with source PDF">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="9" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      Compare with Source
+    </button>
+  </div>
+
+  <div id="split-wrap">
+    <div id="pdf-pane">
+      <div id="pdf-label">Source PDF</div>
+      <iframe id="pdf-frame" title="Source PDF"></iframe>
+    </div>
+    <div id="content-wrap">
+      <div id="content"><h1>Session 2C: Understanding Repentance</h1>
+<p><em>Course 201 · Chapter 2: Repentance · Module 2C</em></p>
+<p>In this session, we look at the real shape of repentance. Repentance brings refreshing, not only sorrow. Jesus wants to wash us every day. Real change inside us takes time. And under every sin, there is a deeper sin we must repent of too.</p>
+<hr />
+<h2>Key Words for This Session</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Word</th>
+<th style="text-align: left;">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Refreshing</strong></td>
+<td style="text-align: left;">New strength. New joy. A feeling of being clean and alive again.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Metanoia</strong></td>
+<td style="text-align: left;">A Greek word from the Bible. It means "change of mind." When we repent, our mind changes about our sin and about Jesus.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Humility</strong></td>
+<td style="text-align: left;">To see yourself truly. Not too high. Not too low. To know you need God.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Broken / Brokenness</strong></td>
+<td style="text-align: left;">Knowing that we are weak and full of sin. Knowing we need God's help every day.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sin beneath the sin</strong></td>
+<td style="text-align: left;">The deeper sin under every sin we do. The deeper sin is not trusting the gospel.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pseudo-god</strong></td>
+<td style="text-align: left;">A fake god. Something we trust in to save us, instead of Jesus. (Examples: money, success, the approval of others.)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>1. Repentance Brings Refreshing</h2>
+<p>Some people think repentance must always feel sad and heavy. Yes, repentance is serious. Yes, it can involve sorrow. If our sin caused great harm, our sorrow may be deep.</p>
+<p>But the Bible promises something else as well. After we repent, God brings us refreshing.</p>
+<h3>Acts 3:19–20 (NLT)</h3>
+<p>¹⁹ Now repent of your sins and turn to God, so that your sins may be wiped away. ²⁰ Then times of refreshing¹ will come from the presence² of the Lord, and he will again send you Jesus, your appointed Messiah³.</p>
+<p><strong>Word Help</strong></p>
+<ol>
+<li><strong>Refreshing</strong> — New strength. New joy. Feeling clean and alive again.  </li>
+<li><strong>Presence</strong> — Being with someone. Being close to them.  </li>
+<li><strong>Messiah</strong> — The Chosen One. God's promised Savior, who is Jesus.</li>
+</ol>
+<p>Peter promised that after his listeners repented, "times of refreshing" would come to them from the Lord. This is a sign that our repentance is real. After we repent, our friendship with God is made strong again. And from that friendship comes joy.</p>
+<p>Yes, when we repent, our pride takes a hit. But our pride is not our friend. Our pride is like a tyrant — a hard ruler that controls us. When our pride is hurt, we feel weaker, but we also feel free. A clean, peaceful feeling enters our heart.</p>
+<h3>Discussion</h3>
+<p><strong>Have you ever told a friend or family member that you were sorry, and felt closer to them after? What did that feel like?</strong></p>
+<hr />
+<hr />
+<p><strong>Have you felt the same kind of refreshing with God after you repented?</strong></p>
+<hr />
+<hr />
+<hr />
+<h2>2. Jesus Wants to Wash Us Every Day</h2>
+<p>Some people think repentance should only happen rarely. They feel that big repentance is for big sins, and small sins do not need it. But Jesus taught his disciples something different. Listen to this story from the last night Jesus spent with his friends.</p>
+<h3>John 13:1–8 (NLT)</h3>
+<p>¹ Before the Passover¹ celebration, Jesus knew that his hour had come to leave this world and return to his Father. He had loved his disciples² during his ministry on earth, and now he loved them to the very end. ² It was time for supper, and the devil had already prompted Judas, son of Simon Iscariot, to betray Jesus. ³ Jesus knew that the Father had given him authority over everything and that he had come from God and would return to God. ⁴ So he got up from the table, took off his robe, wrapped a towel around his waist, ⁵ and poured water into a basin³. Then he began to wash the disciples' feet, drying them with the towel he had around him. ⁶ When Jesus came to Simon Peter, Peter said to him, "Lord, are you going to wash my feet?" ⁷ Jesus replied, "You don't understand now what I am doing, but someday you will." ⁸ "No," Peter protested, "you will never ever wash my feet!" Jesus replied, "Unless I wash you, you won't belong to me."</p>
+<p><strong>Word Help</strong></p>
+<ol>
+<li><strong>Passover</strong> — A Jewish festival that remembers when God saved his people from slavery in Egypt.  </li>
+<li><strong>Disciples</strong> — The students and followers of Jesus.  </li>
+<li><strong>Basin</strong> — A bowl for holding water.</li>
+</ol>
+<p>This is a strange scene. Jesus is the master. His disciples are his students. But Jesus is washing their feet. In that time, washing feet was the job of a servant. Why is Jesus doing it?</p>
+<p>Jesus is not washing their feet to teach them a lesson by making them uncomfortable. He is showing them something deeper. When Peter does not want it, Jesus tells him, "Someday you will understand."</p>
+<p>That "someday" is after the cross. After Jesus dies and rises again, Peter will understand. The foot-washing was a picture of something bigger. Jesus' blood on the cross was going to wash away the sins of his disciples.</p>
+<p>So when Peter says, "You will never ever wash my feet," Jesus answers him sharply: "Unless I wash you, you won't belong to me."</p>
+<p>This sounds hard. But it is true. Jesus came for one main reason: to die so he could wash away our sins. If we keep refusing to let him wash us — if we keep hiding our dirty parts because we are ashamed — then Jesus must say to us, "If I do not wash you, you and I have no relationship." To refuse repentance is to push Jesus away. But Jesus wants to wash you. That is why he came.</p>
+<p>Think about feet in that time. The disciples wore sandals on dusty roads. Their feet got dirty every day. They needed daily washing. This is the picture Jesus uses for us. We sin every day. We need daily washing. And Jesus does not mind doing it. In fact, the passage says he washed their feet because he loved them (verse 1).</p>
+<p>So do not be afraid to bring your worst, most shameful self to Jesus every day. He wants to wash you. That is why he came.</p>
+<h3>Discussion</h3>
+<p><strong>Peter said "no" to Jesus washing his feet. Why do you think Peter said no? What was going on in his heart?</strong></p>
+<hr />
+<hr />
+<p><strong>Are there parts of your life that you do not want to show Jesus? Why?</strong></p>
+<hr />
+<hr />
+<hr />
+<h2>3. Real Change Takes Time</h2>
+<p>Some people think that if their repentance is real, they will stop their sin right away. They think, "I repented. I should not do that sin again."</p>
+<p>This thinking sounds right, but it is not the whole truth.</p>
+<p>The Greek word for repentance is <em>metanoia</em>. It means "change of mind." When we repent, our mind does change about our sin. We see our sin clearly. We hate it. We love the Jesus who forgives us. That is a real and important change.</p>
+<p>But changing our actions can take time. Sometimes a lot of time.</p>
+<p>Many Christians get stuck in a circle that feels like this:</p>
+<ul>
+<li>You lose your temper and shout at someone.  </li>
+<li>You feel terrible. You repent and ask God to help you stop.  </li>
+<li>You promise yourself, "I will not do this again."  </li>
+<li>A week later, you lose your temper and shout at someone again.</li>
+</ul>
+<p>If this happens, you may feel that your repentance was not real. You may feel that you are failing as a Christian. You may want to give up.</p>
+<p>But there is something important to understand. Even when the outside change is slow, an inside change is happening.</p>
+<p>Each time we repent, three things happen inside us:</p>
+<ul>
+<li>We become more humble. We see that we cannot fix ourselves.  </li>
+<li>We see how broken we are. We see how much we need God.  </li>
+<li>We trust the cross of Jesus more. We lean on him more.</li>
+</ul>
+<p>This is good ground to be on. A person who is humble and dependent on Jesus is being changed by God, even if the sin is still there.</p>
+<p>In the end, the biggest change repentance brings may not be that we stop sinning. It may be that we become a humble person, with a soft heart toward God and toward other people.</p>
+<h3>Isaiah 57:15 (NLT)</h3>
+<p>¹⁵ The high and lofty¹ one who lives in eternity, the Holy One, says this: "I live in the high and holy place with those whose spirits are contrite² and humble. I restore the crushed spirit of the humble and revive³ the courage of those with repentant hearts."</p>
+<p><strong>Word Help</strong></p>
+<ol>
+<li><strong>Lofty</strong> — Very high. Above everything.  </li>
+<li><strong>Contrite</strong> — Truly sorry for sin. With a soft, humble heart.  </li>
+<li><strong>Revive</strong> — To make alive again. To give new strength.</li>
+</ol>
+<h3>Psalm 51:17 (NLT)</h3>
+<p>¹⁷ The sacrifice¹ you desire is a broken spirit. You will not reject a broken and repentant heart, O God.</p>
+<p><strong>Word Help</strong></p>
+<ol>
+<li><strong>Sacrifice</strong> — A gift given to God. In the Old Testament, people gave animals. But God wants a humble heart most of all.</li>
+</ol>
+<p>God lives with people who have a humble and repentant heart. He does not push them away. He restores them. He makes them strong again.</p>
+<p>If you are stuck in the same sin and feel discouraged, do not give up. Keep repenting. Even if the outside change is slow, God is doing real work inside you. Take a moment now to pray. If the Holy Spirit is showing you a sin, repent of it. Thank God for the gift of repentance, made possible through the cross of Jesus.</p>
+<hr />
+<h2>4. Repent <em>and</em> Believe — The Sin Beneath the Sin</h2>
+<h3>Mark 1:14–15 (NLT)</h3>
+<p>¹⁴ Later on, after John was arrested, Jesus went into Galilee, where he preached God's Good News. ¹⁵ "The time promised by God has come at last!" he announced. "The Kingdom of God¹ is near! Repent of your sins and believe the Good News!"</p>
+<p><strong>Word Help</strong></p>
+<ol>
+<li><strong>Kingdom of God</strong> — The place where God is king. The people and the world that follow God.</li>
+</ol>
+<p>These are the very first words Jesus said when he began his teaching. Look carefully at what he said.</p>
+<p>Jesus did not say just "repent." He said, "Repent <em>and</em> believe."</p>
+<p>This is very important. Real repentance has two parts. We turn away from our sin. <strong>And</strong> we turn toward Jesus and trust the gospel more.</p>
+<h3>The Sin Beneath Every Sin</h3>
+<p>Here is something deep that many Christians miss. Under every sin we do, there is a deeper sin. Some Christians call this <strong>"the sin beneath the sin."</strong></p>
+<p>What is this deeper sin? It is failing to believe the gospel.</p>
+<p>Every sin we do has a hidden cause. The hidden cause is that we are not trusting Jesus for something. We are looking somewhere else for what only Jesus can give us.</p>
+<p>So when we repent, we should not stop with the surface sin. We should ask, "What deeper thing am I trusting in instead of Jesus?" Then we repent of that too. And we tell ourselves the gospel again.</p>
+<p>Let me show you what this looks like with a real example.</p>
+<h3>An Example: Jealousy When a Friend Succeeds</h3>
+<p><strong>The Surface Sin</strong></p>
+<p>Your close friend gets accepted into a top program. Everyone is celebrating for her. But inside, you feel a dark feeling. You feel jealous. You feel bitter. You force a smile and say "Congratulations," but in your heart, you wish her success was not so big.</p>
+<p>You feel guilty about this jealousy. So you repent. You ask God to forgive your jealous heart.</p>
+<p>This is good. But this is only the surface sin.</p>
+<p><strong>The Sin Beneath the Sin</strong></p>
+<p>Now ask the deeper question. <em>Why</em> did your friend's success make you feel so dark? Why could you not be happy for her?</p>
+<p>Maybe the answer is this: deep inside, you measure your worth by comparing yourself to other people. As long as you are doing better than your friends, you feel okay. But when your friend goes ahead of you, your worth feels smaller. Your fake god of "being better than others" is shaken.</p>
+<p>This is the sin beneath the sin: you were trusting your position above others to make you feel valuable, instead of trusting Jesus.</p>
+<p><strong>Believing the Gospel Again</strong></p>
+<p>Now you repent of the deeper sin. And you tell yourself the gospel again.</p>
+<p>The gospel says: God's love for you is not based on how you compare to other people. Jesus did not die for you because you are better than your friend. He died for you because you are his. Your worth is fixed. It is safe. It does not go up when others fail. It does not go down when others succeed.</p>
+<p>When you tell yourself this, you can be truly happy for your friend. Her success does not threaten you. Your worth was never in the comparison. It was always in Jesus.</p>
+<hr />
+<p>Do you see the pattern? Every sin has a sin beneath it. Every time we sin, there is a place in our heart where we have stopped trusting Jesus, and started trusting something else.</p>
+<p>When we repent, we must do two things:</p>
+<ul>
+<li><strong>Repent</strong> of the surface sin (the anger, the jealousy, the lie, the lust).  </li>
+<li><strong>Believe</strong> the gospel again at a deeper level. Find the fake god you were trusting. Repent of trusting it. Trust Jesus instead.</li>
+</ul>
+<p>This is what Jesus meant when he said, "Repent <em>and</em> believe the Good News." Every time we do this, the gospel goes deeper into our hearts.</p>
+<h3>Discussion</h3>
+<p><strong>Think of a sin you struggle with. (You do not need to share it.) What might be the sin beneath that sin? What are you trusting in instead of Jesus?</strong></p>
+<hr />
+<hr />
+<hr />
+<p><strong>What part of the gospel do you need to believe again at a deeper level?</strong></p>
+<hr />
+<hr />
+<hr />
+<h2>5. What Happens When We Misunderstand Repentance?</h2>
+<p>When we do not understand repentance, our Christian life suffers. Below are some of the things that happen. Talk about each one. Why does a wrong view of repentance lead to these problems?</p>
+<h3>Discussion</h3>
+<p><strong>Why might a wrong view of repentance lead to defensiveness?</strong> (We protect ourselves. We do not admit when we are wrong.)</p>
+<hr />
+<hr />
+<p><strong>Why might a wrong view of repentance lead to feeling far from God and from other people?</strong></p>
+<hr />
+<hr />
+<p><strong>Why might a wrong view of repentance lead to seeing God as someone we can never please?</strong></p>
+<hr />
+<hr />
+<p><strong>Why might a wrong view of repentance lead to hypocrisy?</strong></p>
+<hr />
+<hr />
+<hr />
+<p><em>Course 201 · Module 2C · Understanding Repentance · Simplified Edition</em>  </p></div>
+      <div id="giscus-section">
+        <h3>Session Notes</h3>
+        <div id="giscus-container"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const PDF_PATH = '../C201_Source_PDFs/Ch2/C201_2C_Booklet.pdf';
+
+
+// Sidebar collapse
+const collapseBtn = document.getElementById('collapse-btn');
+const collapseIcon = document.getElementById('collapse-icon');
+const sidebar = document.getElementById('sidebar');
+const expandPath = '<path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+const collapsePath = '<path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+
+collapseBtn.addEventListener('click', () => {
+  const collapsed = sidebar.classList.toggle('collapsed');
+  collapseIcon.innerHTML = collapsed ? collapsePath : expandPath;
+  collapseBtn.title = collapsed ? 'Expand sidebar' : 'Collapse sidebar';
+});
+
+// PDF split toggle
+const toggleBtn = document.getElementById('toggle-btn');
+const pdfPane = document.getElementById('pdf-pane');
+const pdfFrame = document.getElementById('pdf-frame');
+let pdfLoaded = false;
+
+toggleBtn.addEventListener('click', () => {
+  const active = pdfPane.classList.toggle('visible');
+  toggleBtn.classList.toggle('active', active);
+  document.body.classList.toggle('split-mode', active);
+  if (active && !pdfLoaded && PDF_PATH) {
+    pdfFrame.src = PDF_PATH;
+    pdfLoaded = true;
+  }
+});
+
+
+// Giscus
+(function() {
+  const s = document.createElement('script');
+  s.src = 'https://giscus.app/client.js';
+  s.setAttribute('data-repo', 'samuelscho92/c201-simplified');
+  s.setAttribute('data-repo-id', 'R_kgDOSkR22Q');
+  s.setAttribute('data-category', 'General');
+  s.setAttribute('data-category-id', 'DIC_kwDOSkR22c4C9oLp');
+  s.setAttribute('data-mapping', 'specific');
+  s.setAttribute('data-term', 'C201_2C_Understanding_Repentance');
+  s.setAttribute('data-reactions-enabled', '1');
+  s.setAttribute('data-emit-metadata', '0');
+  s.setAttribute('data-input-position', 'top');
+  s.setAttribute('data-theme', 'light');
+  s.setAttribute('data-lang', 'en');
+  s.crossOrigin = 'anonymous';
+  s.async = true;
+  document.getElementById('giscus-container').appendChild(s);
+})();
+</script>
+</body>
+</html>

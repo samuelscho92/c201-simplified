@@ -1,4 +1,5 @@
 # SESSION 1B — SEEING MYSELF
+
 **Course 201 · Chapter 1 · Holiness of God**
 
 ---
@@ -6,20 +7,20 @@
 ## Key Words
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | prophet | a person God chose to speak his words to people |
 | conviction | knowing you have done wrong |
 | wrath | God's holy anger toward sin |
 
 ---
 
-## Part 1: Seeing Myself — "Woe Is Me!"
+## Part 1: Seeing Myself — "Woe Is Me\!"
 
 In the last session, we read about Isaiah seeing God.
 
 When Isaiah saw God's holiness, he immediately saw himself clearly.
 
-He saw that he was a sinner. He said: "Woe is me! I am lost!"
+He saw that he was a sinner. He said: "Woe is me\! I am lost\!"
 
 **Quote — R.C. Sproul, *Holiness of God*:**
 
@@ -41,19 +42,19 @@ Peter had a very similar experience when he first met Jesus.
 
 > When he had finished speaking, he said to Simon, "Now go out where it is deeper, and let down your nets to catch some fish."
 >
-> "Master," Simon replied, "we worked hard all last night and didn't catch a thing. But if you say so, I'll let the nets down again." And this time their nets were so full of fish they began to tear! A shout for help brought their partners in the other boat, and soon both boats were filled with fish and on the verge of sinking.
+> "Master," Simon replied, "we worked hard all last night and didn't catch a thing. But if you say so, I'll let the nets down again." And this time their nets were so full of fish they began to tear\! A shout for help brought their partners in the other boat, and soon both boats were filled with fish and on the verge of sinking.
 >
 > When Simon Peter realized what had happened, he fell to his knees before Jesus and said, "Oh, Lord, please leave me — I'm such a sinful man." For he was awestruck by the number of fish they had caught, as were the others with him. His partners, James and John, the sons of Zebedee, were also amazed.
 >
-> Jesus replied to Simon, "Don't be afraid! From now on you'll be fishing for people!"
-
-Peter did not say: "Jesus, that was amazing! Come fishing with us every day!"
-
-He recognized who Jesus was. And at the same moment, he saw who he was — a sinner.
-
-Just as Isaiah was, Peter was then given a mission by God.
-
-**The pattern is clear: we do not truly know ourselves until we see ourselves in the light of who God is.**
+> Jesus replied to Simon, "Don't be afraid\! From now on you'll be fishing for people\!"
+>
+> Peter did not say: "Jesus, that was amazing\! Come fishing with us every day\!"
+>
+> He recognized who Jesus was. And at the same moment, he saw who he was — a sinner.
+>
+> Just as Isaiah was, Peter was then given a mission by God.
+>
+> **The pattern is clear: we do not truly know ourselves until we see ourselves in the light of who God is.**
 
 ---
 
@@ -116,7 +117,7 @@ History shows that whole nations can think they are good when they are not.
 *Definitions:*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | suppress¹ | to hide or stop something from being known |
 | divine nature² | the qualities that belong to God alone |
 | worship³ | to honor and praise God as the greatest |
@@ -209,6 +210,7 @@ This brings out of us Isaiah's cry:
 
 **Discussion Questions:**
 
-1. What are some ways you avoid seeing yourself clearly?
-2. Describe a time when you saw your sin more clearly. What helped you see it?
+1. What are some ways you avoid seeing yourself clearly?  
+2. Describe a time when you saw your sin more clearly. What helped you see it?  
 3. How has understanding God's holiness changed the way you see yourself?
+

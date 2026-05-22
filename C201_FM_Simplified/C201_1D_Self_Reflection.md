@@ -1,4 +1,5 @@
 # SESSION 1D — SELF-REFLECTION
+
 **Course 201 · Chapter 1 · Holiness of God**
 
 ---
@@ -6,7 +7,7 @@
 ## Key Words
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | self-reflection | thinking honestly and carefully about yourself |
 | discipline | doing something regularly and with purpose |
 | solitude | being alone and quiet on purpose |
@@ -20,7 +21,7 @@
 
 In this course, we have learned that God is holy.
 
-We have also seen that when people encounter God's holiness, they see themselves clearly.
+We have also seen that when people meet God's holiness, they see themselves clearly.
 
 **Self-reflection is a practice that helps us see ourselves honestly — against the background of God's holiness.**
 
@@ -38,14 +39,14 @@ Without it, we go through life with a wrong picture of ourselves.
 
 **Quote — Henri Nouwen, *Making All Things New*:**
 
-> "As soon as we are alone, inner chaos opens up in us. When we remove outside distractions, our inner problems appear with full force. We often use outside activities to protect ourselves from what is happening inside."
+> "As soon as we are alone, inner chaos opens up in us. When we remove outside distractions, we clearly see our inner problems. We often use outside activities to protect ourselves from what is happening inside."
 
 *(Simplified from original)*
 
 *Definitions:*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | chaos¹ | great confusion and disorder |
 | distraction² | something that stops you from thinking or focusing |
 
@@ -61,13 +62,11 @@ This is why many people stay busy — to avoid facing themselves.
 
 ## What Is Self-Reflection?
 
-Self-reflection is **written thinking**.
-
-You write about something that happened — an event, a moment, a reaction.
+Self-reflection is **written thinking about something that happened — an event, a moment, a reaction.**
 
 You think carefully and honestly about what it reveals about you.
 
-Writing helps you be more honest. It slows down your thinking. It cuts through excuses.
+Writing helps you be more honest. It helps focus our thoughts.
 
 ---
 
@@ -85,7 +84,7 @@ Write only facts. Do not write feelings or excuses yet.
 
 *Example: Instead of writing "I felt attacked, so I responded strongly," just write: "I raised my voice at my friend."*
 
-Focusing on facts stops you from justifying what you did.
+Focusing on facts stops you from making excuses.
 
 ---
 
@@ -93,10 +92,10 @@ Focusing on facts stops you from justifying what you did.
 
 After writing the facts, ask yourself some questions:
 
-- Why did I say that?
-- Why did I do that?
-- What was I feeling at that moment?
-- What was going through my mind?
+- Why did I say that?  
+- Why did I do that?  
+- What was I feeling at that moment?  
+- What was going through my mind?  
 - What happened before this incident?
 
 This step helps you understand what was really going on inside you.
@@ -113,14 +112,14 @@ After you have the facts and have explored your feelings, ask:
 
 Some helpful questions:
 
-- What does this show about what drives me?
-- What does this show about what is inside my heart?
-- What does this show about how I see God, others, or myself?
+- What does this show about what drives me?  
+- What does this show about what is inside my heart?  
+- What does this show about how I see God, others, or myself?  
 - What does this reveal about what matters most to me?
 
 **Important:** Use simple, plain words. Do not be overly dramatic.
 
-*Example: Do not write "I feel I don't deserve the cross of Jesus!" Instead write: "I spoke unkindly because I wanted people to notice me."*
+*Example: Do not write "I feel I don't deserve the cross of Jesus\!" Instead write: "I spoke unkindly because I wanted people to notice me."*
 
 The goal is clear truth — not strong emotion.
 
@@ -132,8 +131,8 @@ This step is what makes Christian self-reflection different from ordinary self-e
 
 Ask yourself:
 
-- What does the Bible say about this?
-- How does God's word correct me here?
+- What does the Bible say about this?  
+- How does God's word correct me here?  
 - What does the gospel say to me at this point?
 
 This step is very important. Without it, two bad things can happen:
@@ -155,13 +154,13 @@ Both problems leave God out of the process.
 *Definitions:*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | scarlet³ | bright red — a picture of serious sin |
 | crimson⁴ | another word for deep red |
 
-God does not ask us to fix ourselves first. He says: "Come. Let us talk. Let me clean you."
+God does not ask us to fix ourselves first. He says: "Come. Let us talk. Let me make you clean."
 
-Above all, be honest. God wants to talk with you. He wants to forgive you and heal you.
+Above all, be honest. God wants to talk with you. He wants to forgive you and to heal you.
 
 ---
 
@@ -175,13 +174,9 @@ Above all, be honest. God wants to talk with you. He wants to forgive you and he
 
 ## Why Self-Reflection Matters
 
-By nature, we have many layers of self-deception.
+By nature, we deny, rationalize, and justify our sin.
 
-We deny, rationalize, and justify our sin.
-
-Written self-reflection helps cut through all of this.
-
-It helps us find the truth about who we are.
+Written self-reflection helps us to find the truth about who we really are.
 
 And with the truth, we can also find God's grace, forgiveness, and freedom. When we know ourselves truly, we begin to love God's grace more and more.
 
@@ -205,18 +200,18 @@ Choose one recent incident or pattern in your life.
 
 Work through all four steps in writing:
 
-1. **Facts** — What happened?
-2. **Explore** — What was I feeling and thinking?
-3. **What does this reveal?** — What does this show about my heart?
+1. **Facts** — What happened?  
+2. **Explore** — What was I feeling and thinking?  
+3. **What does this reveal?** — What does this show about my heart?  
 4. **Word of God** — What does the Bible say? What does the gospel give me?
 
 ---
 
 ## Discussion Questions
 
-1. Is it easy or hard for you to think honestly about yourself? Why?
-2. Which of the 4 steps do you find most difficult? Why?
-3. What happens when you skip Step 4 (the Word of God)?
+1. Is it easy or hard for you to think honestly about yourself? Why?  
+2. Which of the 4 steps do you find most difficult? Why?  
+3. What happens when you skip Step 4 (the Word of God)?  
 4. Share what you discovered about yourself from the exercise.
 
 ---
@@ -227,7 +222,8 @@ Work through all four steps in writing:
 
 **Chapter 1 Summary:**
 
-- **1A — Seeing God:** God is holy. He is separate from and far above all things.
-- **1B — Seeing Myself:** When we see God's holiness, we see our sin clearly.
-- **1C — The Cross:** Jesus took the punishment for our sin. This is the greatest news.
+- **1A — Seeing God:** God is holy. He is separate from and far above all things.  
+- **1B — Seeing Myself:** When we see God's holiness, we see our sin clearly.  
+- **1C — The Cross:** Jesus took the punishment for our sin. This is the greatest news.  
 - **1D — Self-Reflection:** We practice seeing ourselves honestly through God's word.
+

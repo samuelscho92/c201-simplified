@@ -1,4 +1,5 @@
 # SESSION 3B — REALITY OF HEAVEN AND HELL
+
 **Course 201 · Chapter 3 · Heaven and Hell**
 
 ---
@@ -6,7 +7,7 @@
 ## Key Words
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | eternal | lasting forever; with no end |
 | judgment | God's final decision about each person's eternal life |
 | paradise | a place of perfect joy and peace with God |
@@ -48,7 +49,7 @@ The Bible talks about heaven and hell more than almost any other topic.
 
 **Luke 13:24–29 (NLT)**
 
-> "Work hard to enter the narrow door to God's Kingdom, for many will try to enter but will fail. When the master of the house has locked the door, it will be too late. You will stand outside knocking and pleading, 'Lord, open the door for us!' But he will reply, 'I don't know you or where you come from.' Then you will say, 'But we ate and drank with you, and you taught in our streets.' And he will reply, 'I tell you, I don't know you or where you come from. Get away from me, all you who do evil.' There will be weeping and gnashing of teeth, for you will see Abraham, Isaac, Jacob, and all the prophets in the Kingdom of God, but you will be thrown out. And people will come from all over the world — from east and west, north and south — to take their places in the Kingdom of God."
+> "Work hard to enter the narrow door to God's Kingdom, for many will try to enter but will fail. When the master of the house has locked the door, it will be too late. You will stand outside knocking and pleading, 'Lord, open the door for us\!' But he will reply, 'I don't know you or where you come from.' Then you will say, 'But we ate and drank with you, and you taught in our streets.' And he will reply, 'I tell you, I don't know you or where you come from. Get away from me, all you who do evil.' There will be weeping and gnashing of teeth, for you will see Abraham, Isaac, Jacob, and all the prophets in the Kingdom of God, but you will be thrown out. And people will come from all over the world — from east and west, north and south — to take their places in the Kingdom of God."
 
 **Romans 2:4–8 (NLT)**
 
@@ -90,7 +91,7 @@ As Jesus was dying on the cross, he taught us the truth of heaven one final time
 
 **Luke 23:39–43 (NLT)**
 
-> One of the criminals hanging beside him scoffed, "So you're the Messiah, are you? Prove it by saving yourself — and us, too, while you're at it!"
+> One of the criminals hanging beside him scoffed, "So you're the Messiah, are you? Prove it by saving yourself — and us, too, while you're at it\!"
 >
 > But the other criminal protested, "Don't you fear God even when you have been sentenced to die? We deserve to die for our crimes, but this man hasn't done anything wrong." Then he said, "Jesus, remember me when you come into your Kingdom."
 >
@@ -116,17 +117,17 @@ This criminal had no time to do good works. He simply believed who Jesus was, ad
 
 > After saying all these things, Jesus looked up to heaven and said, "Father, the hour has come. Glorify your Son so he can give glory back to you. For you have given him authority over everyone. He gives eternal life to each one you have given him. And this is the way to have eternal life — to know you, the only true God, and Jesus Christ, the one you sent to earth."
 >
-> "Father, I want these whom you have given me to be with me where I am. Then they can see all the glory you gave me because you loved me even before the world began!"
-
-Notice: eternal life is not simply living forever. It is *knowing* God. It is a restored relationship that goes on without end. Heaven is joining the life of God himself.
+> "Father, I want these whom you have given me to be with me where I am. Then they can see all the glory you gave me because you loved me even before the world began\!"
+>
+> Notice: eternal life is not simply living forever. It is *knowing* God. It is a restored relationship that goes on without end. Heaven is joining the life of God himself.
 
 **2 Corinthians 4:7, 16–18 (NLT)**
 
 > We now have this light shining in our hearts, but we ourselves are like fragile clay jars containing this great treasure. This makes it clear that our great power is from God, not from ourselves.
 >
-> That is why we never give up. Though our bodies are dying, our spirits are being renewed every day. For our present troubles are small and won't last very long. Yet they produce for us a glory that vastly outweighs them and will last forever! So we don't look at the troubles we can see now; rather, we fix our gaze on things that cannot be seen. For the things we see now will soon be gone, but the things we cannot see will last forever.
-
-Our suffering in this life is real. But it is preparing us for something far greater — an eternal glory that makes every present difficulty seem small.
+> That is why we never give up. Though our bodies are dying, our spirits are being renewed every day. For our present troubles are small and won't last very long. Yet they produce for us a glory that vastly outweighs them and will last forever\! So we don't look at the troubles we can see now; rather, we fix our gaze on things that cannot be seen. For the things we see now will soon be gone, but the things we cannot see will last forever.
+>
+> Our suffering in this life is real. But it is preparing us for something far greater — an eternal glory that makes every present difficulty seem small.
 
 ---
 

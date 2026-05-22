@@ -1,11 +1,12 @@
 # SESSION 1A — SEEING GOD
+
 **Course 201 · Chapter 1 · Holiness of God**
 
 ---
 
 ## Opening Song: "Alas, and Did My Savior Bleed"
 
-> *[KEEP ORIGINAL HYMN TEXT — do not rewrite]*
+*\[KEEP ORIGINAL HYMN TEXT — do not rewrite\]*
 
 **What this song means:**
 
@@ -37,12 +38,12 @@ This is also true with God.
 
 **Jeremiah 9:23–24 (NLT)**
 
-> This is what the LORD says: "Don't let the wise boast in their wisdom, or the powerful boast in their power, or the rich boast in their riches. But those who wish to boast should boast in this alone: that they truly know me and understand that I am the LORD who demonstrates unfailing love and who brings justice and righteousness to the earth, and that I delight in these things. I, the LORD, have spoken!"
+> This is what the LORD says: "Don't let the wise boast in their wisdom, or the powerful boast in their power, or the rich boast in their riches. But those who wish to boast should boast in this alone: that they truly know me and understand that I am the LORD who demonstrates unfailing love and who brings justice and righteousness to the earth, and that I delight in these things. I, the LORD, have spoken\!"
 
 *Definition table (right sidebar):*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | boast¹ | to talk proudly about yourself |
 | unfailing love² | love that never stops or changes |
 | justice³ | treating people fairly; punishing wrong |
@@ -52,12 +53,12 @@ This is also true with God.
 
 **Isaiah 1:2–3 (NLT)**
 
-> Listen, O heavens! Pay attention, earth! This is what the LORD says: "The children I raised and cared for have rebelled against me. Even an ox knows its owner, and a donkey recognizes its master's care — but Israel doesn't know its master. My people don't recognize my care for them."
+> Listen, O heavens\! Pay attention, earth\! This is what the LORD says: "The children I raised and cared for have rebelled against me. Even an ox knows its owner, and a donkey recognizes its master's care — but Israel doesn't know its master. My people don't recognize my care for them."
 
 *Definition table (right sidebar):*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | rebelled⁵ | refused to obey; turned against |
 
 ---
@@ -84,7 +85,7 @@ Holiness is very important. We must understand it to know who God really is.
 
 Without understanding holiness, we will have a wrong view of God. Our Christian life will also be weak.
 
-If we do not understand holiness, the cross is confusing. We will not be able to understand why Jesus had to suffer and die.
+If we do not understand holiness, the cross of Jesus is confusing. We will not be able to understand why Jesus had to suffer and die.
 
 ---
 
@@ -102,11 +103,11 @@ The Bible also says: "Holy is his name" (Luke 1:49). His name is holy because he
 
 > It was in the year King Uzziah died that I saw the Lord. He was sitting on a lofty throne, and the train of his robe filled the Temple. Attending him were mighty seraphim, each having six wings. With two wings they covered their faces, with two they covered their feet, and with two they flew. They were calling out to each other,
 >
-> *"Holy, holy, holy is the LORD of Heaven's Armies! The whole earth is filled with his glory!"*
+> *"Holy, holy, holy is the LORD of Heaven's Armies\! The whole earth is filled with his glory\!"*
 >
 > Their voices shook the Temple to its foundations, and the entire building was filled with smoke.
 >
-> Then I said, "It's all over! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies."
+> Then I said, "It's all over\! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies."
 >
 > Then one of the seraphim flew to me with a burning coal he had taken from the altar with a pair of tongs. He touched my lips with it and said, "See, this coal has touched your lips. Now your guilt is removed, and your sins are forgiven."
 >
@@ -117,7 +118,7 @@ The Bible also says: "Holy is his name" (Luke 1:49). His name is holy because he
 *Definition table (right sidebar):*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | lofty⁶ | very high up |
 | glory | the great light, beauty, and power of God |
 | seraphim⁷ | powerful angels (see Key Words) |
@@ -144,7 +145,7 @@ This shows holiness is the most important thing to know about God.
 
 **Fill in the blank:**
 
-______, ______, ______ is the LORD of Heaven's Armies! The whole earth is filled with his glory.
+\_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_ is the LORD of Heaven's Armies\! The whole earth is filled with his glory.
 
 ---
 
@@ -178,39 +179,39 @@ Think of it this way: God is not just a little greater than us. He is in a compl
 
 **Discussion Questions:**
 
-1. What is something new you learned about the meaning of holiness?
-2. What do you think or feel when you think of God as holy?
-3. How strong is your sense of God's holiness right now?
+1. What is something new you learned about the meaning of holiness?  
+2. What do you think or feel when you think of God as holy?  
+3. How strong is your sense of God's holiness right now?  
 4. Why is it important to understand that God is holy?
 
 ---
 
 ## SESSION 1A QUIZ
 
-**1. Fill in the blank:**
+**1\. Fill in the blank:**
 
-To have a real relationship, we must be ____________ as we are.
+To have a real relationship, we must be \_\_\_\_\_\_\_\_\_\_\_\_ as we are.
 
 ---
 
-**2. Choose the best answer:**
+**2\. Choose the best answer:**
 
 In Isaiah 6, the seraphim said "Holy, holy, holy is the Lord of Heaven's Armies." What does this mean?
 
-- a) The Father, Son, and Holy Spirit are each holy
-- b) Holiness is the most important quality of God
-- c) The seraphim's feet were not clean before God
+- a) The Father, Son, and Holy Spirit are each holy  
+- b) Holiness is the most important quality of God  
+- c) The seraphim's feet were not clean before God  
 - d) This is the right way to come into God's presence
 
 ---
 
-**3. Choose the best answer:**
+**3\. Choose the best answer:**
 
 Which word does **not** mean "holy"?
 
-- a) Pure
-- b) Separate
-- c) Transcendent
+- a) Pure  
+- b) Separate  
+- c) Transcendent  
 - d) Just
 
 ---
@@ -219,5 +220,4 @@ Which word does **not** mean "holy"?
 
 ---
 
-**Layout Note (for document formatting):**
-Definition tables marked "right sidebar" should be placed in the right 1/3 column of the page, aligned with their corresponding Bible verse or quote. Use matching superscript numbers (¹ ² ³...) to connect difficult words in the text to their definitions in the sidebar table.
+**Layout Note (for document formatting):** Definition tables marked "right sidebar" should be placed in the right 1/3 column of the page, aligned with their corresponding Bible verse or quote. Use matching superscript numbers (¹ ² ³...) to connect difficult words in the text to their definitions in the sidebar table.  

@@ -1,4 +1,5 @@
 # SESSION 4D — HABITS TO FORM: PRAYING LIKE JESUS
+
 **Course 201 · Chapter 4 · Spiritual Battle**
 
 ---
@@ -6,10 +7,11 @@
 ## Key Words
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | hallowed | treated as holy; honored greatly |
 | kingdom | the rule and reign of a king |
-| debt | sin that must be forgiven |
+| debt | something owed; here: sin that must be forgiven |
+| debtor | a person who owes something; here: someone who has sinned against us |
 | temptation | an invitation to do something wrong |
 | sojourner | a traveler passing through; someone whose true home is elsewhere |
 
@@ -29,13 +31,13 @@ We can use it as a guide for a lifetime of prayer.
 
 ---
 
-**Notice: every pronoun is plural.**
+**Notice that the prayer says:**
 
 *Our* Father. Give *us* our bread. Forgive *us* our sins. Lead *us* not into temptation.
 
 We do not pray "My Father" — we pray "**Our** Father."
 
-When we call God our Father, we receive many brothers and sisters.
+When we call God **our** Father, we receive many brothers and sisters.
 
 **We are not meant to live this life alone.**
 
@@ -82,7 +84,8 @@ This world is not our final destination. We are passing through.
 No other name deserves this honor. Only God.
 
 Praying this means two things:
-1. We will live in a way that honors God's name.
+
+1. We will live in a way that honors God's name.  
 2. We will have no idols — nothing that takes God's place in our hearts.
 
 *Example prayer:*
@@ -100,13 +103,14 @@ People resist God. Evil continues.
 **We are called to pray and work so that God's will IS done — starting in our own hearts.**
 
 When we pray "your kingdom come," we are saying:
-- God, rule in my heart. Remove everything that resists you.
-- God, let your will be done in my family, my community, my city.
+
+- God, rule in my heart. Remove everything that resists you.  
+- God, let your will be done in my family, my community, my city.  
 - God, bring people to know you. Save the lost.
 
 *Example prayer:*
 
-*"Lord, I am sorry for the ways I have lived for my own comfort and my own plans. I want your will to be done through my life today. Please use me to advance your kingdom in my relationships."*
+*"Lord, I am sorry for the ways I have lived for my own comfort and my own plans. I want your will to be done through my life today. Please use me to advance your kingdom."*
 
 ---
 
@@ -120,7 +124,7 @@ He knows we need food, rest, health, and provision. He cares about all of it.
 
 He knows the small worries and daily pressures that can wear us down. Without this prayer, we would try to manage everything on our own — and feel completely alone.
 
-**Because God is our Father, we can bring him everything.**
+**Because God is our Father, we can bring him anything.**
 
 ---
 
@@ -156,19 +160,19 @@ Second, we confidently claim: God is our protector. He is able to deliver us. We
 
 Use the structure of the Lord's Prayer to write your own expanded prayer.
 
-Pause on each phrase. Let the truth sink in. Then write what it means for you personally.
+Pause on each phrase. Think about each truth. Then write what it means for you personally.
 
 | Phrase | Your Personal Prayer |
-|---|---|
-| Our Father | *God, you are my Father...* |
-| In heaven | *My true home is in heaven...* |
-| Hallowed be your name | *Lord, I want your name to be honored...* |
-| Your kingdom come, your will be done | *Lord, may your will be done in my life...* |
-| Give us today our daily bread | *Father, I bring you my needs today...* |
-| Forgive us our sins | *Lord, I confess...* |
-| As we forgive those who sin against us | *Help me to forgive...* |
-| Lead us not into temptation | *Protect me from...* |
-| Rescue us from the evil one | *Lord, fight for me against...* |
+| :---- | :---- |
+| Our Father | *God, you are my Father…*  |
+| In heaven | *My true home is in heaven…*  |
+| Hallowed be your name | *Lord, I want your name to be honored…*  |
+| Your kingdom come, your will be done | *Lord, may your will be done in my life…*  |
+| Give us today our daily bread | *Father, I bring you my needs today…*  |
+| Forgive us our sins | *Lord, I confess…*  |
+| As we forgive those who sin against us | *Help me to forgive…*  |
+| Lead us not into temptation | *Protect me from…*  |
+| Rescue us from the evil one | *Lord, fight for me against…*  |
 
 ---
 
@@ -178,16 +182,17 @@ Pause on each phrase. Let the truth sink in. Then write what it means for you pe
 
 **Chapter 4 Summary:**
 
-- **4A — Know Your Enemy:** Satan is real, clever, and patient. But he is already defeated by Christ.
-- **4B — Spiritual Battle:** We are in a real war. We must live with a wartime mentality.
-- **4C — Two Crucial Weapons:** The Word of God and prayer are our most powerful weapons.
+- **4A — Know Your Enemy:** Satan is real, clever, and patient. But he is already defeated by Christ.  
+- **4B — Spiritual Battle:** We are in a real war. We must live with a wartime mentality.  
+- **4C — Two Crucial Weapons:** The Word of God and prayer are our most powerful weapons.  
 - **4D — Praying Like Jesus:** The Lord's Prayer is a complete guide for a life of prayer.
 
 ---
 
 **Full Course Summary:**
 
-- **Chapter 1 — Holiness of God:** God is holy. Seeing his holiness helps us see ourselves and the cross clearly.
-- **Chapter 2 — Repentance:** Repentance is the daily path to fellowship with God.
-- **Chapter 3 — Heaven and Hell:** Eternity is real. We were made for heaven. We must live with this in mind.
+- **Chapter 1 — Holiness of God:** God is holy. Seeing his holiness helps us see ourselves and the cross clearly.  
+- **Chapter 2 — Repentance:** Repentance is the daily path to fellowship with God.  
+- **Chapter 3 — Heaven and Hell:** Eternity is real. We were made for heaven. We must live with this in mind.  
 - **Chapter 4 — Spiritual Battle:** We are in a real war. God has given us everything we need to fight and win.
+

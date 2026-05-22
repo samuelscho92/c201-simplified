@@ -1,4 +1,5 @@
 # SESSION 3C — HEAVEN AND HELL
+
 **Course 201 · Chapter 3 · Heaven and Hell**
 
 ---
@@ -6,7 +7,7 @@
 ## Key Words
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | relational | having to do with relationships; connected to love and connection |
 | triune | three-in-one; describing God as Father, Son, and Holy Spirit |
 | rebellion | refusing to submit to authority; choosing to go your own way |
@@ -33,10 +34,10 @@ No. The Bible tells us that because God himself is love — Father, Son, and Hol
 **John 14:2–3 (NLT)**
 
 > There is more than enough room in my Father's home. If this were not so, would I have told you that I am going to prepare a place for you? When everything is ready, I will come and get you, so that you will always be with me where I am.
-
-Salvation is a restored relationship with God — one that continues forever.
-
-If God loves us and saves us, then heaven must exist for that relationship to go on.
+>
+> Salvation is a restored relationship with God — one that continues forever.
+>
+> If God loves us and saves us, then heaven must exist for that relationship to go on.
 
 ---
 
@@ -71,15 +72,15 @@ There is a voice inside every person that says: "I do not need God. I will rule 
 **Quote — C.S. Lewis, *The Problem of Pain*:**
 
 > "The characteristic of lost souls is their rejection of everything that is not themselves... He has his wish — to live completely for himself, and to make the best of what he finds there. And what he finds there is Hell."
->
-> "To enter heaven is to become more human than you ever succeeded in being on earth. To enter hell is to be removed from humanity — to become less than a person."
+
+"To enter heaven is to become more human than you ever succeeded in being on earth. To enter hell is to be removed from humanity — to become less than a person."
 
 *(Simplified from original)*
 
 *Definitions:*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | surrender¹ | to give up; to stop fighting and submit |
 
 Love does not force itself on anyone.
@@ -98,7 +99,7 @@ A person who has spent their whole life saying "I do not need God" will not sudd
 
 **Ezekiel 33:11 (NLT)**
 
-> "As surely as I live, says the Sovereign LORD, I take no pleasure in the death of wicked people. I only want them to turn from their wicked ways so they can live. Turn! Turn from your wickedness, O people of Israel! Why should you die?"
+> "As surely as I live, says the Sovereign LORD, I take no pleasure in the death of wicked people. I only want them to turn from their wicked ways so they can live. Turn\! Turn from your wickedness, O people of Israel\! Why should you die?"
 
 **1 Timothy 2:3–4 (NLT)**
 
@@ -107,14 +108,14 @@ A person who has spent their whole life saying "I do not need God" will not sudd
 **2 Peter 3:9 (NLT)**
 
 > The Lord isn't really being slow about his promise, as some people think. No, he is being patient for your sake. He does not want anyone to be destroyed, but wants everyone to repent.
-
-God does not send people to hell with pleasure.
-
-His heart is to save everyone who will come to him.
-
-He is patient. He calls. He waits.
-
-**Discussion Question:** What do these verses reveal about God's heart toward people who are lost?
+>
+> God does not send people to hell with pleasure.
+>
+> His heart is to save everyone who will come to him.
+>
+> He is patient. He calls. He waits.
+>
+> **Discussion Question:** What do these verses reveal about God's heart toward people who are lost?
 
 ---
 
@@ -143,7 +144,7 @@ The difference may be small now. But extended over eternity, the difference is i
 *Definitions:*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | immortals² | beings who will live forever |
 | snub³ | to treat someone as unimportant |
 
@@ -153,7 +154,7 @@ Every person around you will live forever — either with God or without him. Th
 
 **Discussion Questions:**
 
-1. What is the direction your life is going? Is it moving toward God or away from him?
+1. What is the direction your life is going? Is it moving toward God or away from him?  
 2. What new values or habits have grown in you since becoming a Christian?
 
 ---
@@ -165,18 +166,19 @@ Why do some people find it hard to sense God?
 **Isaiah 57:15 (NLT)**
 
 > The high and lofty one who lives in eternity, the Holy One, says this: "I live in the high and holy place with those whose spirits are contrite and humble. I restore the crushed spirit of the humble and revive the courage of those with repentant hearts."
-
-God is close to those who are humble and contrite.
-
-Pride, self-absorption, and love of material things make it hard to sense God.
-
-When we come to God with humility — like the criminal on the cross — God becomes more real to us.
-
-*Example: To see stars clearly at night, you must turn off nearby lights. In the same way, to see God clearly, we must turn down the noise of self — our pride, our distractions, our self-reliance.*
+>
+> God is close to those who are humble and contrite.
+>
+> Pride, self-absorption, and love of material things make it hard to sense God.
+>
+> When we come to God with humility — like the criminal on the cross — God becomes more real to us.
+>
+> *Example: To see stars clearly at night, you must turn off nearby lights. In the same way, to see God clearly, we must turn down the noise of self — our pride, our distractions, our self-reliance.*
 
 ---
 
 **Discussion Questions:**
 
-1. What are some ways you can grow in being humble and contrite before God?
+1. What are some ways you can grow in being humble and contrite before God?  
 2. How does your life measure up to this truth: "Life is short, eternity is long, only what is done for God will last"?
+

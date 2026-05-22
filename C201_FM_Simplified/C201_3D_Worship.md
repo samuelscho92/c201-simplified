@@ -1,4 +1,5 @@
 # SESSION 3D — WORSHIP
+
 **Course 201 · Chapter 3 · Heaven and Hell**
 
 ---
@@ -6,10 +7,10 @@
 ## Key Words
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | worship | giving honor, praise, and love to something or someone |
 | treasure | something you value very much |
-| sow | to invest your time and energy in something |
+| sow | to plant seeds; here: to invest your time and energy in something |
 | reap | to receive the result of what you planted |
 | multitude | a very large group of people |
 | adoration | deep love and admiration |
@@ -37,7 +38,7 @@ We do the same with heaven. We only understand it in terms of what is missing fr
 *Definitions:*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | infinite¹ | without limit; endless |
 
 ---
@@ -59,7 +60,7 @@ Jesus gives us a practical answer: **invest in heaven now.**
 *Definitions:*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | harvest² | the result of what you planted |
 | decay³ | breaking down; rotting away |
 | everlasting⁴ | lasting forever |
@@ -70,8 +71,8 @@ Jesus gives us a practical answer: **invest in heaven now.**
 
 **Discussion Questions:**
 
-1. What promise about your heart does Matthew 6:21 contain?
-2. What does sowing to the Spirit look like in practical terms this week?
+1. What promise about your heart does Matthew 6:21 contain?  
+2. What does pleasing sowing to the Spirit look like in practical terms this week?
 
 ---
 
@@ -83,16 +84,16 @@ One of the central activities of heaven is worship.
 
 > After this I saw a vast crowd, too great to count, from every nation and tribe and people and language, standing in front of the throne and before the Lamb. They were clothed in white robes and held palm branches in their hands. And they were shouting with a great roar,
 >
-> "Salvation comes from our God who sits on the throne and from the Lamb!"
+> "Salvation comes from our God who sits on the throne and from the Lamb\!"
 >
 > And all the angels were standing around the throne and around the elders and the four living beings. And they fell before the throne with their faces to the ground and worshiped God. They sang,
 >
-> "Amen! Blessing and glory and wisdom and thanksgiving and honor and power and strength belong to our God forever and ever! Amen."
+> "Amen\! Blessing and glory and wisdom and thanksgiving and honor and power and strength belong to our God forever and ever\! Amen."
 
 *Definitions:*
 
 | Word | Meaning |
-|---|---|
+| :---- | :---- |
 | tribe⁵ | a group of people connected by family or culture |
 | throne⁶ | the seat of a king; a symbol of power and authority |
 | Lamb⁷ | a name for Jesus, who was sacrificed for our sin |
@@ -106,8 +107,9 @@ Think about moments in your life when you were fully caught up in something beau
 When fans shout for joy at a great sports moment. When hikers see a stunning view. When a mother looks at her sleeping baby.
 
 In those moments, several things happen:
-- You forget about yourself
-- You want to share it with others
+
+- You forget about yourself  
+- You want to share it with others  
 - You feel a deep wish that it would last forever
 
 **These are glimpses of worship.**
@@ -138,8 +140,8 @@ In Revelation 2:17, God promises that each person who overcomes will receive a w
 
 **Discussion Questions:**
 
-1. Describe a time when you were fully caught up in admiring something or someone. What was it like?
-2. According to C.S. Lewis, what can you look forward to in heaven?
+1. Describe a time when you were fully caught up in admiring something or someone. What was it like?  
+2. According to C.S. Lewis, what can you look forward to in heaven?  
 3. What are some practical ways to cultivate a heart of worship now?
 
 ---
@@ -148,17 +150,18 @@ In Revelation 2:17, God promises that each person who overcomes will receive a w
 
 If we do not understand the reality of heaven and hell, we will experience:
 
-**1. Worldliness** — Living only for comfort and pleasure in this life
+**1\. Worldliness** — Living only for comfort and pleasure in this life
 
-**2. No urgency to share the gospel** — If heaven and hell are not real to us, why would we care about others' eternal destiny?
+**2\. No urgency to share the gospel** — If heaven and hell are not real to us, why would we care about others' eternal destiny?
 
-**3. Envy of non-Christians** — People who live for this world may seem carefree and happy. We may wish we could be like them.
+**3\. Envy of non-Christians** — People who live for this world may seem carefree and happy. We may wish we could be like them.
 
-**4. Stinginess with God's work** — If this life is all there is, we will keep everything for ourselves.
+**4\. Stinginess with God's work** — If this life is all there is, we will keep everything for ourselves.
 
 ---
 
 **Discussion Questions:**
 
-1. Which of these pitfalls do you most recognize in yourself?
+1. Which of these pitfalls do you most recognize in yourself?  
 2. What would change in your life if heaven felt more real to you every day?
+

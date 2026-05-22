@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session 2D: The Repentance Loop — C201 Simplified</title>
+  <script async src="https://hypothes.is/embed.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #eef0ee;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      width: 260px;
+      min-width: 260px;
+      background: #1c2b3a;
+      color: #c8d8e8;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      flex-shrink: 0;
+      transition: width 0.2s ease, min-width 0.2s ease;
+    }
+    #sidebar.collapsed {
+      width: 48px;
+      min-width: 48px;
+      overflow: hidden;
+    }
+    #sidebar.collapsed .chapter-group,
+    #sidebar.collapsed #sidebar-header h1,
+    #sidebar.collapsed #sidebar-header p {
+      display: none;
+    }
+
+    #sidebar-header {
+      padding: 20px 18px 14px;
+      border-bottom: 1px solid #2e4257;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    #sidebar.collapsed #sidebar-header {
+      padding: 14px 0;
+      justify-content: center;
+      border-bottom: none;
+    }
+    #sidebar-header h1 {
+      font-size: 0.95em;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    #sidebar-header p {
+      font-size: 0.75em;
+      color: #7a9bb5;
+      margin-top: 2px;
+    }
+
+    #collapse-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #5a7a96;
+      padding: 2px;
+      flex-shrink: 0;
+      line-height: 0;
+      transition: color 0.15s;
+    }
+    #collapse-btn:hover { color: #fff; }
+
+    .chapter-group { margin-top: 8px; }
+    .chapter-label {
+      font-size: 0.68em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      padding: 10px 18px 4px;
+    }
+
+    .session-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      text-decoration: none;
+      padding: 7px 18px;
+      color: #b0c8dc;
+      font-size: 0.82em;
+      line-height: 1.4;
+      transition: background 0.15s;
+    }
+    .session-btn:hover { background: #243546; color: #fff; }
+    .session-btn.active {
+      background: #2d4a62;
+      color: #fff;
+      border-left: 3px solid #c9a84c;
+      padding-left: 15px;
+    }
+    .session-btn .session-id {
+      font-weight: 700;
+      font-size: 0.9em;
+      color: #c9a84c;
+      display: block;
+    }
+    .session-btn.active .session-id { color: #e8c96a; }
+
+    /* ── Main area ── */
+    #main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Toolbar ── */
+    #toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 8px 16px;
+      background: #f5f6f4;
+      border-bottom: 1px solid #dde0da;
+      flex-shrink: 0;
+    }
+
+    #toggle-btn {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid #c5c9c2;
+      background: #fff;
+      color: #444;
+      font-size: 0.8em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      letter-spacing: 0.02em;
+    }
+    #toggle-btn:hover { background: #eef0ee; border-color: #aaa; }
+    #toggle-btn.active {
+      background: #1c2b3a;
+      color: #fff;
+      border-color: #1c2b3a;
+    }
+    #toggle-btn svg { flex-shrink: 0; }
+
+    /* ── Split view ── */
+    #split-wrap {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+
+    #pdf-pane {
+      flex: 1;
+      display: none;
+      border-right: 2px solid #c9a84c;
+      background: #555;
+      overflow: hidden;
+    }
+    #pdf-pane.visible { display: flex; flex-direction: column; }
+
+    #pdf-label {
+      padding: 6px 14px;
+      background: #3a3a3a;
+      color: #c9a84c;
+      font-size: 0.72em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      flex-shrink: 0;
+    }
+
+    #pdf-frame {
+      flex: 1;
+      width: 100%;
+      border: none;
+    }
+
+    /* ── Simplified pane ── */
+    #content-wrap {
+      flex: 1;
+      overflow-y: auto;
+      padding: 40px 48px;
+      min-width: 0;
+    }
+
+    #content {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 56px 64px;
+      border-radius: 4px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+
+    body.split-mode #content-wrap { padding: 24px 28px; }
+    body.split-mode #content { padding: 36px 40px; }
+
+    /* ── Typography ── */
+    #content h1 {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      color: #111;
+    }
+    #content h2 {
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1a5276;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #d4e6f1;
+    }
+    #content h3 {
+      font-size: 1em;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 6px;
+    }
+    #content p { margin-bottom: 10px; }
+    #content hr {
+      border: none;
+      border-top: 1px solid #eaeaea;
+      margin: 28px 0;
+    }
+    #content strong { font-weight: 600; }
+    #content em { font-style: italic; }
+
+    #content blockquote {
+      margin: 14px 0;
+      padding: 14px 20px;
+      background: #fdf8ee;
+      border-left: 4px solid #c9a84c;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.96em;
+      color: #333;
+    }
+    #content blockquote p { margin-bottom: 6px; }
+    #content blockquote p:last-child { margin-bottom: 0; }
+
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 18px;
+      font-size: 0.88em;
+    }
+    #content th {
+      background: #1a5276;
+      color: #fff;
+      text-align: left;
+      padding: 7px 12px;
+      font-weight: 600;
+    }
+    #content td {
+      padding: 6px 12px;
+      border-bottom: 1px solid #eaeaea;
+      vertical-align: top;
+    }
+    #content tr:nth-child(even) td { background: #f5f8fc; }
+    #content tr:last-child td { border-bottom: none; }
+
+    #content ul, #content ol {
+      padding-left: 24px;
+      margin-bottom: 10px;
+    }
+    #content li { margin-bottom: 3px; }
+
+    #content p > em:only-child {
+      font-size: 0.8em;
+      color: #999;
+    }
+
+    /* ── Giscus ── */
+    #giscus-section {
+      max-width: 780px;
+      margin: 24px auto 40px;
+    }
+    #giscus-section h3 {
+      font-size: 0.75em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #dde0da;
+    }
+
+    /* ── Print ── */
+    @media print {
+      #sidebar, #toolbar, #pdf-pane, #giscus-section { display: none !important; }
+      body { display: block; overflow: visible; }
+      #content-wrap { padding: 0; overflow: visible; }
+      #content { box-shadow: none; padding: 40px; max-width: 100%; }
+    }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <div id="sidebar-header">
+    <div>
+      <h1>C201 Simplified</h1>
+      <p>IELTS 3 Edition</p>
+    </div>
+    <button id="collapse-btn" title="Collapse sidebar">
+      <svg id="collapse-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+  <div id="session-list"><div class="chapter-group"><div class="chapter-label">Chapter 1</div><a href="C201_1A_Seeing_God.html" class="session-btn"><span class="session-id">1A</span>SESSION 1A — SEEING GOD</a><a href="C201_1B_Seeing_Myself.html" class="session-btn"><span class="session-id">1B</span>SESSION 1B — SEEING MYSELF</a><a href="C201_1C_The_Cross.html" class="session-btn"><span class="session-id">1C</span>SESSION 1C — THE CROSS</a><a href="C201_1D_Self_Reflection.html" class="session-btn"><span class="session-id">1D</span>SESSION 1D — SELF-REFLECTION</a></div><div class="chapter-group"><div class="chapter-label">Chapter 2</div><a href="C201_2A_We_Need_Repentance.html" class="session-btn"><span class="session-id">2A</span>Session 2A: We Need Repentance</a><a href="C201_2B_Why_Repentance_Feels_Hard.html" class="session-btn"><span class="session-id">2B</span>Session 2B: Why Repentance Feels Hard</a><a href="C201_2C_Understanding_Repentance.html" class="session-btn"><span class="session-id">2C</span>Session 2C: Understanding Repentance</a><a href="C201_2D_The_Repentance_Loop.html" class="session-btn active"><span class="session-id">2D</span>Session 2D: The Repentance Loop</a></div><div class="chapter-group"><div class="chapter-label">Chapter 3</div><a href="C201_3A_What_Is_Real.html" class="session-btn"><span class="session-id">3A</span>SESSION 3A — WHAT IS REAL?</a><a href="C201_3B_Reality_of_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3B</span>SESSION 3B — REALITY OF HEAVEN AND HELL</a><a href="C201_3C_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3C</span>SESSION 3C — HEAVEN AND HELL</a><a href="C201_3D_Worship.html" class="session-btn"><span class="session-id">3D</span>SESSION 3D — WORSHIP</a><a href="C201_3E_Evangelism.html" class="session-btn"><span class="session-id">3E</span>SESSION 3E — EVANGELISM: HABITS TO FORM</a></div><div class="chapter-group"><div class="chapter-label">Chapter 4</div><a href="C201_4A_Know_Your_Enemy.html" class="session-btn"><span class="session-id">4A</span>SESSION 4A — KNOW YOUR ENEMY</a><a href="C201_4B_Spiritual_Battle.html" class="session-btn"><span class="session-id">4B</span>SESSION 4B — SPIRITUAL BATTLE</a><a href="C201_4C_Two_Crucial_Weapons.html" class="session-btn"><span class="session-id">4C</span>SESSION 4C — TWO CRUCIAL WEAPONS</a><a href="C201_4D_Praying_Like_Jesus.html" class="session-btn"><span class="session-id">4D</span>SESSION 4D — HABITS TO FORM: PRAYING LIKE JESUS</a></div></div>
+</nav>
+
+<div id="main">
+  <div id="toolbar">
+    <button id="toggle-btn" title="Toggle side-by-side with source PDF">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="9" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      Compare with Source
+    </button>
+  </div>
+
+  <div id="split-wrap">
+    <div id="pdf-pane">
+      <div id="pdf-label">Source PDF</div>
+      <iframe id="pdf-frame" title="Source PDF"></iframe>
+    </div>
+    <div id="content-wrap">
+      <div id="content"><h1>Session 2D: The Repentance Loop</h1>
+<p><em>Course 201 · Chapter 2: Repentance · Module 2D</em></p>
+<p>In this session we learn a real, practical way to repent. We learn the five steps of the Repentance Loop, and then we use it to walk through a real sin from our own life.</p>
+<hr />
+<h2>Key Words for This Session</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Word</th>
+<th style="text-align: left;">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Confession</strong></td>
+<td style="text-align: left;">To tell God what you did wrong. To stop hiding it. To call sin by its real name.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Specific</strong></td>
+<td style="text-align: left;">Clear and exact. Not general or vague.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>General confession</strong></td>
+<td style="text-align: left;">Saying "I am a sinner" or "Forgive me for all my sins" without naming any sin.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Specific confession</strong></td>
+<td style="text-align: left;">Naming the exact sin. For example: "I lied to my friend yesterday."</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Idol</strong></td>
+<td style="text-align: left;">A fake god. Something we trust in or love more than Jesus. (Examples: money, success, approval from others.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Commit</strong></td>
+<td style="text-align: left;">To make a strong promise. To decide and stick to it.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Accountability</strong></td>
+<td style="text-align: left;">Asking another Christian to help you stay on the right path. They check on you and pray with you.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sanctification</strong></td>
+<td style="text-align: left;">The slow work God does in us to grow us and make us more like Jesus.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>1. Why Real Confession Matters</h2>
+<p>Before we learn the steps of the Repentance Loop, we need to understand something about confession. There is a kind of confession that does not actually help us. And there is a kind that does.</p>
+<h3>Hidden Sin Has Power Over Us</h3>
+<p>When we hide our sin, the sin has power over us. We feel its weight. We feel afraid. We feel ashamed. But when we bring our sin into the light and confess it to God, the power of that sin is broken.</p>
+<p>This is why confession is so important. We are not telling God anything he does not already know. He sees our sin clearly. But by speaking our sin out loud to him, we agree with God about what is true. We come out of hiding. The grip of the sin loosens.</p>
+<h3>Only Jesus's Blood Washes Our Sin</h3>
+<p>When we feel guilty, it can feel good to tell a friend and hear them say, "It's okay, you are still a good person." We may feel better for a moment. But this does not actually make us right with God.</p>
+<p>Only Jesus can do that. Our confession does not wash away our sin. Our tears do not wash away our sin. Only the blood of Jesus does. He already paid the price on the cross.</p>
+<p>So why do we confess to God? Not to earn forgiveness. Jesus already paid for it. We confess because confession is how we receive what Jesus has already done. We agree with God about our sin. We come out of hiding. We come back to the cross, where the work is already finished.</p>
+<h3>Be Specific, Not General</h3>
+<p>A general confession protects us from feeling too much shame. It is easy to pray, "God, forgive me for all my sins." This kind of prayer keeps us safe. We do not have to face any specific sin.</p>
+<p>But this kind of confession does not bring real healing.</p>
+<p>Look at the people who came to Jesus in the gospels. They came with specific sins. They named what they had done. And Jesus forgave each one, one by one.</p>
+<p>In real confession, we name our sin clearly. We say what we actually did. And we do not just name the outside sins (the lie, the angry words). We also name the sins inside our heart (the pride, the greed, the anger, the fear). All of these need to come into the light.</p>
+<h3>Confession Has a Stopping Point</h3>
+<p>When we look at our sin, we must be careful. If we look at our sin too long, we can get stuck. We start to hate ourselves. We feel like we will never be good enough. This is not what God wants.</p>
+<p>Real confession has a stopping point. We name the sin. We bring it to Jesus. We receive his forgiveness. And then we move on.</p>
+<p>Confession begins in sorrow. But it ends in joy. There is celebration when sin is forgiven, because it leads to a real change in our life.</p>
+<h3>Discussion</h3>
+<p><strong>Think about your own prayers when you confess sin. Are your confessions usually general ("forgive me for my sins") or specific ("forgive me for ___")? Why?</strong></p>
+<hr />
+<hr />
+<p><strong>Have you ever gotten stuck in self-hatred after confessing a sin? What was that like?</strong></p>
+<hr />
+<hr />
+<hr />
+<h2>2. The Five Steps of the Repentance Loop</h2>
+<h3>2 Timothy 3:16–17 (NLT)</h3>
+<p>¹⁶ All Scripture is inspired by God and is useful to teach us what is true and to make us realize what is wrong in our lives. It corrects us when we are wrong and teaches us to do what is right. ¹⁷ God uses it to prepare and equip¹ his people to do every good work.</p>
+<p><strong>Word Help</strong></p>
+<ol>
+<li><strong>Equip</strong> — To give someone what they need to do something well.</li>
+</ol>
+<p>God uses his Word to grow us. He uses the Bible to teach us, to show us our sin, to correct us, and to train us to do what is right. This is real spiritual training, and it takes work. But if we keep going, we become people who can fight sin and follow God.</p>
+<p>The Repentance Loop is a tool that helps us do this. It is a way to take a real event from our life and walk it through five steps. The "loop" starts when something happens — a moment of sin, a wrong reaction, a temptation. The loop helps us stop, think, repent, and grow from that moment.</p>
+<p>The loop is not just a circle. It is a spiral that goes up. Every time we walk through the loop, we do not return to the same place. We grow. We become more like Jesus. This growing is called <strong>sanctification</strong>.</p>
+<h3>The Loop</h3>
+<p>The five steps of the loop, in order:</p>
+<ol>
+<li><strong>Observe &amp; Reflect</strong> — Look at what happened. Ask why.  </li>
+<li><strong>Word of God</strong> — What does the Bible say about this?  </li>
+<li><strong>Confess &amp; Apologize</strong> — Name the sin. Thank God for the cross.  </li>
+<li><strong>Commit</strong> — Turn around. Promise a new direction.  </li>
+<li><strong>Plan of Action</strong> — Make a real plan. Bring others in.</li>
+</ol>
+<p>As we walk through this loop over and over, God grows us. This upward growth is sanctification.</p>
+<h3>Step 1 · Observe and Reflect</h3>
+<p>Stop and look at what happened. Look at your actions. Look at your feelings. Look at your thoughts. See the moment clearly, as it really was.</p>
+<p>Then ask yourself questions about it.</p>
+<p><em>Why did I react this way? What was going on inside me? What did this moment show me about my heart?</em></p>
+<h3>Step 2 · Word of God</h3>
+<p>Now bring God's Word to this moment. What does the Bible say about this situation? What does the gospel teach me here? What does God's Word say I did wrong? What truth do I need to hear?</p>
+<p><em>What does the Bible say about what I did? What does the gospel say to me right now?</em></p>
+<h3>Step 3 · Confess and Apologize</h3>
+<p>Be specific. Do not use general words. Name your sin clearly. Name the idol behind it: the proud heart, the fearful heart, the heart that does not trust God.</p>
+<p>Then thank God. Thank him for the forgiveness and grace that come through the cross of Jesus.</p>
+<p><em>What is the exact sin I am confessing? What idol was I trusting in?</em></p>
+<h3>Step 4 · Commit</h3>
+<p>If we stop after confession, the same sin will come back. Real repentance means we turn around. We commit to a new way of thinking and a new way of living.</p>
+<p>Speak out your new mind in words. Make a promise. Say out loud the truth of the gospel as it applies to this sin.</p>
+<p><em>What new direction am I choosing? What truth of the gospel am I holding on to?</em></p>
+<h3>Step 5 · Plan of Action</h3>
+<p>Now make a clear plan. What will you do the next time this situation comes up? How will you fight this sin?</p>
+<p>Some sins need help from other people. You may need to bring a Christian friend, a small group leader, or a pastor into this. They can pray with you, check on you, and help you stay on the right path.</p>
+<p><em>What will I do differently next time? Who can help me?</em></p>
+<h3>Why This Matters</h3>
+<p>The Bible says God's Word changes sinners into people who are ready for every good work. But this change does not happen by accident. It happens through real spiritual training — bringing our life under God's Word for teaching, correction, and growth.</p>
+<p>This training takes effort. It is not always easy to face our sin. But if we keep walking through the Repentance Loop, we are slowly being trained in the ways of God. Each time we do this, we are formed more into the image of Jesus.</p>
+<hr />
+<h2>3. Apply It: Walk Through the Loop</h2>
+<p>Now it is time to use the Repentance Loop in your own life.</p>
+<p>Think back over the last week. Ask the Holy Spirit to show you a moment where you sinned. It may be a thing you did or said. It may be a wrong reaction. It may be a thought that was not right. Choose one moment and walk through all five steps below. Write your answers in the space provided.</p>
+<h3>Step 1 · Observe and Reflect</h3>
+<p><em>Describe what happened. What did you do, say, think, or feel? Why did you react this way? What does this moment show you about your heart?</em></p>
+<hr />
+<hr />
+<hr />
+<hr />
+<h3>Step 2 · Word of God</h3>
+<p><em>What does the Bible say about what you did? What part of the gospel speaks to this moment? What truth do you need to hear right now?</em></p>
+<hr />
+<hr />
+<hr />
+<hr />
+<h3>Step 3 · Confess and Apologize</h3>
+<p><em>Name your sin specifically. What was the surface sin? What was the deeper idol behind it (the pride, the fear, the lack of trust)? Write a short prayer of confession and thanksgiving for the cross.</em></p>
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<h3>Step 4 · Commit</h3>
+<p><em>What new mind are you choosing? What promise are you making to God? What truth of the gospel are you holding on to?</em></p>
+<hr />
+<hr />
+<hr />
+<hr />
+<h3>Step 5 · Plan of Action</h3>
+<p><em>What will you do differently next time this situation comes up? Is there someone you need to bring into this for prayer or accountability?</em></p>
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<p><em>Course 201 · Module 2D · The Repentance Loop · Simplified Edition</em>  </p></div>
+      <div id="giscus-section">
+        <h3>Session Notes</h3>
+        <div id="giscus-container"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const PDF_PATH = '../C201_Source_PDFs/Ch2/C201_2D_Booklet.pdf';
+
+
+// Sidebar collapse
+const collapseBtn = document.getElementById('collapse-btn');
+const collapseIcon = document.getElementById('collapse-icon');
+const sidebar = document.getElementById('sidebar');
+const expandPath = '<path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+const collapsePath = '<path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+
+collapseBtn.addEventListener('click', () => {
+  const collapsed = sidebar.classList.toggle('collapsed');
+  collapseIcon.innerHTML = collapsed ? collapsePath : expandPath;
+  collapseBtn.title = collapsed ? 'Expand sidebar' : 'Collapse sidebar';
+});
+
+// PDF split toggle
+const toggleBtn = document.getElementById('toggle-btn');
+const pdfPane = document.getElementById('pdf-pane');
+const pdfFrame = document.getElementById('pdf-frame');
+let pdfLoaded = false;
+
+toggleBtn.addEventListener('click', () => {
+  const active = pdfPane.classList.toggle('visible');
+  toggleBtn.classList.toggle('active', active);
+  document.body.classList.toggle('split-mode', active);
+  if (active && !pdfLoaded && PDF_PATH) {
+    pdfFrame.src = PDF_PATH;
+    pdfLoaded = true;
+  }
+});
+
+
+// Giscus
+(function() {
+  const s = document.createElement('script');
+  s.src = 'https://giscus.app/client.js';
+  s.setAttribute('data-repo', 'samuelscho92/c201-simplified');
+  s.setAttribute('data-repo-id', 'R_kgDOSkR22Q');
+  s.setAttribute('data-category', 'General');
+  s.setAttribute('data-category-id', 'DIC_kwDOSkR22c4C9oLp');
+  s.setAttribute('data-mapping', 'specific');
+  s.setAttribute('data-term', 'C201_2D_The_Repentance_Loop');
+  s.setAttribute('data-reactions-enabled', '1');
+  s.setAttribute('data-emit-metadata', '0');
+  s.setAttribute('data-input-position', 'top');
+  s.setAttribute('data-theme', 'light');
+  s.setAttribute('data-lang', 'en');
+  s.crossOrigin = 'anonymous';
+  s.async = true;
+  document.getElementById('giscus-container').appendChild(s);
+})();
+</script>
+</body>
+</html>
