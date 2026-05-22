@@ -7,12 +7,12 @@
 
 | Word | Meaning |
 |---|---|
-| wrath | very strong, holy anger toward sin |
+| wrath | God's holy anger toward sin |
 | mercy | kindness given to someone who does not deserve it |
 | grace | God's free gift of love and forgiveness to sinners |
 | justice | giving the right punishment for wrong actions |
 | atonement | when the punishment for sin is fully paid |
-| sacrifice | something given up to pay a great cost; here: Jesus dying for our sin |
+| sacrifice | Jesus dying for our sin |
 | righteousness | being fully right and good before God |
 | eternity | time that never ends; life after death |
 

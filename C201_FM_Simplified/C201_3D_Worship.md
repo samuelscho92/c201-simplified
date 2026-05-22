@@ -9,7 +9,7 @@
 |---|---|
 | worship | giving honor, praise, and love to something or someone |
 | treasure | something you value very much |
-| sow | to plant seeds; here: to invest your time and energy in something |
+| sow | to invest your time and energy in something |
 | reap | to receive the result of what you planted |
 | multitude | a very large group of people |
 | adoration | deep love and admiration |

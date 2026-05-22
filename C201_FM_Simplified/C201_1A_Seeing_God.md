@@ -158,8 +158,6 @@ This is true. But it is not the main meaning.
 
 **The main meaning of "holy" is "separate."**
 
-The original word means "to separate."
-
 Here is a second meaning: God is also **transcendent**.
 
 Transcendent means "far above everything else."

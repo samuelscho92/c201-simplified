@@ -7,12 +7,9 @@
 
 | Word | Meaning |
 |---|---|
-| sinner | a person who does wrong against God |
 | prophet | a person God chose to speak his words to people |
-| conviction | a strong feeling that something is true; here: knowing you have done wrong |
-| calibrate | to measure something by comparing it to a standard |
-| suppress | to stop something from being seen or known |
-| wrath | very strong anger; here: God's holy anger toward sin |
+| conviction | knowing you have done wrong |
+| wrath | God's holy anger toward sin |
 
 ---
 

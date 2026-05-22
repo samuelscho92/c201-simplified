@@ -9,8 +9,7 @@
 |---|---|
 | hallowed | treated as holy; honored greatly |
 | kingdom | the rule and reign of a king |
-| debt | something owed; here: sin that must be forgiven |
-| debtor | a person who owes something; here: someone who has sinned against us |
+| debt | sin that must be forgiven |
 | temptation | an invitation to do something wrong |
 | sojourner | a traveler passing through; someone whose true home is elsewhere |
 

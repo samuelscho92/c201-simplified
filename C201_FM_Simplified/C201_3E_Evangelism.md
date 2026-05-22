@@ -12,7 +12,7 @@
 | compelled | strongly motivated; feeling you must do something |
 | intercede | to pray on behalf of others |
 | harvest | a large number of people ready to hear about Jesus |
-| laborers | workers; here: people who share the gospel |
+| laborers | people who share the gospel |
 
 ---
 
