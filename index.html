@@ -598,7 +598,23 @@ function loadSession(session, btn) {
     document.getElementById('pdf-frame').src = session.pdf;
   }
   loadGiscus(session.id);
+  if (window.location.hash !== '#' + session.id) {
+    history.pushState(null, '', '#' + session.id);
+  }
 }
+
+function loadSessionById(id) {
+  const session = SESSIONS.find(s => s.id === id);
+  if (!session) return false;
+  const btn = document.querySelector(`.session-btn[data-id="${id}"]`);
+  if (btn) loadSession(session, btn);
+  return true;
+}
+
+window.addEventListener('hashchange', () => {
+  const id = window.location.hash.slice(1);
+  loadSessionById(id);
+});
 
 // Collapse sidebar
 const collapseBtn = document.getElementById('collapse-btn');
@@ -627,12 +643,14 @@ toggleBtn.addEventListener('click', () => {
   }
 });
 
-// Auto-load first session
-const firstBtn = document.querySelector('.session-btn');
-if (firstBtn) {
-  const firstId = firstBtn.dataset.id;
-  const firstSession = SESSIONS.find(s => s.id === firstId);
-  loadSession(firstSession, firstBtn);
+// Auto-load from hash or default to first session
+const hashId = window.location.hash.slice(1);
+if (!hashId || !loadSessionById(hashId)) {
+  const firstBtn = document.querySelector('.session-btn');
+  if (firstBtn) {
+    const firstSession = SESSIONS.find(s => s.id === firstBtn.dataset.id);
+    loadSession(firstSession, firstBtn);
+  }
 }
 </script>
 </body>
