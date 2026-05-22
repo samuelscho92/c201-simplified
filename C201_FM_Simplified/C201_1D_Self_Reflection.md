@@ -20,7 +20,7 @@
 
 In this course, we have learned that God is holy.
 
-We have also seen that when people encounter God's holiness, they see themselves clearly.
+We have also seen that when people meet God's holiness, they see themselves clearly.
 
 **Self-reflection is a practice that helps us see ourselves honestly — against the background of God's holiness.**
 
@@ -38,7 +38,7 @@ Without it, we go through life with a wrong picture of ourselves.
 
 **Quote — Henri Nouwen, *Making All Things New*:**
 
-> "As soon as we are alone, inner chaos opens up in us. When we remove outside distractions, our inner problems appear with full force. We often use outside activities to protect ourselves from what is happening inside."
+> "As soon as we are alone, inner chaos opens up in us. When we remove outside distractions, we clearly see our inner problems. We often use outside activities to protect ourselves from what is happening inside."
 
 *(Simplified from original)*
 
@@ -61,13 +61,11 @@ This is why many people stay busy — to avoid facing themselves.
 
 ## What Is Self-Reflection?
 
-Self-reflection is **written thinking**.
-
-You write about something that happened — an event, a moment, a reaction.
+Self-reflection is **written thinking about something that happened — an event, a moment, a reaction.**
 
 You think carefully and honestly about what it reveals about you.
 
-Writing helps you be more honest. It slows down your thinking. It cuts through excuses.
+Writing helps you be more honest. It helps focus our thoughts.
 
 ---
 
@@ -85,7 +83,7 @@ Write only facts. Do not write feelings or excuses yet.
 
 *Example: Instead of writing "I felt attacked, so I responded strongly," just write: "I raised my voice at my friend."*
 
-Focusing on facts stops you from justifying what you did.
+Focusing on facts stops you from making excuses.
 
 ---
 
@@ -159,9 +157,9 @@ Both problems leave God out of the process.
 | scarlet³ | bright red — a picture of serious sin |
 | crimson⁴ | another word for deep red |
 
-God does not ask us to fix ourselves first. He says: "Come. Let us talk. Let me clean you."
+God does not ask us to fix ourselves first. He says: "Come. Let us talk. Let me make you clean."
 
-Above all, be honest. God wants to talk with you. He wants to forgive you and heal you.
+Above all, be honest. God wants to talk with you. He wants to forgive you and to heal you.
 
 ---
 
@@ -175,13 +173,9 @@ Above all, be honest. God wants to talk with you. He wants to forgive you and he
 
 ## Why Self-Reflection Matters
 
-By nature, we have many layers of self-deception.
+By nature, we deny, rationalize, and justify our sin.
 
-We deny, rationalize, and justify our sin.
-
-Written self-reflection helps cut through all of this.
-
-It helps us find the truth about who we are.
+Written self-reflection helps us to find the truth about who we really are.
 
 And with the truth, we can also find God's grace, forgiveness, and freedom. When we know ourselves truly, we begin to love God's grace more and more.
 
