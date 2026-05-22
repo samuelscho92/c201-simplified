@@ -26,7 +26,7 @@ For children, unless something happens right away, they have a hard time seeing 
 
 But what if something is 50 years away?
 
-When something is far away, we have a hard time seeing it is real. We often act as if it is not. We eat unhealthy foods or don't change the oil in our car. We feel like we can get away with ignoring the issues because we don't feel the damages right away.
+When something is far away, we have a hard time seeing it is real. We often act as if it is not. We eat unhealthy foods or don't change the oil in our motobike/car. We feel like we can get away with ignoring the issues because we don't feel the damages right away.
 
 Our problem is this: **we are blind to what is real.** When it comes to issues like life, death, judgement and eternity, they feel far off and distant. So we live as if they do not matter today.
 
@@ -54,16 +54,18 @@ Jesus also challenged those who were skilled at reading the weather but blind to
 
 **Luke 12:54–59 (NLT)**
 
-> Then Jesus turned to the crowd and said, "When you see clouds beginning to form in the west, you say, 'Here comes a shower.' And you are right. When the south wind blows, you say, 'Today will be a scorcher.' And it is. You fools! You know how to interpret the weather signs of the earth and sky, but you don't know how to interpret the present times. Why can’t you decide for yourselves what is right? When you are on the way to court with your accuser, try to settle the matter before you get there. Otherwise, your accuser may drag you before the judge, who will hand you over to an officer, who will throw you into prison. And if that happens, you won’t be free again until you have paid the very last penny."
+> Then Jesus turned to the crowd and said, "When you see clouds beginning to form in the west, you say, 'Here comes a shower.' And you are right. When the south wind blows, you say, 'Today will be a scorcher.' And it is. You fools! You know how to interpret the weather signs of the earth and sky, but you don't know how to interpret the present times."
+>
+> "Why can’t you decide for yourselves what is right? When you are on the way to court with your accuser, try to settle the matter before you get there. Otherwise, your accuser may drag you before the judge, who will hand you over to an officer, who will throw you into prison. And if that happens, you won’t be free again until you have paid the very last penny."
 
-People in every age are skilled at reading what affects their money, their status, and their comfort. But they are blind to the most important reality — that they stand before a holy God who will judge our lives.
+Farmers are good at understanding weather signs because they depend on weather for their crops. In the same way, people today may be good at knowing how the future can affect their money or what jobs are growing. But they are blind to the most important reality — that they stand before a holy God who will judge our lives.
 
 *Definitions:*
 
 | Word | Meaning |
 |---|---|
-| banquet¹ | a large, special meal; a feast |
-| inspection² | looking carefully at something |
+| banquet | a large, special meal; a feast |
+| inspection | looking carefully at something |
 | scorcher | a very hot day |
 | interpret | understand the meaning of something |
 | accuser | a person who says someone did wrong |
@@ -96,7 +98,7 @@ People in every age are skilled at reading what affects their money, their statu
 
 ## Part 3: The Beginning and the End
 
-We must not continue living as if "eating and drinking, buying and selling, farming and building" is all of reality. Life is short and judgment awaits every single person. THIS is the biggest reality.
+We must not continue living as if "eating and drinking, buying and selling" is all of reality. Life is short and judgment awaits every single person. THIS is the biggest reality.
 
 **John 3:16 (NLT)**
 
@@ -108,7 +110,7 @@ These are the true realities: God's love, His Son, belief, perishing, and eterna
 
 > "Look, I am coming soon, bringing my reward with me to repay all people according to their deeds. I am the Alpha and the Omega, the First and the Last, the Beginning and the End."
 
-God is the beginning and the end of all things. Our past is God — he knew us before we were born (Psalm 139). Our future is God — he is the final judge of all.
+God is the beginning and the end of all things. Our past is God — he knew us before we were born. Our future is God — he is the final judge of all.
 
 
 ---
