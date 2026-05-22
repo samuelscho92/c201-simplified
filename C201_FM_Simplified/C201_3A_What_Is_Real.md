@@ -52,11 +52,11 @@ Here is another story Jesus told:
 
 Jesus also challenged those who were skilled at reading the weather but blind to what truly mattered:
 
-**Luke 12:54–56 (NLT)**
+**Luke 12:54–59 (NLT)**
 
-> Then Jesus turned to the crowd and said, "When you see clouds beginning to form in the west, you say, 'Here comes a shower.' And you are right. When the south wind blows, you say, 'Today will be a scorcher.' And it is. You fools! You know how to interpret the weather signs of the earth and sky, but you don't know how to interpret the present times."
+> Then Jesus turned to the crowd and said, "When you see clouds beginning to form in the west, you say, 'Here comes a shower.' And you are right. When the south wind blows, you say, 'Today will be a scorcher.' And it is. You fools! You know how to interpret the weather signs of the earth and sky, but you don't know how to interpret the present times. Why can’t you decide for yourselves what is right? When you are on the way to court with your accuser, try to settle the matter before you get there. Otherwise, your accuser may drag you before the judge, who will hand you over to an officer, who will throw you into prison. And if that happens, you won’t be free again until you have paid the very last penny."
 
-People in every age are skilled at reading what affects their money, their status, and their comfort. But they are blind to the most important reality — that they stand before a holy God and must give an account.
+People in every age are skilled at reading what affects their money, their status, and their comfort. But they are blind to the most important reality — that they stand before a holy God who will judge our lives.
 
 *Definitions:*
 
@@ -64,6 +64,9 @@ People in every age are skilled at reading what affects their money, their statu
 |---|---|
 | banquet¹ | a large, special meal; a feast |
 | inspection² | looking carefully at something |
+| scorcher | a very hot day |
+| interpret | understand the meaning of something |
+| accuser | a person who says someone did wrong |
 
 ---
 
@@ -80,6 +83,11 @@ People in every age are skilled at reading what affects their money, their statu
 
 
 **Why did the people in Jesus' story refuse the invitation? What does this tell you?**
+
+
+
+
+**According to Luke 12:54-59, what was real to the people in Jesus' day? What is the warning for us?**
 
 
 
@@ -115,9 +123,7 @@ God is the beginning and the end of all things. Our past is God — he knew us b
 
 ## Part 4: Our Default Mindset
 
-Our usual mindset is this: live for what I can see, feel, and touch right now.
-
-Thoughts about death and eternal judgment feel distant and uncomfortable. So we push them away.
+So many of us only give thoughts to our present moment. We don't think about our origin. We don't think about afterlife. They feel distant and uncomfortable. We have our lives to live today, wo we push these thoughts away.
 
 The Bible says this is not a neutral position. It is a form of pride — a refusal to face the truth about ourselves and our Creator.
 
@@ -133,6 +139,14 @@ The Bible says this is not a neutral position. It is a form of pride — a refus
 |---|---|
 | sensitive³ | easily affected by; quick to respond to |
 
+
+---
+
+**Review the quote and answer the questions below.**
+
+**How true is the quote in the lives of people around you? How true is it in your life?**
+
+
 ---
 
 ## Part 5: The Rich Fool
@@ -145,20 +159,18 @@ The Bible says this is not a neutral position. It is a form of pride — a refus
 >
 > "Yes, a person is a fool to store up earthly wealth but not have a rich relationship with God."
 
-This man was smart and capable. He planned well for his future.
+**What were the things the man thought much of? What were the things the man thought little of? How did this lack of balance happen?**
 
-But his picture of reality was too small.
 
-He was focused on his barns and his belly. He narrowed all of reality to himself — his appetites, his plans, his comfort. He had no thought for his soul, for eternity, or for God.
 
-When he died, he was completely unprepared.
+
+**How much can you relate to this kind of lack of balance in your life?**
+
+
+
+
+This man was smart and successful. He planned well for his future.
+
+But his picture of reality was too small. What is real to him? His barns and his belly. It's all about him - his desires, his plans, his comfort. He had no thought for his soul, for eternity, or for God. When he died, he was completely unprepared.
 
 **The question for us: Are we rich toward God — or only rich toward ourselves?**
-
----
-
-**Discussion Questions:**
-
-1. What does the rich fool teach us about what we are paying attention to?
-2. How much of your thinking today is focused on things that will not matter in 100 years?
-3. What would it look like to be "rich toward God" in your life right now?
