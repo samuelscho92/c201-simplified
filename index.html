@@ -275,9 +275,26 @@
       font-size: 1em;
     }
 
+    /* ── Giscus comments ── */
+    #giscus-section {
+      max-width: 780px;
+      margin: 24px auto 40px;
+    }
+
+    #giscus-section h3 {
+      font-size: 0.75em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #dde0da;
+    }
+
     /* Print */
     @media print {
-      #sidebar, #toolbar, #pdf-pane { display: none !important; }
+      #sidebar, #toolbar, #pdf-pane, #giscus-section { display: none !important; }
       body { display: block; overflow: visible; }
       #content-wrap { padding: 0; overflow: visible; }
       #content { box-shadow: none; padding: 40px; max-width: 100%; }
@@ -312,6 +329,10 @@
     </div>
     <div id="content-wrap">
       <div id="content"><div id="empty">← Select a session</div></div>
+      <div id="giscus-section" style="display:none">
+        <h3>Session Notes</h3>
+        <div id="giscus-container"></div>
+      </div>
     </div>
   </div>
 </div>
@@ -504,6 +525,28 @@ Object.entries(chapters).forEach(([chap, sessions]) => {
 let currentSession = null;
 let splitMode = false;
 
+function loadGiscus(term) {
+  const container = document.getElementById('giscus-container');
+  container.innerHTML = '';
+  const s = document.createElement('script');
+  s.src = 'https://giscus.app/client.js';
+  s.setAttribute('data-repo', 'samuelscho92/c201-simplified');
+  s.setAttribute('data-repo-id', 'R_kgDOSkR22Q');
+  s.setAttribute('data-category', 'General');
+  s.setAttribute('data-category-id', 'DIC_kwDOSkR22c4C9oLp');
+  s.setAttribute('data-mapping', 'specific');
+  s.setAttribute('data-term', term);
+  s.setAttribute('data-reactions-enabled', '1');
+  s.setAttribute('data-emit-metadata', '0');
+  s.setAttribute('data-input-position', 'top');
+  s.setAttribute('data-theme', 'light');
+  s.setAttribute('data-lang', 'en');
+  s.crossOrigin = 'anonymous';
+  s.async = true;
+  container.appendChild(s);
+  document.getElementById('giscus-section').style.display = '';
+}
+
 // Load session
 function loadSession(session, btn) {
   document.querySelectorAll('.session-btn').forEach(b => b.classList.remove('active'));
@@ -514,6 +557,7 @@ function loadSession(session, btn) {
   if (splitMode && session.pdf) {
     document.getElementById('pdf-frame').src = session.pdf;
   }
+  loadGiscus(session.id);
 }
 
 // Toggle split view
