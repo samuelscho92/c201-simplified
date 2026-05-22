@@ -51,9 +51,17 @@
 
 **The most powerful motivation: knowing that people without Jesus are lost.**
 
+The Apostle Paul felt this deeply:
+
+**Romans 9:1–3 (NLT)**
+
+> With Christ as my witness, I speak with utter truthfulness. My conscience and the Holy Spirit confirm it. My heart is filled with bitter sorrow and unending grief for my people, my Jewish brothers and sisters. I would be willing to be forever cursed — cut off from Christ! — if that would save them.
+
+Paul was willing to give up his own salvation for the sake of people who did not yet know Jesus. This is the depth of love that the gospel creates.
+
 **Quote — Ajith Fernando, *Jesus Driven Ministry*:**
 
-> "We are compelled by the knowledge that those without Christ are lost and without hope. Paul said he had 'great sorrow and unceasing anguish' in his heart for people who had rejected the gospel."
+> "We are compelled by the knowledge that those without Christ are lost and without hope. Paul expressed this compulsion in Romans 9 — he had 'great sorrow and unceasing anguish' in his heart for people who had rejected the gospel."
 
 *(Simplified from original)*
 

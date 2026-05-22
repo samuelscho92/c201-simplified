@@ -65,7 +65,7 @@ But repentance is actually an invitation to freedom.
 
 **Quote — Jerry Bridges, *Discipline of Grace*:**
 
-> "The gospel, applied to our hearts every day, frees us to be completely honest with ourselves and with God. The assurance of total forgiveness through Christ means we don't have to hide from our sins anymore. We can call sin exactly what it is — because we know Jesus carried that sin on the cross."
+> "The gospel, applied to our hearts every day, frees us to be completely honest with ourselves and with God. The assurance of total forgiveness through Christ means we don't have to hide from our sins anymore. We can call sin exactly what it is — because we know that Jesus bore that sin in his body on the cross."
 
 *(Simplified from original)*
 
@@ -103,11 +103,11 @@ Washing feet was the job of the lowest servant. In that time, feet were very dir
 
 Jesus used this picture to teach us something important.
 
-Jesus wants to wash the dirtiest parts of us. That is why he came.
+Jesus came for one reason: to wash away our sins. His foot-washing was a picture of his death on the cross.
 
-When we refuse to bring our worst, most shameful self to Jesus, we push him away.
+When Peter said "never wash my feet," Jesus answered sharply: "If I do not wash you, you have nothing to do with me." This is literally true. If we keep hiding our dirtiest parts from Jesus, we push him away.
 
-**Do not be shy to come to Jesus with your sin — daily.**
+Jesus wants to wash you. That is what he came to do. **Do not be shy to bring your worst, most shameful self to Jesus — daily.**
 
 ---
 
@@ -133,6 +133,12 @@ But change in behavior may take time — sometimes a long time.
 
 *(Simplified)*
 
+**Quote — Roy Hession, *Calvary Road*:**
+
+> "The Lord Jesus cannot live in us fully until the proud self within us is broken. This means the hard, unyielding self — which justifies itself, wants its own way, stands up for its rights, and seeks its own glory — finally bows its head to God's will. It admits it is wrong. It gives up its own way to Jesus. In other words, it dies to self."
+
+*(Simplified from original)*
+
 **Isaiah 57:15 (NLT)**
 
 > The high and lofty one who lives in eternity, the Holy One, says this: "I live in the high and holy place with those whose spirits are contrite and humble. I restore the crushed spirit of the humble and revive the courage of those with repentant hearts."
@@ -149,6 +155,8 @@ But change in behavior may take time — sometimes a long time.
 | contrite⁵ | deeply sorry for wrong; broken before God |
 | humble⁶ | not proud; knowing your weakness before God |
 
+Perhaps the biggest change that repentance brings is not a great triumph over sin. It is something quieter: **an enduring spirit of humility and contrition before God and before other people.** This is actually a very deep and beautiful change.
+
 ---
 
 **Pause and pray:** Is God speaking to you about a sin right now? Confess it to him. Then thank him for the gift of repentance through the cross of Jesus.
@@ -163,7 +171,7 @@ But change in behavior may take time — sometimes a long time.
 
 Notice Jesus said *repent AND believe*. Not just repent.
 
-Every sin has a deeper sin beneath it — a failure to believe the gospel.
+Beneath every sin is a deeper sin — a failure to believe the gospel.
 
 *Example: You react with anger when someone criticizes your work. On the surface, the sin is anger. But the deeper sin is: you have been finding your worth in your work, not in God. The gospel says you are loved and accepted by God because of Jesus — not because of your work. When you repent, you must also return to trusting that truth.*
 

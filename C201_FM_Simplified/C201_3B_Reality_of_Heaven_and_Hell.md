@@ -34,6 +34,10 @@ These verses show what God's word says about eternity:
 
 > Then the King will turn to those on the left and say, "Away with you, you cursed ones, into the eternal fire prepared for the devil and his demons."
 
+**Romans 2:4–5 (NLT)**
+
+> Don't you see how wonderfully kind, tolerant, and patient God is with you? Does this mean nothing to you? Can't you see that his kindness is intended to turn you from your sin? But because you are stubborn and refuse to turn from your sin, you are storing up terrible punishment for yourself. For a day of anger is coming, when God's righteous judgment will be revealed.
+
 **John 5:24 (NLT)**
 
 > I tell you the truth, those who listen to my message and believe in God who sent me have eternal life. They will never be condemned for their sins, but they have already passed from death into life.
@@ -49,6 +53,8 @@ These verses show what God's word says about eternity:
 Hell is the final separation from God. It is being completely removed from the only source of goodness and light in the universe.
 
 **Sin is separation from God.** Hell is that separation continuing forever — without repair.
+
+Notice what Romans 2 tells us: God's patience and kindness are not signs that he does not care. They are an invitation to repent before judgment comes.
 
 ---
 
@@ -87,6 +93,18 @@ This criminal had no time to do good works. He simply believed. And Jesus said: 
 **John 14:2–3 (NLT)**
 
 > There is more than enough room in my Father's home. If this were not so, would I have told you that I am going to prepare a place for you? When everything is ready, I will come and get you, so that you will always be with me where I am.
+
+**John 17:3 (NLT)**
+
+> And this is the way to have eternal life — to know you, the only true God, and Jesus Christ, the one you sent to earth.
+
+Notice: eternal life is not simply living forever. It is *knowing* God. It is a restored relationship that goes on without end. Heaven is joining the life of God himself.
+
+**2 Corinthians 4:16–18 (NLT)**
+
+> That is why we never give up. Though our bodies are dying, our spirits are being renewed every day. For our present troubles are small and won't last very long. Yet they produce for us a glory that vastly outweighs them and will last forever! So we don't look at the troubles we can see now; rather, we fix our gaze on things that cannot be seen. For the things we see now will soon be gone, but the things we cannot see will last forever.
+
+Our suffering in this life is real. But it is preparing us for something far greater — an eternal glory that makes every present difficulty seem small.
 
 ---
 
@@ -130,13 +148,13 @@ These things give us a small taste of something we cannot fully explain.
 
 **Quote — C.S. Lewis, *Mere Christianity*:**
 
-> "If I find in myself a desire which no experience in this world can satisfy, the most likely explanation is that I was made for another world."
+> "If I find in myself a desire which no experience in this world can satisfy, the most likely explanation is that I was made for another world. I must keep alive in myself the desire for my true country, which I shall not find until after death. I must never let it get pushed away or forgotten; I must make it one of the main objects of my life to press on toward that other country."
 
 *(Simplified from original)*
 
 *Example: You hear a beautiful piece of music and feel a deep longing. But the music itself is not what you are longing for — something came through the music. C.S. Lewis calls this "the inconsolable longing" — a desire for heaven that nothing on earth can fully satisfy.*
 
-The Bible describes us as people who are not fully at home in this world.
+The Bible describes us as people who are not fully at home in this world — like travelers who belong somewhere else.
 
 We were made for more. We were made for God. We were made for heaven.
 

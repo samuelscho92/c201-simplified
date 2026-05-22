@@ -22,11 +22,11 @@ Every person has a deep need for love.
 
 Without love, life is very hard.
 
-And love, by its nature, wants to last forever. We never want love to end.
+And love, by its nature, wants to last forever. We never want love to end. Built right into love is a call for eternity.
 
-The Bible tells us this is by design. God himself is love — Father, Son, and Holy Spirit in eternal relationship.
+And yet our love runs into the wall of death. Is the universe, then, just a cruel trick?
 
-Because God is love, our deep need for love is met by who God is.
+No. The Bible tells us that because God himself is love — Father, Son, and Holy Spirit in eternal relationship — our deep need for love is met by who God is. We were made for love, because we were made by a God who is love.
 
 **Heaven is about relationship.** It is joining the eternal fellowship of God.
 
@@ -48,11 +48,13 @@ If God loves us and saves us, then heaven must exist for that relationship to go
 
 We must also understand hell in a relational way.
 
-Hell is not simply a punishment for breaking rules.
+If we think of hell only as punishment for breaking rules, it can seem unfair — a small crime with an oversized punishment. But that misses what hell really is.
 
 **Hell is the final result of a person's own choice to remain separate from God.**
 
-If someone has spent their whole life refusing God, refusing to submit to him, refusing his love — then God honors that choice forever.
+If someone has spent their whole life refusing God, refusing to submit to him, refusing his love — then God honors that choice forever. Love does not force itself. Love must accept the risk of being rejected.
+
+There is a voice inside every person that says: "I do not need God. I will rule my own life." The poet Milton put these words in the mouth of the enemy: **"Better to rule in hell than serve in heaven."** This is the spirit of rebellion — preferring self-rule over love.
 
 **Quote — C.S. Lewis, *The Problem of Pain*:**
 
@@ -65,6 +67,14 @@ If someone has spent their whole life refusing God, refusing to submit to him, r
 > "I believe that the doors of hell are locked on the inside."
 
 *(Simplified from original — this means those in hell have gotten what they chose: life without God)*
+
+**Quote — C.S. Lewis, *The Problem of Pain*:**
+
+> "The characteristic of lost souls is their rejection of everything that is not themselves... He has his wish — to live completely for himself, and to make the best of what he finds there. And what he finds there is Hell."
+>
+> "To enter heaven is to become more human than you ever succeeded in being on earth. To enter hell is to be removed from humanity — to become less than a person."
+
+*(Simplified from original)*
 
 *Definitions:*
 

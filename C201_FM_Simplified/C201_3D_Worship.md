@@ -114,6 +114,8 @@ In those moments, several things happen:
 
 We are designed for this kind of total, joyful focus on something worthy.
 
+**We are at our truest and fullest, not when we seek attention for ourselves, but when — in self-forgetfulness — we are caught up in the greatness of someone truly worthy of worship.** On earth, we only catch glimpses of this. Heaven is when it becomes permanent and complete.
+
 The problem on earth: nothing here is fully worthy of it.
 
 **Heaven is when we finally give this full worship to the One who perfectly deserves it — God himself.**
@@ -127,6 +129,8 @@ The problem on earth: nothing here is fully worthy of it.
 > Each person who is saved will forever know and praise some aspect of God's beauty better than any other person can. If everyone experienced God the same way, heaven would have no symphony — it would be like an orchestra where every instrument plays the same note."
 
 *(Simplified from original)*
+
+In Revelation 2:17, God promises that each person who overcomes will receive a white stone with a new name written on it — a name that only God and that person know. Your relationship with God in heaven will be uniquely yours. He loves each person individually, not as a crowd.
 
 **You are not just one of many. God loves each person uniquely. Heaven will be a rich community where every person reflects a different aspect of God's beauty.**
 

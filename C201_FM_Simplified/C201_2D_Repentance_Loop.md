@@ -70,7 +70,11 @@ God forgives us. There is celebration. We must not stay forever in self-criticis
 
 This is a practical tool for bringing your sin to God.
 
-Based on 2 Timothy 3:16–17 — all Scripture teaches us, corrects us, and trains us to live rightly.
+**2 Timothy 3:16–17 (NLT)**
+
+> All Scripture is inspired by God and is useful to teach us what is true and to make us realize what is wrong in our lives. It corrects us when we are wrong and teaches us to do what is right. God uses it to prepare and equip his people to do every good work.
+
+All Scripture teaches us, corrects us, and trains us to live rightly.
 
 **X = an event, a reaction, a choice, or a temptation that you need to stop and consider.**
 

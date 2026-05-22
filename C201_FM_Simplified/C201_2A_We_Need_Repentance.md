@@ -11,7 +11,6 @@
 | fellowship | a close, open relationship with God or others |
 | confession | honestly admitting your sin to God |
 | position | your standing before God — forgiven and secure in Christ |
-| fellowship | your daily closeness and connection with God |
 
 ---
 
@@ -29,7 +28,7 @@ This started at the very beginning.
 
 God did not walk away from Adam. He called out to him.
 
-This has always been God's response to us when we sin.
+This has always been God's response to us when we sin. He seeks us out. He wants to pull us back — out of the darkness and back into relationship with him.
 
 He calls: **"Where are you? Let's talk."**
 
@@ -73,6 +72,8 @@ But when we sin and hide, we damage our closeness with him.
 
 The very first words of Jesus' teaching were: *"Repent and believe."*
 
+**This is good news.** The holy God is not waiting to punish us. He is waiting to forgive us — if we stop hiding and step into the light.
+
 Repentance is the path back to God. It is the way to stay close to him.
 
 ---
@@ -92,6 +93,8 @@ God has forgiven all our sins — past, present, and future.
 
 Nothing can take away our standing as God's forgiven children.
 
+**There is nothing you can do to make God love you more. There is nothing you can do to make God love you less.** Everything has already been done by Jesus on the cross, and given to us as a gift.
+
 **But our sins can damage our daily closeness with God.**
 
 When we sin, we start to feel distant from God. We feel fear and doubt. Our affection for God becomes cold.
@@ -106,9 +109,16 @@ What could the son do? He could:
 - Keep hiding the sin (growing more distant)
 - Try to make up for it by doing good things (missing the point)
 - Run away out of shame (also missing the point)
+- Become angry and rebellious toward the father (also missing the point)
 - Confess to his father honestly
 
-The right response is to confess. The father loves the son. When the son confesses, the father forgives him. They become even closer than before.
+The right response is to confess.
+
+Here is how the story usually ends. The father discovers the broken vase. He notices his son's nervousness at dinner. Gently, he says: "Hey — want to come look at that vase with me?" Unable to carry the tension any longer, the son bursts into tears and confesses everything.
+
+The father gives him a big hug. "It's OK. You can always come to me. I will always forgive you." They talk about what happened and why.
+
+**Afterwards, they feel even closer than before.**
 
 **This is exactly what God wants from us.**
 

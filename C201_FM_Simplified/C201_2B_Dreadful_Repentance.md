@@ -58,7 +58,7 @@ Consider two men who both failed Jesus. One is Judas. The other is Peter.
 
 Judas felt sorry for what he did. But his sorrow was about himself. He tried to fix it on his own.
 
-Peter also felt deep pain. But Peter's tears were toward Jesus. He was sorry because he had hurt the one he loved.
+Peter also felt deep pain. But Peter's tears were toward Jesus. He was sorry because he had hurt the one he loved. His pain was not only shame about himself — it was grief for the wound he had caused Jesus.
 
 ---
 
@@ -69,6 +69,14 @@ When we sin, we sin against God. We should go to God for forgiveness. Self-atone
 
 **Problem 2: It does not work — and it insults Jesus.**
 We cannot pay for our own sin. Jesus died on the cross to pay for our sin. If we try to pay for it ourselves, it is as if we are saying Jesus did not need to die.
+
+The Bible says it plainly:
+
+**Isaiah 64:6 (NLT)**
+
+> When we display our righteous deeds, they are nothing but filthy rags.
+
+No amount of good effort can clean what only the cross can clean.
 
 ---
 
@@ -131,9 +139,11 @@ In religion, every sin is a crisis — because our only hope is our own goodness
 
 This is not a sad statement. It means repentance is *how we grow* as Christians.
 
-The more we understand God's grace, the more freely we repent.
+The more we see our own sin clearly, the more precious and amazing God's grace becomes to us. And the more we understand God's grace, the more freely and honestly we can repent.
 
-And the more we repent, the more amazing God's grace becomes to us.
+These two things grow together: a clearer view of our sin, and a deeper wonder at God's love.
+
+**The sin under all other sins is a lack of joy in Christ.** When we repent of the surface sin, we must also return to find our joy in Jesus.
 
 ---
 
