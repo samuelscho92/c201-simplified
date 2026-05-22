@@ -21,15 +21,15 @@
 
 **Matthew 28:18–20 (NLT)**
 
-Jesus came and told his disciples, "I have been given all authority in heaven and on earth. Therefore, go and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit. Teach these new disciples to obey all the commands I have given you. And be sure of this: I am with you always, even to the end of the age."
+> Jesus came and told his disciples, "I have been given all authority in heaven and on earth. Therefore, go and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit. Teach these new disciples to obey all the commands I have given you. And be sure of this: I am with you always, even to the end of the age."
 
 **Quote — Hudson Taylor:**
 
-"The Great Commission is not an option to consider. It is a command to obey."
+> "The Great Commission is not an option to consider. It is a command to obey."
 
 **Matthew 9:35–38 (NLT)**
 
-Jesus traveled through all the towns and villages of that area, teaching in the synagogues and announcing the Good News about the Kingdom. And he healed every kind of disease and illness. When he saw the crowds, he had compassion on them because they were confused and helpless, like sheep without a shepherd. He said to his disciples, "The harvest is great, but the workers are few. So pray to the Lord who is in charge of the harvest; ask him to send more workers into his fields."
+> Jesus traveled through all the towns and villages of that area, teaching in the synagogues and announcing the Good News about the Kingdom. And he healed every kind of disease and illness. When he saw the crowds, he had compassion on them because they were confused and helpless, like sheep without a shepherd. He said to his disciples, "The harvest is great, but the workers are few. So pray to the Lord who is in charge of the harvest; ask him to send more workers into his fields."
 
 *Definitions:*
 
@@ -56,13 +56,13 @@ The Apostle Paul felt this deeply:
 
 **Romans 9:1–3 (NLT)**
 
-With Christ as my witness, I speak with utter truthfulness. My conscience and the Holy Spirit confirm it. My heart is filled with bitter sorrow and unending grief for my people, my Jewish brothers and sisters. I would be willing to be forever cursed — cut off from Christ\! — if that would save them.
-
-Paul was willing to give up his own salvation for the sake of people who did not yet know Jesus. This is the depth of love that the gospel creates.
+> With Christ as my witness, I speak with utter truthfulness. My conscience and the Holy Spirit confirm it. My heart is filled with bitter sorrow and unending grief for my people, my Jewish brothers and sisters. I would be willing to be forever cursed — cut off from Christ\! — if that would save them.
+>
+> Paul was willing to give up his own salvation for the sake of people who did not yet know Jesus. This is the depth of love that the gospel creates.
 
 **Quote — Ajith Fernando, *Jesus Driven Ministry*:**
 
-"We are compelled by the knowledge that those without Christ are lost and without hope. Paul expressed this compulsion in Romans 9 — he had 'great sorrow and unceasing anguish' in his heart for people who had rejected the gospel."
+> "We are compelled by the knowledge that those without Christ are lost and without hope. Paul expressed this compulsion in Romans 9 — he had 'great sorrow and unceasing anguish' in his heart for people who had rejected the gospel."
 
 *(Simplified from original)*
 
@@ -80,7 +80,7 @@ Throughout history, Christians who understood the reality of heaven and hell wer
 
 **Quote — Michael Green, *Evangelism Through the Local Church*:**
 
-"No skill of ours can lead someone to Christ. That is the Holy Spirit's work. We do not need to worry about the outcome. Our responsibility is to be faithful with the gospel. The Spirit's job is to apply it."
+> "No skill of ours can lead someone to Christ. That is the Holy Spirit's work. We do not need to worry about the outcome. Our responsibility is to be faithful with the gospel. The Spirit's job is to apply it."
 
 *(Simplified from original)*
 
@@ -90,7 +90,7 @@ Throughout history, Christians who understood the reality of heaven and hell wer
 
 **Quote — Don Posterski, *Why Am I Afraid to Tell You I'm a Christian?*:**
 
-"Prayer connects us with what God is already doing in people's lives. We pray for roommates, neighbors, coworkers — by name. We ask God to help us see lonely people and take the risk of sitting with them. We pray that we will speak with care and act as Jesus would. We also pray for ourselves — that God will free us from our fear of being rejected, and give us opportunities to love and witness well."
+> "Prayer connects us with what God is already doing in people's lives. We pray for roommates, neighbors, coworkers — by name. We ask God to help us see lonely people and take the risk of sitting with them. We pray that we will speak with care and act as Jesus would. We also pray for ourselves — that God will free us from our fear of being rejected, and give us opportunities to love and witness well."
 
 *(Simplified from original)*
 

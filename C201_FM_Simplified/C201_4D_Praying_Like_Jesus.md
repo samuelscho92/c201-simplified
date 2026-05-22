@@ -27,7 +27,7 @@ We can use it as a guide for a lifetime of prayer.
 
 **Matthew 6:9–13 (NLT)**
 
-Pray like this: Our Father in heaven, may your name be kept holy. May your Kingdom come soon. May your will be done on earth, as it is in heaven. Give us today the food we need, and forgive us our sins, as we have forgiven those who sin against us. And don't let us yield to temptation, but rescue us from the evil one.
+> Pray like this: Our Father in heaven, may your name be kept holy. May your Kingdom come soon. May your will be done on earth, as it is in heaven. Give us today the food we need, and forgive us our sins, as we have forgiven those who sin against us. And don't let us yield to temptation, but rescue us from the evil one.
 
 ---
 

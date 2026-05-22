@@ -38,7 +38,7 @@ This is also true with God.
 
 **Jeremiah 9:23–24 (NLT)**
 
-This is what the LORD says: "Don't let the wise boast in their wisdom, or the powerful boast in their power, or the rich boast in their riches. But those who wish to boast should boast in this alone: that they truly know me and understand that I am the LORD who demonstrates unfailing love and who brings justice and righteousness to the earth, and that I delight in these things. I, the LORD, have spoken\!"
+> This is what the LORD says: "Don't let the wise boast in their wisdom, or the powerful boast in their power, or the rich boast in their riches. But those who wish to boast should boast in this alone: that they truly know me and understand that I am the LORD who demonstrates unfailing love and who brings justice and righteousness to the earth, and that I delight in these things. I, the LORD, have spoken\!"
 
 *Definition table (right sidebar):*
 
@@ -53,7 +53,7 @@ This is what the LORD says: "Don't let the wise boast in their wisdom, or the po
 
 **Isaiah 1:2–3 (NLT)**
 
-Listen, O heavens\! Pay attention, earth\! This is what the LORD says: "The children I raised and cared for have rebelled against me. Even an ox knows its owner, and a donkey recognizes its master's care — but Israel doesn't know its master. My people don't recognize my care for them."
+> Listen, O heavens\! Pay attention, earth\! This is what the LORD says: "The children I raised and cared for have rebelled against me. Even an ox knows its owner, and a donkey recognizes its master's care — but Israel doesn't know its master. My people don't recognize my care for them."
 
 *Definition table (right sidebar):*
 
@@ -65,7 +65,7 @@ Listen, O heavens\! Pay attention, earth\! This is what the LORD says: "The chil
 
 **John 17:3 (NLT)**
 
-And this is the way to have eternal life — to know you, the only true God, and Jesus Christ, the one you sent to earth.
+> And this is the way to have eternal life — to know you, the only true God, and Jesus Christ, the one you sent to earth.
 
 ---
 
@@ -91,7 +91,7 @@ If we do not understand holiness, the cross of Jesus is confusing. We will not b
 
 **Quote — R.C. Sproul, *Holiness of God*:**
 
-"The most important idea I found in the Bible is that God is holy. It is basic to understanding God and Christianity. The Bible says that God's name is holy — because he is holy."
+> "The most important idea I found in the Bible is that God is holy. It is basic to understanding God and Christianity. The Bible says that God's name is holy — because he is holy."
 
 *(This is a simplified version of the original quote.)*
 
@@ -101,19 +101,19 @@ The Bible also says: "Holy is his name" (Luke 1:49). His name is holy because he
 
 **Isaiah 6:1–8 (NLT)**
 
-It was in the year King Uzziah died that I saw the Lord. He was sitting on a lofty throne, and the train of his robe filled the Temple. Attending him were mighty seraphim, each having six wings. With two wings they covered their faces, with two they covered their feet, and with two they flew. They were calling out to each other,
-
-*"Holy, holy, holy is the LORD of Heaven's Armies\! The whole earth is filled with his glory\!"*
-
-Their voices shook the Temple to its foundations, and the entire building was filled with smoke.
-
-Then I said, "It's all over\! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies."
-
-Then one of the seraphim flew to me with a burning coal he had taken from the altar with a pair of tongs. He touched my lips with it and said, "See, this coal has touched your lips. Now your guilt is removed, and your sins are forgiven."
-
-Then I heard the Lord asking, "Whom should I send as a messenger to this people? Who will go for us?"
-
-I said, "Here I am. Send me."
+> It was in the year King Uzziah died that I saw the Lord. He was sitting on a lofty throne, and the train of his robe filled the Temple. Attending him were mighty seraphim, each having six wings. With two wings they covered their faces, with two they covered their feet, and with two they flew. They were calling out to each other,
+>
+> *"Holy, holy, holy is the LORD of Heaven's Armies\! The whole earth is filled with his glory\!"*
+>
+> Their voices shook the Temple to its foundations, and the entire building was filled with smoke.
+>
+> Then I said, "It's all over\! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies."
+>
+> Then one of the seraphim flew to me with a burning coal he had taken from the altar with a pair of tongs. He touched my lips with it and said, "See, this coal has touched your lips. Now your guilt is removed, and your sins are forgiven."
+>
+> Then I heard the Lord asking, "Whom should I send as a messenger to this people? Who will go for us?"
+>
+> I said, "Here I am. Send me."
 
 *Definition table (right sidebar):*
 
@@ -171,7 +171,7 @@ Think of it this way: God is not just a little greater than us. He is in a compl
 
 **Quote — R.C. Sproul, *Holiness of God*:**
 
-"God is separate from us. He is above us. He is greater than all things. When the Bible calls God holy, it means he is different from us in a special way. He is far above everything."
+> "God is separate from us. He is above us. He is greater than all things. When the Bible calls God holy, it means he is different from us in a special way. He is far above everything."
 
 *(This is a simplified version of the original quote.)*
 

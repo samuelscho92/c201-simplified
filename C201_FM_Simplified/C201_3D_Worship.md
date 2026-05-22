@@ -31,7 +31,7 @@ We do the same with heaven. We only understand it in terms of what is missing fr
 
 **Quote — C.S. Lewis, *The Weight of Glory*:**
 
-"We are half-hearted creatures, playing with small things — food and entertainment and ambition — when God is offering us infinite joy. We are like a child who wants to keep making mud pies in a dirty alley because he cannot understand what is meant by the offer of a holiday at the sea. We are far too easily satisfied."
+> "We are half-hearted creatures, playing with small things — food and entertainment and ambition — when God is offering us infinite joy. We are like a child who wants to keep making mud pies in a dirty alley because he cannot understand what is meant by the offer of a holiday at the sea. We are far too easily satisfied."
 
 *(Simplified from original)*
 
@@ -51,11 +51,11 @@ Jesus gives us a practical answer: **invest in heaven now.**
 
 **Matthew 6:19–21 (NLT)**
 
-Don't store up treasures here on earth, where moths eat them and rust destroys them, and where thieves break in and steal. Store your treasures in heaven, where moths and rust cannot destroy, and thieves do not break in and steal. Wherever your treasure is, there the desires of your heart will also be.
+> Don't store up treasures here on earth, where moths eat them and rust destroys them, and where thieves break in and steal. Store your treasures in heaven, where moths and rust cannot destroy, and thieves do not break in and steal. Wherever your treasure is, there the desires of your heart will also be.
 
 **Galatians 6:7–8 (NLT)**
 
-Don't be misled — you cannot mock the justice of God. You will always harvest what you plant. Those who live only to satisfy their own sinful nature will harvest decay and death from that sinful nature. But those who live to please the Spirit will harvest everlasting life from the Spirit.
+> Don't be misled — you cannot mock the justice of God. You will always harvest what you plant. Those who live only to satisfy their own sinful nature will harvest decay and death from that sinful nature. But those who live to please the Spirit will harvest everlasting life from the Spirit.
 
 *Definitions:*
 
@@ -82,13 +82,13 @@ One of the central activities of heaven is worship.
 
 **Revelation 7:9–12 (NLT)**
 
-After this I saw a vast crowd, too great to count, from every nation and tribe and people and language, standing in front of the throne and before the Lamb. They were clothed in white robes and held palm branches in their hands. And they were shouting with a great roar,
-
-"Salvation comes from our God who sits on the throne and from the Lamb\!"
-
-And all the angels were standing around the throne and around the elders and the four living beings. And they fell before the throne with their faces to the ground and worshiped God. They sang,
-
-"Amen\! Blessing and glory and wisdom and thanksgiving and honor and power and strength belong to our God forever and ever\! Amen."
+> After this I saw a vast crowd, too great to count, from every nation and tribe and people and language, standing in front of the throne and before the Lamb. They were clothed in white robes and held palm branches in their hands. And they were shouting with a great roar,
+>
+> "Salvation comes from our God who sits on the throne and from the Lamb\!"
+>
+> And all the angels were standing around the throne and around the elders and the four living beings. And they fell before the throne with their faces to the ground and worshiped God. They sang,
+>
+> "Amen\! Blessing and glory and wisdom and thanksgiving and honor and power and strength belong to our God forever and ever\! Amen."
 
 *Definitions:*
 
@@ -126,9 +126,9 @@ The problem on earth: nothing here is fully worthy of it.
 
 **Quote — C.S. Lewis, *The Problem of Pain*:**
 
-"Your place in heaven will seem to be made for you and you alone — because you were made for it, shaped for it, like a glove made for a hand.
-
-Each person who is saved will forever know and praise some aspect of God's beauty better than any other person can. If everyone experienced God the same way, heaven would have no symphony — it would be like an orchestra where every instrument plays the same note."
+> "Your place in heaven will seem to be made for you and you alone — because you were made for it, shaped for it, like a glove made for a hand.
+>
+> Each person who is saved will forever know and praise some aspect of God's beauty better than any other person can. If everyone experienced God the same way, heaven would have no symphony — it would be like an orchestra where every instrument plays the same note."
 
 *(Simplified from original)*
 

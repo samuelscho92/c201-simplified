@@ -25,41 +25,41 @@ These verses show what God's word says about eternity:
 
 **Hebrews 9:27 (NLT)**
 
-Each person is destined to die once and after that comes judgment.
+> Each person is destined to die once and after that comes judgment.
 
 **2 Thessalonians 1:9 (NLT)**
 
-They will be punished with eternal destruction, forever separated from the Lord and from his glorious power.
+> They will be punished with eternal destruction, forever separated from the Lord and from his glorious power.
 
 **Matthew 25:31, 41 (NLT)**
 
-But when the Son of Man comes in his glory, and all the angels with him, then he will sit upon his glorious throne.
-
-Then the King will turn to those on the left and say, "Away with you, you cursed ones, into the eternal fire prepared for the devil and his demons."
+> But when the Son of Man comes in his glory, and all the angels with him, then he will sit upon his glorious throne.
+>
+> Then the King will turn to those on the left and say, "Away with you, you cursed ones, into the eternal fire prepared for the devil and his demons."
 
 **Matthew 8:12 (NLT)**
 
-But many Israelites — those for whom the Kingdom was prepared — will be thrown into outer darkness, where there will be weeping and gnashing of teeth.
+> But many Israelites — those for whom the Kingdom was prepared — will be thrown into outer darkness, where there will be weeping and gnashing of teeth.
 
 **Matthew 22:13 (NLT)**
 
-Then the king said to his aides, "Bind his hands and feet and throw him into the outer darkness, where there will be weeping and gnashing of teeth."
+> Then the king said to his aides, "Bind his hands and feet and throw him into the outer darkness, where there will be weeping and gnashing of teeth."
 
 **Luke 13:24–29 (NLT)**
 
-"Work hard to enter the narrow door to God's Kingdom, for many will try to enter but will fail. When the master of the house has locked the door, it will be too late. You will stand outside knocking and pleading, 'Lord, open the door for us\!' But he will reply, 'I don't know you or where you come from.' Then you will say, 'But we ate and drank with you, and you taught in our streets.' And he will reply, 'I tell you, I don't know you or where you come from. Get away from me, all you who do evil.' There will be weeping and gnashing of teeth, for you will see Abraham, Isaac, Jacob, and all the prophets in the Kingdom of God, but you will be thrown out. And people will come from all over the world — from east and west, north and south — to take their places in the Kingdom of God."
+> "Work hard to enter the narrow door to God's Kingdom, for many will try to enter but will fail. When the master of the house has locked the door, it will be too late. You will stand outside knocking and pleading, 'Lord, open the door for us\!' But he will reply, 'I don't know you or where you come from.' Then you will say, 'But we ate and drank with you, and you taught in our streets.' And he will reply, 'I tell you, I don't know you or where you come from. Get away from me, all you who do evil.' There will be weeping and gnashing of teeth, for you will see Abraham, Isaac, Jacob, and all the prophets in the Kingdom of God, but you will be thrown out. And people will come from all over the world — from east and west, north and south — to take their places in the Kingdom of God."
 
 **Romans 2:4–8 (NLT)**
 
-Don't you see how wonderfully kind, tolerant, and patient God is with you? Does this mean nothing to you? Can't you see that his kindness is intended to turn you from your sin? But because you are stubborn and refuse to turn from your sin, you are storing up terrible punishment for yourself. For a day of anger is coming, when God's righteous judgment will be revealed. He will judge everyone according to what they have done. He will give eternal life to those who keep on doing good, seeking after the glory and honor and immortality that God offers. But he will pour out his anger and wrath on those who live for themselves, who refuse to obey the truth and instead live lives of wickedness.
+> Don't you see how wonderfully kind, tolerant, and patient God is with you? Does this mean nothing to you? Can't you see that his kindness is intended to turn you from your sin? But because you are stubborn and refuse to turn from your sin, you are storing up terrible punishment for yourself. For a day of anger is coming, when God's righteous judgment will be revealed. He will judge everyone according to what they have done. He will give eternal life to those who keep on doing good, seeking after the glory and honor and immortality that God offers. But he will pour out his anger and wrath on those who live for themselves, who refuse to obey the truth and instead live lives of wickedness.
 
 **Galatians 6:7–8 (NLT)**
 
-Don't be misled — you cannot mock the justice of God. You will always harvest what you plant. Those who live only to satisfy their own sinful nature will harvest decay and death from that sinful nature. But those who live to please the Spirit will harvest everlasting life from the Spirit.
+> Don't be misled — you cannot mock the justice of God. You will always harvest what you plant. Those who live only to satisfy their own sinful nature will harvest decay and death from that sinful nature. But those who live to please the Spirit will harvest everlasting life from the Spirit.
 
 **John 5:24 (NLT)**
 
-I tell you the truth, those who listen to my message and believe in God who sent me have eternal life. They will never be condemned for their sins, but they have already passed from death into life.
+> I tell you the truth, those who listen to my message and believe in God who sent me have eternal life. They will never be condemned for their sins, but they have already passed from death into life.
 
 *Definitions:*
 
@@ -91,11 +91,11 @@ As Jesus was dying on the cross, he illustrated the truth of heaven one final ti
 
 **Luke 23:39–43 (NLT)**
 
-One of the criminals hanging beside him scoffed, "So you're the Messiah, are you? Prove it by saving yourself — and us, too, while you're at it\!"
-
-But the other criminal protested, "Don't you fear God even when you have been sentenced to die? We deserve to die for our crimes, but this man hasn't done anything wrong." Then he said, "Jesus, remember me when you come into your Kingdom."
-
-And Jesus replied, "I assure you, today you will be with me in paradise."
+> One of the criminals hanging beside him scoffed, "So you're the Messiah, are you? Prove it by saving yourself — and us, too, while you're at it\!"
+>
+> But the other criminal protested, "Don't you fear God even when you have been sentenced to die? We deserve to die for our crimes, but this man hasn't done anything wrong." Then he said, "Jesus, remember me when you come into your Kingdom."
+>
+> And Jesus replied, "I assure you, today you will be with me in paradise."
 
 *Definitions:*
 
@@ -111,23 +111,23 @@ This criminal had no time to do good works. He simply believed. And Jesus said: 
 
 **John 14:1–3 (NLT)**
 
-Don't let your hearts be troubled. Trust in God, and trust also in me. There is more than enough room in my Father's home. If this were not so, would I have told you that I am going to prepare a place for you? When everything is ready, I will come and get you, so that you will always be with me where I am.
+> Don't let your hearts be troubled. Trust in God, and trust also in me. There is more than enough room in my Father's home. If this were not so, would I have told you that I am going to prepare a place for you? When everything is ready, I will come and get you, so that you will always be with me where I am.
 
 **John 17:1–3, 24 (NLT)**
 
-After saying all these things, Jesus looked up to heaven and said, "Father, the hour has come. Glorify your Son so he can give glory back to you. For you have given him authority over everyone. He gives eternal life to each one you have given him. And this is the way to have eternal life — to know you, the only true God, and Jesus Christ, the one you sent to earth."
-
-"Father, I want these whom you have given me to be with me where I am. Then they can see all the glory you gave me because you loved me even before the world began\!"
-
-Notice: eternal life is not simply living forever. It is *knowing* God. It is a restored relationship that goes on without end. Heaven is joining the life of God himself.
+> After saying all these things, Jesus looked up to heaven and said, "Father, the hour has come. Glorify your Son so he can give glory back to you. For you have given him authority over everyone. He gives eternal life to each one you have given him. And this is the way to have eternal life — to know you, the only true God, and Jesus Christ, the one you sent to earth."
+>
+> "Father, I want these whom you have given me to be with me where I am. Then they can see all the glory you gave me because you loved me even before the world began\!"
+>
+> Notice: eternal life is not simply living forever. It is *knowing* God. It is a restored relationship that goes on without end. Heaven is joining the life of God himself.
 
 **2 Corinthians 4:7, 16–18 (NLT)**
 
-We now have this light shining in our hearts, but we ourselves are like fragile clay jars containing this great treasure. This makes it clear that our great power is from God, not from ourselves.
-
-That is why we never give up. Though our bodies are dying, our spirits are being renewed every day. For our present troubles are small and won't last very long. Yet they produce for us a glory that vastly outweighs them and will last forever\! So we don't look at the troubles we can see now; rather, we fix our gaze on things that cannot be seen. For the things we see now will soon be gone, but the things we cannot see will last forever.
-
-Our suffering in this life is real. But it is preparing us for something far greater — an eternal glory that makes every present difficulty seem small.
+> We now have this light shining in our hearts, but we ourselves are like fragile clay jars containing this great treasure. This makes it clear that our great power is from God, not from ourselves.
+>
+> That is why we never give up. Though our bodies are dying, our spirits are being renewed every day. For our present troubles are small and won't last very long. Yet they produce for us a glory that vastly outweighs them and will last forever\! So we don't look at the troubles we can see now; rather, we fix our gaze on things that cannot be seen. For the things we see now will soon be gone, but the things we cannot see will last forever.
+>
+> Our suffering in this life is real. But it is preparing us for something far greater — an eternal glory that makes every present difficulty seem small.
 
 ---
 
@@ -149,7 +149,7 @@ This is simply refusing to face reality.
 
 **Quote — Blaise Pascal, *Pensées*:**
 
-"Because people cannot cure death, sorrow, and ignorance, they have decided — in order to be happy — not to think about these things."
+> "Because people cannot cure death, sorrow, and ignorance, they have decided — in order to be happy — not to think about these things."
 
 *(Simplified from original)*
 
@@ -173,7 +173,7 @@ These things give us a small taste of something we cannot fully explain.
 
 **Quote — C.S. Lewis, *Mere Christianity*:**
 
-"If I find in myself a desire which no experience in this world can satisfy, the most likely explanation is that I was made for another world. I must keep alive in myself the desire for my true country, which I shall not find until after death. I must never let it get pushed away or forgotten; I must make it one of the main objects of my life to press on toward that other country."
+> "If I find in myself a desire which no experience in this world can satisfy, the most likely explanation is that I was made for another world. I must keep alive in myself the desire for my true country, which I shall not find until after death. I must never let it get pushed away or forgotten; I must make it one of the main objects of my life to press on toward that other country."
 
 *(Simplified from original)*
 

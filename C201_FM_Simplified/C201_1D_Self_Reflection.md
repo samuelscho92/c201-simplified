@@ -31,7 +31,7 @@ Without it, we go through life with a wrong picture of ourselves.
 
 **Quote — Dr. Martin Lloyd-Jones, *Out of the Depths*:**
 
-"A Christian is someone who has seen himself and seen what he has done. He has seen his sin. He knows he has sinned against God. He sees that his own nature is sinful."
+> "A Christian is someone who has seen himself and seen what he has done. He has seen his sin. He knows he has sinned against God. He sees that his own nature is sinful."
 
 *(Simplified from original)*
 
@@ -39,7 +39,7 @@ Without it, we go through life with a wrong picture of ourselves.
 
 **Quote — Henri Nouwen, *Making All Things New*:**
 
-"As soon as we are alone, inner chaos opens up in us. When we remove outside distractions, we clearly see our inner problems. We often use outside activities to protect ourselves from what is happening inside."
+> "As soon as we are alone, inner chaos opens up in us. When we remove outside distractions, we clearly see our inner problems. We often use outside activities to protect ourselves from what is happening inside."
 
 *(Simplified from original)*
 
@@ -149,7 +149,7 @@ Both problems leave God out of the process.
 
 **Isaiah 1:18 (NLT)**
 
-"Come now, let's settle this," says the LORD. "Though your sins are like scarlet, I will make them as white as snow. Though they are red like crimson, I will make them as white as wool."
+> "Come now, let's settle this," says the LORD. "Though your sins are like scarlet, I will make them as white as snow. Though they are red like crimson, I will make them as white as wool."
 
 *Definitions:*
 
@@ -166,7 +166,7 @@ Above all, be honest. God wants to talk with you. He wants to forgive you and to
 
 **Quote — Martyn Lloyd-Jones, *Out of the Depths*:**
 
-"Have you faced yourself? Look back across your life. Look at the things you have thought, said, and done. This is the first step toward knowing God and experiencing his salvation. You have to fight for your soul. The world will do everything to prevent you from facing yourself."
+> "Have you faced yourself? Look back across your life. Look at the things you have thought, said, and done. This is the first step toward knowing God and experiencing his salvation. You have to fight for your soul. The world will do everything to prevent you from facing yourself."
 
 *(Simplified from original)*
 
@@ -186,7 +186,7 @@ And with the truth, we can also find God's grace, forgiveness, and freedom. When
 
 **Quote — Martyn Lloyd-Jones, *Out of the Depths*:**
 
-"There is no hope for a person who does not face themselves. You have to fight for your life. You have to fight for your soul. The world will do everything to stop you from facing yourself. Look at yourself. It is the first step in knowing God and experiencing his glorious salvation."
+> "There is no hope for a person who does not face themselves. You have to fight for your life. You have to fight for your soul. The world will do everything to stop you from facing yourself. Look at yourself. It is the first step in knowing God and experiencing his glorious salvation."
 
 *(Simplified from original)*
 

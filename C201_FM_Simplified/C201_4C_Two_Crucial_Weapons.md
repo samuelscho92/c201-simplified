@@ -25,19 +25,19 @@ God gives Christians complete spiritual armor.
 
 **Ephesians 6:10–18 (NLT)**
 
-A final word: Be strong in the Lord and in his mighty power. Put on all of God's armor so that you will be able to stand firm against all strategies of the devil. For we are not fighting against flesh-and-blood enemies, but against evil rulers and authorities of the unseen world, against mighty powers in this dark world, and against evil spirits in the heavenly places.
-
-Therefore, put on every piece of God's armor so you will be able to resist the enemy in the time of evil. Then after the battle you will still be standing firm.
-
-Stand your ground, putting on the belt of truth and the body armor of God's righteousness. For shoes, put on the peace that comes from the Good News so that you will be fully prepared. In addition to all of these, hold up the shield of faith to stop the fiery arrows of the devil. Put on salvation as your helmet, and take the sword of the Spirit, which is the word of God.
-
-Pray in the Spirit at all times and on every occasion. Stay alert and be persistent in your prayers for all believers everywhere.
-
-Most of the armor described (belt, body armor, shoes, shield, helmet) is **defensive** — it protects us.
-
-Then comes the first **offensive** weapon: **the sword of the Spirit, which is the Word of God.**
-
-And the passage ends with **prayer** — the second crucial weapon.
+> A final word: Be strong in the Lord and in his mighty power. Put on all of God's armor so that you will be able to stand firm against all strategies of the devil. For we are not fighting against flesh-and-blood enemies, but against evil rulers and authorities of the unseen world, against mighty powers in this dark world, and against evil spirits in the heavenly places.
+>
+> Therefore, put on every piece of God's armor so you will be able to resist the enemy in the time of evil. Then after the battle you will still be standing firm.
+>
+> Stand your ground, putting on the belt of truth and the body armor of God's righteousness. For shoes, put on the peace that comes from the Good News so that you will be fully prepared. In addition to all of these, hold up the shield of faith to stop the fiery arrows of the devil. Put on salvation as your helmet, and take the sword of the Spirit, which is the word of God.
+>
+> Pray in the Spirit at all times and on every occasion. Stay alert and be persistent in your prayers for all believers everywhere.
+>
+> Most of the armor described (belt, body armor, shoes, shield, helmet) is **defensive** — it protects us.
+>
+> Then comes the first **offensive** weapon: **the sword of the Spirit, which is the Word of God.**
+>
+> And the passage ends with **prayer** — the second crucial weapon.
 
 ---
 
@@ -51,15 +51,15 @@ Jesus used the Word of God as his sword.
 
 **Luke 8:11–12 (NLT)**
 
-This is the meaning of the parable: The seed is God's word. The seeds that fell on the footpath represent those who hear the message, only to have the devil come and take it away from their hearts and prevent them from believing and being saved.
-
-Satan actively tries to take God's word away from people.
-
-This means the Word of God is the most dangerous thing to Satan.
-
-**When we know God's word and use it, we fight effectively.**
-
-**Discussion Question:** What can we learn about the role of God's Word in living victoriously?
+> This is the meaning of the parable: The seed is God's word. The seeds that fell on the footpath represent those who hear the message, only to have the devil come and take it away from their hearts and prevent them from believing and being saved.
+>
+> Satan actively tries to take God's word away from people.
+>
+> This means the Word of God is the most dangerous thing to Satan.
+>
+> **When we know God's word and use it, we fight effectively.**
+>
+> **Discussion Question:** What can we learn about the role of God's Word in living victoriously?
 
 ---
 
@@ -121,13 +121,13 @@ Jesus also taught his disciples to keep praying and never give up. In Luke 18, h
 
 **Romans 8:26–27 (NLT)**
 
-And the Holy Spirit helps us in our weakness. For example, we don't know what God wants us to pray for. But the Holy Spirit prays for us with groanings that cannot be expressed in words. And the Father who knows all hearts knows what the Spirit is saying, for the Spirit pleads for us believers in harmony with God's own will.
-
-We do not always know what to pray. Sometimes we are too weak or too broken to find words.
-
-But the Holy Spirit himself helps us and even prays for us.
-
-**We are never alone in prayer. Prayer is the ultimate act of partnership with God.**
+> And the Holy Spirit helps us in our weakness. For example, we don't know what God wants us to pray for. But the Holy Spirit prays for us with groanings that cannot be expressed in words. And the Father who knows all hearts knows what the Spirit is saying, for the Spirit pleads for us believers in harmony with God's own will.
+>
+> We do not always know what to pray. Sometimes we are too weak or too broken to find words.
+>
+> But the Holy Spirit himself helps us and even prays for us.
+>
+> **We are never alone in prayer. Prayer is the ultimate act of partnership with God.**
 
 ---
 
@@ -135,13 +135,13 @@ But the Holy Spirit himself helps us and even prays for us.
 
 **Matthew 6:9–13 (NLT)**
 
-Pray like this: Our Father in heaven, may your name be kept holy. May your Kingdom come soon. May your will be done on earth, as it is in heaven. Give us today the food we need, and forgive us our sins, as we have forgiven those who sin against us. And don't let us yield to temptation, but rescue us from the evil one.
-
-"May your Kingdom come. May your will be done on earth as it is in heaven."
-
-This prayer acknowledges that God's will is not yet fully done on earth.
-
-**We are to pray and labor so that God's will IS done — in our lives, our families, our communities.**
+> Pray like this: Our Father in heaven, may your name be kept holy. May your Kingdom come soon. May your will be done on earth, as it is in heaven. Give us today the food we need, and forgive us our sins, as we have forgiven those who sin against us. And don't let us yield to temptation, but rescue us from the evil one.
+>
+> "May your Kingdom come. May your will be done on earth as it is in heaven."
+>
+> This prayer acknowledges that God's will is not yet fully done on earth.
+>
+> **We are to pray and labor so that God's will IS done — in our lives, our families, our communities.**
 
 ---
 

@@ -49,7 +49,7 @@ We find it hard to see why we need God's mercy.
 
 **Quote — R.C. Sproul, *Holiness of God*:**
 
-"When God's justice falls, we are offended because we think God owes us mercy. We must not take his grace for granted. We must never lose our ability to be amazed by grace."
+> "When God's justice falls, we are offended because we think God owes us mercy. We must not take his grace for granted. We must never lose our ability to be amazed by grace."
 
 Sproul also noticed something in himself. Even he had once said in a sermon: "God's grace is infinite." But his professor asked: "Where does the Bible say that?" Sproul could not find a single verse. The Bible says God is infinite, and God is gracious. But his grace is not without limit. He sets limits to his patience. He warns us many times: one day, his judgment will come.
 
@@ -89,7 +89,7 @@ But they had forgotten: they had already received mercy twice. They began to exp
 
 **Quote — R.C. Sproul, *Holiness of God*:**
 
-"We have come to expect God to be merciful. From there the next step is easy: we demand it. We soon forget that with our first sin we gave up all rights to the gift of life. That I am breathing this morning is an act of God's mercy. God owes me nothing. I owe him everything."
+> "We have come to expect God to be merciful. From there the next step is easy: we demand it. We soon forget that with our first sin we gave up all rights to the gift of life. That I am breathing this morning is an act of God's mercy. God owes me nothing. I owe him everything."
 
 *Definitions:*
 
@@ -161,13 +161,13 @@ The Bible says the same thing:
 
 **Romans 1:29–32 (NLT)**
 
-Their lives became full of every kind of wickedness, sin, greed, hate, envy, murder, quarreling, deception, malicious behavior, and gossip. They are backstabbers, haters of God, insolent, proud, and boastful. They invent new ways of sinning, and they disobey their parents. They refuse to understand, break their promises, are heartless, and have no mercy. They know God's justice requires that those who do these things deserve to die, yet they do them anyway. Worse yet, they encourage others to do them, too.
+> Their lives became full of every kind of wickedness, sin, greed, hate, envy, murder, quarreling, deception, malicious behavior, and gossip. They are backstabbers, haters of God, insolent, proud, and boastful. They invent new ways of sinning, and they disobey their parents. They refuse to understand, break their promises, are heartless, and have no mercy. They know God's justice requires that those who do these things deserve to die, yet they do them anyway. Worse yet, they encourage others to do them, too.
 
 ---
 
 **Mark 7:20–23 (NLT)**
 
-And then he added, "It is what comes from inside that defiles you. For from within, out of a person's heart, come evil thoughts, sexual immorality, theft, murder, adultery, greed, wickedness, deceit, lustful desires, envy, slander, pride, and foolishness. All these vile things come from within; they are what defile you."
+> And then he added, "It is what comes from inside that defiles you. For from within, out of a person's heart, come evil thoughts, sexual immorality, theft, murder, adultery, greed, wickedness, deceit, lustful desires, envy, slander, pride, and foolishness. All these vile things come from within; they are what defile you."
 
 *Definitions:*
 
@@ -184,7 +184,7 @@ And then he added, "It is what comes from inside that defiles you. For from with
 
 **2 Timothy 3:2–5 (NLT)**
 
-For people will love only themselves and their money. They will be boastful and proud, scoffing at God, disobedient to their parents, and ungrateful. They will consider nothing sacred. They will be unloving and unforgiving; they will slander others and have no self-control. They will be cruel and hate what is good. They will betray their friends, be reckless, be puffed up with pride, and love pleasure rather than God. They will act religious, but they will reject the power that could make them godly.
+> For people will love only themselves and their money. They will be boastful and proud, scoffing at God, disobedient to their parents, and ungrateful. They will consider nothing sacred. They will be unloving and unforgiving; they will slander others and have no self-control. They will be cruel and hate what is good. They will betray their friends, be reckless, be puffed up with pride, and love pleasure rather than God. They will act religious, but they will reject the power that could make them godly.
 
 *Definitions:*
 
@@ -214,7 +214,7 @@ But we must not mistake his patience for approval. God is patient because he wan
 
 **Quote — C.S. Lewis:**
 
-"There are two kinds of people: those who say to God, 'Your will be done,' and those to whom God will say, 'Your will be done.'"
+> "There are two kinds of people: those who say to God, 'Your will be done,' and those to whom God will say, 'Your will be done.'"
 
 Hell is simply what happens when a person gets what they have always chosen: life without God.
 
@@ -246,7 +246,7 @@ The punishment we deserved fell on Jesus — the perfect, sinless Son of God.
 
 **2 Corinthians 5:21 (NLT)**
 
-For God made Christ, who never sinned, to be the offering for our sin, so that we could be made right with God through Christ.
+> For God made Christ, who never sinned, to be the offering for our sin, so that we could be made right with God through Christ.
 
 *Definitions:*
 
@@ -259,27 +259,27 @@ For God made Christ, who never sinned, to be the offering for our sin, so that w
 
 **Isaiah 6:5–7 (NLT)**
 
-Then I said, "It's all over\! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies."
-
-Then one of the seraphim flew to me with a burning coal he had taken from the altar with a pair of tongs. He touched my lips with it and said, "See, this coal has touched your lips. Now your guilt is removed, and your sins are forgiven."
-
-When Isaiah said "Woe is me," God acted.
-
-The angel came and said: "Your guilt is taken away. Your sin is forgiven."
-
-**This is the pattern of the cross:**
-
-When we honestly admit we are sinners before a holy God — God acts.
-
-He gives us the forgiveness we do not deserve.
-
-Jesus took all of our sin upon himself. He pulled it all out of us and put it on himself. He — the perfect, sinless Son of God — became the most hated thing in the universe, carrying all of our sin. He paid the full price.
-
-In return, we receive his righteousness.
-
-The cross shows us many truths at once. We see God's holiness. We see God's love. We see our sin. But we also see our great value to God. He gave his Son for us.
-
-This is the greatest news any person could ever hear.
+> Then I said, "It's all over\! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies."
+>
+> Then one of the seraphim flew to me with a burning coal he had taken from the altar with a pair of tongs. He touched my lips with it and said, "See, this coal has touched your lips. Now your guilt is removed, and your sins are forgiven."
+>
+> When Isaiah said "Woe is me," God acted.
+>
+> The angel came and said: "Your guilt is taken away. Your sin is forgiven."
+>
+> **This is the pattern of the cross:**
+>
+> When we honestly admit we are sinners before a holy God — God acts.
+>
+> He gives us the forgiveness we do not deserve.
+>
+> Jesus took all of our sin upon himself. He pulled it all out of us and put it on himself. He — the perfect, sinless Son of God — became the most hated thing in the universe, carrying all of our sin. He paid the full price.
+>
+> In return, we receive his righteousness.
+>
+> The cross shows us many truths at once. We see God's holiness. We see God's love. We see our sin. But we also see our great value to God. He gave his Son for us.
+>
+> This is the greatest news any person could ever hear.
 
 ---
 
