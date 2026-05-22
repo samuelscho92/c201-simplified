@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SESSION 1A — SEEING GOD — C201 Simplified</title>
+  <script async src="https://hypothes.is/embed.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #eef0ee;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      width: 260px;
+      min-width: 260px;
+      background: #1c2b3a;
+      color: #c8d8e8;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      flex-shrink: 0;
+      transition: width 0.2s ease, min-width 0.2s ease;
+    }
+    #sidebar.collapsed {
+      width: 48px;
+      min-width: 48px;
+      overflow: hidden;
+    }
+    #sidebar.collapsed .chapter-group,
+    #sidebar.collapsed #sidebar-header h1,
+    #sidebar.collapsed #sidebar-header p {
+      display: none;
+    }
+
+    #sidebar-header {
+      padding: 20px 18px 14px;
+      border-bottom: 1px solid #2e4257;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    #sidebar.collapsed #sidebar-header {
+      padding: 14px 0;
+      justify-content: center;
+      border-bottom: none;
+    }
+    #sidebar-header h1 {
+      font-size: 0.95em;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    #sidebar-header p {
+      font-size: 0.75em;
+      color: #7a9bb5;
+      margin-top: 2px;
+    }
+
+    #collapse-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #5a7a96;
+      padding: 2px;
+      flex-shrink: 0;
+      line-height: 0;
+      transition: color 0.15s;
+    }
+    #collapse-btn:hover { color: #fff; }
+
+    .chapter-group { margin-top: 8px; }
+    .chapter-label {
+      font-size: 0.68em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      padding: 10px 18px 4px;
+    }
+
+    .session-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      text-decoration: none;
+      padding: 7px 18px;
+      color: #b0c8dc;
+      font-size: 0.82em;
+      line-height: 1.4;
+      transition: background 0.15s;
+    }
+    .session-btn:hover { background: #243546; color: #fff; }
+    .session-btn.active {
+      background: #2d4a62;
+      color: #fff;
+      border-left: 3px solid #c9a84c;
+      padding-left: 15px;
+    }
+    .session-btn .session-id {
+      font-weight: 700;
+      font-size: 0.9em;
+      color: #c9a84c;
+      display: block;
+    }
+    .session-btn.active .session-id { color: #e8c96a; }
+
+    /* ── Main area ── */
+    #main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Toolbar ── */
+    #toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 8px 16px;
+      background: #f5f6f4;
+      border-bottom: 1px solid #dde0da;
+      flex-shrink: 0;
+    }
+
+    #toggle-btn {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid #c5c9c2;
+      background: #fff;
+      color: #444;
+      font-size: 0.8em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      letter-spacing: 0.02em;
+    }
+    #toggle-btn:hover { background: #eef0ee; border-color: #aaa; }
+    #toggle-btn.active {
+      background: #1c2b3a;
+      color: #fff;
+      border-color: #1c2b3a;
+    }
+    #toggle-btn svg { flex-shrink: 0; }
+
+    /* ── Split view ── */
+    #split-wrap {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+
+    #pdf-pane {
+      flex: 1;
+      display: none;
+      border-right: 2px solid #c9a84c;
+      background: #555;
+      overflow: hidden;
+    }
+    #pdf-pane.visible { display: flex; flex-direction: column; }
+
+    #pdf-label {
+      padding: 6px 14px;
+      background: #3a3a3a;
+      color: #c9a84c;
+      font-size: 0.72em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      flex-shrink: 0;
+    }
+
+    #pdf-frame {
+      flex: 1;
+      width: 100%;
+      border: none;
+    }
+
+    /* ── Simplified pane ── */
+    #content-wrap {
+      flex: 1;
+      overflow-y: auto;
+      padding: 40px 48px;
+      min-width: 0;
+    }
+
+    #content {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 56px 64px;
+      border-radius: 4px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+
+    body.split-mode #content-wrap { padding: 24px 28px; }
+    body.split-mode #content { padding: 36px 40px; }
+
+    /* ── Typography ── */
+    #content h1 {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      color: #111;
+    }
+    #content h2 {
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1a5276;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #d4e6f1;
+    }
+    #content h3 {
+      font-size: 1em;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 6px;
+    }
+    #content p { margin-bottom: 10px; }
+    #content hr {
+      border: none;
+      border-top: 1px solid #eaeaea;
+      margin: 28px 0;
+    }
+    #content strong { font-weight: 600; }
+    #content em { font-style: italic; }
+
+    #content blockquote {
+      margin: 14px 0;
+      padding: 14px 20px;
+      background: #fdf8ee;
+      border-left: 4px solid #c9a84c;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.96em;
+      color: #333;
+    }
+    #content blockquote p { margin-bottom: 6px; }
+    #content blockquote p:last-child { margin-bottom: 0; }
+
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 18px;
+      font-size: 0.88em;
+    }
+    #content th {
+      background: #1a5276;
+      color: #fff;
+      text-align: left;
+      padding: 7px 12px;
+      font-weight: 600;
+    }
+    #content td {
+      padding: 6px 12px;
+      border-bottom: 1px solid #eaeaea;
+      vertical-align: top;
+    }
+    #content tr:nth-child(even) td { background: #f5f8fc; }
+    #content tr:last-child td { border-bottom: none; }
+
+    #content ul, #content ol {
+      padding-left: 24px;
+      margin-bottom: 10px;
+    }
+    #content li { margin-bottom: 3px; }
+
+    #content p > em:only-child {
+      font-size: 0.8em;
+      color: #999;
+    }
+
+    /* ── Giscus ── */
+    #giscus-section {
+      max-width: 780px;
+      margin: 24px auto 40px;
+    }
+    #giscus-section h3 {
+      font-size: 0.75em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #dde0da;
+    }
+
+    /* ── Print ── */
+    @media print {
+      #sidebar, #toolbar, #pdf-pane, #giscus-section { display: none !important; }
+      body { display: block; overflow: visible; }
+      #content-wrap { padding: 0; overflow: visible; }
+      #content { box-shadow: none; padding: 40px; max-width: 100%; }
+    }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <div id="sidebar-header">
+    <div>
+      <h1>C201 Simplified</h1>
+      <p>IELTS 3 Edition</p>
+    </div>
+    <button id="collapse-btn" title="Collapse sidebar">
+      <svg id="collapse-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+  <div id="session-list"><div class="chapter-group"><div class="chapter-label">Chapter 1</div><a href="C201_1A_Seeing_God.html" class="session-btn active"><span class="session-id">1A</span>SESSION 1A — SEEING GOD</a><a href="C201_1B_Seeing_Myself.html" class="session-btn"><span class="session-id">1B</span>SESSION 1B — SEEING MYSELF</a><a href="C201_1C_The_Cross.html" class="session-btn"><span class="session-id">1C</span>SESSION 1C — THE CROSS</a><a href="C201_1D_Self_Reflection.html" class="session-btn"><span class="session-id">1D</span>SESSION 1D — SELF-REFLECTION</a></div><div class="chapter-group"><div class="chapter-label">Chapter 2</div><a href="C201_2A_We_Need_Repentance.html" class="session-btn"><span class="session-id">2A</span>SESSION 2A — WE NEED REPENTANCE</a><a href="C201_2B_Dreadful_Repentance.html" class="session-btn"><span class="session-id">2B</span>SESSION 2B — DREADFUL REPENTANCE</a><a href="C201_2C_We_Dont_Understand_Repentance.html" class="session-btn"><span class="session-id">2C</span>SESSION 2C — WE DON'T UNDERSTAND REPENTANCE</a><a href="C201_2D_Repentance_Loop.html" class="session-btn"><span class="session-id">2D</span>SESSION 2D — CONFESSION AND REPENTANCE LOOP</a></div><div class="chapter-group"><div class="chapter-label">Chapter 3</div><a href="C201_3A_What_Is_Real.html" class="session-btn"><span class="session-id">3A</span>SESSION 3A — WHAT IS REAL?</a><a href="C201_3B_Reality_of_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3B</span>SESSION 3B — REALITY OF HEAVEN AND HELL</a><a href="C201_3C_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3C</span>SESSION 3C — HEAVEN AND HELL</a><a href="C201_3D_Worship.html" class="session-btn"><span class="session-id">3D</span>SESSION 3D — WORSHIP</a><a href="C201_3E_Evangelism.html" class="session-btn"><span class="session-id">3E</span>SESSION 3E — EVANGELISM: HABITS TO FORM</a></div><div class="chapter-group"><div class="chapter-label">Chapter 4</div><a href="C201_4A_Know_Your_Enemy.html" class="session-btn"><span class="session-id">4A</span>SESSION 4A — KNOW YOUR ENEMY</a><a href="C201_4B_Spiritual_Battle.html" class="session-btn"><span class="session-id">4B</span>SESSION 4B — SPIRITUAL BATTLE</a><a href="C201_4C_Two_Crucial_Weapons.html" class="session-btn"><span class="session-id">4C</span>SESSION 4C — TWO CRUCIAL WEAPONS</a><a href="C201_4D_Praying_Like_Jesus.html" class="session-btn"><span class="session-id">4D</span>SESSION 4D — HABITS TO FORM: PRAYING LIKE JESUS</a></div></div>
+</nav>
+
+<div id="main">
+  <div id="toolbar">
+    <button id="toggle-btn" title="Toggle side-by-side with source PDF">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="9" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      Compare with Source
+    </button>
+  </div>
+
+  <div id="split-wrap">
+    <div id="pdf-pane">
+      <div id="pdf-label">Source PDF</div>
+      <iframe id="pdf-frame" title="Source PDF"></iframe>
+    </div>
+    <div id="content-wrap">
+      <div id="content"><h1>SESSION 1A — SEEING GOD</h1>
+<p><strong>Course 201 · Chapter 1 · Holiness of God</strong></p>
+<hr />
+<h2>Opening Song: "Alas, and Did My Savior Bleed"</h2>
+<blockquote>
+<p><em>[KEEP ORIGINAL HYMN TEXT — do not rewrite]</em></p>
+</blockquote>
+<p><strong>What this song means:</strong></p>
+<p>This is an old song about Jesus dying on the cross.</p>
+<p>The writer asks: "Did Jesus really die for me?"</p>
+<p>He is amazed that Jesus — who is holy — would die for sinful people.</p>
+<p>He feels deep thankfulness. He wants to give his whole life to God.</p>
+<hr />
+<h2>PART 1: GOD'S LONGING</h2>
+<p>Every person wants to be truly known.</p>
+<p>We want others to see us as we really are.</p>
+<p>Sometimes we hide who we really are — like wearing a mask. It is difficult to get to know someone who is wearing a mask.</p>
+<p>When someone has a wrong view of us, we cannot have a real friendship with them.</p>
+<p>This is also true with God.</p>
+<p><strong>God's longing is this: he wants us to know him as he truly is.</strong></p>
+<hr />
+<p><strong>Jeremiah 9:23–24 (NLT)</strong></p>
+<blockquote>
+<p>This is what the LORD says: "Don't let the wise boast in their wisdom, or the powerful boast in their power, or the rich boast in their riches. But those who wish to boast should boast in this alone: that they truly know me and understand that I am the LORD who demonstrates unfailing love and who brings justice and righteousness to the earth, and that I delight in these things. I, the LORD, have spoken!"</p>
+</blockquote>
+<p><em>Definition table (right sidebar):</em></p>
+<table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>boast¹</td>
+<td>to talk proudly about yourself</td>
+</tr>
+<tr>
+<td>unfailing love²</td>
+<td>love that never stops or changes</td>
+</tr>
+<tr>
+<td>justice³</td>
+<td>treating people fairly; punishing wrong</td>
+</tr>
+<tr>
+<td>righteousness⁴</td>
+<td>doing what is right and good</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Isaiah 1:2–3 (NLT)</strong></p>
+<blockquote>
+<p>Listen, O heavens! Pay attention, earth! This is what the LORD says: "The children I raised and cared for have rebelled against me. Even an ox knows its owner, and a donkey recognizes its master's care — but Israel doesn't know its master. My people don't recognize my care for them."</p>
+</blockquote>
+<p><em>Definition table (right sidebar):</em></p>
+<table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rebelled⁵</td>
+<td>refused to obey; turned against</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>John 17:3 (NLT)</strong></p>
+<blockquote>
+<p>And this is the way to have eternal life — to know you, the only true God, and Jesus Christ, the one you sent to earth.</p>
+</blockquote>
+<hr />
+<p><strong>Discussion Question:</strong></p>
+<p>According to these verses, what does God want from us?</p>
+<hr />
+<h2>PART 2: THE MISSING PICTURE</h2>
+<p>Many people have different ideas about God.</p>
+<p>But one idea is often missing: <strong>God is holy.</strong></p>
+<p>Holiness is very important. We must understand it to know who God really is.</p>
+<p>Without understanding holiness, we will have a wrong view of God. Our Christian life will also be weak.</p>
+<p>If we do not understand holiness, the cross is confusing. We will not be able to understand why Jesus had to suffer and die.</p>
+<hr />
+<p><strong>Quote — R.C. Sproul, <em>Holiness of God</em>:</strong></p>
+<blockquote>
+<p>"The most important idea I found in the Bible is that God is holy. It is basic to understanding God and Christianity. The Bible says that God's name is holy — because he is holy."</p>
+</blockquote>
+<p><em>(This is a simplified version of the original quote.)</em></p>
+<p>The Bible also says: "Holy is his name" (Luke 1:49). His name is holy because he is holy.</p>
+<hr />
+<p><strong>Isaiah 6:1–8 (NLT)</strong></p>
+<blockquote>
+<p>It was in the year King Uzziah died that I saw the Lord. He was sitting on a lofty throne, and the train of his robe filled the Temple. Attending him were mighty seraphim, each having six wings. With two wings they covered their faces, with two they covered their feet, and with two they flew. They were calling out to each other,</p>
+<p><em>"Holy, holy, holy is the LORD of Heaven's Armies! The whole earth is filled with his glory!"</em></p>
+<p>Their voices shook the Temple to its foundations, and the entire building was filled with smoke.</p>
+<p>Then I said, "It's all over! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies."</p>
+<p>Then one of the seraphim flew to me with a burning coal he had taken from the altar with a pair of tongs. He touched my lips with it and said, "See, this coal has touched your lips. Now your guilt is removed, and your sins are forgiven."</p>
+<p>Then I heard the Lord asking, "Whom should I send as a messenger to this people? Who will go for us?"</p>
+<p>I said, "Here I am. Send me."</p>
+</blockquote>
+<p><em>Definition table (right sidebar):</em></p>
+<table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lofty⁶</td>
+<td>very high up</td>
+</tr>
+<tr>
+<td>glory</td>
+<td>the great light, beauty, and power of God</td>
+</tr>
+<tr>
+<td>seraphim⁷</td>
+<td>powerful angels (see Key Words)</td>
+</tr>
+<tr>
+<td>foundations⁸</td>
+<td>the bottom structure that holds up a building</td>
+</tr>
+<tr>
+<td>guilt⁹</td>
+<td>the feeling and fact of having done wrong</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>The Bible sometimes repeats something three times. This shows it is very, very important.</p>
+<p>In Isaiah 6, the seraphim say God is "holy, holy, holy."</p>
+<p>This is the only quality of God repeated three times in the whole Bible.</p>
+<p>God is not called "love, love, love." Not "powerful, powerful, powerful." Not "good, good, good."</p>
+<p>Not just holy. Not holy, holy. He is holy, holy, holy.</p>
+<p>Only <strong>holy</strong> is said three times.</p>
+<p>This shows holiness is the most important thing to know about God.</p>
+<hr />
+<p><strong>Fill in the blank:</strong></p>
+<p><strong><em>_</em>_, </strong><strong><em>_, </em></strong>___ is the LORD of Heaven's Armies! The whole earth is filled with his glory.</p>
+<hr />
+<h2>PART 3: THE MEANING OF HOLINESS</h2>
+<p>What does "holy" mean?</p>
+<p>Many people think it means "pure" — having no sin at all.</p>
+<p>This is true. But it is not the main meaning.</p>
+<p><strong>The main meaning of "holy" is "separate."</strong></p>
+<p>The original word means "to separate."</p>
+<p>Here is a second meaning: God is also <strong>transcendent</strong>.</p>
+<p>Transcendent means "far above everything else."</p>
+<p><em>Example: A king sits high on a throne, above all the people. He is higher, more powerful, and different from everyone in the room. Now imagine someone infinitely higher than the greatest king. That is a small picture of God's transcendence.</em></p>
+<p>Think of it this way: God is not just a little greater than us. He is in a completely different category above us. God is above the whole world.</p>
+<hr />
+<p><strong>Quote — R.C. Sproul, <em>Holiness of God</em>:</strong></p>
+<blockquote>
+<p>"God is separate from us. He is above us. He is greater than all things. When the Bible calls God holy, it means he is different from us in a special way. He is far above everything."</p>
+</blockquote>
+<p><em>(This is a simplified version of the original quote.)</em></p>
+<hr />
+<p><strong>Discussion Questions:</strong></p>
+<ol>
+<li>What is something new you learned about the meaning of holiness?</li>
+<li>What do you think or feel when you think of God as holy?</li>
+<li>How strong is your sense of God's holiness right now?</li>
+<li>Why is it important to understand that God is holy?</li>
+</ol>
+<hr />
+<h2>SESSION 1A QUIZ</h2>
+<p><strong>1. Fill in the blank:</strong></p>
+<p>To have a real relationship, we must be <strong><em>_</em></strong>_____ as we are.</p>
+<hr />
+<p><strong>2. Choose the best answer:</strong></p>
+<p>In Isaiah 6, the seraphim said "Holy, holy, holy is the Lord of Heaven's Armies." What does this mean?</p>
+<ul>
+<li>a) The Father, Son, and Holy Spirit are each holy</li>
+<li>b) Holiness is the most important quality of God</li>
+<li>c) The seraphim's feet were not clean before God</li>
+<li>d) This is the right way to come into God's presence</li>
+</ul>
+<hr />
+<p><strong>3. Choose the best answer:</strong></p>
+<p>Which word does <strong>not</strong> mean "holy"?</p>
+<ul>
+<li>a) Pure</li>
+<li>b) Separate</li>
+<li>c) Transcendent</li>
+<li>d) Just</li>
+</ul>
+<hr />
+<p><em>End of Session 1A</em></p>
+<hr />
+<p><strong>Layout Note (for document formatting):</strong>
+Definition tables marked "right sidebar" should be placed in the right 1/3 column of the page, aligned with their corresponding Bible verse or quote. Use matching superscript numbers (¹ ² ³...) to connect difficult words in the text to their definitions in the sidebar table.</p></div>
+      <div id="giscus-section">
+        <h3>Session Notes</h3>
+        <div id="giscus-container"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const PDF_PATH = '../C201_Source_PDFs/Ch1/C201_1A_Booklet.pdf';
+
+
+// Sidebar collapse
+const collapseBtn = document.getElementById('collapse-btn');
+const collapseIcon = document.getElementById('collapse-icon');
+const sidebar = document.getElementById('sidebar');
+const expandPath = '<path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+const collapsePath = '<path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+
+collapseBtn.addEventListener('click', () => {
+  const collapsed = sidebar.classList.toggle('collapsed');
+  collapseIcon.innerHTML = collapsed ? collapsePath : expandPath;
+  collapseBtn.title = collapsed ? 'Expand sidebar' : 'Collapse sidebar';
+});
+
+// PDF split toggle
+const toggleBtn = document.getElementById('toggle-btn');
+const pdfPane = document.getElementById('pdf-pane');
+const pdfFrame = document.getElementById('pdf-frame');
+let pdfLoaded = false;
+
+toggleBtn.addEventListener('click', () => {
+  const active = pdfPane.classList.toggle('visible');
+  toggleBtn.classList.toggle('active', active);
+  document.body.classList.toggle('split-mode', active);
+  if (active && !pdfLoaded && PDF_PATH) {
+    pdfFrame.src = PDF_PATH;
+    pdfLoaded = true;
+  }
+});
+
+
+// Giscus
+(function() {
+  const s = document.createElement('script');
+  s.src = 'https://giscus.app/client.js';
+  s.setAttribute('data-repo', 'samuelscho92/c201-simplified');
+  s.setAttribute('data-repo-id', 'R_kgDOSkR22Q');
+  s.setAttribute('data-category', 'General');
+  s.setAttribute('data-category-id', 'DIC_kwDOSkR22c4C9oLp');
+  s.setAttribute('data-mapping', 'specific');
+  s.setAttribute('data-term', 'C201_1A_Seeing_God');
+  s.setAttribute('data-reactions-enabled', '1');
+  s.setAttribute('data-emit-metadata', '0');
+  s.setAttribute('data-input-position', 'top');
+  s.setAttribute('data-theme', 'light');
+  s.setAttribute('data-lang', 'en');
+  s.crossOrigin = 'anonymous';
+  s.async = true;
+  document.getElementById('giscus-container').appendChild(s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SESSION 1B — SEEING MYSELF — C201 Simplified</title>
+  <script async src="https://hypothes.is/embed.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #eef0ee;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      width: 260px;
+      min-width: 260px;
+      background: #1c2b3a;
+      color: #c8d8e8;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      flex-shrink: 0;
+      transition: width 0.2s ease, min-width 0.2s ease;
+    }
+    #sidebar.collapsed {
+      width: 48px;
+      min-width: 48px;
+      overflow: hidden;
+    }
+    #sidebar.collapsed .chapter-group,
+    #sidebar.collapsed #sidebar-header h1,
+    #sidebar.collapsed #sidebar-header p {
+      display: none;
+    }
+
+    #sidebar-header {
+      padding: 20px 18px 14px;
+      border-bottom: 1px solid #2e4257;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    #sidebar.collapsed #sidebar-header {
+      padding: 14px 0;
+      justify-content: center;
+      border-bottom: none;
+    }
+    #sidebar-header h1 {
+      font-size: 0.95em;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    #sidebar-header p {
+      font-size: 0.75em;
+      color: #7a9bb5;
+      margin-top: 2px;
+    }
+
+    #collapse-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #5a7a96;
+      padding: 2px;
+      flex-shrink: 0;
+      line-height: 0;
+      transition: color 0.15s;
+    }
+    #collapse-btn:hover { color: #fff; }
+
+    .chapter-group { margin-top: 8px; }
+    .chapter-label {
+      font-size: 0.68em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      padding: 10px 18px 4px;
+    }
+
+    .session-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      text-decoration: none;
+      padding: 7px 18px;
+      color: #b0c8dc;
+      font-size: 0.82em;
+      line-height: 1.4;
+      transition: background 0.15s;
+    }
+    .session-btn:hover { background: #243546; color: #fff; }
+    .session-btn.active {
+      background: #2d4a62;
+      color: #fff;
+      border-left: 3px solid #c9a84c;
+      padding-left: 15px;
+    }
+    .session-btn .session-id {
+      font-weight: 700;
+      font-size: 0.9em;
+      color: #c9a84c;
+      display: block;
+    }
+    .session-btn.active .session-id { color: #e8c96a; }
+
+    /* ── Main area ── */
+    #main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Toolbar ── */
+    #toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 8px 16px;
+      background: #f5f6f4;
+      border-bottom: 1px solid #dde0da;
+      flex-shrink: 0;
+    }
+
+    #toggle-btn {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid #c5c9c2;
+      background: #fff;
+      color: #444;
+      font-size: 0.8em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      letter-spacing: 0.02em;
+    }
+    #toggle-btn:hover { background: #eef0ee; border-color: #aaa; }
+    #toggle-btn.active {
+      background: #1c2b3a;
+      color: #fff;
+      border-color: #1c2b3a;
+    }
+    #toggle-btn svg { flex-shrink: 0; }
+
+    /* ── Split view ── */
+    #split-wrap {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+
+    #pdf-pane {
+      flex: 1;
+      display: none;
+      border-right: 2px solid #c9a84c;
+      background: #555;
+      overflow: hidden;
+    }
+    #pdf-pane.visible { display: flex; flex-direction: column; }
+
+    #pdf-label {
+      padding: 6px 14px;
+      background: #3a3a3a;
+      color: #c9a84c;
+      font-size: 0.72em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      flex-shrink: 0;
+    }
+
+    #pdf-frame {
+      flex: 1;
+      width: 100%;
+      border: none;
+    }
+
+    /* ── Simplified pane ── */
+    #content-wrap {
+      flex: 1;
+      overflow-y: auto;
+      padding: 40px 48px;
+      min-width: 0;
+    }
+
+    #content {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 56px 64px;
+      border-radius: 4px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+
+    body.split-mode #content-wrap { padding: 24px 28px; }
+    body.split-mode #content { padding: 36px 40px; }
+
+    /* ── Typography ── */
+    #content h1 {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      color: #111;
+    }
+    #content h2 {
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1a5276;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #d4e6f1;
+    }
+    #content h3 {
+      font-size: 1em;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 6px;
+    }
+    #content p { margin-bottom: 10px; }
+    #content hr {
+      border: none;
+      border-top: 1px solid #eaeaea;
+      margin: 28px 0;
+    }
+    #content strong { font-weight: 600; }
+    #content em { font-style: italic; }
+
+    #content blockquote {
+      margin: 14px 0;
+      padding: 14px 20px;
+      background: #fdf8ee;
+      border-left: 4px solid #c9a84c;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.96em;
+      color: #333;
+    }
+    #content blockquote p { margin-bottom: 6px; }
+    #content blockquote p:last-child { margin-bottom: 0; }
+
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 18px;
+      font-size: 0.88em;
+    }
+    #content th {
+      background: #1a5276;
+      color: #fff;
+      text-align: left;
+      padding: 7px 12px;
+      font-weight: 600;
+    }
+    #content td {
+      padding: 6px 12px;
+      border-bottom: 1px solid #eaeaea;
+      vertical-align: top;
+    }
+    #content tr:nth-child(even) td { background: #f5f8fc; }
+    #content tr:last-child td { border-bottom: none; }
+
+    #content ul, #content ol {
+      padding-left: 24px;
+      margin-bottom: 10px;
+    }
+    #content li { margin-bottom: 3px; }
+
+    #content p > em:only-child {
+      font-size: 0.8em;
+      color: #999;
+    }
+
+    /* ── Giscus ── */
+    #giscus-section {
+      max-width: 780px;
+      margin: 24px auto 40px;
+    }
+    #giscus-section h3 {
+      font-size: 0.75em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #dde0da;
+    }
+
+    /* ── Print ── */
+    @media print {
+      #sidebar, #toolbar, #pdf-pane, #giscus-section { display: none !important; }
+      body { display: block; overflow: visible; }
+      #content-wrap { padding: 0; overflow: visible; }
+      #content { box-shadow: none; padding: 40px; max-width: 100%; }
+    }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <div id="sidebar-header">
+    <div>
+      <h1>C201 Simplified</h1>
+      <p>IELTS 3 Edition</p>
+    </div>
+    <button id="collapse-btn" title="Collapse sidebar">
+      <svg id="collapse-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+  <div id="session-list"><div class="chapter-group"><div class="chapter-label">Chapter 1</div><a href="C201_1A_Seeing_God.html" class="session-btn"><span class="session-id">1A</span>SESSION 1A — SEEING GOD</a><a href="C201_1B_Seeing_Myself.html" class="session-btn active"><span class="session-id">1B</span>SESSION 1B — SEEING MYSELF</a><a href="C201_1C_The_Cross.html" class="session-btn"><span class="session-id">1C</span>SESSION 1C — THE CROSS</a><a href="C201_1D_Self_Reflection.html" class="session-btn"><span class="session-id">1D</span>SESSION 1D — SELF-REFLECTION</a></div><div class="chapter-group"><div class="chapter-label">Chapter 2</div><a href="C201_2A_We_Need_Repentance.html" class="session-btn"><span class="session-id">2A</span>SESSION 2A — WE NEED REPENTANCE</a><a href="C201_2B_Dreadful_Repentance.html" class="session-btn"><span class="session-id">2B</span>SESSION 2B — DREADFUL REPENTANCE</a><a href="C201_2C_We_Dont_Understand_Repentance.html" class="session-btn"><span class="session-id">2C</span>SESSION 2C — WE DON'T UNDERSTAND REPENTANCE</a><a href="C201_2D_Repentance_Loop.html" class="session-btn"><span class="session-id">2D</span>SESSION 2D — CONFESSION AND REPENTANCE LOOP</a></div><div class="chapter-group"><div class="chapter-label">Chapter 3</div><a href="C201_3A_What_Is_Real.html" class="session-btn"><span class="session-id">3A</span>SESSION 3A — WHAT IS REAL?</a><a href="C201_3B_Reality_of_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3B</span>SESSION 3B — REALITY OF HEAVEN AND HELL</a><a href="C201_3C_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3C</span>SESSION 3C — HEAVEN AND HELL</a><a href="C201_3D_Worship.html" class="session-btn"><span class="session-id">3D</span>SESSION 3D — WORSHIP</a><a href="C201_3E_Evangelism.html" class="session-btn"><span class="session-id">3E</span>SESSION 3E — EVANGELISM: HABITS TO FORM</a></div><div class="chapter-group"><div class="chapter-label">Chapter 4</div><a href="C201_4A_Know_Your_Enemy.html" class="session-btn"><span class="session-id">4A</span>SESSION 4A — KNOW YOUR ENEMY</a><a href="C201_4B_Spiritual_Battle.html" class="session-btn"><span class="session-id">4B</span>SESSION 4B — SPIRITUAL BATTLE</a><a href="C201_4C_Two_Crucial_Weapons.html" class="session-btn"><span class="session-id">4C</span>SESSION 4C — TWO CRUCIAL WEAPONS</a><a href="C201_4D_Praying_Like_Jesus.html" class="session-btn"><span class="session-id">4D</span>SESSION 4D — HABITS TO FORM: PRAYING LIKE JESUS</a></div></div>
+</nav>
+
+<div id="main">
+  <div id="toolbar">
+    <button id="toggle-btn" title="Toggle side-by-side with source PDF">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="9" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      Compare with Source
+    </button>
+  </div>
+
+  <div id="split-wrap">
+    <div id="pdf-pane">
+      <div id="pdf-label">Source PDF</div>
+      <iframe id="pdf-frame" title="Source PDF"></iframe>
+    </div>
+    <div id="content-wrap">
+      <div id="content"><h1>SESSION 1B — SEEING MYSELF</h1>
+<p><strong>Course 201 · Chapter 1 · Holiness of God</strong></p>
+<hr />
+<h2>Key Words</h2>
+<table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sinner</td>
+<td>a person who does wrong against God</td>
+</tr>
+<tr>
+<td>prophet</td>
+<td>a person God chose to speak his words to people</td>
+</tr>
+<tr>
+<td>conviction</td>
+<td>a strong feeling that something is true; here: knowing you have done wrong</td>
+</tr>
+<tr>
+<td>calibrate</td>
+<td>to measure something by comparing it to a standard</td>
+</tr>
+<tr>
+<td>suppress</td>
+<td>to stop something from being seen or known</td>
+</tr>
+<tr>
+<td>wrath</td>
+<td>very strong anger; here: God's holy anger toward sin</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Part 1: Seeing Myself — "Woe Is Me!"</h2>
+<p>In the last session, we read about Isaiah seeing God.</p>
+<p>When Isaiah saw God's holiness, he immediately saw himself clearly.</p>
+<p>He saw that he was a sinner. He said: "Woe is me! I am lost!"</p>
+<p><strong>Quote — R.C. Sproul, <em>Holiness of God</em>:</strong></p>
+<blockquote>
+<p>"He saw the holiness of God. For the first time in his life Isaiah really understood who God was. At the same instant, for the first time Isaiah really understood who Isaiah was."</p>
+</blockquote>
+<p>Isaiah was a prophet — a man who spoke for God. He should have been close to God already. But when he truly saw God's holiness, even he was undone.</p>
+<p>This is important: Isaiah did not praise God first — even though praise would have been right. He first felt deep sadness about his own sin.</p>
+<p>This is true for everyone in the Bible who sees God's holiness.</p>
+<p><strong>Seeing God always leads to seeing ourselves — and our sin — more clearly.</strong></p>
+<hr />
+<p>Peter had a very similar experience when he first met Jesus.</p>
+<p><strong>Luke 5:4–10 (NLT)</strong></p>
+<blockquote>
+<p>When he had finished speaking, he said to Simon, "Now go out where it is deeper, and let down your nets to catch some fish."</p>
+<p>"Master," Simon replied, "we worked hard all last night and didn't catch a thing. But if you say so, I'll let the nets down again." And this time their nets were so full of fish they began to tear! A shout for help brought their partners in the other boat, and soon both boats were filled with fish and on the verge of sinking.</p>
+<p>When Simon Peter realized what had happened, he fell to his knees before Jesus and said, "Oh, Lord, please leave me — I'm such a sinful man." For he was awestruck by the number of fish they had caught, as were the others with him. His partners, James and John, the sons of Zebedee, were also amazed.</p>
+<p>Jesus replied to Simon, "Don't be afraid! From now on you'll be fishing for people!"</p>
+</blockquote>
+<p>Peter did not say: "Jesus, that was amazing! Come fishing with us every day!"</p>
+<p>He recognized who Jesus was. And at the same moment, he saw who he was — a sinner.</p>
+<p>Just as Isaiah was, Peter was then given a mission by God.</p>
+<p><strong>The pattern is clear: we do not truly know ourselves until we see ourselves in the light of who God is.</strong></p>
+<hr />
+<p><strong>Discussion Question:</strong></p>
+<p>What did Isaiah and Peter have in common when they encountered God's holiness?</p>
+<hr />
+<h2>Part 2: The Problem of Self-Knowledge</h2>
+<p>There is a very old question: "Who am I?"</p>
+<p>This question is harder to answer than it should be.</p>
+<p>Studies show that most people have a wrong view of themselves.</p>
+<p>Most people think they are better than they really are.</p>
+<hr />
+<p>We can measure our physical size easily.</p>
+<p>We know we are smaller than an elephant and bigger than a fly.</p>
+<p>But how do we measure ourselves morally? How do we know if we are good or bad?</p>
+<p>On most days, most people feel fine about themselves.</p>
+<p>We rarely remember the wrong things we did.</p>
+<p>But we clearly remember the times when others were wrong to us.</p>
+<p>Our feelings give us a false picture of ourselves.</p>
+<hr />
+<p>We also compare ourselves to other people.</p>
+<p>But other people are not a good standard.</p>
+<p><em>Example: Think about what makes a stain ugly. A stain on a picnic table is not so bad. But the same stain on a famous painting would be terrible. The background makes the difference.</em></p>
+<p>In the same way, the background we use to judge ourselves changes everything.</p>
+<p>We cannot use other people as our standard.</p>
+<p>History shows that whole nations can think they are good when they are not.</p>
+<p><strong>The only true standard is God's holiness.</strong></p>
+<hr />
+<p><strong>Romans 1:18–21 (NLT)</strong></p>
+<blockquote>
+<p>But God shows his anger from heaven against all sinful, wicked people who suppress the truth by their wickedness. They know the truth about God because he has made it obvious to them. For ever since the world was created, people have seen the earth and sky. Through everything God made, they can clearly see his invisible qualities — his eternal power and divine nature. So they have no excuse for not knowing God. Yes, they knew God, but they wouldn't worship him as God or even give him thanks. And they began to think up foolish ideas of what God was like. As a result, their minds became dark and confused.</p>
+</blockquote>
+<p><em>Definitions:</em></p>
+<table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>suppress¹</td>
+<td>to hide or stop something from being known</td>
+</tr>
+<tr>
+<td>divine nature²</td>
+<td>the qualities that belong to God alone</td>
+</tr>
+<tr>
+<td>worship³</td>
+<td>to honor and praise God as the greatest</td>
+</tr>
+</tbody>
+</table>
+<p>God's word says that people choose to hide the truth about God.</p>
+<p>They do not want to honor God.</p>
+<p>Because of this, their thinking becomes confused. Their hearts become dark.</p>
+<hr />
+<h2>Part 3: The Problem of Not Thinking</h2>
+<p>Why do many people feel no shame about being selfish or proud?</p>
+<p>It is because they only look at themselves from inside themselves.</p>
+<p>If you only look inward, you have no true standard to compare yourself to. You are like a closed system. Whatever you are — however selfish or sinful — it just is. You cannot see it clearly.</p>
+<p>Our world makes this worse. We fill our lives with earbuds and phone screens. We have less and less time to think quietly. We have no outside standard to measure the quality of our souls.</p>
+<p>We do not stop and think honestly about ourselves.</p>
+<hr />
+<p><strong>Quote — Martin Lloyd-Jones, <em>Out of the Depths</em>:</strong></p>
+<blockquote>
+<p>"The first step to becoming a Christian is to stop and think. A person must think about himself. He must sit down and look at his own life. The world does everything it can to stop people from doing this. But the person who is a Christian has done it. He has stopped. He has looked. He has seen the truth about himself."</p>
+</blockquote>
+<p><em>(Simplified from original)</em></p>
+<p>If we do not think, we are left only with our feelings.</p>
+<p>Our feelings almost never tell us the truth about ourselves.</p>
+<p>Our feelings tell us we are the victim. We are misunderstood. We are not appreciated.</p>
+<p>It is like a driver who is crashing into things but says: "I feel like I am a safe driver." Many people live this way. They believe good things about themselves because no one around them tells them the truth. They only listen to their own feelings.</p>
+<p>But feelings are not the truth.</p>
+<p>Maybe you do not want to see yourself clearly. Maybe you feel the truth will be painful. So you choose not to look. You keep yourself busy. You push away any uncomfortable thoughts about yourself.</p>
+<hr />
+<p><strong>Discussion Question:</strong></p>
+<p>When was the last time you thought honestly about what kind of person you really are?</p>
+<hr />
+<h2>Part 4: A True Glimpse</h2>
+<p>Sometimes, even in everyday life, we get a small, true picture of our sin.</p>
+<p><em>Example: You say something unkind about a friend in front of others. Then you see your friend's face. You see that she is hurt. In that moment, you understand clearly that what you did was wrong.</em></p>
+<p><em>Example: A father loves his daughter very much. You say something cruel near him without knowing he is there. You see his face — the pain and anger of a father who loves his child. Suddenly you understand how wrong your words were.</em></p>
+<p>In that moment, a true standard appears. The context shows you the truth.</p>
+<hr />
+<p>Now think much bigger.</p>
+<p><strong>God is not just a loving father. God is the holy, loving Creator of all things.</strong></p>
+<p>He sees every sin in its full ugliness.</p>
+<p>He sees how our sins hurt other people.</p>
+<p>He sees all the damage our sins cause across time.</p>
+<p>We cannot see this fully. But God can.</p>
+<p>God's holiness and God's love are not separate things. They are one.</p>
+<p>Because God loves perfectly, he is also completely opposed to sin.</p>
+<p>The only true background for seeing yourself is God's holy character.</p>
+<p>When we see ourselves against God's holiness, we feel it: I am a stain on the pure, white canvas of his holy character.</p>
+<p>This brings out of us Isaiah's cry:</p>
+<p><strong>"Woe is me, I am ruined."</strong></p>
+<hr />
+<p><strong>Discussion Questions:</strong></p>
+<ol>
+<li>What are some ways you avoid seeing yourself clearly?</li>
+<li>Describe a time when you saw your sin more clearly. What helped you see it?</li>
+<li>How has understanding God's holiness changed the way you see yourself?</li>
+</ol></div>
+      <div id="giscus-section">
+        <h3>Session Notes</h3>
+        <div id="giscus-container"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const PDF_PATH = '../C201_Source_PDFs/Ch1/C201_1B_Booklet.pdf';
+
+
+// Sidebar collapse
+const collapseBtn = document.getElementById('collapse-btn');
+const collapseIcon = document.getElementById('collapse-icon');
+const sidebar = document.getElementById('sidebar');
+const expandPath = '<path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+const collapsePath = '<path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+
+collapseBtn.addEventListener('click', () => {
+  const collapsed = sidebar.classList.toggle('collapsed');
+  collapseIcon.innerHTML = collapsed ? collapsePath : expandPath;
+  collapseBtn.title = collapsed ? 'Expand sidebar' : 'Collapse sidebar';
+});
+
+// PDF split toggle
+const toggleBtn = document.getElementById('toggle-btn');
+const pdfPane = document.getElementById('pdf-pane');
+const pdfFrame = document.getElementById('pdf-frame');
+let pdfLoaded = false;
+
+toggleBtn.addEventListener('click', () => {
+  const active = pdfPane.classList.toggle('visible');
+  toggleBtn.classList.toggle('active', active);
+  document.body.classList.toggle('split-mode', active);
+  if (active && !pdfLoaded && PDF_PATH) {
+    pdfFrame.src = PDF_PATH;
+    pdfLoaded = true;
+  }
+});
+
+
+// Giscus
+(function() {
+  const s = document.createElement('script');
+  s.src = 'https://giscus.app/client.js';
+  s.setAttribute('data-repo', 'samuelscho92/c201-simplified');
+  s.setAttribute('data-repo-id', 'R_kgDOSkR22Q');
+  s.setAttribute('data-category', 'General');
+  s.setAttribute('data-category-id', 'DIC_kwDOSkR22c4C9oLp');
+  s.setAttribute('data-mapping', 'specific');
+  s.setAttribute('data-term', 'C201_1B_Seeing_Myself');
+  s.setAttribute('data-reactions-enabled', '1');
+  s.setAttribute('data-emit-metadata', '0');
+  s.setAttribute('data-input-position', 'top');
+  s.setAttribute('data-theme', 'light');
+  s.setAttribute('data-lang', 'en');
+  s.crossOrigin = 'anonymous';
+  s.async = true;
+  document.getElementById('giscus-container').appendChild(s);
+})();
+</script>
+</body>
+</html>
