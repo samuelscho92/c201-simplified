@@ -25,7 +25,7 @@ He saw that he was a sinner. He said: "Woe is me! I am lost!"
 
 > "He saw the holiness of God. For the first time in his life Isaiah really understood who God was. At the same instant, for the first time Isaiah really understood who Isaiah was."
 
-Isaiah was a prophet — a man who spoke for God. He should have been close to God already. But when he truly saw God's holiness, even he was undone.
+Isaiah was a prophet — a man who spoke for God. He should have been close to God already. But when he truly saw God's holiness, even he recognized that he was a sinner.
 
 This is important: Isaiah did not praise God first — even though praise would have been right. He first felt deep sadness about his own sin.
 
@@ -59,7 +59,7 @@ Just as Isaiah was, Peter was then given a mission by God.
 
 **Discussion Question:**
 
-What did Isaiah and Peter have in common when they encountered God's holiness?
+What happened to Isaiah and Peter when they saw God's holiness?
 
 ---
 
@@ -67,7 +67,7 @@ What did Isaiah and Peter have in common when they encountered God's holiness?
 
 There is a very old question: "Who am I?"
 
-This question is harder to answer than it should be.
+This question can be hard to answer.
 
 Studies show that most people have a wrong view of themselves.
 
@@ -95,13 +95,15 @@ We also compare ourselves to other people.
 
 But other people are not a good standard.
 
-*Example: Think about what makes a stain ugly. A stain on a picnic table is not so bad. But the same stain on a famous painting would be terrible. The background makes the difference.*
+*Example: Think about what makes a stain ugly. A stain on a picnic table is not so bad. But the same stain on a famous painting would be terrible. The surface it is on makes the difference.*
 
-In the same way, the background we use to judge ourselves changes everything.
+In the same way, the standard we use to judge ourselves changes everything.
 
 We cannot use other people as our standard.
 
 History shows that whole nations can think they are good when they are not.
+
+*Example: In history, some nations kept slaves. Most people in those nations thought this was normal and acceptable. They did not see it as evil.*
 
 **The only true standard is God's holiness.**
 
@@ -163,7 +165,7 @@ Maybe you do not want to see yourself clearly. Maybe you feel the truth will be 
 
 **Discussion Question:**
 
-When was the last time you thought honestly about what kind of person you really are?
+Was there a time when you saw yourself more clearly? What did you see?
 
 ---
 
@@ -173,7 +175,7 @@ Sometimes, even in everyday life, we get a small, true picture of our sin.
 
 *Example: You say something unkind about a friend in front of others. Then you see your friend's face. You see that she is hurt. In that moment, you understand clearly that what you did was wrong.*
 
-*Example: A father loves his daughter very much. You say something cruel near him without knowing he is there. You see his face — the pain and anger of a father who loves his child. Suddenly you understand how wrong your words were.*
+*Example: A father loves his daughter very much. You say something cruel about her without knowing he heard you. Then you see his face — the pain and anger of a father who loves his child. Suddenly you understand how wrong your words were.*
 
 In that moment, a true standard appears. The context shows you the truth.
 
@@ -195,7 +197,7 @@ God's holiness and God's love are not separate things. They are one.
 
 Because God loves perfectly, he is also completely opposed to sin.
 
-The only true background for seeing yourself is God's holy character.
+The only true standard for seeing yourself is God's holy character.
 
 When we see ourselves against God's holiness, we feel it: I am a stain on the pure, white canvas of his holy character.
 

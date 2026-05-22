@@ -44,6 +44,10 @@ These verses show what God's word says about eternity:
 
 > Then the king said to his aides, "Bind his hands and feet and throw him into the outer darkness, where there will be weeping and gnashing of teeth."
 
+**Luke 13:24–29 (NLT)**
+
+> "Work hard to enter the narrow door to God's Kingdom, for many will try to enter but will fail. When the master of the house has locked the door, it will be too late. You will stand outside knocking and pleading, 'Lord, open the door for us!' But he will reply, 'I don't know you or where you come from.' Then you will say, 'But we ate and drank with you, and you taught in our streets.' And he will reply, 'I tell you, I don't know you or where you come from. Get away from me, all you who do evil.' There will be weeping and gnashing of teeth, for you will see Abraham, Isaac, Jacob, and all the prophets in the Kingdom of God, but you will be thrown out. And people will come from all over the world — from east and west, north and south — to take their places in the Kingdom of God."
+
 **Romans 2:4–8 (NLT)**
 
 > Don't you see how wonderfully kind, tolerant, and patient God is with you? Does this mean nothing to you? Can't you see that his kindness is intended to turn you from your sin? But because you are stubborn and refuse to turn from your sin, you are storing up terrible punishment for yourself. For a day of anger is coming, when God's righteous judgment will be revealed. He will judge everyone according to what they have done. He will give eternal life to those who keep on doing good, seeking after the glory and honor and immortality that God offers. But he will pour out his anger and wrath on those who live for themselves, who refuse to obey the truth and instead live lives of wickedness.
@@ -149,10 +153,6 @@ This is simply refusing to face reality.
 *(Simplified from original)*
 
 Jesus warned that there will come a moment when it is too late to respond. The door will be shut. This is not to frighten us — it is to wake us up now, while there is still time.
-
-**Luke 13:24–29 (NLT)**
-
-> "Work hard to enter the narrow door to God's Kingdom, for many will try to enter but will fail. When the master of the house has locked the door, it will be too late. You will stand outside knocking and pleading, 'Lord, open the door for us!' But he will reply, 'I don't know you or where you come from.' Then you will say, 'But we ate and drank with you, and you taught in our streets.' And he will reply, 'I tell you, I don't know you or where you come from. Get away from me, all you who do evil.' There will be weeping and gnashing of teeth, for you will see Abraham, Isaac, Jacob, and all the prophets in the Kingdom of God, but you will be thrown out. And people will come from all over the world — from east and west, north and south — to take their places in the Kingdom of God."
 
 ---
 
