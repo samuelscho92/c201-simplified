@@ -2,12 +2,14 @@
 
 *Course 201 · Chapter 2: Repentance · Module 2C*
 
-> In this session, we look at the real shape of repentance. Repentance brings refreshing, not only sorrow. Jesus wants to wash us every day. Real change inside us takes time. And under every sin, there is a deeper sin we must repent of too.
+In this session, we look at the real shape of repentance. Repentance brings refreshing, not only sorrow. Jesus wants to wash us every day. Real change inside us takes time. And under every sin, there is a deeper sin we must repent of too.
+
+---
 
 ## Key Words for This Session
 
-| **Word** | **Meaning** |
-|---|---|
+| Word | Meaning |
+| :---- | :---- |
 | **Refreshing** | New strength. New joy. A feeling of being clean and alive again. |
 | **Metanoia** | A Greek word from the Bible. It means "change of mind." When we repent, our mind changes about our sin and about Jesus. |
 | **Humility** | To see yourself truly. Not too high. Not too low. To know you need God. |
@@ -15,23 +17,23 @@
 | **Sin beneath the sin** | The deeper sin under every sin we do. The deeper sin is not trusting the gospel. |
 | **Pseudo-god** | A fake god. Something we trust in to save us, instead of Jesus. (Examples: money, success, the approval of others.) |
 
-## 1. Repentance Brings Refreshing
+---
+
+## 1\. Repentance Brings Refreshing
 
 Some people think repentance must always feel sad and heavy. Yes, repentance is serious. Yes, it can involve sorrow. If our sin caused great harm, our sorrow may be deep.
 
 But the Bible promises something else as well. After we repent, God brings us refreshing.
 
-### Acts 3:19--20 (NLT)
+### Acts 3:19–20 (NLT)
 
-> ¹⁹ Now repent of your sins and turn to God, so that your sins may be wiped away. ²⁰ Then times of refreshing¹ will come from the presence² of the Lord, and he will again send you Jesus, your appointed Messiah³.
+¹⁹ Now repent of your sins and turn to God, so that your sins may be wiped away. ²⁰ Then times of refreshing¹ will come from the presence² of the Lord, and he will again send you Jesus, your appointed Messiah³.
 
 **Word Help**
 
-1.  **Refreshing** — New strength. New joy. Feeling clean and alive again.
-
-2.  **Presence** — Being with someone. Being close to them.
-
-3.  **Messiah** — The Chosen One. God's promised Savior, who is Jesus.
+1. **Refreshing** — New strength. New joy. Feeling clean and alive again.  
+2. **Presence** — Being with someone. Being close to them.  
+3. **Messiah** — The Chosen One. God's promised Savior, who is Jesus.
 
 Peter promised that after his listeners repented, "times of refreshing" would come to them from the Lord. This is a sign that our repentance is real. After we repent, our friendship with God is made strong again. And from that friendship comes joy.
 
@@ -41,23 +43,31 @@ Yes, when we repent, our pride takes a hit. But our pride is not our friend. Our
 
 **Have you ever told a friend or family member that you were sorry, and felt closer to them after? What did that feel like?**
 
+---
+
+---
+
 **Have you felt the same kind of refreshing with God after you repented?**
 
-## 2. Jesus Wants to Wash Us Every Day
+---
+
+---
+
+---
+
+## 2\. Jesus Wants to Wash Us Every Day
 
 Some people think repentance should only happen rarely. They feel that big repentance is for big sins, and small sins do not need it. But Jesus taught his disciples something different. Listen to this story from the last night Jesus spent with his friends.
 
-### John 13:1--8 (NLT)
+### John 13:1–8 (NLT)
 
-> ¹ Before the Passover¹ celebration, Jesus knew that his hour had come to leave this world and return to his Father. He had loved his disciples² during his ministry on earth, and now he loved them to the very end. ² It was time for supper, and the devil had already prompted Judas, son of Simon Iscariot, to betray Jesus. ³ Jesus knew that the Father had given him authority over everything and that he had come from God and would return to God. ⁴ So he got up from the table, took off his robe, wrapped a towel around his waist, ⁵ and poured water into a basin³. Then he began to wash the disciples' feet, drying them with the towel he had around him. ⁶ When Jesus came to Simon Peter, Peter said to him, "Lord, are you going to wash my feet?" ⁷ Jesus replied, "You don't understand now what I am doing, but someday you will." ⁸ "No," Peter protested, "you will never ever wash my feet!" Jesus replied, "Unless I wash you, you won't belong to me."
+¹ Before the Passover¹ celebration, Jesus knew that his hour had come to leave this world and return to his Father. He had loved his disciples² during his ministry on earth, and now he loved them to the very end. ² It was time for supper, and the devil had already prompted Judas, son of Simon Iscariot, to betray Jesus. ³ Jesus knew that the Father had given him authority over everything and that he had come from God and would return to God. ⁴ So he got up from the table, took off his robe, wrapped a towel around his waist, ⁵ and poured water into a basin³. Then he began to wash the disciples' feet, drying them with the towel he had around him. ⁶ When Jesus came to Simon Peter, Peter said to him, "Lord, are you going to wash my feet?" ⁷ Jesus replied, "You don't understand now what I am doing, but someday you will." ⁸ "No," Peter protested, "you will never ever wash my feet\!" Jesus replied, "Unless I wash you, you won't belong to me."
 
 **Word Help**
 
-1.  **Passover** — A Jewish festival that remembers when God saved his people from slavery in Egypt.
-
-2.  **Disciples** — The students and followers of Jesus.
-
-3.  **Basin** — A bowl for holding water.
+1. **Passover** — A Jewish festival that remembers when God saved his people from slavery in Egypt.  
+2. **Disciples** — The students and followers of Jesus.  
+3. **Basin** — A bowl for holding water.
 
 This is a strange scene. Jesus is the master. His disciples are his students. But Jesus is washing their feet. In that time, washing feet was the job of a servant. Why is Jesus doing it?
 
@@ -77,9 +87,19 @@ So do not be afraid to bring your worst, most shameful self to Jesus every day. 
 
 **Peter said "no" to Jesus washing his feet. Why do you think Peter said no? What was going on in his heart?**
 
+---
+
+---
+
 **Are there parts of your life that you do not want to show Jesus? Why?**
 
-## 3. Real Change Takes Time
+---
+
+---
+
+---
+
+## 3\. Real Change Takes Time
 
 Some people think that if their repentance is real, they will stop their sin right away. They think, "I repented. I should not do that sin again."
 
@@ -91,12 +111,9 @@ But changing our actions can take time. Sometimes a lot of time.
 
 Many Christians get stuck in a circle that feels like this:
 
-- You lose your temper and shout at someone.
-
-- You feel terrible. You repent and ask God to help you stop.
-
-- You promise yourself, "I will not do this again."
-
+- You lose your temper and shout at someone.  
+- You feel terrible. You repent and ask God to help you stop.  
+- You promise yourself, "I will not do this again."  
 - A week later, you lose your temper and shout at someone again.
 
 If this happens, you may feel that your repentance was not real. You may feel that you are failing as a Christian. You may want to give up.
@@ -105,10 +122,8 @@ But there is something important to understand. Even when the outside change is 
 
 Each time we repent, three things happen inside us:
 
-- We become more humble. We see that we cannot fix ourselves.
-
-- We see how broken we are. We see how much we need God.
-
+- We become more humble. We see that we cannot fix ourselves.  
+- We see how broken we are. We see how much we need God.  
 - We trust the cross of Jesus more. We lean on him more.
 
 This is good ground to be on. A person who is humble and dependent on Jesus is being changed by God, even if the sin is still there.
@@ -117,37 +132,37 @@ In the end, the biggest change repentance brings may not be that we stop sinning
 
 ### Isaiah 57:15 (NLT)
 
-> ¹⁵ The high and lofty¹ one who lives in eternity, the Holy One, says this: "I live in the high and holy place with those whose spirits are contrite² and humble. I restore the crushed spirit of the humble and revive³ the courage of those with repentant hearts."
+¹⁵ The high and lofty¹ one who lives in eternity, the Holy One, says this: "I live in the high and holy place with those whose spirits are contrite² and humble. I restore the crushed spirit of the humble and revive³ the courage of those with repentant hearts."
 
 **Word Help**
 
-1.  **Lofty** — Very high. Above everything.
-
-2.  **Contrite** — Truly sorry for sin. With a soft, humble heart.
-
-3.  **Revive** — To make alive again. To give new strength.
+1. **Lofty** — Very high. Above everything.  
+2. **Contrite** — Truly sorry for sin. With a soft, humble heart.  
+3. **Revive** — To make alive again. To give new strength.
 
 ### Psalm 51:17 (NLT)
 
-> ¹⁷ The sacrifice¹ you desire is a broken spirit. You will not reject a broken and repentant heart, O God.
+¹⁷ The sacrifice¹ you desire is a broken spirit. You will not reject a broken and repentant heart, O God.
 
 **Word Help**
 
-1.  **Sacrifice** — A gift given to God. In the Old Testament, people gave animals. But God wants a humble heart most of all.
+1. **Sacrifice** — A gift given to God. In the Old Testament, people gave animals. But God wants a humble heart most of all.
 
 God lives with people who have a humble and repentant heart. He does not push them away. He restores them. He makes them strong again.
 
 If you are stuck in the same sin and feel discouraged, do not give up. Keep repenting. Even if the outside change is slow, God is doing real work inside you. Take a moment now to pray. If the Holy Spirit is showing you a sin, repent of it. Thank God for the gift of repentance, made possible through the cross of Jesus.
 
-## 4. Repent *and* Believe — The Sin Beneath the Sin
+---
 
-### Mark 1:14--15 (NLT)
+## 4\. Repent *and* Believe — The Sin Beneath the Sin
 
-> ¹⁴ Later on, after John was arrested, Jesus went into Galilee, where he preached God's Good News. ¹⁵ "The time promised by God has come at last!" he announced. "The Kingdom of God¹ is near! Repent of your sins and believe the Good News!"
+### Mark 1:14–15 (NLT)
+
+¹⁴ Later on, after John was arrested, Jesus went into Galilee, where he preached God's Good News. ¹⁵ "The time promised by God has come at last\!" he announced. "The Kingdom of God¹ is near\! Repent of your sins and believe the Good News\!"
 
 **Word Help**
 
-1.  **Kingdom of God** — The place where God is king. The people and the world that follow God.
+1. **Kingdom of God** — The place where God is king. The people and the world that follow God.
 
 These are the very first words Jesus said when he began his teaching. Look carefully at what he said.
 
@@ -193,12 +208,13 @@ The gospel says: God's love for you is not based on how you compare to other peo
 
 When you tell yourself this, you can be truly happy for your friend. Her success does not threaten you. Your worth was never in the comparison. It was always in Jesus.
 
+---
+
 Do you see the pattern? Every sin has a sin beneath it. Every time we sin, there is a place in our heart where we have stopped trusting Jesus, and started trusting something else.
 
 When we repent, we must do two things:
 
-- **Repent** of the surface sin (the anger, the jealousy, the lie, the lust).
-
+- **Repent** of the surface sin (the anger, the jealousy, the lie, the lust).  
 - **Believe** the gospel again at a deeper level. Find the fake god you were trusting. Repent of trusting it. Trust Jesus instead.
 
 This is what Jesus meant when he said, "Repent *and* believe the Good News." Every time we do this, the gospel goes deeper into our hearts.
@@ -207,9 +223,21 @@ This is what Jesus meant when he said, "Repent *and* believe the Good News." Eve
 
 **Think of a sin you struggle with. (You do not need to share it.) What might be the sin beneath that sin? What are you trusting in instead of Jesus?**
 
+---
+
+---
+
+---
+
 **What part of the gospel do you need to believe again at a deeper level?**
 
-## 5. What Happens When We Misunderstand Repentance?
+---
+
+---
+
+---
+
+## 5\. What Happens When We Misunderstand Repentance?
 
 When we do not understand repentance, our Christian life suffers. Below are some of the things that happen. Talk about each one. Why does a wrong view of repentance lead to these problems?
 
@@ -217,10 +245,28 @@ When we do not understand repentance, our Christian life suffers. Below are some
 
 **Why might a wrong view of repentance lead to defensiveness?** (We protect ourselves. We do not admit when we are wrong.)
 
+---
+
+---
+
 **Why might a wrong view of repentance lead to feeling far from God and from other people?**
+
+---
+
+---
 
 **Why might a wrong view of repentance lead to seeing God as someone we can never please?**
 
+---
+
+---
+
 **Why might a wrong view of repentance lead to hypocrisy?**
 
-*Course 201 · Module 2C · Understanding Repentance · Simplified Edition*
+---
+
+---
+
+---
+
+*Course 201 · Module 2C · Understanding Repentance · Simplified Edition*  

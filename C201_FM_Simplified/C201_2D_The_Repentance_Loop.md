@@ -2,12 +2,14 @@
 
 *Course 201 · Chapter 2: Repentance · Module 2D*
 
-> In this session we learn a real, practical way to repent. We learn the five steps of the Repentance Loop, and then we use it to walk through a real sin from our own life.
+In this session we learn a real, practical way to repent. We learn the five steps of the Repentance Loop, and then we use it to walk through a real sin from our own life.
+
+---
 
 ## Key Words for This Session
 
-| **Word** | **Meaning** |
-|---|---|
+| Word | Meaning |
+| :---- | :---- |
 | **Confession** | To tell God what you did wrong. To stop hiding it. To call sin by its real name. |
 | **Specific** | Clear and exact. Not general or vague. |
 | **General confession** | Saying "I am a sinner" or "Forgive me for all my sins" without naming any sin. |
@@ -17,7 +19,9 @@
 | **Accountability** | Asking another Christian to help you stay on the right path. They check on you and pray with you. |
 | **Sanctification** | The slow work God does in us to grow us and make us more like Jesus. |
 
-## 1. Why Real Confession Matters
+---
+
+## 1\. Why Real Confession Matters
 
 Before we learn the steps of the Repentance Loop, we need to understand something about confession. There is a kind of confession that does not actually help us. And there is a kind that does.
 
@@ -55,19 +59,29 @@ Confession begins in sorrow. But it ends in joy. There is celebration when sin i
 
 ### Discussion
 
-**Think about your own prayers when you confess sin. Are your confessions usually general ("forgive me for my sins") or specific ("forgive me for ___")? Why?**
+**Think about your own prayers when you confess sin. Are your confessions usually general ("forgive me for my sins") or specific ("forgive me for \_\_\_")? Why?**
+
+---
+
+---
 
 **Have you ever gotten stuck in self-hatred after confessing a sin? What was that like?**
 
-## 2. The Five Steps of the Repentance Loop
+---
 
-### 2 Timothy 3:16--17 (NLT)
+---
 
-> ¹⁶ All Scripture is inspired by God and is useful to teach us what is true and to make us realize what is wrong in our lives. It corrects us when we are wrong and teaches us to do what is right. ¹⁷ God uses it to prepare and equip¹ his people to do every good work.
+---
+
+## 2\. The Five Steps of the Repentance Loop
+
+### 2 Timothy 3:16–17 (NLT)
+
+¹⁶ All Scripture is inspired by God and is useful to teach us what is true and to make us realize what is wrong in our lives. It corrects us when we are wrong and teaches us to do what is right. ¹⁷ God uses it to prepare and equip¹ his people to do every good work.
 
 **Word Help**
 
-1.  **Equip** — To give someone what they need to do something well.
+1. **Equip** — To give someone what they need to do something well.
 
 God uses his Word to grow us. He uses the Bible to teach us, to show us our sin, to correct us, and to train us to do what is right. This is real spiritual training, and it takes work. But if we keep going, we become people who can fight sin and follow God.
 
@@ -79,15 +93,11 @@ The loop is not just a circle. It is a spiral that goes up. Every time we walk t
 
 The five steps of the loop, in order:
 
-1.  **Observe & Reflect** — Look at what happened. Ask why.
-
-2.  **Word of God** — What does the Bible say about this?
-
-3.  **Confess & Apologize** — Name the sin. Thank God for the cross.
-
-4.  **Commit** — Turn around. Promise a new direction.
-
-5.  **Plan of Action** — Make a real plan. Bring others in.
+1. **Observe & Reflect** — Look at what happened. Ask why.  
+2. **Word of God** — What does the Bible say about this?  
+3. **Confess & Apologize** — Name the sin. Thank God for the cross.  
+4. **Commit** — Turn around. Promise a new direction.  
+5. **Plan of Action** — Make a real plan. Bring others in.
 
 As we walk through this loop over and over, God grows us. This upward growth is sanctification.
 
@@ -135,7 +145,9 @@ The Bible says God's Word changes sinners into people who are ready for every go
 
 This training takes effort. It is not always easy to face our sin. But if we keep walking through the Repentance Loop, we are slowly being trained in the ways of God. Each time we do this, we are formed more into the image of Jesus.
 
-## 3. Apply It: Walk Through the Loop
+---
+
+## 3\. Apply It: Walk Through the Loop
 
 Now it is time to use the Repentance Loop in your own life.
 
@@ -145,20 +157,64 @@ Think back over the last week. Ask the Holy Spirit to show you a moment where yo
 
 *Describe what happened. What did you do, say, think, or feel? Why did you react this way? What does this moment show you about your heart?*
 
+---
+
+---
+
+---
+
+---
+
 ### Step 2 · Word of God
 
 *What does the Bible say about what you did? What part of the gospel speaks to this moment? What truth do you need to hear right now?*
+
+---
+
+---
+
+---
+
+---
 
 ### Step 3 · Confess and Apologize
 
 *Name your sin specifically. What was the surface sin? What was the deeper idol behind it (the pride, the fear, the lack of trust)? Write a short prayer of confession and thanksgiving for the cross.*
 
+---
+
+---
+
+---
+
+---
+
+---
+
 ### Step 4 · Commit
 
 *What new mind are you choosing? What promise are you making to God? What truth of the gospel are you holding on to?*
+
+---
+
+---
+
+---
+
+---
 
 ### Step 5 · Plan of Action
 
 *What will you do differently next time this situation comes up? Is there someone you need to bring into this for prayer or accountability?*
 
-*Course 201 · Module 2D · The Repentance Loop · Simplified Edition*
+---
+
+---
+
+---
+
+---
+
+---
+
+*Course 201 · Module 2D · The Repentance Loop · Simplified Edition*  

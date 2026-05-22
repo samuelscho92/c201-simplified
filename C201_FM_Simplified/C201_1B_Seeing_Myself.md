@@ -2,25 +2,29 @@
 
 **Course 201 · Chapter 1 · Holiness of God**
 
+---
+
 ## Key Words
 
-| **Word** | **Meaning** |
-|---|---|
+| Word | Meaning |
+| :---- | :---- |
 | prophet | a person God chose to speak his words to people |
 | conviction | knowing you have done wrong |
 | wrath | God's holy anger toward sin |
 
-## Part 1: Seeing Myself — "Woe Is Me!"
+---
+
+## Part 1: Seeing Myself — "Woe Is Me\!"
 
 In the last session, we read about Isaiah seeing God.
 
 When Isaiah saw God's holiness, he immediately saw himself clearly.
 
-He saw that he was a sinner. He said: "Woe is me! I am lost!"
+He saw that he was a sinner. He said: "Woe is me\! I am lost\!"
 
 **Quote — R.C. Sproul, *Holiness of God*:**
 
-> "He saw the holiness of God. For the first time in his life Isaiah really understood who God was. At the same instant, for the first time Isaiah really understood who Isaiah was."
+"He saw the holiness of God. For the first time in his life Isaiah really understood who God was. At the same instant, for the first time Isaiah really understood who Isaiah was."
 
 Isaiah was a prophet — a man who spoke for God. He should have been close to God already. But when he truly saw God's holiness, even he recognized that he was a sinner.
 
@@ -30,19 +34,21 @@ This is true for everyone in the Bible who sees God's holiness.
 
 **Seeing God always leads to seeing ourselves — and our sin — more clearly.**
 
+---
+
 Peter had a very similar experience when he first met Jesus.
 
-**Luke 5:4--10 (NLT)**
+**Luke 5:4–10 (NLT)**
 
-> When he had finished speaking, he said to Simon, "Now go out where it is deeper, and let down your nets to catch some fish."
->
-> "Master," Simon replied, "we worked hard all last night and didn't catch a thing. But if you say so, I'll let the nets down again." And this time their nets were so full of fish they began to tear! A shout for help brought their partners in the other boat, and soon both boats were filled with fish and on the verge of sinking.
->
-> When Simon Peter realized what had happened, he fell to his knees before Jesus and said, "Oh, Lord, please leave me — I'm such a sinful man." For he was awestruck by the number of fish they had caught, as were the others with him. His partners, James and John, the sons of Zebedee, were also amazed.
->
-> Jesus replied to Simon, "Don't be afraid! From now on you'll be fishing for people!"
+When he had finished speaking, he said to Simon, "Now go out where it is deeper, and let down your nets to catch some fish."
 
-Peter did not say: "Jesus, that was amazing! Come fishing with us every day!"
+"Master," Simon replied, "we worked hard all last night and didn't catch a thing. But if you say so, I'll let the nets down again." And this time their nets were so full of fish they began to tear\! A shout for help brought their partners in the other boat, and soon both boats were filled with fish and on the verge of sinking.
+
+When Simon Peter realized what had happened, he fell to his knees before Jesus and said, "Oh, Lord, please leave me — I'm such a sinful man." For he was awestruck by the number of fish they had caught, as were the others with him. His partners, James and John, the sons of Zebedee, were also amazed.
+
+Jesus replied to Simon, "Don't be afraid\! From now on you'll be fishing for people\!"
+
+Peter did not say: "Jesus, that was amazing\! Come fishing with us every day\!"
 
 He recognized who Jesus was. And at the same moment, he saw who he was — a sinner.
 
@@ -50,9 +56,13 @@ Just as Isaiah was, Peter was then given a mission by God.
 
 **The pattern is clear: we do not truly know ourselves until we see ourselves in the light of who God is.**
 
+---
+
 **Discussion Question:**
 
 What happened to Isaiah and Peter when they saw God's holiness?
+
+---
 
 ## Part 2: The Problem of Self-Knowledge
 
@@ -63,6 +73,8 @@ This question can be hard to answer.
 Studies show that most people have a wrong view of themselves.
 
 Most people think they are better than they really are.
+
+---
 
 We can measure our physical size easily.
 
@@ -77,6 +89,8 @@ We rarely remember the wrong things we did.
 But we clearly remember the times when others were wrong to us.
 
 Our feelings give us a false picture of ourselves.
+
+---
 
 We also compare ourselves to other people.
 
@@ -94,14 +108,16 @@ History shows that whole nations can think they are good when they are not.
 
 **The only true standard is God's holiness.**
 
-**Romans 1:18--21 (NLT)**
+---
 
-> But God shows his anger from heaven against all sinful, wicked people who suppress the truth by their wickedness. They know the truth about God because he has made it obvious to them. For ever since the world was created, people have seen the earth and sky. Through everything God made, they can clearly see his invisible qualities — his eternal power and divine nature. So they have no excuse for not knowing God. Yes, they knew God, but they wouldn't worship him as God or even give him thanks. And they began to think up foolish ideas of what God was like. As a result, their minds became dark and confused.
+**Romans 1:18–21 (NLT)**
+
+But God shows his anger from heaven against all sinful, wicked people who suppress the truth by their wickedness. They know the truth about God because he has made it obvious to them. For ever since the world was created, people have seen the earth and sky. Through everything God made, they can clearly see his invisible qualities — his eternal power and divine nature. So they have no excuse for not knowing God. Yes, they knew God, but they wouldn't worship him as God or even give him thanks. And they began to think up foolish ideas of what God was like. As a result, their minds became dark and confused.
 
 *Definitions:*
 
-| **Word** | **Meaning** |
-|---|---|
+| Word | Meaning |
+| :---- | :---- |
 | suppress¹ | to hide or stop something from being known |
 | divine nature² | the qualities that belong to God alone |
 | worship³ | to honor and praise God as the greatest |
@@ -111,6 +127,8 @@ God's word says that people choose to hide the truth about God.
 They do not want to honor God.
 
 Because of this, their thinking becomes confused. Their hearts become dark.
+
+---
 
 ## Part 3: The Problem of Not Thinking
 
@@ -124,9 +142,11 @@ Our world makes this worse. We fill our lives with earbuds and phone screens. We
 
 We do not stop and think honestly about ourselves.
 
+---
+
 **Quote — Martin Lloyd-Jones, *Out of the Depths*:**
 
-> "The first step to becoming a Christian is to stop and think. A person must think about himself. He must sit down and look at his own life. The world does everything it can to stop people from doing this. But the person who is a Christian has done it. He has stopped. He has looked. He has seen the truth about himself."
+"The first step to becoming a Christian is to stop and think. A person must think about himself. He must sit down and look at his own life. The world does everything it can to stop people from doing this. But the person who is a Christian has done it. He has stopped. He has looked. He has seen the truth about himself."
 
 *(Simplified from original)*
 
@@ -142,9 +162,13 @@ But feelings are not the truth.
 
 Maybe you do not want to see yourself clearly. Maybe you feel the truth will be painful. So you choose not to look. You keep yourself busy. You push away any uncomfortable thoughts about yourself.
 
+---
+
 **Discussion Question:**
 
 Was there a time when you saw yourself more clearly? What did you see?
+
+---
 
 ## Part 4: A True Glimpse
 
@@ -155,6 +179,8 @@ Sometimes, even in everyday life, we get a small, true picture of our sin.
 *Example: A father loves his daughter very much. You say something cruel about her without knowing he heard you. Then you see his face — the pain and anger of a father who loves his child. Suddenly you understand how wrong your words were.*
 
 In that moment, a true standard appears. The context shows you the truth.
+
+---
 
 Now think much bigger.
 
@@ -180,10 +206,11 @@ This brings out of us Isaiah's cry:
 
 **"Woe is me, I am ruined."**
 
+---
+
 **Discussion Questions:**
 
-1.  What are some ways you avoid seeing yourself clearly?
+1. What are some ways you avoid seeing yourself clearly?  
+2. Describe a time when you saw your sin more clearly. What helped you see it?  
+3. How has understanding God's holiness changed the way you see yourself?
 
-2.  Describe a time when you saw your sin more clearly. What helped you see it?
-
-3.  How has understanding God's holiness changed the way you see yourself?

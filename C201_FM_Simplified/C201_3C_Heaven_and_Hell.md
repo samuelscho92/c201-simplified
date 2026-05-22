@@ -2,16 +2,20 @@
 
 **Course 201 · Chapter 3 · Heaven and Hell**
 
+---
+
 ## Key Words
 
-| **Word** | **Meaning** |
-|---|---|
+| Word | Meaning |
+| :---- | :---- |
 | relational | having to do with relationships; connected to love and connection |
 | triune | three-in-one; describing God as Father, Son, and Holy Spirit |
 | rebellion | refusing to submit to authority; choosing to go your own way |
 | trajectory | the direction your life is going |
 | contrite | deeply sorry; broken before God |
 | eternity | time that never ends |
+
+---
 
 ## Part 1: Heaven — Our True Home
 
@@ -27,15 +31,19 @@ No. The Bible tells us that because God himself is love — Father, Son, and Hol
 
 **Heaven is about relationship.** It is joining the eternal fellowship of God.
 
-**John 14:2--3 (NLT)**
+**John 14:2–3 (NLT)**
 
-> There is more than enough room in my Father's home. If this were not so, would I have told you that I am going to prepare a place for you? When everything is ready, I will come and get you, so that you will always be with me where I am.
+There is more than enough room in my Father's home. If this were not so, would I have told you that I am going to prepare a place for you? When everything is ready, I will come and get you, so that you will always be with me where I am.
 
 Salvation is a restored relationship with God — one that continues forever.
 
 If God loves us and saves us, then heaven must exist for that relationship to go on.
 
+---
+
 **Discussion Question:** How does this picture of heaven match what you understood about your own salvation?
+
+---
 
 ## Part 2: Hell — A Relational Reality
 
@@ -51,28 +59,28 @@ There is a voice inside every person that says: "I do not need God. I will rule 
 
 **Quote — C.S. Lewis, *The Problem of Pain*:**
 
-> "Some will not be saved. If happiness requires a person to give themselves to God, no one can force them to do that. They must choose. If they will not give in, there is nothing more that can be done."
+"Some will not be saved. If happiness requires a person to give themselves to God, no one can force them to do that. They must choose. If they will not give in, there is nothing more that can be done."
 
 *(Simplified from original)*
 
 **Quote — C.S. Lewis, *The Problem of Pain*:**
 
-> "I believe that the doors of hell are locked on the inside."
+"I believe that the doors of hell are locked on the inside."
 
 *(Simplified from original — this means those in hell have gotten what they chose: life without God)*
 
 **Quote — C.S. Lewis, *The Problem of Pain*:**
 
-> "The characteristic of lost souls is their rejection of everything that is not themselves... He has his wish — to live completely for himself, and to make the best of what he finds there. And what he finds there is Hell."
->
-> "To enter heaven is to become more human than you ever succeeded in being on earth. To enter hell is to be removed from humanity — to become less than a person."
+"The characteristic of lost souls is their rejection of everything that is not themselves... He has his wish — to live completely for himself, and to make the best of what he finds there. And what he finds there is Hell."
+
+"To enter heaven is to become more human than you ever succeeded in being on earth. To enter hell is to be removed from humanity — to become less than a person."
 
 *(Simplified from original)*
 
 *Definitions:*
 
-| **Word** | **Meaning** |
-|---|---|
+| Word | Meaning |
+| :---- | :---- |
 | surrender¹ | to give up; to stop fighting and submit |
 
 Love does not force itself on anyone.
@@ -81,21 +89,25 @@ A person who has spent their whole life saying "I do not need God" will not sudd
 
 **Hell is God respecting that person's final decision.**
 
+---
+
 **Discussion Question:** What is your response to C.S. Lewis's description of who goes to hell?
+
+---
 
 ## Part 3: God's Heart — He Does Not Want Anyone to Be Lost
 
 **Ezekiel 33:11 (NLT)**
 
-> "As surely as I live, says the Sovereign LORD, I take no pleasure in the death of wicked people. I only want them to turn from their wicked ways so they can live. Turn! Turn from your wickedness, O people of Israel! Why should you die?"
+"As surely as I live, says the Sovereign LORD, I take no pleasure in the death of wicked people. I only want them to turn from their wicked ways so they can live. Turn\! Turn from your wickedness, O people of Israel\! Why should you die?"
 
-**1 Timothy 2:3--4 (NLT)**
+**1 Timothy 2:3–4 (NLT)**
 
-> This is good and pleases God our Savior, who wants everyone to be saved and to understand the truth.
+This is good and pleases God our Savior, who wants everyone to be saved and to understand the truth.
 
 **2 Peter 3:9 (NLT)**
 
-> The Lord isn't really being slow about his promise, as some people think. No, he is being patient for your sake. He does not want anyone to be destroyed, but wants everyone to repent.
+The Lord isn't really being slow about his promise, as some people think. No, he is being patient for your sake. He does not want anyone to be destroyed, but wants everyone to repent.
 
 God does not send people to hell with pleasure.
 
@@ -104,6 +116,8 @@ His heart is to save everyone who will come to him.
 He is patient. He calls. He waits.
 
 **Discussion Question:** What do these verses reveal about God's heart toward people who are lost?
+
+---
 
 ## Part 4: Trajectory of Life
 
@@ -123,24 +137,27 @@ The difference may be small now. But extended over eternity, the difference is i
 
 **Quote — C.S. Lewis, *The Weight of Glory*:**
 
-> "It is a serious thing to live in a society of possible gods and goddesses... There are no ordinary people. You have never talked to a mere mortal. Nations, cultures, arts, civilization — these are mortal. But it is immortals whom we joke with, work with, marry, snub, and exploit."
+"It is a serious thing to live in a society of possible gods and goddesses... There are no ordinary people. You have never talked to a mere mortal. Nations, cultures, arts, civilization — these are mortal. But it is immortals whom we joke with, work with, marry, snub, and exploit."
 
 *(Simplified from original)*
 
 *Definitions:*
 
-| **Word** | **Meaning** |
-|---|---|
+| Word | Meaning |
+| :---- | :---- |
 | immortals² | beings who will live forever |
 | snub³ | to treat someone as unimportant |
 
 Every person around you will live forever — either with God or without him. This changes how we see people.
 
+---
+
 **Discussion Questions:**
 
-1.  What is the direction your life is going? Is it moving toward God or away from him?
+1. What is the direction your life is going? Is it moving toward God or away from him?  
+2. What new values or habits have grown in you since becoming a Christian?
 
-2.  What new values or habits have grown in you since becoming a Christian?
+---
 
 ## Part 5: What Makes God Real to Us?
 
@@ -148,7 +165,7 @@ Why do some people find it hard to sense God?
 
 **Isaiah 57:15 (NLT)**
 
-> The high and lofty one who lives in eternity, the Holy One, says this: "I live in the high and holy place with those whose spirits are contrite and humble. I restore the crushed spirit of the humble and revive the courage of those with repentant hearts."
+The high and lofty one who lives in eternity, the Holy One, says this: "I live in the high and holy place with those whose spirits are contrite and humble. I restore the crushed spirit of the humble and revive the courage of those with repentant hearts."
 
 God is close to those who are humble and contrite.
 
@@ -158,8 +175,10 @@ When we come to God with humility — like the criminal on the cross — God bec
 
 *Example: To see stars clearly at night, you must turn off nearby lights. In the same way, to see God clearly, we must turn down the noise of self — our pride, our distractions, our self-reliance.*
 
+---
+
 **Discussion Questions:**
 
-1.  What are some ways you can grow in being humble and contrite before God?
+1. What are some ways you can grow in being humble and contrite before God?  
+2. How does your life measure up to this truth: "Life is short, eternity is long, only what is done for God will last"?
 
-2.  How does your life measure up to this truth: "Life is short, eternity is long, only what is done for God will last"?

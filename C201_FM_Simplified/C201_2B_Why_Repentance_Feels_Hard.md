@@ -2,12 +2,14 @@
 
 *Course 201 · Chapter 2: Repentance · Module 2B*
 
-> Many Christians are afraid of repentance. They wait. They try not to do it. Why? Three things often stop us: pride, trying to pay for our own sin, and not trusting God's grace.
+Many Christians are afraid of repentance. They wait. They try not to do it. Why? Three things often stop us: pride, trying to pay for our own sin, and not trusting God's grace.
+
+---
 
 ## Key Words for This Session
 
-| **Word** | **Meaning** |
-|---|---|
+| Word | Meaning |
+| :---- | :---- |
 | **Pride** | Thinking too highly of yourself. Not wanting to admit you were wrong. |
 | **Self-atonement** | Trying to pay for your own sins by your own good deeds, instead of trusting in Jesus. |
 | **Atone / Atoning sacrifice** | To pay the price for sin. Jesus paid this price for us when he died on the cross. |
@@ -15,22 +17,25 @@
 | **Worldly sorrow** | Feeling sad only because of the bad results of our sin. This sorrow does not lead us back to God. |
 | **Religious repentance** | Trying to repent in order to earn God's love and stay away from punishment. |
 | **Gospel repentance** | Repenting because Jesus has already paid for our sins. We come to God knowing we are already loved. |
+| **Religious repentance** | Trying to repent in order to earn God's love and stay away from punishment. |
 
-## 1. Why Do We Stay Away from Repentance?
+---
+
+## 1\. Why Do We Stay Away from Repentance?
 
 Many Christians know they should repent, but they do not want to. They wait. They try not to do it. And while they stay away from it, they feel less close to God.
 
 This is a real problem for many of us. Why does this happen? There are three main reasons:
 
-- **Pride.** We do not want to admit we were wrong.
-
-- **Self-atonement.** We want to pay for our own sins by being extra good.
-
+- **Pride.** We do not want to admit we were wrong.  
+- **Self-atonement.** We want to pay for our own sins by being extra good.  
 - **Not trusting God's grace.** We are afraid God is angry and waiting to punish us.
 
 Let us look at each one.
 
-## 2. Pride
+---
+
+## 2\. Pride
 
 The truth is, it hurts our pride when we sin.
 
@@ -46,31 +51,39 @@ But pride can become worse. It can become hard, like stone. When this happens, w
 
 **Can you think of a time when pride kept you from repenting? You do not need to share the sin. Just describe how pride affected you.**
 
+---
+
+---
+
 **What do you think will happen to a person who keeps refusing to repent because of pride?**
 
-## 3. Self-Atonement
+---
+
+---
+
+---
+
+## 3\. Self-Atonement
 
 Self-atonement was the problem of Judas. Compare how Judas and Peter responded after they sinned against Jesus. Both men knew they had done wrong. But they responded in two very different ways.
 
-### Matthew 27:3--5 (NLT)
+### Matthew 27:3–5 (NLT)
 
-> ³ When Judas, who had betrayed¹ him, realized that Jesus had been condemned² to die, he was filled with remorse³. So he took the thirty pieces of silver back to the leading priests and the elders. ⁴ "I have sinned," he declared, "for I have betrayed an innocent man." "What do we care?" they retorted. "That's your problem." ⁵ Then Judas threw the silver coins down in the Temple and went out and hanged himself.
-
-**Word Help**
-
-1.  **Betrayed** — To turn against someone who trusted you. To help your friend's enemy.
-
-2.  **Condemned** — Judged guilty and given a punishment.
-
-3.  **Remorse** — Deep sadness about something wrong you did.
-
-### Luke 22:60--62 (NLT)
-
-> ⁶⁰ But Peter said, "Man, I don't know what you are talking about." And immediately, while he was still speaking, the rooster crowed. ⁶¹ At that moment the Lord turned and looked at Peter. Suddenly, the Lord's words flashed through Peter's mind: "Before the rooster crows tomorrow morning, you will deny¹ me three times." ⁶² And Peter left the courtyard, weeping bitterly.
+³ When Judas, who had betrayed¹ him, realized that Jesus had been condemned² to die, he was filled with remorse³. So he took the thirty pieces of silver back to the leading priests and the elders. ⁴ "I have sinned," he declared, "for I have betrayed an innocent man." "What do we care?" they retorted. "That's your problem." ⁵ Then Judas threw the silver coins down in the Temple and went out and hanged himself.
 
 **Word Help**
 
-1.  **Deny** — To say "I do not know him" or "He is not my friend." To pretend you have nothing to do with someone.
+1. **Betrayed** — To turn against someone who trusted you. To help your friend's enemy.  
+2. **Condemned** — Judged guilty and given a punishment.  
+3. **Remorse** — Deep sadness about something wrong you did.
+
+### Luke 22:60–62 (NLT)
+
+⁶⁰ But Peter said, "Man, I don't know what you are talking about." And immediately, while he was still speaking, the rooster crowed. ⁶¹ At that moment the Lord turned and looked at Peter. Suddenly, the Lord's words flashed through Peter's mind: "Before the rooster crows tomorrow morning, you will deny¹ me three times." ⁶² And Peter left the courtyard, weeping bitterly.
+
+**Word Help**
+
+1. **Deny** — To say "I do not know him" or "He is not my friend." To pretend you have nothing to do with someone.
 
 At first, Judas seems like the better one. He faces what he did. He admits his sin out loud. He even tries to give back the money. He decides he will punish himself for what he did.
 
@@ -104,13 +117,13 @@ Worst of all, self-atonement insults Jesus. It is as if we are saying, "Jesus, y
 
 The Bible gives us another way to understand the difference between Judas and Peter. It uses two phrases: "worldly sorrow" and "godly sorrow."
 
-### 2 Corinthians 7:9--10 (NLT)
+### 2 Corinthians 7:9–10 (NLT)
 
-> ⁹ Now I am glad I sent it, not because it hurt you, but because the pain caused you to repent and change your ways. It was the kind of sorrow God wants his people to have, so you were not harmed by us in any way. ¹⁰ For the kind of sorrow God wants us to experience leads us away from sin and results in salvation¹. There's no regret for that kind of sorrow. But worldly sorrow, which lacks repentance, results in spiritual death.
+⁹ Now I am glad I sent it, not because it hurt you, but because the pain caused you to repent and change your ways. It was the kind of sorrow God wants his people to have, so you were not harmed by us in any way. ¹⁰ For the kind of sorrow God wants us to experience leads us away from sin and results in salvation¹. There's no regret for that kind of sorrow. But worldly sorrow, which lacks repentance, results in spiritual death.
 
 **Word Help**
 
-1.  **Salvation** — To be saved by God from sin and death. To be made his child forever.
+1. **Salvation** — To be saved by God from sin and death. To be made his child forever.
 
 When we sin, there are two ways we can feel sorry. One way leads us back to God. The other way leads us into deeper trouble.
 
@@ -140,11 +153,25 @@ The next day, Aran makes some big changes. He breaks up with his girlfriend. He 
 
 **Aran made some real changes in his life. These changes are good. But something important is missing from his repentance. What do you think is missing?**
 
+---
+
+---
+
 **Is Aran closer to Judas, or closer to Peter? Why?**
+
+---
+
+---
 
 **What would godly sorrow look like for Aran?**
 
-## 4. Not Trusting God's Grace
+---
+
+---
+
+---
+
+## 4\. Not Trusting God's Grace
 
 The third reason we are afraid of repentance is that we imagine God as angry. We think he barely accepts us. We think he is waiting to punish us.
 
@@ -166,8 +193,8 @@ But for this to be true, we need the right kind of repentance. There is a religi
 
 Here is a table that shows the difference:
 
-|  | **Religious Repentance** | **Gospel Repentance** |
-|---|---|---|
+|  | Religious Repentance | Gospel Repentance |
+| :---- | :---- | :---- |
 | **Who is it about?** | **It is about us.** We are sorry for our sin because of what it will cost *us*. We are afraid of God's punishment. So we repent to stay out of trouble for ourselves. | **It is about God.** We are sorry for our sin because it hurts God. We are not afraid of being pushed away, because Jesus has already paid for us. We are sorry for the sin itself, not just the results. |
 | **How do we get forgiveness?** | **We try to earn it.** We feel very sad. We punish ourselves. We try to make God see that we feel bad enough to be forgiven. We must work for it. | **We receive it as a gift.** Jesus already suffered for our sin. We do not need to suffer in order to earn forgiveness. We simply accept the forgiveness Jesus already paid for. (1 John 1:9) |
 | **How does it feel?** | **It is painful and frightening.** Every time we sin, we feel deeply afraid. We worry that God will push us away. We try to admit as little as possible. Our only hope is being good enough, and we know we are not. | **It is hard but sweet.** We know we are accepted in Jesus, so we can be honest about our sin. We do not have to hide. Our hope is in what Jesus did, not in how good we are. |
@@ -183,46 +210,47 @@ This is why Luther said the whole Christian life should be a life of repentance.
 
 **Were any of your old ideas about repentance corrected in this section? If so, which ones?**
 
+---
+
+---
+
+---
+
 **Look at the table again. Which side feels more like your own repentance? Be honest with yourself.**
+
+---
+
+---
+
+---
 
 ## Session 2B Quiz
 
-**1.** Which of these is NOT true about worldly sorrow?
+**1\.** Which of these is NOT true about worldly sorrow?
 
-- a) It leads to death.
-
-- b) It turns toward God.
-
-- c) It knows a wrong has been done.
-
+- a) It leads to death.  
+- b) It turns toward God.  
+- c) It knows a wrong has been done.  
 - d) It can be very discouraging.
 
-**2.** Which of these is NOT true about self-atonement?
+**2\.** Which of these is NOT true about self-atonement?
 
-- a) It does not work.
-
-- b) It insults Jesus.
-
-- c) It makes our sin too small.
-
+- a) It does not work.  
+- b) It insults Jesus.  
+- c) It makes our sin too small.  
 - d) It makes our good deeds too small.
 
-**3.** Which of these describes "religious repentance"? (Circle all that apply.)
+**3\.** Which of these describes "religious repentance"? (Circle all that apply.)
 
-- a) We are sorry for our sin because of what it will cost us.
-
-- b) We are sorry for the sin itself, because it hurts God.
-
-- c) It is centered on God.
-
-- d) It is a way to try to earn forgiveness.
-
-- e) Our only hope is being good enough.
-
-- f) Every time we sin, we feel deeply afraid.
-
-- g) It is easier to be honest about our sin.
-
+- a) We are sorry for our sin because of what it will cost us.  
+- b) We are sorry for the sin itself, because it hurts God.  
+- c) It is centered on God.  
+- d) It is a way to try to earn forgiveness.  
+- e) Our only hope is being good enough.  
+- f) Every time we sin, we feel deeply afraid.  
+- g) It is easier to be honest about our sin.  
 - h) We repent less and less over time.
 
-*Course 201 · Module 2B · Why Repentance Feels Hard · Simplified Edition*
+---
+
+*Course 201 · Module 2B · Why Repentance Feels Hard · Simplified Edition*  

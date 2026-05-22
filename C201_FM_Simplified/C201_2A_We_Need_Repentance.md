@@ -2,12 +2,14 @@
 
 *Course 201 · Chapter 2: Repentance · Module 2A*
 
-> God wants to be close to us. When we sin, we want to hide from him. Repentance is how we come back to a close relationship with God.
+God wants to be close to us. When we sin, we want to hide from him. Repentance is how we come back to a close relationship with God.
+
+---
 
 ## Key Words for This Session
 
-| **Word** | **Meaning** |
-|---|---|
+| Word | Meaning |
+| :---- | :---- |
 | **Repentance** | To turn away from sin and turn back to God. To stop hiding and tell God the truth about what you did. |
 | **Sin** | Anything we think, say, or do that goes against God. |
 | **Confess** | To tell God what you did wrong. To stop hiding it. |
@@ -16,7 +18,9 @@
 | **Grace** | God's love and kindness that we did not earn. A free gift from God. |
 | **Righteous** | Right with God. Clean before God. |
 
-## 1. God Wants to Be Close to Us
+---
+
+## 1\. God Wants to Be Close to Us
 
 Think back to when you were a child. Perhaps you broke something in the house, or you received a bad grade on a test. What did you do? Most of us tried to hide it. We did not want our parents to find out.
 
@@ -24,15 +28,14 @@ This is something all people do. When we do something wrong, we want to hide. We
 
 This problem started long ago, in the Garden of Eden. Adam and Eve sinned against God. After they sinned, they hid from God.
 
-### Genesis 3:8--10 (NLT)
+### Genesis 3:8–10 (NLT)
 
-> ⁸ When the cool evening breezes were blowing, the man and his wife heard the Lord God walking about in the garden. So they hid¹ from the Lord God among the trees. ⁹ Then the Lord God called to the man, "Where are you?" ¹⁰ He replied, "I heard you walking in the garden, so I hid. I was afraid because I was naked²."
+⁸ When the cool evening breezes were blowing, the man and his wife heard the Lord God walking about in the garden. So they hid¹ from the Lord God among the trees. ⁹ Then the Lord God called to the man, "Where are you?" ¹⁰ He replied, "I heard you walking in the garden, so I hid. I was afraid because I was naked²."
 
 **Word Help**
 
-1.  **Hid** — Went to a place where God could not see them. Tried to stay away from God.
-
-2.  **Naked** — Not wearing any clothes.
+1. **Hid** — Went to a place where God could not see them. Tried to stay away from God.  
+2. **Naked** — Not wearing any clothes.
 
 Adam was naked. He was ashamed. He hid from God.
 
@@ -46,13 +49,12 @@ God wants to speak with us. He wants to help us, even when we have made trouble 
 
 ### Isaiah 1:18 (NLT)
 
-> ¹⁸ "Come now, let's settle¹ this," says the Lord. "Though your sins are like scarlet², I will make them as white as snow. Though they are red like crimson², I will make them as white as wool."
+¹⁸ "Come now, let's settle¹ this," says the Lord. "Though your sins are like scarlet², I will make them as white as snow. Though they are red like crimson², I will make them as white as wool."
 
 **Word Help**
 
-1.  **Settle** — To talk about a problem and fix it together.
-
-2.  **Scarlet / Crimson** — A deep, dark red color. The Bible uses this color to describe sin.
+1. **Settle** — To talk about a problem and fix it together.  
+2. **Scarlet / Crimson** — A deep, dark red color. The Bible uses this color to describe sin.
 
 From the start of the Bible to the end, God's invitation is the same. He says, "Let's talk."
 
@@ -60,21 +62,17 @@ God wants fellowship with us. He wants us to walk closely with him, like a fathe
 
 Stop and think about that for a moment. The God who made the whole world wants to be close to you. He is not waiting to punish you. He is waiting to speak with you.
 
-### 1 John 1:5--10 (NLT)
+### 1 John 1:5–10 (NLT)
 
-> ⁵ This is the message we heard from Jesus and now declare¹ to you: God is light, and there is no darkness in him at all. ⁶ So we are lying if we say we have fellowship with God but go on living in spiritual darkness²; we are not practicing the truth. ⁷ But if we are living in the light, as God is in the light, then we have fellowship with each other, and the blood of Jesus, his Son, cleanses³ us from all sin. ⁸ If we claim we have no sin, we are only fooling ourselves and not living in the truth. ⁹ But if we confess our sins to him, he is faithful and just⁴ to forgive us our sins and to cleanse us from all wickedness⁵. ¹⁰ If we claim we have not sinned, we are calling God a liar and showing that his word has no place in our hearts.
+⁵ This is the message we heard from Jesus and now declare¹ to you: God is light, and there is no darkness in him at all. ⁶ So we are lying if we say we have fellowship with God but go on living in spiritual darkness²; we are not practicing the truth. ⁷ But if we are living in the light, as God is in the light, then we have fellowship with each other, and the blood of Jesus, his Son, cleanses³ us from all sin. ⁸ If we claim we have no sin, we are only fooling ourselves and not living in the truth. ⁹ But if we confess our sins to him, he is faithful and just⁴ to forgive us our sins and to cleanse us from all wickedness⁵. ¹⁰ If we claim we have not sinned, we are calling God a liar and showing that his word has no place in our hearts.
 
 **Word Help**
 
-1.  **Declare** — To tell people something important.
-
-2.  **Spiritual darkness** — Living in sin. Hiding sin from God.
-
-3.  **Cleanses** — Makes clean. Washes away.
-
-4.  **Faithful and just** — God always keeps his promises. He always does what is right.
-
-5.  **Wickedness** — Sin. The bad things we do.
+1. **Declare** — To tell people something important.  
+2. **Spiritual darkness** — Living in sin. Hiding sin from God.  
+3. **Cleanses** — Makes clean. Washes away.  
+4. **Faithful and just** — God always keeps his promises. He always does what is right.  
+5. **Wickedness** — Sin. The bad things we do.
 
 God wants a close friendship with us. This brings joy. But there is a problem. We like to hide. We hide because we do not want anyone to see our sin.
 
@@ -84,69 +82,78 @@ The first words Jesus said when he began to teach were, "Repent and believe the 
 
 What is the good news? The good news is this: God is holy. But God is also waiting to forgive you. He wants you to stop hiding. He wants you to stop saying "I did not sin." He wants you to tell him the truth and confess your sin.
 
-That is good news! That is the gospel!
+That is good news\! That is the gospel\!
 
-### Mark 1:14--15 (NLT)
+### Mark 1:14–15 (NLT)
 
-> ¹⁴ Later on, after John was arrested, Jesus went into Galilee¹, where he preached² God's Good News. ¹⁵ "The time promised by God has come at last!" he announced. "The Kingdom of God³ is near! Repent of your sins and believe the Good News!"
+¹⁴ Later on, after John was arrested, Jesus went into Galilee¹, where he preached² God's Good News. ¹⁵ "The time promised by God has come at last\!" he announced. "The Kingdom of God³ is near\! Repent of your sins and believe the Good News\!"
 
 **Word Help**
 
-1.  **Galilee** — A place in Israel where Jesus taught many people.
-
-2.  **Preached** — Taught people about God in public.
-
-3.  **The Kingdom of God** — The place where God is king. The people and the world that follow God.
+1. **Galilee** — A place in Israel where Jesus taught many people.  
+2. **Preached** — Taught people about God in public.  
+3. **The Kingdom of God** — The place where God is king. The people and the world that follow God.
 
 ### Discussion
 
 **1 John 1 talks about living "in the light." What does it look like for someone to live in the light? What do they do?**
 
+---
+
+---
+
 **What does the passage promise will happen when we live in the light and confess our sins?**
 
-## 2. How Do You See Repentance?
+---
+
+---
+
+---
+
+## 2\. How Do You See Repentance?
 
 ### Discussion
 
 **When you hear the word "repentance," what do you think of?**
 
+---
+
+---
+
 **What makes repentance hard to do?**
+
+---
+
+---
 
 Take a moment to think honestly. When you hear the word "repentance," what is the first feeling that comes to your mind? Is it a good feeling, or a difficult feeling? There is no wrong answer. People feel differently about repentance.
 
 Some people think of repentance with these words:
 
-- Turning around
-
-- Both sad and sweet
-
-- Sorrowful
-
-- Hard
-
-- Painful
-
-- Sad
-
+- Turning around  
+- Both sad and sweet  
+- Sorrowful  
+- Hard  
+- Painful  
+- Sad  
 - What I did to become a Christian
 
 But some people think of repentance with these words:
 
-- Something I dread
-
-- Heavy and tiring
-
-- Punishing myself
-
+- Something I dread  
+- Heavy and tiring  
+- Punishing myself  
 - Hurtful
 
 If repentance feels heavy or frightening to you, this is understandable. Many Christians feel this way. But this is not how God wants us to feel about it. Let us see what the Bible teaches.
 
-## 3. Repentance Brings Us Close to God
+---
+
+## 3\. Repentance Brings Us Close to God
 
 All Christians know about repentance. We could not be saved without it. We turned to God by repenting. But this is also true: we live our Christian life every day by repenting.
 
-Repentance is how we have fellowship with God. Without repentance, we cannot have fellowship with God. (Unless we never sin. But 1 John 1:8--10 tells us that all people sin.)
+Repentance is how we have fellowship with God. Without repentance, we cannot have fellowship with God. (Unless we never sin. But 1 John 1:8–10 tells us that all people sin.)
 
 For Christians, our place as God's forgiven child is safe forever. God has called us righteous. Our relationship with God will never end.
 
@@ -156,7 +163,7 @@ It is the same with God. All of our sins are paid for by Jesus. This includes ou
 
 There is a famous saying that helps us understand this:
 
-> *"There is nothing you can do to make God love you more. And there is nothing you can do to make God love you less."*
+*"There is nothing you can do to make God love you more. And there is nothing you can do to make God love you less."*
 
 Jesus finished all the work on the cross. God gives us forgiveness as a free gift. This is what grace means.
 
@@ -170,7 +177,9 @@ It is the same with God. Adam hid from God after he sinned. In the same way, our
 
 All of this makes our love for God weaker. It makes our friendship with him weaker.
 
-## 4. A Story: The Broken Bowl
+---
+
+## 4\. A Story: The Broken Bowl
 
 ### Part One: The Mistake
 
@@ -248,28 +257,53 @@ This is what God wants with us. When we sin, he does not want us to hide. He wan
 
 **Look back at the four paths. Which path do you most often choose when you sin against God?**
 
+---
+
+---
+
 **Why do you think you choose that path?**
+
+---
+
+---
 
 **What does the father in the story show us about God?**
 
-**Think about the story and the passage in 1 John 1. What are some wrong ideas about God that make us afraid of repentance?**
+---
+
+---
+
+**Think about the story and the passage in 1 John 1\. What are some wrong ideas about God that make us afraid of repentance?**
+
+---
+
+---
+
+---
 
 **What does the story teach us about how God responds when we confess our sin?**
 
+---
+
+---
+
+---
+
 ## Session 2A Quiz
 
-**1.** Fill in the blank: "Our place as God's child is safe through Christ. But our sins still affect our __________ with God."
+**1\.** Fill in the blank: "Our place as God's child is safe through Christ. But our sins still affect our \_\_\_\_\_\_\_\_\_\_ with God."
 
-**2.** Which answer best summarizes Session 2A?
+---
 
-"__________ is the road that leads to __________ with God."
+**2\.** Which answer best summarizes Session 2A?
 
-- a) Repentance · fellowship
+"\_\_\_\_\_\_\_\_\_\_ is the road that leads to \_\_\_\_\_\_\_\_\_\_ with God."
 
-- b) Fellowship · relationship
-
-- c) Confession · repentance
-
+- a) Repentance · fellowship  
+- b) Fellowship · relationship  
+- c) Confession · repentance  
 - d) Good works · peace
 
-*Course 201 · Module 2A · We Need Repentance · Simplified Edition*
+---
+
+*Course 201 · Module 2A · We Need Repentance · Simplified Edition*  
