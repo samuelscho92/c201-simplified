@@ -22,7 +22,7 @@ Think about a teenager in high school. What makes them excited or worried? Usual
 
 But an older person knows: in 5 years, none of this will matter. In other words, the things that feel so real and very important are not actually so. They have very little importance in the long run. Many teenagers cannot see this yet.
 
-For children, unless something happens right away, they have a hard time seeing that it's real. 5 years away might as well be 500 years away. We think we are older and wiser because we see things that are 5 years away can be indeed real and important. 
+For children, unless something happens right away, they have a hard time seeing that it's real. 5 years away might as well be 500 years away. We think we are older and wiser because we see things that are 5 years away can be indeed real and important.
 
 But what if something is 50 years away?
 
@@ -48,8 +48,15 @@ Here is another story Jesus told:
 
 **Luke 14:16–24 (NLT)**
 
-> Jesus replied with this story: "A man prepared a great feast and sent out many invitations. When the banquet was ready, he sent his servant to tell the guests, 'Come, the banquet is ready!' But they all began making excuses. One said, 'I just bought a field and must inspect it. Please excuse me.' Another said, 'I just bought five pairs of oxen, and I want to try them out. Please excuse me.' Another said, 'I just got married, so I can't come.' The servant returned and told his master what they had said. His master was furious and said, ‘Go quickly into the streets and alleys of the town and invite the poor, the crippled, the blind, and the lame.’ After the servant had done this, he reported, ‘There is still room for more.’ So his master said, ‘Go out into the country lanes and behind the hedges and urge anyone you find to come, so that the house will be full. For none of those I first invited will get even the smallest taste of my banquet"
+> Jesus replied with this story: "A man prepared a great feast and sent out many invitations. When the banquet was ready, he sent his servant to tell the guests, 'Come, the banquet is ready!' But they all began making excuses. One said, 'I just bought a field and must inspect it. Please excuse me.' Another said, 'I just bought five pairs of oxen, and I want to try them out. Please excuse me.' Another said, 'I just got married, so I can't come.' The servant returned and told his master what they had said. His master was furious and said, 'Go quickly into the streets and alleys of the town and invite the poor, the crippled, the blind, and the lame.' After the servant had done this, he reported, 'There is still room for more.' So his master said, 'Go out into the country lanes and behind the hedges and urge anyone you find to come, so that the house will be full. For none of those I first invited will get even the smallest taste of my banquet.'"
 
+Jesus also challenged those who were skilled at reading the weather but blind to what truly mattered:
+
+**Luke 12:54–56 (NLT)**
+
+> Then Jesus turned to the crowd and said, "When you see clouds beginning to form in the west, you say, 'Here comes a shower.' And you are right. When the south wind blows, you say, 'Today will be a scorcher.' And it is. You fools! You know how to interpret the weather signs of the earth and sky, but you don't know how to interpret the present times."
+
+People in every age are skilled at reading what affects their money, their status, and their comfort. But they are blind to the most important reality — that they stand before a holy God and must give an account.
 
 *Definitions:*
 
@@ -93,7 +100,7 @@ These are the true realities: God's love, His Son, belief, perishing, and eterna
 
 > "Look, I am coming soon, bringing my reward with me to repay all people according to their deeds. I am the Alpha and the Omega, the First and the Last, the Beginning and the End."
 
-God is the beginning and the end of all things. Our past is God — he knew us before we were born. Our future is God — he is the final judge of all.
+God is the beginning and the end of all things. Our past is God — he knew us before we were born (Psalm 139). Our future is God — he is the final judge of all.
 
 
 ---
@@ -112,7 +119,7 @@ Our usual mindset is this: live for what I can see, feel, and touch right now.
 
 Thoughts about death and eternal judgment feel distant and uncomfortable. So we push them away.
 
-The Bible says this is not a neutral position. It is a form of pride.
+The Bible says this is not a neutral position. It is a form of pride — a refusal to face the truth about ourselves and our Creator.
 
 **Quote — Blaise Pascal, *Pensées*:**
 
@@ -142,7 +149,7 @@ This man was smart and capable. He planned well for his future.
 
 But his picture of reality was too small.
 
-He was focused on his barns and his belly. He had no thought for his soul, for eternity, or for God.
+He was focused on his barns and his belly. He narrowed all of reality to himself — his appetites, his plans, his comfort. He had no thought for his soul, for eternity, or for God.
 
 When he died, he was completely unprepared.
 
