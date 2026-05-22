@@ -18,25 +18,17 @@
 
 ## Part 1: We Are Blind to What Is Real
 
-Think about a teenager in high school.
+Think about a teenager in high school. What makes them excited or worried? Usually: who likes them, what their friends think, how popular they are. These things feel so real and very important.
 
-What makes them excited or worried?
+But an older person knows: in 5 years, none of this will matter. In other words, the things that feel so real and very important are not actually so. They have very little importance in the long run. Many teenagers cannot see this yet.
 
-Usually: who likes them, what their friends think, how popular they are.
+For children, unless something happens right away, they have a hard time seeing that it's real. 5 years away might as well be 500 years away. We think we are older and wiser because we see things that are 5 years away can be indeed real and important. 
 
-These things feel very real and very important.
+But what if something is 50 years away?
 
-But an older person knows: in five years, none of this will matter.
+When something is far away, we have a hard time seeing it is real. We often act as if it is not. We eat unhealthy foods or don't change the oil in our car. We feel like we can get away with ignoring the issues because we don't feel the damages right away.
 
-The teenager cannot see this yet.
-
-**We have the same problem — but with eternal things.**
-
-When something is far away, we act as if it is not real.
-
-We know that death will come. We know that judgment is certain. We know eternity is real.
-
-But these truths feel distant. So we live as if they do not matter today.
+Our problem is this: **we are blind to what is real.** When it comes to issues like life, death, judgement and eternity, they feel far off and distant. So we live as if they do not matter today.
 
 This is a serious problem.
 
@@ -44,27 +36,20 @@ This is a serious problem.
 
 ## Part 2: What Jesus Said
 
+Even for many Christians, what we **believe to be true** and what we **feel to be real** can be very different. Life is short; death is certain; judgment is sure; eternity is long. Yes, we believe these to be true. But who lives by what they think is true? We are so busy and occupied with everyday life and ignore what matters most.
+
 Jesus warned us about this problem directly.
 
 **Luke 17:26–30 (NLT)**
 
 > When the Son of Man returns, it will be like it was in Noah's day. In those days, the people enjoyed banquets and parties and weddings right up to the time Noah entered his boat and the flood came and destroyed them all. And the world will be as it was in the days of Lot. People went about their daily business — eating and drinking, buying and selling, farming and building — until the morning Lot left Sodom. Then fire and burning sulfur rained down from heaven and destroyed them all. Yes, it will be 'business as usual' right up to the day when the Son of Man is revealed.
 
-The people of Noah's time were not doing evil things. They were eating, drinking, getting married.
+Here is another story Jesus told:
 
-But they were completely blind to what was about to happen.
+**Luke 14:16–24 (NLT)**
 
-**This is the danger: being fully occupied with everyday life while ignoring what matters most.**
+> Jesus replied with this story: "A man prepared a great feast and sent out many invitations. When the banquet was ready, he sent his servant to tell the guests, 'Come, the banquet is ready!' But they all began making excuses. One said, 'I just bought a field and must inspect it. Please excuse me.' Another said, 'I just bought five pairs of oxen, and I want to try them out. Please excuse me.' Another said, 'I just got married, so I can't come.' The servant returned and told his master what they had said. His master was furious and said, ‘Go quickly into the streets and alleys of the town and invite the poor, the crippled, the blind, and the lame.’ After the servant had done this, he reported, ‘There is still room for more.’ So his master said, ‘Go out into the country lanes and behind the hedges and urge anyone you find to come, so that the house will be full. For none of those I first invited will get even the smallest taste of my banquet"
 
----
-
-**Luke 14:16–20 (NLT)**
-
-> Jesus replied with this story: "A man prepared a great feast and sent out many invitations. When the banquet was ready, he sent his servant to tell the guests, 'Come, the banquet is ready!' But they all began making excuses. One said, 'I just bought a field and must inspect it. Please excuse me.' Another said, 'I just bought five pairs of oxen, and I want to try them out. Please excuse me.' Another said, 'I just got married, so I can't come.'"
-
-The excuses were not evil things. They were ordinary, everyday matters.
-
-But these ordinary things took priority over the most important invitation.
 
 *Definitions:*
 
@@ -75,38 +60,49 @@ But these ordinary things took priority over the most important invitation.
 
 ---
 
-**Discussion Questions:**
+**Review the passages and answer the questions below.**
 
-1. What activities were the people of Noah's time doing? What do these activities have in common?
-2. Why did the people in Jesus' story refuse the invitation? What does this tell you?
+**What activities were the people of Noah's time doing? What do these activities have in common?**
+
+
+
+
+**Think about how they had no idea what was about to happen. What lesson is Jesus trying to teach through the stories of Noah and Lot?**
+
+
+
+
+**Why did the people in Jesus' story refuse the invitation? What does this tell you?**
+
+
+
 
 ---
 
 ## Part 3: The Beginning and the End
 
+We must not continue living as if "eating and drinking, buying and selling, farming and building" is all of reality. Life is short and judgment awaits every single person. THIS is the biggest reality.
+
 **John 3:16 (NLT)**
 
 > For this is how God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life.
 
-These are the real realities: God's love, his Son, belief, perishing, eternal life.
-
-We must learn to see life through this lens.
+These are the true realities: God's love, His Son, belief, perishing, and eternal life. We must learn to see and live life in this reality.
 
 **Revelation 22:12–13 (NLT)**
 
 > "Look, I am coming soon, bringing my reward with me to repay all people according to their deeds. I am the Alpha and the Omega, the First and the Last, the Beginning and the End."
 
-God is the beginning and the end of all things.
+God is the beginning and the end of all things. Our past is God — he knew us before we were born. Our future is God — he is the final judge of all.
 
-Our past is God — he knew us before we were born.
-
-Our future is God — he is the final judge of all.
-
-*Example: Most of us think carefully about money, work, and health. We plan for next year. But how much do we think about where we will be in 100 years? In 1,000 years? God is asking us to live with that in view.*
 
 ---
 
-**Discussion Question:** Are you living with your end in mind? What would change if you did?
+**Review the passages and answer the questions below.**
+
+**Are you living with your end in mind? What would change if you did?**
+
+
 
 ---
 
