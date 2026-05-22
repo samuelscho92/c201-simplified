@@ -1,11 +1,10 @@
 # SESSION 1C — THE CROSS
-**Course 201 · Chapter 1 · Holiness of God**
 
----
+**Course 201 · Chapter 1 · Holiness of God**
 
 ## Key Words
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | wrath | God's holy anger toward sin |
 | mercy | kindness given to someone who does not deserve it |
@@ -16,8 +15,6 @@
 | righteousness | being fully right and good before God |
 | eternity | time that never ends; life after death |
 
----
-
 ## Review
 
 Before we begin, look back at the last two sessions.
@@ -25,8 +22,6 @@ Before we begin, look back at the last two sessions.
 **1A — Seeing God:** God is holy. His holiness is the most important thing to know about him.
 
 **1B — Seeing Myself:** When we see God's holiness, we see our own sin clearly.
-
----
 
 ## Part 1: God's Wrath Toward Sin
 
@@ -44,8 +39,6 @@ We find it hard to accept that God is seriously angry at sin.
 
 We find it hard to see why we need God's mercy.
 
----
-
 **Quote — R.C. Sproul, *Holiness of God*:**
 
 > "When God's justice falls, we are offended because we think God owes us mercy. We must not take his grace for granted. We must never lose our ability to be amazed by grace."
@@ -55,8 +48,6 @@ Sproul also noticed something in himself. Even he had once said in a sermon: "Go
 Deep in our hearts, we feel that God owes us mercy. We think: "I am not perfect. But I am not so bad. Surely God will include me in heaven."
 
 R.C. Sproul then tells this story about his students:
-
----
 
 He taught 250 university students. He gave them three papers to write.
 
@@ -84,26 +75,20 @@ They shouted: "That's not fair!"
 
 But they had forgotten: they had already received mercy twice. They began to expect it.
 
----
-
 **Quote — R.C. Sproul, *Holiness of God*:**
 
 > "We have come to expect God to be merciful. From there the next step is easy: we demand it. We soon forget that with our first sin we gave up all rights to the gift of life. That I am breathing this morning is an act of God's mercy. God owes me nothing. I owe him everything."
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | mercy¹ | kindness to someone who deserves punishment |
 | demand² | to say you have a right to receive something |
 
----
-
 **Discussion Question:**
 
 Do you ever feel that God's punishment of sin is unfair? What does this story show you?
-
----
 
 ## Part 2: God's Wrath and His Love
 
@@ -129,8 +114,6 @@ We cannot see all of this. But God can.
 
 This is why God takes sin so seriously.
 
----
-
 ## Part 3: A Good God and Hell
 
 Some people ask: "If God is good, how can he send people to hell?"
@@ -141,36 +124,35 @@ A good person naturally hates evil. The more pure a person is, the more they hat
 
 **God is perfectly good. So God hates sin and its consequences.**
 
----
-
 Honestly examine yourself:
 
 - Have you ever told a lie?
+
 - Have you ever cheated?
+
 - Have you ever felt glad when something bad happened to someone you disliked?
+
 - Have you ever used other people for your own gain?
+
 - Have you ever said cruel things?
+
 - Have you ever wished harm on someone?
 
 When we honestly answer these questions, the truth is uncomfortable.
 
 The Bible says the same thing:
 
----
-
-**Romans 1:29–32 (NLT)**
+**Romans 1:29--32 (NLT)**
 
 > Their lives became full of every kind of wickedness, sin, greed, hate, envy, murder, quarreling, deception, malicious behavior, and gossip. They are backstabbers, haters of God, insolent, proud, and boastful. They invent new ways of sinning, and they disobey their parents. They refuse to understand, break their promises, are heartless, and have no mercy. They know God's justice requires that those who do these things deserve to die, yet they do them anyway. Worse yet, they encourage others to do them, too.
 
----
-
-**Mark 7:20–23 (NLT)**
+**Mark 7:20--23 (NLT)**
 
 > And then he added, "It is what comes from inside that defiles you. For from within, out of a person's heart, come evil thoughts, sexual immorality, theft, murder, adultery, greed, wickedness, deceit, lustful desires, envy, slander, pride, and foolishness. All these vile things come from within; they are what defile you."
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | defile³ | to make unclean or impure |
 | immorality⁴ | behavior that goes against what is right |
@@ -179,21 +161,17 @@ The Bible says the same thing:
 | deceit⁷ | saying or doing things to trick people |
 | slander⁸ | saying false, harmful things about someone |
 
----
-
-**2 Timothy 3:2–5 (NLT)**
+**2 Timothy 3:2--5 (NLT)**
 
 > For people will love only themselves and their money. They will be boastful and proud, scoffing at God, disobedient to their parents, and ungrateful. They will consider nothing sacred. They will be unloving and unforgiving; they will slander others and have no self-control. They will be cruel and hate what is good. They will betray their friends, be reckless, be puffed up with pride, and love pleasure rather than God. They will act religious, but they will reject the power that could make them godly.
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | boastful⁹ | talking proudly about yourself |
 | sacred¹⁰ | set apart for God; holy |
 | betray¹¹ | to hurt someone who trusted you |
-
----
 
 The Bible confirms what we already know inside: we are sinners.
 
@@ -209,27 +187,23 @@ He has given us time to repent and come to him.
 
 But we must not mistake his patience for approval. God is patient because he wants us to repent. He is giving us time to come to him. But many people use this time to sin more boldly. They think: "God does not care when I sin. Or he cannot stop me." This is a big mistake.
 
----
-
 **Quote — C.S. Lewis:**
 
 > "There are two kinds of people: those who say to God, 'Your will be done,' and those to whom God will say, 'Your will be done.'"
 
 Hell is simply what happens when a person gets what they have always chosen: life without God.
 
----
-
 **Three important truths together:**
 
-1. God is holy.
-2. We are sinners.
-3. Eternity is real.
+1.  God is holy.
+
+2.  We are sinners.
+
+3.  Eternity is real.
 
 If all three are true, there is only one conclusion: without Jesus, we all face eternity apart from God.
 
 **But — there is the cross of Jesus.**
-
----
 
 ## Part 4: The Cross
 
@@ -241,22 +215,18 @@ But on the cross, Jesus took that judgment in our place.
 
 The punishment we deserved fell on Jesus — the perfect, sinless Son of God.
 
----
-
 **2 Corinthians 5:21 (NLT)**
 
 > For God made Christ, who never sinned, to be the offering for our sin, so that we could be made right with God through Christ.
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | offering¹² | something given to God to pay for sin |
 | made right¹³ | forgiven and accepted fully by God |
 
----
-
-**Isaiah 6:5–7 (NLT)**
+**Isaiah 6:5--7 (NLT)**
 
 > Then I said, "It's all over! I am doomed, for I am a sinful man. I have filthy lips, and I live among a people with filthy lips. Yet I have seen the King, the LORD of Heaven's Armies."
 >
@@ -280,31 +250,24 @@ The cross shows us many truths at once. We see God's holiness. We see God's love
 
 This is the greatest news any person could ever hear.
 
----
-
 ## Part 5: Pitfalls — What Happens Without This Truth
 
 If we do not truly understand God's holiness, several things go wrong:
 
-**1. We do not take sin seriously.**
-We treat it as small or unimportant.
+**1. We do not take sin seriously.** We treat it as small or unimportant.
 
-**2. We do not work to grow and change.**
-We lose the reason to fight against sin in our lives.
+**2. We do not work to grow and change.** We lose the reason to fight against sin in our lives.
 
-**3. We lose the joy of being saved.**
-We forget what we were saved from.
+**3. We lose the joy of being saved.** We forget what we were saved from.
 
-**4. We become proud.**
-We think we are good instead of being thankful that God is good.
+**4. We become proud.** We think we are good instead of being thankful that God is good.
 
-**5. We live for people's opinions instead of for God.**
-We try to look good instead of truly loving God.
-
----
+**5. We live for people's opinions instead of for God.** We try to look good instead of truly loving God.
 
 **Discussion Questions:**
 
-1. Do you take your sin seriously? What makes it hard?
-2. Which pitfall do you most recognize in yourself?
-3. Spend some time thanking God for the cross. What do you want to say to him?
+1.  Do you take your sin seriously? What makes it hard?
+
+2.  Which pitfall do you most recognize in yourself?
+
+3.  Spend some time thanking God for the cross. What do you want to say to him?

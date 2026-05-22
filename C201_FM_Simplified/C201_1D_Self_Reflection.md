@@ -1,11 +1,10 @@
 # SESSION 1D — SELF-REFLECTION
-**Course 201 · Chapter 1 · Holiness of God**
 
----
+**Course 201 · Chapter 1 · Holiness of God**
 
 ## Key Words
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | self-reflection | thinking honestly and carefully about yourself |
 | discipline | doing something regularly and with purpose |
@@ -13,8 +12,6 @@
 | rationalize | to make excuses for something wrong you did |
 | repentance | turning away from sin and back to God |
 | iniquity | serious wrong or sin |
-
----
 
 ## Introduction: Why Self-Reflection?
 
@@ -26,15 +23,11 @@ We have also seen that when people meet God's holiness, they see themselves clea
 
 Without it, we go through life with a wrong picture of ourselves.
 
----
-
 **Quote — Dr. Martin Lloyd-Jones, *Out of the Depths*:**
 
 > "A Christian is someone who has seen himself and seen what he has done. He has seen his sin. He knows he has sinned against God. He sees that his own nature is sinful."
 
 *(Simplified from original)*
-
----
 
 **Quote — Henri Nouwen, *Making All Things New*:**
 
@@ -44,7 +37,7 @@ Without it, we go through life with a wrong picture of ourselves.
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | chaos¹ | great confusion and disorder |
 | distraction² | something that stops you from thinking or focusing |
@@ -57,8 +50,6 @@ This is why many people stay busy — to avoid facing themselves.
 
 **But this is exactly why self-reflection is so important.**
 
----
-
 ## What Is Self-Reflection?
 
 Self-reflection is **written thinking about something that happened — an event, a moment, a reaction.**
@@ -67,11 +58,7 @@ You think carefully and honestly about what it reveals about you.
 
 Writing helps you be more honest. It helps focus our thoughts.
 
----
-
 ## The 4 Steps of Self-Reflection
-
----
 
 ### Step 1 — List the Facts
 
@@ -85,21 +72,21 @@ Write only facts. Do not write feelings or excuses yet.
 
 Focusing on facts stops you from making excuses.
 
----
-
 ### Step 2 — Explore
 
 After writing the facts, ask yourself some questions:
 
 - Why did I say that?
+
 - Why did I do that?
+
 - What was I feeling at that moment?
+
 - What was going through my mind?
+
 - What happened before this incident?
 
 This step helps you understand what was really going on inside you.
-
----
 
 ### Step 3 — What Does This Reveal About Me?
 
@@ -112,8 +99,11 @@ After you have the facts and have explored your feelings, ask:
 Some helpful questions:
 
 - What does this show about what drives me?
+
 - What does this show about what is inside my heart?
+
 - What does this show about how I see God, others, or myself?
+
 - What does this reveal about what matters most to me?
 
 **Important:** Use simple, plain words. Do not be overly dramatic.
@@ -122,8 +112,6 @@ Some helpful questions:
 
 The goal is clear truth — not strong emotion.
 
----
-
 ### Step 4 — The Word of God
 
 This step is what makes Christian self-reflection different from ordinary self-examination.
@@ -131,7 +119,9 @@ This step is what makes Christian self-reflection different from ordinary self-e
 Ask yourself:
 
 - What does the Bible say about this?
+
 - How does God's word correct me here?
+
 - What does the gospel say to me at this point?
 
 This step is very important. Without it, two bad things can happen:
@@ -144,15 +134,13 @@ Both problems leave God out of the process.
 
 **The goal is not just to feel bad about sin. The goal is to bring your sin to God and receive his grace.**
 
----
-
 **Isaiah 1:18 (NLT)**
 
 > "Come now, let's settle this," says the LORD. "Though your sins are like scarlet, I will make them as white as snow. Though they are red like crimson, I will make them as white as wool."
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | scarlet³ | bright red — a picture of serious sin |
 | crimson⁴ | another word for deep red |
@@ -161,15 +149,11 @@ God does not ask us to fix ourselves first. He says: "Come. Let us talk. Let me 
 
 Above all, be honest. God wants to talk with you. He wants to forgive you and to heal you.
 
----
-
 **Quote — Martyn Lloyd-Jones, *Out of the Depths*:**
 
 > "Have you faced yourself? Look back across your life. Look at the things you have thought, said, and done. This is the first step toward knowing God and experiencing his salvation. You have to fight for your soul. The world will do everything to prevent you from facing yourself."
 
 *(Simplified from original)*
-
----
 
 ## Why Self-Reflection Matters
 
@@ -181,15 +165,11 @@ And with the truth, we can also find God's grace, forgiveness, and freedom. When
 
 **There is real freedom when we have honestly faced ourselves, repented, and received God's forgiveness.**
 
----
-
 **Quote — Martyn Lloyd-Jones, *Out of the Depths*:**
 
 > "There is no hope for a person who does not face themselves. You have to fight for your life. You have to fight for your soul. The world will do everything to stop you from facing yourself. Look at yourself. It is the first step in knowing God and experiencing his glorious salvation."
 
 *(Simplified from original)*
-
----
 
 ## Self-Reflection Exercise
 
@@ -199,29 +179,32 @@ Choose one recent incident or pattern in your life.
 
 Work through all four steps in writing:
 
-1. **Facts** — What happened?
-2. **Explore** — What was I feeling and thinking?
-3. **What does this reveal?** — What does this show about my heart?
-4. **Word of God** — What does the Bible say? What does the gospel give me?
+1.  **Facts** — What happened?
 
----
+2.  **Explore** — What was I feeling and thinking?
+
+3.  **What does this reveal?** — What does this show about my heart?
+
+4.  **Word of God** — What does the Bible say? What does the gospel give me?
 
 ## Discussion Questions
 
-1. Is it easy or hard for you to think honestly about yourself? Why?
-2. Which of the 4 steps do you find most difficult? Why?
-3. What happens when you skip Step 4 (the Word of God)?
-4. Share what you discovered about yourself from the exercise.
+1.  Is it easy or hard for you to think honestly about yourself? Why?
 
----
+2.  Which of the 4 steps do you find most difficult? Why?
+
+3.  What happens when you skip Step 4 (the Word of God)?
+
+4.  Share what you discovered about yourself from the exercise.
 
 *End of Session 1D — End of Chapter 1*
-
----
 
 **Chapter 1 Summary:**
 
 - **1A — Seeing God:** God is holy. He is separate from and far above all things.
+
 - **1B — Seeing Myself:** When we see God's holiness, we see our sin clearly.
+
 - **1C — The Cross:** Jesus took the punishment for our sin. This is the greatest news.
+
 - **1D — Self-Reflection:** We practice seeing ourselves honestly through God's word.

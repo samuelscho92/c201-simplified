@@ -1,11 +1,10 @@
 # SESSION 4B — SPIRITUAL BATTLE
-**Course 201 · Chapter 4 · Spiritual Battle**
 
----
+**Course 201 · Chapter 4 · Spiritual Battle**
 
 ## Key Words
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | soldier | a person who fights in a war |
 | wartime mentality | thinking and living as if you are in a serious war |
@@ -14,11 +13,9 @@
 | morale | the will and desire to keep fighting |
 | equipping | being given the tools and training needed to fight well |
 
----
-
 ## Part 1: Christians Are Soldiers
 
-**2 Timothy 2:3–4 (NLT)**
+**2 Timothy 2:3--4 (NLT)**
 
 > Endure suffering along with me, as a good soldier of Christ Jesus. Soldiers don't get tied up in the affairs of civilian life, for then they cannot please the officer who enlisted them.
 
@@ -28,15 +25,9 @@ A soldier does not spend all his time on comfort or personal pleasure. He is alw
 
 **This is the identity of a Christian: a soldier in God's army.**
 
----
-
-**1 John 2:15–17 (NLT)**
+**1 John 2:15--17 (NLT)**
 
 > Do not love this world nor the things it offers you, for when you love the world, you do not have the love of the Father in you. For the world offers only a craving for physical pleasure, a craving for everything we see, and pride in our achievements and possessions. These are not from the Father, but are from this world. And this world is fading away, along with everything that people crave. But anyone who does what pleases God will live forever.
-
-**Ephesians 5:8–11 (NLT)**
-
-> For once you were full of darkness, but now you have light from the Lord. So live as people of light! For this light within you produces only what is good and right and true. Carefully determine what pleases the Lord. Take no part in the worthless deeds of evil and darkness; instead, expose them.
 
 **James 4:4 (NLT)**
 
@@ -44,21 +35,18 @@ A soldier does not spend all his time on comfort or personal pleasure. He is alw
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | civilian¹ | a person not in the military; not a soldier |
 | craving² | a very strong desire |
 | adulterers³ | here used as a picture of people who are unfaithful to God |
 | expose⁴ | to bring something hidden into the light; to show it for what it really is |
 
-We are not only soldiers who fight. We are also children of light. We do not hide from darkness — we expose it.
-
 **Discussion Questions:**
 
-1. How does the Bible describe "the world" in these passages?
-2. What should the Christian's attitude toward the world be?
+1.  How does the Bible describe "the world" in these passages?
 
----
+2.  What should the Christian's attitude toward the world be?
 
 ## Part 2: The Reality of Spiritual Battle
 
@@ -68,7 +56,7 @@ Whether we feel it or not, the battle is happening around us.
 
 **Think about this comparison:**
 
-When the Allies landed on D-Day in World War II, military leaders knew the war was effectively won. But the soldiers on the ground did not feel like anything was over. There were still bitter battles ahead. Many would still die.
+When the Allies landed on D-Day in World War II, military leaders knew the war was effectively won. But the soldiers on the ground did not feel like anything was over. There were still battles ahead. Many would still die.
 
 This is our situation as Christians.
 
@@ -78,25 +66,23 @@ Jesus won the decisive victory at the cross. Satan's final defeat is certain.
 
 This is not only a physical battle. People's souls are at stake. Some are being lost forever. We cannot treat this war as a small thing.
 
-Even though Satan is defeated in the final sense, we can still lose battles locally — in our own lives, our families, our churches. Satan's final defeat will bring no comfort if our own lives are destroyed in the meantime.
-
----
+Even though Satan is defeated in the final sense, we can still lose battles in our own lives, our families, our churches.
 
 ## Part 3: Wartime vs. Peacetime Mentality
 
-During World War II, every person in the country was affected by the war.
+During World War II, every person in America was affected by the war.
 
 People gave up personal comforts. They sacrificed. They worked together. They stayed focused.
 
 **The Bible says the church is in an all-out spiritual war.** But many Christians live as if it is peacetime.
 
-Many Christians are happy to be Christians. But they see their faith mostly as something that brings them comfort. They give time to God when it is convenient. When they see other believers taking the battle seriously, they wonder: "Why be so extreme?"
+Many Christians are happy to be Christians. But they see their faith mostly as something that brings them comfort. They give time to God when it is easy. When they see other believers taking the battle seriously, they wonder: "Why be so extreme?"
 
 This is the peacetime mentality. It feels natural. But it is dangerous.
 
 Here are the differences:
 
-| Area | Peacetime Thinking | Wartime Thinking |
+| **Area** | **Peacetime Thinking** | **Wartime Thinking** |
 |---|---|---|
 | **Possessions** | "What's wrong with enjoying nice things?" | "How can I use what I have for the battle?" |
 | **Suffering** | "Avoid hardship as much as possible" | "Sacrifice is part of fighting" |
@@ -107,32 +93,20 @@ Here are the differences:
 
 **Discussion Questions:**
 
-1. Which aspects of wartime mentality do you see in your life?
-2. Which aspects of peacetime mentality do you most recognize in yourself?
+1.  Which aspects of wartime mentality do you see in your life?
 
----
+2.  Which aspects of peacetime mentality do you most recognize in yourself?
 
 ## Part 4: What It Takes to Win
 
 All wars require certain things. Spiritual war is no different.
 
-**Intelligence** — Know your enemy.
-We studied Satan's characteristics in Session 4A. Paul said: "We are not unaware of his schemes." But many Christians are unaware. This makes them very vulnerable.
+**Intelligence** — Know your enemy. We studied Satan's characteristics in Session 4A. Paul said: "We are not unaware of his schemes." But many Christians are unaware. This makes them very vulnerable.
 
-**Morale** — Stay willing to fight.
-Satan tries to make Christians give up. He plants discouragement and defeat in our minds. He also tries to distract us with entertainment, comfort, and other things that are not important.
+**Morale** — Stay willing to fight. Satan tries to make Christians give up. He plants discouragement and defeat in our minds. He also tries to distract us with entertainment, comfort, and other things that are not important.
 
 *Satan does not need us to bow down to him. He just needs us to stop fighting.*
 
-**Equipping** — Use the weapons God has given us.
-God has given Christians powerful weapons (we will study these in Session 4C). But if we do not learn to use them, we are helpless. A soldier given a weapon but never trained to use it is in great danger.
+**Equipping** — Use the weapons God has given us. God has given Christians powerful weapons (we will study these in Session 4C). But if we do not learn to use them, we are helpless. A soldier given a weapon but never trained to use it is in great danger.
 
-**Defense** — Build places of rest and renewal.
-Every army needs a place to rest, to be refreshed, and to plan. The church is that place. We need community where we can encourage each other and grow stronger together.
-
----
-
-**Discussion Questions:**
-
-1. Which of the four elements (intelligence, morale, equipping, defense) is weakest in your life right now?
-2. What practical steps can you take to live with a wartime mentality this week?
+**Defense** — Build communities of support and safety. Every army needs a place to rest, to be refreshed, and to plan. The church is that place. We need a community where we can encourage each other and grow stronger together.

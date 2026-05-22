@@ -1,11 +1,10 @@
 # SESSION 4A — KNOW YOUR ENEMY
-**Course 201 · Chapter 4 · Spiritual Battle**
 
----
+**Course 201 · Chapter 4 · Spiritual Battle**
 
 ## Key Words
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | spiritual battle | the real war between God and evil that Christians are part of |
 | Satan | the enemy of God; also called the devil |
@@ -13,8 +12,6 @@
 | temptation | an invitation to do something wrong |
 | victory | winning the battle; overcoming the enemy |
 | authority | the right and power to rule |
-
----
 
 ## Part 1: We Are in a War
 
@@ -40,23 +37,19 @@ This is the reason we study the enemy — so that Satan cannot surprise us.
 
 > For we are not fighting against flesh-and-blood enemies, but against evil rulers and authorities of the unseen world, against mighty powers in this dark world, and against evil spirits in the heavenly places.
 
-**2 Corinthians 10:3–5 (NLT)**
+**2 Corinthians 10:3--5 (NLT)**
 
 > We are human, but we don't wage war as humans do. We use God's mighty weapons, not worldly weapons, to knock down the strongholds of human reasoning and to destroy false arguments. We destroy every proud obstacle that keeps people from knowing God. We capture their rebellious thoughts and teach them to obey Christ.
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | flesh-and-blood¹ | human; physical |
 | strongholds² | places of great strength; here: false beliefs that hold power over people |
 | rebellious³ | refusing to obey; going against God |
 
----
-
 **Discussion Question:** How is the Christian struggle described in these passages? Who are we fighting against?
-
----
 
 ## Part 2: What Can We Learn About Satan?
 
@@ -74,7 +67,7 @@ What do these verses tell us about Satan?
 
 > He was a murderer from the beginning. He has always hated the truth, because there is no truth in him. When he lies, it is consistent with his character; for he is a liar and the father of lies.
 
-**2 Corinthians 4:3–4 (NLT)**
+**2 Corinthians 4:3--4 (NLT)**
 
 > If the Good News we preach is hidden behind a veil, it is hidden only from people who are perishing. Satan, who is the god of this world, has blinded the minds of those who don't believe. They are unable to see the glorious light of the Good News. They don't understand this message about the glory of Christ, who is the exact likeness of God.
 
@@ -92,7 +85,7 @@ What do these verses tell us about Satan?
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | consistent⁴ | always the same; matching who someone really is |
 | disguises⁵ | hides what he truly is; pretends to be good |
@@ -100,17 +93,20 @@ What do these verses tell us about Satan?
 | devour⁷ | to completely destroy; to consume |
 
 **Summary of Satan's characteristics:**
-- He takes away God's word from people's hearts
-- He blinds people so they cannot see the truth of the gospel
-- He is a liar and the father of all lies
-- He disguises himself as something good
-- He is always looking for weak moments to attack
 
----
+- He takes away God's word from people's hearts
+
+- He blinds people so they cannot see the truth of the gospel
+
+- He is a liar and the father of all lies
+
+- He disguises himself as something good
+
+- He is always looking for weak moments to attack
 
 ## Part 3: When Jesus Faced Satan
 
-**Luke 4:1–13 (NLT)**
+**Luke 4:1--13 (NLT)**
 
 > Then Jesus, full of the Holy Spirit, returned from the Jordan River. He was led by the Spirit in the wilderness, where he was tempted by the devil for forty days. Jesus ate nothing all that time and became very hungry.
 >
@@ -131,25 +127,26 @@ What do these verses tell us about Satan?
 Notice how Satan chose his moment: Jesus was alone, had eaten nothing for 40 days, and was very weak physically.
 
 Satan appealed to three basic desires:
-1. **Hunger and physical need** (turn stones to bread)
-2. **Power and wealth** (rule all kingdoms)
-3. **Testing God's protection** (jump from the Temple)
+
+1.  **Hunger and physical need** (turn stones to bread)
+
+2.  **Power and wealth** (rule all kingdoms)
+
+3.  **Testing God's protection** (jump from the Temple)
 
 Jesus answered each temptation with the Word of God.
 
 Notice verse 13: Satan "left him until the next opportunity came." **Satan is patient. He waits for weak moments.**
 
-If Satan had the courage to attack Jesus, the Son of God, he will certainly attack us. Jesus' disciples are not safe from this enemy.
-
----
+If Satan attacked Jesus, the Son of God, he will certainly attack us. Jesus' disciples are not safe from this enemy.
 
 **Discussion Questions:**
 
-1. What was Jesus' physical condition when Satan attacked?
-2. What three things did Satan appeal to?
-3. When would be an "opportune time" for Satan to tempt you?
+1.  What was Jesus' physical condition when Satan attacked?
 
----
+2.  What three things did Satan appeal to?
+
+3.  When would be an "opportune time" for Satan to tempt you?
 
 ## Part 4: Our Assured Victory
 
@@ -159,15 +156,11 @@ When Jesus died on the cross and rose from the grave, he won the final victory o
 
 **This victory is ours too.**
 
-**1 Corinthians 15:56–57 (NLT)**
-
-> For sin is the sting that results in death, and the law gives sin its power. But thank God! He gives us victory over sin and death through our Lord Jesus Christ.
-
 **Colossians 2:15 (NLT)**
 
 > In this way, he disarmed the spiritual rulers and authorities. He shamed them publicly by his victory over them on the cross.
 
-**1 John 5:4–5 (NLT)**
+**1 John 5:4--5 (NLT)**
 
 > For every child of God defeats this evil world, and we achieve this victory through our faith. And who can win this battle against the world? Only those who believe that Jesus is the Son of God.
 
@@ -181,7 +174,7 @@ When Jesus died on the cross and rose from the grave, he won the final victory o
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | disarmed⁸ | took away the weapons; removed the power |
 | overcome⁹ | to win against; to defeat completely |
@@ -192,9 +185,6 @@ Satan is real. Satan is active. But God in you is greater than Satan in the worl
 
 **We fight from victory — not for victory.**
 
----
-
 **Discussion Questions:**
 
-1. How does knowing that Satan is already defeated change the way you approach spiritual battle?
-2. What areas of your life feel most vulnerable to Satan's attacks right now?
+1.  How does knowing that Satan is already defeated change the way you approach spiritual battle?

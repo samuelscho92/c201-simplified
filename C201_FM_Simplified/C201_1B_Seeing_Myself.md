@@ -1,17 +1,14 @@
 # SESSION 1B — SEEING MYSELF
-**Course 201 · Chapter 1 · Holiness of God**
 
----
+**Course 201 · Chapter 1 · Holiness of God**
 
 ## Key Words
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | prophet | a person God chose to speak his words to people |
 | conviction | knowing you have done wrong |
 | wrath | God's holy anger toward sin |
-
----
 
 ## Part 1: Seeing Myself — "Woe Is Me!"
 
@@ -33,11 +30,9 @@ This is true for everyone in the Bible who sees God's holiness.
 
 **Seeing God always leads to seeing ourselves — and our sin — more clearly.**
 
----
-
 Peter had a very similar experience when he first met Jesus.
 
-**Luke 5:4–10 (NLT)**
+**Luke 5:4--10 (NLT)**
 
 > When he had finished speaking, he said to Simon, "Now go out where it is deeper, and let down your nets to catch some fish."
 >
@@ -55,13 +50,9 @@ Just as Isaiah was, Peter was then given a mission by God.
 
 **The pattern is clear: we do not truly know ourselves until we see ourselves in the light of who God is.**
 
----
-
 **Discussion Question:**
 
 What happened to Isaiah and Peter when they saw God's holiness?
-
----
 
 ## Part 2: The Problem of Self-Knowledge
 
@@ -72,8 +63,6 @@ This question can be hard to answer.
 Studies show that most people have a wrong view of themselves.
 
 Most people think they are better than they really are.
-
----
 
 We can measure our physical size easily.
 
@@ -88,8 +77,6 @@ We rarely remember the wrong things we did.
 But we clearly remember the times when others were wrong to us.
 
 Our feelings give us a false picture of ourselves.
-
----
 
 We also compare ourselves to other people.
 
@@ -107,15 +94,13 @@ History shows that whole nations can think they are good when they are not.
 
 **The only true standard is God's holiness.**
 
----
-
-**Romans 1:18–21 (NLT)**
+**Romans 1:18--21 (NLT)**
 
 > But God shows his anger from heaven against all sinful, wicked people who suppress the truth by their wickedness. They know the truth about God because he has made it obvious to them. For ever since the world was created, people have seen the earth and sky. Through everything God made, they can clearly see his invisible qualities — his eternal power and divine nature. So they have no excuse for not knowing God. Yes, they knew God, but they wouldn't worship him as God or even give him thanks. And they began to think up foolish ideas of what God was like. As a result, their minds became dark and confused.
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | suppress¹ | to hide or stop something from being known |
 | divine nature² | the qualities that belong to God alone |
@@ -126,8 +111,6 @@ God's word says that people choose to hide the truth about God.
 They do not want to honor God.
 
 Because of this, their thinking becomes confused. Their hearts become dark.
-
----
 
 ## Part 3: The Problem of Not Thinking
 
@@ -140,8 +123,6 @@ If you only look inward, you have no true standard to compare yourself to. You a
 Our world makes this worse. We fill our lives with earbuds and phone screens. We have less and less time to think quietly. We have no outside standard to measure the quality of our souls.
 
 We do not stop and think honestly about ourselves.
-
----
 
 **Quote — Martin Lloyd-Jones, *Out of the Depths*:**
 
@@ -161,13 +142,9 @@ But feelings are not the truth.
 
 Maybe you do not want to see yourself clearly. Maybe you feel the truth will be painful. So you choose not to look. You keep yourself busy. You push away any uncomfortable thoughts about yourself.
 
----
-
 **Discussion Question:**
 
 Was there a time when you saw yourself more clearly? What did you see?
-
----
 
 ## Part 4: A True Glimpse
 
@@ -178,8 +155,6 @@ Sometimes, even in everyday life, we get a small, true picture of our sin.
 *Example: A father loves his daughter very much. You say something cruel about her without knowing he heard you. Then you see his face — the pain and anger of a father who loves his child. Suddenly you understand how wrong your words were.*
 
 In that moment, a true standard appears. The context shows you the truth.
-
----
 
 Now think much bigger.
 
@@ -205,10 +180,10 @@ This brings out of us Isaiah's cry:
 
 **"Woe is me, I am ruined."**
 
----
-
 **Discussion Questions:**
 
-1. What are some ways you avoid seeing yourself clearly?
-2. Describe a time when you saw your sin more clearly. What helped you see it?
-3. How has understanding God's holiness changed the way you see yourself?
+1.  What are some ways you avoid seeing yourself clearly?
+
+2.  Describe a time when you saw your sin more clearly. What helped you see it?
+
+3.  How has understanding God's holiness changed the way you see yourself?

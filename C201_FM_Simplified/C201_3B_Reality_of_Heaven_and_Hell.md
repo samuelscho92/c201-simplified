@@ -1,11 +1,10 @@
 # SESSION 3B — REALITY OF HEAVEN AND HELL
-**Course 201 · Chapter 3 · Heaven and Hell**
 
----
+**Course 201 · Chapter 3 · Heaven and Hell**
 
 ## Key Words
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | eternal | lasting forever; with no end |
 | judgment | God's final decision about each person's eternal life |
@@ -13,8 +12,6 @@
 | denial | refusing to face the truth; pretending something is not real |
 | soul | the part of you that lives forever |
 | longing | a deep, strong desire for something |
-
----
 
 ## Part 1: What the Bible Says About Hell
 
@@ -33,7 +30,7 @@ These verses show what God's word says about eternity:
 **Matthew 25:31, 41 (NLT)**
 
 > But when the Son of Man comes in his glory, and all the angels with him, then he will sit upon his glorious throne.
-
+>
 > Then the King will turn to those on the left and say, "Away with you, you cursed ones, into the eternal fire prepared for the devil and his demons."
 
 **Matthew 8:12 (NLT)**
@@ -44,15 +41,15 @@ These verses show what God's word says about eternity:
 
 > Then the king said to his aides, "Bind his hands and feet and throw him into the outer darkness, where there will be weeping and gnashing of teeth."
 
-**Luke 13:24–29 (NLT)**
+**Luke 13:24--29 (NLT)**
 
 > "Work hard to enter the narrow door to God's Kingdom, for many will try to enter but will fail. When the master of the house has locked the door, it will be too late. You will stand outside knocking and pleading, 'Lord, open the door for us!' But he will reply, 'I don't know you or where you come from.' Then you will say, 'But we ate and drank with you, and you taught in our streets.' And he will reply, 'I tell you, I don't know you or where you come from. Get away from me, all you who do evil.' There will be weeping and gnashing of teeth, for you will see Abraham, Isaac, Jacob, and all the prophets in the Kingdom of God, but you will be thrown out. And people will come from all over the world — from east and west, north and south — to take their places in the Kingdom of God."
 
-**Romans 2:4–8 (NLT)**
+**Romans 2:4--8 (NLT)**
 
 > Don't you see how wonderfully kind, tolerant, and patient God is with you? Does this mean nothing to you? Can't you see that his kindness is intended to turn you from your sin? But because you are stubborn and refuse to turn from your sin, you are storing up terrible punishment for yourself. For a day of anger is coming, when God's righteous judgment will be revealed. He will judge everyone according to what they have done. He will give eternal life to those who keep on doing good, seeking after the glory and honor and immortality that God offers. But he will pour out his anger and wrath on those who live for themselves, who refuse to obey the truth and instead live lives of wickedness.
 
-**Galatians 6:7–8 (NLT)**
+**Galatians 6:7--8 (NLT)**
 
 > Don't be misled — you cannot mock the justice of God. You will always harvest what you plant. Those who live only to satisfy their own sinful nature will harvest decay and death from that sinful nature. But those who live to please the Spirit will harvest everlasting life from the Spirit.
 
@@ -62,7 +59,7 @@ These verses show what God's word says about eternity:
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | destined¹ | certain to happen |
 | condemned² | declared guilty; punished |
@@ -74,11 +71,7 @@ Hell is the final separation from God. It is being completely removed from the o
 
 Notice what Romans 2 tells us: God's patience and kindness are not signs that he does not care. They are an invitation to repent before judgment comes.
 
----
-
 **Discussion Question:** What ideas about judgment and the afterlife did you have before you became a Christian? Where did those ideas come from?
-
----
 
 ## Part 2: The Testimony of Jesus
 
@@ -88,7 +81,7 @@ He taught about it in many stories and teachings — the sheep and the goats, th
 
 As Jesus was dying on the cross, he illustrated the truth of heaven one final time.
 
-**Luke 23:39–43 (NLT)**
+**Luke 23:39--43 (NLT)**
 
 > One of the criminals hanging beside him scoffed, "So you're the Messiah, are you? Prove it by saving yourself — and us, too, while you're at it!"
 >
@@ -98,7 +91,7 @@ As Jesus was dying on the cross, he illustrated the truth of heaven one final ti
 
 *Definitions:*
 
-| Word | Meaning |
+| **Word** | **Meaning** |
 |---|---|
 | scoffed⁴ | made fun of; spoke with disrespect |
 | sentenced⁵ | given a punishment by a judge |
@@ -108,11 +101,11 @@ This criminal had no time to do good works. He simply believed. And Jesus said: 
 
 **This is why Jesus died and rose again — to make a way for us to be with him forever.**
 
-**John 14:1–3 (NLT)**
+**John 14:1--3 (NLT)**
 
 > Don't let your hearts be troubled. Trust in God, and trust also in me. There is more than enough room in my Father's home. If this were not so, would I have told you that I am going to prepare a place for you? When everything is ready, I will come and get you, so that you will always be with me where I am.
 
-**John 17:1–3, 24 (NLT)**
+**John 17:1--3, 24 (NLT)**
 
 > After saying all these things, Jesus looked up to heaven and said, "Father, the hour has come. Glorify your Son so he can give glory back to you. For you have given him authority over everyone. He gives eternal life to each one you have given him. And this is the way to have eternal life — to know you, the only true God, and Jesus Christ, the one you sent to earth."
 >
@@ -120,7 +113,7 @@ This criminal had no time to do good works. He simply believed. And Jesus said: 
 
 Notice: eternal life is not simply living forever. It is *knowing* God. It is a restored relationship that goes on without end. Heaven is joining the life of God himself.
 
-**2 Corinthians 4:7, 16–18 (NLT)**
+**2 Corinthians 4:7, 16--18 (NLT)**
 
 > We now have this light shining in our hearts, but we ourselves are like fragile clay jars containing this great treasure. This makes it clear that our great power is from God, not from ourselves.
 >
@@ -128,11 +121,7 @@ Notice: eternal life is not simply living forever. It is *knowing* God. It is a 
 
 Our suffering in this life is real. But it is preparing us for something far greater — an eternal glory that makes every present difficulty seem small.
 
----
-
 **Discussion Question:** How would you summarize Jesus' message about life after death?
-
----
 
 ## Part 3: Denial
 
@@ -154,11 +143,7 @@ This is simply refusing to face reality.
 
 Jesus warned that there will come a moment when it is too late to respond. The door will be shut. This is not to frighten us — it is to wake us up now, while there is still time.
 
----
-
 **Discussion Question:** What is your response to the fact that people can be happy simply by choosing not to think about death?
-
----
 
 ## Part 4: Longing for Heaven
 
@@ -182,17 +167,14 @@ The Bible describes us as people who are not fully at home in this world — lik
 
 We were made for more. We were made for God. We were made for heaven.
 
----
-
 **Discussion Questions:**
 
-1. Have you felt a desire that nothing in this world fully satisfies? When do you feel it most?
-2. How does it change your life to know you were made for eternity?
+1.  Have you felt a desire that nothing in this world fully satisfies? When do you feel it most?
 
----
+2.  How does it change your life to know you were made for eternity?
 
 ## Session 3B Quiz
 
 **Fill in the blank with one word:**
 
-C.S. Lewis says: "Creatures are not born with \_\_\_\_\_\_\_\_ unless satisfaction for those \_\_\_\_\_\_\_\_ exists. If I find in myself a \_\_\_\_\_\_\_\_ which no experience in this world can satisfy, the most likely explanation is that I was made for another world."
+C.S. Lewis says: "Creatures are not born with ________ unless satisfaction for those ________ exists. If I find in myself a ________ which no experience in this world can satisfy, the most likely explanation is that I was made for another world."
