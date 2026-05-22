@@ -40,9 +40,9 @@ Even for many Christians, what we **believe to be true** and what we **feel to b
 
 Jesus warned us about this problem directly.
 
-**Luke 17:26–30 (NLT)**
+**Luke 17:26–32 (NLT)**
 
-> When the Son of Man returns, it will be like it was in Noah's day. In those days, the people enjoyed banquets and parties and weddings right up to the time Noah entered his boat and the flood came and destroyed them all. And the world will be as it was in the days of Lot. People went about their daily business — eating and drinking, buying and selling, farming and building — until the morning Lot left Sodom. Then fire and burning sulfur rained down from heaven and destroyed them all. Yes, it will be 'business as usual' right up to the day when the Son of Man is revealed.
+> When the Son of Man returns, it will be like it was in Noah's day. In those days, the people enjoyed banquets and parties and weddings right up to the time Noah entered his boat and the flood came and destroyed them all. And the world will be as it was in the days of Lot. People went about their daily business — eating and drinking, buying and selling, farming and building — until the morning Lot left Sodom. Then fire and burning sulfur rained down from heaven and destroyed them all. Yes, it will be 'business as usual' right up to the day when the Son of Man is revealed. On that day a person out on the deck of a roof must not go down into the house to pack. A person out in the field must not return home. Remember what happened to Lot's wife!
 
 Here is another story Jesus told:
 

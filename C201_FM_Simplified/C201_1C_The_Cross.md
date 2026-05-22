@@ -158,6 +158,12 @@ The Bible says the same thing:
 
 ---
 
+**Romans 1:29–32 (NLT)**
+
+> Their lives became full of every kind of wickedness, sin, greed, hate, envy, murder, quarreling, deception, malicious behavior, and gossip. They are backstabbers, haters of God, insolent, proud, and boastful. They invent new ways of sinning, and they disobey their parents. They refuse to understand, break their promises, are heartless, and have no mercy. They know God's justice requires that those who do these things deserve to die, yet they do them anyway. Worse yet, they encourage others to do them, too.
+
+---
+
 **Mark 7:20–23 (NLT)**
 
 > And then he added, "It is what comes from inside that defiles you. For from within, out of a person's heart, come evil thoughts, sexual immorality, theft, murder, adultery, greed, wickedness, deceit, lustful desires, envy, slander, pride, and foolishness. All these vile things come from within; they are what defile you."

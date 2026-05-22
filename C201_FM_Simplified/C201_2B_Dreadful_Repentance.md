@@ -50,7 +50,7 @@ Consider two men who both failed Jesus. One is Judas. The other is Peter.
 
 **Matthew 27:3–5 (NLT)**
 
-> When Judas, who had betrayed him, realized that Jesus had been condemned to die, he was filled with remorse. So he took the thirty pieces of silver back to the leading priests and the elders. "I have sinned," he declared, "for I have betrayed an innocent man." ... Then Judas threw the silver coins down in the Temple and went out and hanged himself.
+> When Judas, who had betrayed him, realized that Jesus had been condemned to die, he was filled with remorse. So he took the thirty pieces of silver back to the leading priests and the elders. "I have sinned," he declared, "for I have betrayed an innocent man." "What do we care?" they retorted. "That's your problem." Then Judas threw the silver coins down in the Temple and went out and hanged himself.
 
 **Luke 22:60–62 (NLT)**
 
@@ -80,9 +80,9 @@ No amount of good effort can clean what only the cross can clean.
 
 ---
 
-**2 Corinthians 7:9–10 (NLT)**
+**2 Corinthians 7:8–10 (NLT)**
 
-> Now I am glad I sent it, not because it hurt you, but because the pain caused you to repent and change your ways. It was the kind of sorrow God wants his people to have... For the kind of sorrow God wants us to experience leads us away from sin and results in salvation. There's no regret for that kind of sorrow. But worldly sorrow, which lacks repentance, results in spiritual death.
+> I am not sorry that I sent that severe letter to you, though I was sorry at first, for I know it was painful to you for a little while. Now I am glad I sent it, not because it hurt you, but because the pain caused you to repent and change your ways. It was the kind of sorrow God wants his people to have, so you were not harmed by us in any way. For the kind of sorrow God wants us to experience leads us away from sin and results in salvation. There's no regret for that kind of sorrow. But worldly sorrow, which lacks repentance, results in spiritual death.
 
 *Definitions:*
 

@@ -81,8 +81,14 @@ Some people think repentance is costly, so it should be saved for big moments.
 
 But Jesus taught the opposite. He showed this in a beautiful way.
 
-**John 13:4–8 (NLT)**
+**John 13:1–8 (NLT)**
 
+> Before the Passover celebration, Jesus knew that his hour had come to leave this world and return to his Father. He had loved his disciples during his ministry on earth, and now he loved them to the very end.
+>
+> It was time for supper, and the devil had already prompted Judas, son of Simon Iscariot, to betray Jesus.
+>
+> Jesus knew that the Father had given him authority over everything and that he had come from God and would return to God.
+>
 > So he got up from the table, took off his robe, wrapped a towel around his waist, and poured water into a basin. Then he began to wash the disciples' feet, drying them with the towel he had around him.
 >
 > When Jesus came to Simon Peter, Peter said to him, "Lord, are you going to wash my feet?"

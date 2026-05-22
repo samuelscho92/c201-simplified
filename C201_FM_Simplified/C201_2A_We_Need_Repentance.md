@@ -48,13 +48,15 @@ He wants nothing to break this relationship.
 
 But when we sin and hide, we damage our closeness with him.
 
-**1 John 1:1–9 (NLT)**
+**1 John 1:1–10 (NLT)**
 
 > We proclaim to you the one who existed from the beginning, whom we have heard and seen...
 >
 > This is the message we heard from Jesus and now declare to you: God is light, and there is no darkness in him at all. So we are lying if we say we have fellowship with God but go on living in spiritual darkness; we are not practicing the truth. But if we are living in the light, as God is in the light, then we have fellowship with each other, and the blood of Jesus, his Son, cleanses us from all sin.
 >
 > If we claim we have no sin, we are only fooling ourselves and not living in the truth. But if we confess our sins to him, he is faithful and just to forgive us our sins and to cleanse us from all wickedness.
+>
+> If we claim we have not sinned, we are calling God a liar and showing that his word has no place in our hearts.
 
 *Definitions:*
 

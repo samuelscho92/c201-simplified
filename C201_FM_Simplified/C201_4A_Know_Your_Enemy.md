@@ -159,6 +159,10 @@ When Jesus died on the cross and rose from the grave, he won the final victory o
 
 **This victory is ours too.**
 
+**1 Corinthians 15:56–57 (NLT)**
+
+> For sin is the sting that results in death, and the law gives sin its power. But thank God! He gives us victory over sin and death through our Lord Jesus Christ.
+
 **Colossians 2:15 (NLT)**
 
 > In this way, he disarmed the spiritual rulers and authorities. He shamed them publicly by his victory over them on the cross.

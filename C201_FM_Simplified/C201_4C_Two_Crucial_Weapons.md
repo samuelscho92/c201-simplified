@@ -22,7 +22,7 @@ When a soldier enters the military, he is given full battle equipment.
 
 God gives Christians complete spiritual armor.
 
-**Ephesians 6:10–18 (NLT)**
+**Ephesians 6:10–20 (NLT)**
 
 > A final word: Be strong in the Lord and in his mighty power. Put on all of God's armor so that you will be able to stand firm against all strategies of the devil. For we are not fighting against flesh-and-blood enemies, but against evil rulers and authorities of the unseen world, against mighty powers in this dark world, and against evil spirits in the heavenly places.
 >
@@ -31,6 +31,8 @@ God gives Christians complete spiritual armor.
 > Stand your ground, putting on the belt of truth and the body armor of God's righteousness. For shoes, put on the peace that comes from the Good News so that you will be fully prepared. In addition to all of these, hold up the shield of faith to stop the fiery arrows of the devil. Put on salvation as your helmet, and take the sword of the Spirit, which is the word of God.
 >
 > Pray in the Spirit at all times and on every occasion. Stay alert and be persistent in your prayers for all believers everywhere.
+>
+> And pray for me, too. Ask God to give me the right words so I can boldly explain God's mysterious plan that the Good News is for Jews and Gentiles alike. I am in chains now, still preaching this message as God's ambassador. So pray that I will keep on speaking boldly for him, as I should.
 
 Most of the armor described (belt, body armor, shoes, shield, helmet) is **defensive** — it protects us.
 
@@ -47,6 +49,24 @@ We saw in Session 4A how Jesus defeated Satan's temptations.
 Every time Satan attacked, Jesus answered with: **"It is written..."**
 
 Jesus used the Word of God as his sword.
+
+**Luke 4:1–13 (NLT)**
+
+> Then Jesus, full of the Holy Spirit, returned from the Jordan River. He was led by the Spirit in the wilderness, where he was tempted by the devil for forty days. Jesus ate nothing all that time and became very hungry.
+>
+> Then the devil said to him, "If you are the Son of God, tell this stone to become a loaf of bread."
+>
+> But Jesus told him, "No! The Scriptures say, 'People do not live by bread alone.'"
+>
+> Then the devil took him up and revealed to him all the kingdoms of the world in a moment of time. "I will give you the glory of these kingdoms and authority over them," the devil said, "because they are mine to give to anyone I please. I will give it all to you if you will worship me."
+>
+> Jesus replied, "The Scriptures say, 'You must worship the Lord your God and serve only him.'"
+>
+> Then the devil took him to Jerusalem, to the highest point of the Temple, and said, "If you are the Son of God, jump off! For the Scriptures say, 'He will order his angels to protect and guard you. And they will hold you up with their hands so you won't even hurt your foot on a stone.'"
+>
+> Jesus responded, "The Scriptures also say, 'You must not test the Lord your God.'"
+>
+> When the devil had finished tempting Jesus, he left him until the next opportunity came.
 
 **Luke 8:11–12 (NLT)**
 
