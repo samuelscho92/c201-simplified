@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session 2B: Why Repentance Feels Hard — C201 Simplified</title>
+  <script async src="https://hypothes.is/embed.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #eef0ee;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      width: 260px;
+      min-width: 260px;
+      background: #1c2b3a;
+      color: #c8d8e8;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      flex-shrink: 0;
+      transition: width 0.2s ease, min-width 0.2s ease;
+    }
+    #sidebar.collapsed {
+      width: 48px;
+      min-width: 48px;
+      overflow: hidden;
+    }
+    #sidebar.collapsed .chapter-group,
+    #sidebar.collapsed #sidebar-header h1,
+    #sidebar.collapsed #sidebar-header p {
+      display: none;
+    }
+
+    #sidebar-header {
+      padding: 20px 18px 14px;
+      border-bottom: 1px solid #2e4257;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    #sidebar.collapsed #sidebar-header {
+      padding: 14px 0;
+      justify-content: center;
+      border-bottom: none;
+    }
+    #sidebar-header h1 {
+      font-size: 0.95em;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    #sidebar-header p {
+      font-size: 0.75em;
+      color: #7a9bb5;
+      margin-top: 2px;
+    }
+
+    #collapse-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #5a7a96;
+      padding: 2px;
+      flex-shrink: 0;
+      line-height: 0;
+      transition: color 0.15s;
+    }
+    #collapse-btn:hover { color: #fff; }
+
+    .chapter-group { margin-top: 8px; }
+    .chapter-label {
+      font-size: 0.68em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      padding: 10px 18px 4px;
+    }
+
+    .session-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      text-decoration: none;
+      padding: 7px 18px;
+      color: #b0c8dc;
+      font-size: 0.82em;
+      line-height: 1.4;
+      transition: background 0.15s;
+    }
+    .session-btn:hover { background: #243546; color: #fff; }
+    .session-btn.active {
+      background: #2d4a62;
+      color: #fff;
+      border-left: 3px solid #c9a84c;
+      padding-left: 15px;
+    }
+    .session-btn .session-id {
+      font-weight: 700;
+      font-size: 0.9em;
+      color: #c9a84c;
+      display: block;
+    }
+    .session-btn.active .session-id { color: #e8c96a; }
+
+    /* ── Main area ── */
+    #main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Toolbar ── */
+    #toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 8px 16px;
+      background: #f5f6f4;
+      border-bottom: 1px solid #dde0da;
+      flex-shrink: 0;
+    }
+
+    #toggle-btn {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid #c5c9c2;
+      background: #fff;
+      color: #444;
+      font-size: 0.8em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      letter-spacing: 0.02em;
+    }
+    #toggle-btn:hover { background: #eef0ee; border-color: #aaa; }
+    #toggle-btn.active {
+      background: #1c2b3a;
+      color: #fff;
+      border-color: #1c2b3a;
+    }
+    #toggle-btn svg { flex-shrink: 0; }
+
+    /* ── Split view ── */
+    #split-wrap {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+
+    #pdf-pane {
+      flex: 1;
+      display: none;
+      border-right: 2px solid #c9a84c;
+      background: #555;
+      overflow: hidden;
+    }
+    #pdf-pane.visible { display: flex; flex-direction: column; }
+
+    #pdf-label {
+      padding: 6px 14px;
+      background: #3a3a3a;
+      color: #c9a84c;
+      font-size: 0.72em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      flex-shrink: 0;
+    }
+
+    #pdf-frame {
+      flex: 1;
+      width: 100%;
+      border: none;
+    }
+
+    /* ── Simplified pane ── */
+    #content-wrap {
+      flex: 1;
+      overflow-y: auto;
+      padding: 40px 48px;
+      min-width: 0;
+    }
+
+    #content {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 56px 64px;
+      border-radius: 4px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+
+    body.split-mode #content-wrap { padding: 24px 28px; }
+    body.split-mode #content { padding: 36px 40px; }
+
+    /* ── Typography ── */
+    #content h1 {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      color: #111;
+    }
+    #content h2 {
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1a5276;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #d4e6f1;
+    }
+    #content h3 {
+      font-size: 1em;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 6px;
+    }
+    #content p { margin-bottom: 10px; }
+    #content hr {
+      border: none;
+      border-top: 1px solid #eaeaea;
+      margin: 28px 0;
+    }
+    #content strong { font-weight: 600; }
+    #content em { font-style: italic; }
+
+    #content blockquote {
+      margin: 14px 0;
+      padding: 14px 20px;
+      background: #fdf8ee;
+      border-left: 4px solid #c9a84c;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.96em;
+      color: #333;
+    }
+    #content blockquote p { margin-bottom: 6px; }
+    #content blockquote p:last-child { margin-bottom: 0; }
+
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 18px;
+      font-size: 0.88em;
+    }
+    #content th {
+      background: #1a5276;
+      color: #fff;
+      text-align: left;
+      padding: 7px 12px;
+      font-weight: 600;
+    }
+    #content td {
+      padding: 6px 12px;
+      border-bottom: 1px solid #eaeaea;
+      vertical-align: top;
+    }
+    #content tr:nth-child(even) td { background: #f5f8fc; }
+    #content tr:last-child td { border-bottom: none; }
+
+    #content ul, #content ol {
+      padding-left: 24px;
+      margin-bottom: 10px;
+    }
+    #content li { margin-bottom: 3px; }
+
+    #content p > em:only-child {
+      font-size: 0.8em;
+      color: #999;
+    }
+
+    /* ── Giscus ── */
+    #giscus-section {
+      max-width: 780px;
+      margin: 24px auto 40px;
+    }
+    #giscus-section h3 {
+      font-size: 0.75em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5a7a96;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #dde0da;
+    }
+
+    /* ── Print ── */
+    @media print {
+      #sidebar, #toolbar, #pdf-pane, #giscus-section { display: none !important; }
+      body { display: block; overflow: visible; }
+      #content-wrap { padding: 0; overflow: visible; }
+      #content { box-shadow: none; padding: 40px; max-width: 100%; }
+    }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <div id="sidebar-header">
+    <div>
+      <h1>C201 Simplified</h1>
+      <p>IELTS 3 Edition</p>
+    </div>
+    <button id="collapse-btn" title="Collapse sidebar">
+      <svg id="collapse-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+  <div id="session-list"><div class="chapter-group"><div class="chapter-label">Chapter 1</div><a href="C201_1A_Seeing_God.html" class="session-btn"><span class="session-id">1A</span>SESSION 1A — SEEING GOD</a><a href="C201_1B_Seeing_Myself.html" class="session-btn"><span class="session-id">1B</span>SESSION 1B — SEEING MYSELF</a><a href="C201_1C_The_Cross.html" class="session-btn"><span class="session-id">1C</span>SESSION 1C — THE CROSS</a><a href="C201_1D_Self_Reflection.html" class="session-btn"><span class="session-id">1D</span>SESSION 1D — SELF-REFLECTION</a></div><div class="chapter-group"><div class="chapter-label">Chapter 2</div><a href="C201_2A_We_Need_Repentance.html" class="session-btn"><span class="session-id">2A</span>Session 2A: We Need Repentance</a><a href="C201_2B_Why Repentance Feels Hard.html" class="session-btn active"><span class="session-id">2B</span>Session 2B: Why Repentance Feels Hard</a><a href="C201_2B_Why_Repentance_Feels_Hard.html" class="session-btn"><span class="session-id">2B</span>Session 2B: Why Repentance Feels Hard</a><a href="C201_2C_Understanding Repentance.html" class="session-btn"><span class="session-id">2C</span>Session 2C: Understanding Repentance</a><a href="C201_2C_Understanding_Repentance.html" class="session-btn"><span class="session-id">2C</span>Session 2C: Understanding Repentance</a><a href="C201_2D_The Repentance Loop.html" class="session-btn"><span class="session-id">2D</span>Session 2D: The Repentance Loop</a><a href="C201_2D_The_Repentance_Loop.html" class="session-btn"><span class="session-id">2D</span>Session 2D: The Repentance Loop</a></div><div class="chapter-group"><div class="chapter-label">Chapter 3</div><a href="C201_3A_What_Is_Real.html" class="session-btn"><span class="session-id">3A</span>SESSION 3A — WHAT IS REAL?</a><a href="C201_3B_Reality_of_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3B</span>SESSION 3B — REALITY OF HEAVEN AND HELL</a><a href="C201_3C_Heaven_and_Hell.html" class="session-btn"><span class="session-id">3C</span>SESSION 3C — HEAVEN AND HELL</a><a href="C201_3D_Worship.html" class="session-btn"><span class="session-id">3D</span>SESSION 3D — WORSHIP</a><a href="C201_3E_Evangelism.html" class="session-btn"><span class="session-id">3E</span>SESSION 3E — EVANGELISM: HABITS TO FORM</a></div><div class="chapter-group"><div class="chapter-label">Chapter 4</div><a href="C201_4A_Know_Your_Enemy.html" class="session-btn"><span class="session-id">4A</span>SESSION 4A — KNOW YOUR ENEMY</a><a href="C201_4B_Spiritual_Battle.html" class="session-btn"><span class="session-id">4B</span>SESSION 4B — SPIRITUAL BATTLE</a><a href="C201_4C_Two_Crucial_Weapons.html" class="session-btn"><span class="session-id">4C</span>SESSION 4C — TWO CRUCIAL WEAPONS</a><a href="C201_4D_Praying_Like_Jesus.html" class="session-btn"><span class="session-id">4D</span>SESSION 4D — HABITS TO FORM: PRAYING LIKE JESUS</a></div></div>
+</nav>
+
+<div id="main">
+  <div id="toolbar">
+    <button id="toggle-btn" title="Toggle side-by-side with source PDF">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="9" y="2" width="6" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      Compare with Source
+    </button>
+  </div>
+
+  <div id="split-wrap">
+    <div id="pdf-pane">
+      <div id="pdf-label">Source PDF</div>
+      <iframe id="pdf-frame" title="Source PDF"></iframe>
+    </div>
+    <div id="content-wrap">
+      <div id="content"><h1>Session 2B: Why Repentance Feels Hard</h1>
+<p><em>Course 201 · Chapter 2: Repentance · Module 2B</em></p>
+<p>Many Christians are afraid of repentance. They wait. They try not to do it. Why? Three things often stop us: pride, trying to pay for our own sin, and not trusting God&#x27;s grace.</p>
+<h2>Key Words for This Session</h2>
+<table>
+<thead><tr><th>Word</th><th>Meaning</th></tr></thead>
+<tbody>
+<tr><td>Pride</td><td>Thinking too highly of yourself. Not wanting to admit you were wrong.</td></tr>
+<tr><td>Self-atonement</td><td>Trying to pay for your own sins by your own good deeds, instead of trusting in Jesus.</td></tr>
+<tr><td>Atone / Atoning sacrifice</td><td>To pay the price for sin. Jesus paid this price for us when he died on the cross.</td></tr>
+<tr><td>Godly sorrow</td><td>Feeling sad about our sin because it hurts God. This sorrow leads us to turn back to God.</td></tr>
+<tr><td>Worldly sorrow</td><td>Feeling sad only because of the bad results of our sin. This sorrow does not lead us back to God.</td></tr>
+<tr><td></td><td></td></tr>
+<tr><td>Gospel repentance</td><td>Repenting because Jesus has already paid for our sins. We come to God knowing we are already loved.</td></tr>
+<tr><td></td><td></td></tr>
+</tbody></table>
+<h2>1. Why Do We Stay Away from Repentance?</h2>
+<p>Many Christians know they should repent, but they do not want to. They wait. They try not to do it. And while they stay away from it, they feel less close to God.</p>
+<p>This is a real problem for many of us. Why does this happen? There are three main reasons:</p>
+<p><strong>Pride.</strong> We do not want to admit we were wrong.</p>
+<p><strong>Self-atonement.</strong> We want to pay for our own sins by being extra good.</p>
+<p><strong>Not trusting God&#x27;s grace.</strong> We are afraid God is angry and waiting to punish us.</p>
+<p>Let us look at each one.</p>
+<h2>2. Pride</h2>
+<p>.</p>
+<p>Imagine you promised God you would stop a sin. Maybe you promised to stop lying. Or to stop a bad habit. But then you do it again. You feel sad or angry because you are not the great person that you thought you were.</p>
+<p>One way to deal with this feeling is to not deal with it at all. We try not to think about it. But repentance asks us to face it. So we wait. We tell ourselves, &quot;I will deal with it later.&quot; Or, &quot;Maybe if I wait, it will go away.&quot;</p>
+<p>Pride is not smart. It keeps us from the truth, and it keeps us from God. When we come out and admit the truth, two good things happen. First, we trust in the cross of Jesus once again, and our love for him grows. Second, our pride is hurt, which is always a good thing.</p>
+<p>But pride can become worse. It can become hard, like stone. When this happens, we may follow the path of Judas.</p>
+<h3>Discussion</h3>
+<p><strong>Can you think of a time when pride kept you from repenting? You do not need to share the sin. Just describe how pride affected you.</strong></p>
+<p><strong>What do you think will happen to a person who keeps refusing to repent because of pride?</strong></p>
+<h2>3. Self-Atonement</h2>
+<p>Self-atonement was the problem of Judas. Compare how Judas and Peter responded after they sinned against Jesus. Both men knew they had done wrong. But they responded in two very different ways.</p>
+<h3>Matthew 27:3–5 (NLT)</h3>
+<p>³ When Judas, who had betrayed¹ him, realized that Jesus had been condemned² to die, he was filled with remorse³. So he took the thirty pieces of silver back to the leading priests and the elders. ⁴ &quot;I have sinned,&quot; he declared, &quot;for I have betrayed an innocent man.&quot; &quot;What do we care?&quot; they retorted. &quot;That&#x27;s your problem.&quot; ⁵ Then Judas threw the silver coins down in the Temple and went out and hanged himself.</p>
+<p><strong>Word Help</strong></p>
+<p><strong>Betrayed</strong> — To turn against someone who trusted you. To help your friend&#x27;s enemy.</p>
+<p><strong>Condemned</strong> — Judged guilty and given a punishment.</p>
+<p><strong>Remorse</strong> — Deep sadness about something wrong you did.</p>
+<h3>Luke 22:60–62 (NLT)</h3>
+<p>⁶⁰ But Peter said, &quot;Man, I don&#x27;t know what you are talking about.&quot; And immediately, while he was still speaking, the rooster crowed. ⁶¹ At that moment the Lord turned and looked at Peter. Suddenly, the Lord&#x27;s words flashed through Peter&#x27;s mind: &quot;Before the rooster crows tomorrow morning, you will deny¹ me three times.&quot; ⁶² And Peter left the courtyard, weeping bitterly.</p>
+<p><strong>Word Help</strong></p>
+<p><strong>Deny</strong> — To say &quot;I do not know him&quot; or &quot;He is not my friend.&quot; To pretend you have nothing to do with someone.</p>
+<p>At first, Judas seems like the better one. He faces what he did. He admits his sin out loud. He even tries to give back the money. He decides he will punish himself for what he did.</p>
+<p>And that is the problem. Judas tries to make things right by himself, alone. He does not turn to Jesus. He turns inward, to himself.</p>
+<p>Think back to the story of the ten-year-old son who broke the special bowl. Self-atonement would be like the son leaving the house, getting a job picking up trash, and sending the money home to pay for the bowl. He thinks he can make it right by himself. He does not come back to his father.</p>
+<p>Self-atonement leaves out two important things:</p>
+<h3>First, self-atonement leaves Jesus out.</h3>
+<p>Judas sinned against Jesus. He should have run to Jesus, confessed, and asked for forgiveness. But he did not. Instead, he went out and hanged himself. Jesus was right there. Jesus was about to die on the cross to pay for the very sin Judas committed. But Judas turned inward, not to Jesus.</p>
+<p>Now compare Peter. When Peter realized he had denied Jesus, he saw Jesus looking at him. And Peter wept bitterly. Yes, he was ashamed of himself. But his greater pain was knowing he had hurt Jesus, the one he loved.</p>
+<p>Peter&#x27;s tears were toward Jesus. Judas&#x27;s tears were only about himself.</p>
+<p>This is the problem with self-atonement. It forgets God. When we sin, we sin against God. He is the one we have hurt. So when we repent, we must turn toward God, not away from him.</p>
+<h3>Second, self-atonement does not work, and it insults Jesus.</h3>
+<p>Self-atonement says, &quot;My sin is small. I can pay for it myself by being good.&quot; But this is wrong on two sides.</p>
+<p>It makes our sin too small. Sin against a holy God is very serious. We cannot fix it by doing some extra good things.</p>
+<p>It also makes our good deeds too big. We think we can pay for sin by ourselves. But the Bible says even our best good deeds are like dirty clothes before a holy God (Isaiah 64:6).</p>
+<p>Worst of all, self-atonement insults Jesus. It is as if we are saying, &quot;Jesus, you did not need to die on the cross. I can take care of my sin myself.&quot; But Jesus did die on the cross. He did it because we cannot pay for our own sin. To try and pay by ourselves is to say that his death was not necessary.</p>
+<h3>Two Kinds of Sorrow</h3>
+<p>The Bible gives us another way to understand the difference between Judas and Peter. It uses two phrases: &quot;worldly sorrow&quot; and &quot;godly sorrow.&quot;</p>
+<h3>2 Corinthians 7:9–10 (NLT)</h3>
+<p>⁹ Now I am glad I sent it, not because it hurt you, but because the pain caused you to repent and change your ways. It was the kind of sorrow God wants his people to have, so you were not harmed by us in any way. ¹⁰ For the kind of sorrow God wants us to experience leads us away from sin and results in salvation¹. There&#x27;s no regret for that kind of sorrow. But worldly sorrow, which lacks repentance, results in spiritual death.</p>
+<p><strong>Word Help</strong></p>
+<p><strong>Salvation</strong> — To be saved by God from sin and death. To be made his child forever.</p>
+<p>When we sin, there are two ways we can feel sorry. One way leads us back to God. The other way leads us into deeper trouble.</p>
+<p><strong>Godly sorrow</strong> is sorrow that turns toward God. We feel sad because we hurt God. We know we cannot fix it ourselves. So we run to the cross of Jesus for forgiveness. When we receive his forgiveness, it feels fresh and amazing every time. Our love for God grows.</p>
+<p>This is what Peter had.</p>
+<p><strong>Worldly sorrow</strong> knows that a wrong has been done, but it does not turn to God for mercy. The sadness grows inside the person. Over time, it leads to spiritual death.</p>
+<p>This is what Judas had. In his case, it led to his actual death. He went out and hanged himself.</p>
+<h3>A Story to Think About</h3>
+<p>Aran is a university student. He attends a Christian fellowship on campus every week. He even helps lead a small group for first-year students. Many people see him as a good Christian leader.</p>
+<p>But Aran has another life. During the week, he is sleeping with his girlfriend. On the weekends, he drinks heavily with his friends. He keeps these two parts of his life separate. At church, he is one person. With his friends, he is another person.</p>
+<p>One evening at small group, a first-year student named Vichea speaks up. Vichea is angry. He says, &quot;I am not sure if I want to keep coming to this fellowship. I look at the older Christians on campus. They do not really live differently from anyone else. They come to church on Sunday, but during the week, they live just like everyone else. They are all hypocrites.&quot;</p>
+<p>As Vichea speaks, his eyes pass over Aran. Vichea does not know about Aran&#x27;s other life. But to Aran, every word feels like it is aimed at him.</p>
+<p>Aran feels sick inside. That night, he cannot sleep. Aran saw that he was a hypocrite.</p>
+<p>The next day, Aran makes some big changes. He breaks up with his girlfriend. He stops going to the bars on weekends. He works very hard to lead his small group well. He prepares carefully for every Bible study. He hopes that God is pleased with him now.</p>
+<h3>Discussion</h3>
+<p><strong>Aran made some real changes in his life. These changes are good. But something important is missing from his repentance. What do you think is missing?</strong></p>
+<p><strong>Is Aran closer to Judas, or closer to Peter? Why?</strong></p>
+<p><strong>What would godly sorrow look like for Aran?</strong></p>
+<h2>4. Not Trusting God&#x27;s Grace</h2>
+<p>The third reason we are afraid of repentance is that we imagine God as angry. We think he barely accepts us. We think he is waiting to punish us.</p>
+<p>When we think this way, we believe our sins must be paid for by acting very sorry. We must look very sad. We must punish ourselves enough to please God. Only then will he forgive us.</p>
+<p>This is a wrong picture of God. But it is easy to believe, because this is how most relationships work in the world. If we do something wrong to a friend or a parent, we feel we must do something to fix it. So we treat God the same way.</p>
+<p>Pastor Tim Keller calls this &quot;religious repentance.&quot; It is very different from &quot;gospel repentance.&quot;</p>
+<h3>Two Kinds of Repentance</h3>
+<p>Martin Luther was a great church leader who lived 500 years ago. He once wrote that the Christian life should be a life of repentance from beginning to end.</p>
+<p>At first, that sounds bad. It sounds like the Christian life is always heavy and sad. But this is not what Luther meant.</p>
+<p>Luther meant that repentance is how we grow. The more we repent, the more we grow to be like Jesus. Repentance is not a sign that we are failing. It is a sign that we are growing.</p>
+<p>But for this to be true, we need the right kind of repentance. There is a religious kind of repentance that does not lead to growth. And there is a gospel kind of repentance that does lead to growth. The two kinds look similar on the outside, but they are very different on the inside.</p>
+<p>Here is a table that shows the difference:</p>
+<table>
+<thead><tr><th></th><th>Religious Repentance</th><th>Gospel Repentance</th></tr></thead>
+<tbody>
+<tr><td>Who is it about?</td><td>It is about us. We are sorry for our sin because of what it will cost us. We are afraid of God&#x27;s punishment. So we repent to stay out of trouble for ourselves.</td><td>It is about God. We are sorry for our sin because it hurts God. We are not afraid of being pushed away, because Jesus has already paid for us. We are sorry for the sin itself, not just the results.</td></tr>
+<tr><td>How do we get forgiveness?</td><td>We try to earn it. We feel very sad. We punish ourselves. We try to make God see that we feel bad enough to be forgiven. We must work for it.</td><td>We receive it as a gift. Jesus already suffered for our sin. We do not need to suffer in order to earn forgiveness. We simply accept the forgiveness Jesus already paid for. (1 John 1:9)</td></tr>
+<tr><td>How does it feel?</td><td>It is painful and frightening. Every time we sin, we feel deeply afraid. We worry that God will push us away. We try to admit as little as possible. Our only hope is being good enough, and we know we are not.</td><td>It is hard but sweet. We know we are accepted in Jesus, so we can be honest about our sin. We do not have to hide. Our hope is in what Jesus did, not in how good we are.</td></tr>
+<tr><td>What is the result over time?</td><td>We repent less and less. Repentance is so painful that we stay away from it. We protect ourselves. We hide more.</td><td>We repent more and more. The more we see God&#x27;s love, the more honest we can be about our sin. The more honest we are about our sin, the more we see God&#x27;s love. We grow.</td></tr>
+</tbody></table>
+<p>Notice what happens with gospel repentance. As we see our sin more clearly, God&#x27;s grace becomes more precious to us. And as we see God&#x27;s grace more clearly, we can be more honest about our sin. The two grow together.</p>
+<p>This is why Luther said the whole Christian life should be a life of repentance. Not because we are failing. But because repentance is the path of growth.</p>
+<p><em>The contrast in this table is based on a teaching by pastor Tim Keller called &quot;All of Life is Repentance.&quot;</em></p>
+<h3>Discussion</h3>
+<p><strong>Were any of your old ideas about repentance corrected in this section? If so, which ones?</strong></p>
+<p><strong>Look at the table again. Which side feels more like your own repentance? Be honest with yourself.</strong></p>
+<h2>Session 2B Quiz</h2>
+<p><strong>1.</strong> Which of these is NOT true about worldly sorrow?</p>
+<p>a) It leads to death.</p>
+<p>b) It turns toward God.</p>
+<p>c) It knows a wrong has been done.</p>
+<p>d) It can be very discouraging.</p>
+<p><strong>2.</strong> Which of these is NOT true about self-atonement?</p>
+<p>a) It does not work.</p>
+<p>b) It insults Jesus.</p>
+<p>c) It makes our sin too small.</p>
+<p>d) It makes our good deeds too small.</p>
+<p><strong>3.</strong> Which of these describes &quot;religious repentance&quot;? (Circle all that apply.)</p>
+<p>a) We are sorry for our sin because of what it will cost us.</p>
+<p>b) We are sorry for the sin itself, because it hurts God.</p>
+<p>c) It is centered on God.</p>
+<p>d) It is a way to try to earn forgiveness.</p>
+<p>e) Our only hope is being good enough.</p>
+<p>f) Every time we sin, we feel deeply afraid.</p>
+<p>g) It is easier to be honest about our sin.</p>
+<p>h) We repent less and less over time.</p>
+<p><em>Course 201 · Module 2B · Why Repentance Feels Hard · Simplified Edition</em></p></div>
+      <div id="giscus-section">
+        <h3>Session Notes</h3>
+        <div id="giscus-container"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const PDF_PATH = '../C201_Source_PDFs/Ch2/C201_2B_Booklet.pdf';
+
+
+// Sidebar collapse
+const collapseBtn = document.getElementById('collapse-btn');
+const collapseIcon = document.getElementById('collapse-icon');
+const sidebar = document.getElementById('sidebar');
+const expandPath = '<path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+const collapsePath = '<path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+
+collapseBtn.addEventListener('click', () => {
+  const collapsed = sidebar.classList.toggle('collapsed');
+  collapseIcon.innerHTML = collapsed ? collapsePath : expandPath;
+  collapseBtn.title = collapsed ? 'Expand sidebar' : 'Collapse sidebar';
+});
+
+// PDF split toggle
+const toggleBtn = document.getElementById('toggle-btn');
+const pdfPane = document.getElementById('pdf-pane');
+const pdfFrame = document.getElementById('pdf-frame');
+let pdfLoaded = false;
+
+toggleBtn.addEventListener('click', () => {
+  const active = pdfPane.classList.toggle('visible');
+  toggleBtn.classList.toggle('active', active);
+  document.body.classList.toggle('split-mode', active);
+  if (active && !pdfLoaded && PDF_PATH) {
+    pdfFrame.src = PDF_PATH;
+    pdfLoaded = true;
+  }
+});
+
+
+// Giscus
+(function() {
+  const s = document.createElement('script');
+  s.src = 'https://giscus.app/client.js';
+  s.setAttribute('data-repo', 'samuelscho92/c201-simplified');
+  s.setAttribute('data-repo-id', 'R_kgDOSkR22Q');
+  s.setAttribute('data-category', 'General');
+  s.setAttribute('data-category-id', 'DIC_kwDOSkR22c4C9oLp');
+  s.setAttribute('data-mapping', 'specific');
+  s.setAttribute('data-term', 'C201_2B_Why Repentance Feels Hard');
+  s.setAttribute('data-reactions-enabled', '1');
+  s.setAttribute('data-emit-metadata', '0');
+  s.setAttribute('data-input-position', 'top');
+  s.setAttribute('data-theme', 'light');
+  s.setAttribute('data-lang', 'en');
+  s.crossOrigin = 'anonymous';
+  s.async = true;
+  document.getElementById('giscus-container').appendChild(s);
+})();
+</script>
+</body>
+</html>

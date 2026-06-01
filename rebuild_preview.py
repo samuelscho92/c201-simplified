@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Rebuilds sessions/*.html and index.html from all .md files in C201_FM_Simplified/,
-then commits and pushes to GitHub Pages.
+Rebuilds sessions/*.html and index.html from source files, then commits and pushes.
+
+Source priority (per session): C201_FM_Docx/*.docx > C201_FM_Simplified/*.md
 
 Usage:
     python3.11 rebuild_preview.py           # build + commit + push
@@ -10,6 +11,7 @@ Usage:
 
 import re
 import sys
+import html as html_lib
 import subprocess
 from pathlib import Path
 
@@ -19,8 +21,17 @@ except ImportError:
     print("Missing dependency: pip3.11 install markdown")
     exit(1)
 
+try:
+    from docx import Document
+    from docx.text.paragraph import Paragraph as DocxParagraph
+    from docx.table import Table as DocxTable
+    HAS_DOCX = True
+except ImportError:
+    HAS_DOCX = False
+
 BASE = Path(__file__).parent
 MD_DIR = BASE / "C201_FM_Simplified"
+DOCX_DIR = BASE / "C201_FM_Docx"
 SESSIONS_DIR = BASE / "sessions"
 OUT = BASE / "index.html"
 PUSH = "--no-push" not in sys.argv
@@ -28,6 +39,200 @@ PUSH = "--no-push" not in sys.argv
 
 def render_md(text):
     return mdlib.markdown(text, extensions=["tables", "sane_lists"])
+
+
+# ── Docx helpers ───────────────────────────────────────────────────────────
+
+def _is_layout_note(para):
+    t = para.text.strip()
+    return t.startswith("Definition table (right sidebar)") or t.startswith("Layout Note")
+
+
+def _is_bible_ref(para):
+    """Bold paragraph matching a Bible verse reference like 'John 3:16 (NLT)'."""
+    text = para.text.strip()
+    runs = [r for r in para.runs if r.text.strip()]
+    return bool(runs) and all(r.bold for r in runs) and bool(re.search(r'\([A-Z]+\)\s*$', text))
+
+
+def _is_label(para):
+    """All-bold paragraph ending with ':' — a section label, not verse content."""
+    text = para.text.strip()
+    runs = [r for r in para.runs if r.text.strip()]
+    return bool(runs) and all(r.bold for r in runs) and text.endswith(":")
+
+
+def _is_quote_label(para):
+    """All-bold label that introduces a quote block (e.g. 'Quote — R.C. Sproul, ...:')."""
+    text = para.text.strip()
+    runs = [r for r in para.runs if r.text.strip()]
+    return bool(runs) and all(r.bold for r in runs) and text.startswith("Quote") and text.endswith(":")
+
+
+def _heuristic_style(text):
+    """Infer heading level from content for docs that lack heading styles (e.g. 1B)."""
+    if re.match(r'^SESSION \d+[A-Z] [—–]', text):
+        return "Heading 1"
+    if re.match(r'^(Key Words$|Part \d+:|SESSION \d+[A-Z] QUIZ)', text):
+        return "Heading 2"
+    return None
+
+
+def _runs_to_html(para):
+    parts = []
+    for run in para.runs:
+        t = html_lib.escape(run.text)
+        if not t:
+            continue
+        if run.bold and run.italic:
+            t = f"<strong><em>{t}</em></strong>"
+        elif run.bold:
+            t = f"<strong>{t}</strong>"
+        elif run.italic:
+            t = f"<em>{t}</em>"
+        parts.append(t)
+    return "".join(parts)
+
+
+def _table_to_html(table):
+    rows = table.rows
+    if not rows:
+        return ""
+    out = "<table>\n"
+    for i, row in enumerate(rows):
+        cells = [html_lib.escape(cell.text) for cell in row.cells]
+        if i == 0:
+            out += "<thead><tr>" + "".join(f"<th>{c}</th>" for c in cells) + "</tr></thead>\n<tbody>\n"
+        else:
+            out += "<tr>" + "".join(f"<td>{c}</td>" for c in cells) + "</tr>\n"
+    out += "</tbody></table>"
+    return out
+
+
+def docx_to_html(path):
+    doc = Document(path)
+    body = list(doc.element.body)
+    parts = []
+    i = 0
+
+    has_heading_styles = any(
+        p.style.name in ("Heading 1", "Heading 2", "Heading 3")
+        for p in doc.paragraphs
+        if p.text.strip()
+    )
+
+    while i < len(body):
+        child = body[i]
+        tag = child.tag.split("}")[-1] if "}" in child.tag else child.tag
+
+        if tag == "p":
+            para = DocxParagraph(child, doc)
+            text = para.text.strip()
+
+            if not text or _is_layout_note(para):
+                i += 1
+                continue
+
+            style = para.style.name
+            if not has_heading_styles:
+                guessed = _heuristic_style(text)
+                if guessed:
+                    style = guessed
+
+            if style == "Heading 1":
+                parts.append(f"<h1>{html_lib.escape(text)}</h1>")
+                i += 1
+
+            elif style == "Heading 2":
+                parts.append(f"<h2>{html_lib.escape(text)}</h2>")
+                i += 1
+
+            elif style == "Heading 3":
+                parts.append(f"<h3>{html_lib.escape(text)}</h3>")
+                i += 1
+
+            elif _is_bible_ref(para):
+                parts.append(f"<p><strong>{html_lib.escape(text)}</strong></p>")
+                i += 1
+                verse_parts = []
+                while i < len(body):
+                    c = body[i]
+                    ct = c.tag.split("}")[-1] if "}" in c.tag else c.tag
+                    if ct == "p":
+                        p = DocxParagraph(c, doc)
+                        pt = p.text.strip()
+                        if not pt:
+                            i += 1
+                            continue
+                        if p.style.name in ("Heading 1", "Heading 2") or _is_bible_ref(p) or _is_label(p):
+                            break
+                        if _is_layout_note(p):
+                            i += 1
+                            break
+                        verse_parts.append(f"<p>{_runs_to_html(p)}</p>")
+                        i += 1
+                    elif ct == "tbl":
+                        break
+                    else:
+                        i += 1
+                if verse_parts:
+                    parts.append("<blockquote>" + "\n".join(verse_parts) + "</blockquote>")
+
+            elif _is_quote_label(para):
+                parts.append(f"<p>{_runs_to_html(para)}</p>")
+                i += 1
+                quote_parts = []
+                while i < len(body):
+                    c = body[i]
+                    ct = c.tag.split("}")[-1] if "}" in c.tag else c.tag
+                    if ct == "p":
+                        p = DocxParagraph(c, doc)
+                        pt = p.text.strip()
+                        if not pt:
+                            i += 1
+                            continue
+                        if p.style.name in ("Heading 1", "Heading 2", "Heading 3") or _is_bible_ref(p) or _is_label(p):
+                            break
+                        if _is_layout_note(p):
+                            i += 1
+                            break
+                        quote_parts.append(f"<p>{_runs_to_html(p)}</p>")
+                        i += 1
+                    elif ct == "tbl":
+                        break
+                    else:
+                        i += 1
+                if quote_parts:
+                    parts.append("<blockquote>" + "\n".join(quote_parts) + "</blockquote>")
+
+            else:
+                inline = _runs_to_html(para)
+                if inline.strip():
+                    parts.append(f"<p>{inline}</p>")
+                i += 1
+
+        elif tag == "tbl":
+            parts.append(_table_to_html(DocxTable(child, doc)))
+            i += 1
+
+        else:
+            i += 1
+
+    return "\n".join(parts)
+
+
+def get_title_from_docx(path):
+    doc = Document(path)
+    for para in doc.paragraphs:
+        if para.style.name == "Heading 1" and para.text.strip():
+            return para.text.strip()
+    # Fallback: heuristic for docs without heading styles
+    for para in doc.paragraphs:
+        text = para.text.strip()
+        if text and _heuristic_style(text) == "Heading 1":
+            return text
+    stem = path.stem
+    return stem[:-3] if stem.endswith(".md") else stem
 
 
 def get_title(content, filename):
@@ -48,22 +253,56 @@ def get_pdf_path(session_id):
 
 
 # ── Load sessions ──────────────────────────────────────────────────────────
-files = sorted(MD_DIR.glob("*.md"))
-if not files:
-    print(f"No .md files found in {MD_DIR}")
+
+def _docx_sid(name):
+    """C201_1A_Seeing_God.md.docx or 'C201_2B_Why Repentance Feels Hard.md.docx' → C201_2B_Why_Repentance_Feels_Hard"""
+    if name.endswith(".md.docx"):
+        stem = name[:-8]
+    elif name.endswith(".docx"):
+        stem = name[:-5]
+    else:
+        stem = name
+    return stem.replace(" ", "_")
+
+
+docx_map = {}
+if HAS_DOCX and DOCX_DIR.exists():
+    for p in sorted(DOCX_DIR.glob("*.docx")):
+        docx_map[_docx_sid(p.name)] = p
+elif not HAS_DOCX and DOCX_DIR.exists() and any(DOCX_DIR.glob("*.docx")):
+    print("Warning: .docx files found but python-docx not installed (pip3.11 install python-docx)")
+
+md_map = {p.stem: p for p in sorted(MD_DIR.glob("*.md"))}
+
+all_ids = sorted(set(list(docx_map.keys()) + list(md_map.keys())))
+if not all_ids:
+    print(f"No source files found in {MD_DIR} or {DOCX_DIR}")
     exit(1)
 
 sessions = []
-for path in files:
-    content = path.read_text(encoding="utf-8")
-    sid = path.stem
-    sessions.append({
-        "id": sid,
-        "chapter": get_chapter(path.name),
-        "title": get_title(content, sid),
-        "html": render_md(content),
-        "pdf": get_pdf_path(sid),
-    })
+for sid in all_ids:
+    if sid in docx_map:
+        path = docx_map[sid]
+        source_tag = "[docx]"
+        sessions.append({
+            "id": sid,
+            "chapter": get_chapter(sid),
+            "title": get_title_from_docx(path),
+            "html": docx_to_html(path),
+            "pdf": get_pdf_path(sid),
+            "_source": source_tag,
+        })
+    else:
+        path = md_map[sid]
+        content = path.read_text(encoding="utf-8")
+        sessions.append({
+            "id": sid,
+            "chapter": get_chapter(path.name),
+            "title": get_title(content, sid),
+            "html": render_md(content),
+            "pdf": get_pdf_path(sid),
+            "_source": "[md]",
+        })
 
 SESSIONS_DIR.mkdir(exist_ok=True)
 
@@ -540,7 +779,7 @@ OUT.write_text(f"""<!DOCTYPE html>
 
 print(f"Built {len(sessions)} session(s) in sessions/:")
 for s in sessions:
-    print(f"  [{s['chapter']}] {s['id']} — {s['title']}")
+    print(f"  {s['_source']} [{s['chapter']}] {s['id']} — {s['title']}")
 
 if PUSH:
     def run(cmd):
